@@ -1,0 +1,95 @@
+                </div>
+            <div class="footer">
+                2016 © 一重集团大连工程技术有限公司
+            </div>
+        </div>
+        <script src="/javascripts/template.js"></script>
+        <script type="text/html" id="weathertemplate">
+            {{each result as item i}}
+            <li class="w-item">
+                <p>{{item.week}}</p>
+                <p>{{item.days}}</p>
+                <img src="{{item.weather_icon}}" alt="">
+                <p>{{item.temperature}}</p>
+                <p>{{item.weather}}</p>
+                <p>{{item.wind}}</p>
+            </li>
+            {{/each}}
+        </script>
+        <script>
+            var global = (function($){
+                //IE清除缓存
+                $.ajaxSetup({ cache: false });
+                //getJson获取数据
+                var getData =  function(url,param,cb){
+                    $.getJSON(url, param, function(data) {
+                        cb(data);
+                    });
+                };
+                //ajax提交数据
+                var subData = function(url,data,success){
+                    $.ajax({
+                        type: "post",
+                        url:  url,
+                        data: data,
+                        success:function(d){
+                            if (typeof success === 'function') {
+                                success(d);
+                            }
+                        },
+                        error:function(x,h,r){
+                            console && console.log(x, h, r);
+                        }
+                    });
+                };
+                //天气预报
+                (function(){
+                    var wlayer = '';
+                    var city = 'dalian';
+                    var reg = new RegExp('http://api.k780.com:88/upload/');
+                    var queryWeather = function(param,cb){
+                        getData('/api/getWeather',param,cb);
+                    };
+                    $('#weabtn').on('click', function(event) {
+                        queryWeather({city: city},function(data){
+                            if (data.success != '1') {
+                                alert(data.msg);
+                                exit;
+                            }
+                            $.each(data.result, function(index, item) {
+                                item.weather_icon = item.weather_icon.replace(reg,'/images/');
+                            });
+                            var compiled = template("weathertemplate", data);
+                            wlayer = layer.open({
+                                type: 1,
+                                skin: 'layui-layer-rim', //加上边框
+                                area: '840px', //宽高
+                                title: '大连未来5-7日天气预报',
+                                content: '<div class="weather clearfix"><form class="w-query" id="weaform"><input type="text" name="" value="" id="w-city"><button>查看天气</button></form><ul class="w-ul">' + compiled + '</ul></div>'
+                            });
+                        });
+                    });
+                    $(document).on('submit', '#weaform', function(event) {
+                        event.preventDefault();
+                        city = $('#w-city').val();
+                        queryWeather({city: city},function(data){
+                            if (data.success != '1') {
+                                $('#w-city').val(data.msg);
+                            } else{
+                                $.each(data.result, function(index, item) {
+                                    item.weather_icon = item.weather_icon.replace(reg,'/images/');
+                                });
+                                var compiled = template("weathertemplate", data);
+                                var title = data.result[0].citynm + '未来5-7日内天气';
+                                layer.title(title,wlayer);
+                                $('.w-ul').html(compiled);
+                            }
+                        });
+                    });
+                })();
+                return {
+                    getData : getData,
+                    subData:subData
+                }
+            }(jQuery));
+        </script>

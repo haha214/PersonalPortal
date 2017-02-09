@@ -1,0 +1,177 @@
+<%- include base/header.ejs %>
+    <div class="main">
+        <div class="flight">
+            <div class="queryFlight">
+                <div class="flight-f-group">
+                    <label for="start">出发地</label>
+                    <input type="text" value="" id="start">
+                </div>
+                <div class="flight-f-c-btn">
+                    <a href="javascript:;" id="change"></a>
+                </div>
+                <div class="flight-f-group">
+                    <label for="end">到达地</label>
+                    <input type="text" name="" value="" id="end">
+                </div>
+                <div class="flight-f-group">
+                    <label for="date">出发日</label>
+                    <input type="text" name="" value="" class="date_picker" readonly id="date">
+                </div>
+                <script type="text/javascript">
+                    $(function(){
+                        $('.date_picker').date_input();
+                    })
+                </script>
+                <button id="search">搜索</button> 
+            </div>
+            <div class="flightRe">
+                <div class="air_header">
+                    <span class="item sort_hangban">航班信息</span>
+                    <span class="item sort_detime">出发时间<i class="icon"></i></span>
+                    <span class="item sort_arrtime">到达时间<i class="icon"></i></span>
+                    <span class="item sort_ontime">准点率<i class="icon"></i></span>
+                    <span class="item sort_price">最低价格(不包含机建燃油费)<i class="icon"></i></span>
+                </div>
+                <div class="air_list" id="airList">
+                </div>
+                <div class="no_ticket" id="noMsg"></div>
+            </div>
+        </div>
+    </div>
+<%- include base/base.ejs %>
+<script src="/javascripts/flight.js"></script>
+<script type="text/html" id="airtemplate">
+    {{each list as item i}}
+    <div class="flg clearfix">
+         <div class="flg_name flg_item">
+            <span>{{item.airlineName}}</span><br>
+            <span>{{item.flightNo}}&nbsp;{{item.airplaneType}}</span>
+        </div>
+        <div class="flg_start flg_item">
+            <strong>{{item.departureTime}}</strong><br>
+            <span>{{item.orgAirportName}}{{item.departureAirportTerminal}}</span>
+        </div>
+        <div class="flg_item flg_duration">
+            <span>{{item.duration}}</span>
+            {{if item.stopPointList.length > 0}}
+            <em>经停</em>
+            {{/if}}
+        </div>
+        <div class="flg_item flg_arrival">
+            <strong>{{item.arrivalTime}}{{if item.arrivalDay}}<i>+{{item.arrivalDay}}</i>{{/if}}</strong><br>
+            <span>{{item.dstAirportName}}{{item.arrivalAirportTerminal}}</span>
+        </div>
+        <div class="flg_item flg_dining">
+            {{if item.mealFlag}}
+            有餐
+            {{else}}
+            无餐
+            {{/if}}
+        </div>
+        <span class="list_sep flg_item"></span>
+        <div class="flg_item flg_rate">
+            <span>准点率</span><br>
+            <span>{{item.onTimeRate}}</span>
+        </div>
+        <div class="flg_item flg_price">
+            <span>￥</span>
+            <strong>{{item.lowestPrice}}</strong>
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script>
+    (function(){
+        var start = $('#start');
+        var end = $('#end');
+        var date = $('#date');
+        var searchbtn = $('#search');
+        var orgCityCode = '';
+        var dstCityCode = '';
+        var departureDate = '';
+        var airList = $('#airList');
+        var noMsg = $('#noMsg');
+        var getFlightData = function(param,cb){
+            global.getData('/api/getFlightData',param,cb);
+        };
+        var getCityCode = function(city){
+            for(var i = 0; i<CitiesList.length; i++ ){
+                if (CitiesList[i].cityName == city) {
+                    return CitiesList[i].cityCode;
+                }
+            }
+            return false;
+        };
+        var verification = function(){
+            if (start.val().length == 0) {
+                start.addClass('warning');
+                return false;
+            }
+            if (end.val().length == 0) {
+                end.addClass('warning');
+                return false;
+            }
+            var startCode = getCityCode(start.val());
+            if (!startCode) {
+                start.addClass('warning');
+                start.val('无法匹配');
+                return false;
+            } else{
+                orgCityCode = startCode;
+            }
+            var endCode = getCityCode(end.val());
+            if (!endCode) {
+                end.addClass('warning');
+                end.val('无法匹配');
+                return false;
+            } else{
+                dstCityCode = endCode;
+            }
+            if (date.val().length == 0) {
+                date.addClass('warning');
+                return false;
+            } else{
+                departureDate = date.val();
+            }
+            return true;
+        }
+        var updataFlightData = function(){
+            var index = layer.load(1);
+            getFlightData({
+                date : departureDate,
+                orgCityCode : orgCityCode,
+                dstCityCode : dstCityCode
+            },function(data){
+                //console.log(data);
+                if (data.success && data.data) {
+                    var compiled = template('airtemplate',data.data);
+                    noMsg.css('display', 'none');
+                    airList.html(compiled);
+                } else{
+                    airList.html('');
+                    noMsg.html(data.msg);
+                    noMsg.css('display', 'block');
+                }
+                layer.close(index);
+            });
+        };
+        var init = function(){
+            searchbtn.on('click', function(event) {
+                if (verification()) {
+                    updataFlightData();
+                }
+            });
+            $('.queryFlight').on('focus', '.warning', function(event) {
+                $(this).val('');
+                $(this).removeClass('warning');
+            });
+            $('#change').on('click',function(event){
+                var change = start.val();
+                start.val(end.val());
+                end.val(change);
+            });
+        };
+        init();
+    })();
+</script>
+<%- include base/footer.ejs %>

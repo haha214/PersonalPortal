@@ -1,0 +1,82 @@
+<%- include base/header.ejs %>
+<div class="main">
+    <div class="phone clearfix">
+        <div class="queryNum clearfix">
+            <div class="phone-f-group">
+                <label for="">部门</label>
+                <select name="">
+                    <option value="">锻压部</option>
+                    <option value="">流体部</option>
+                    <option>齿轮部</option>
+                </select>
+            </div>
+            <div class="phone-f-group">
+                <label for="">人员</label>
+                <select name="">
+                    <option value="">张三</option>
+                    <option value="">李四</option>
+                    <option>王二麻</option>
+                </select>
+            </div>
+            <div class="phone-f-group">
+                <label for="">电话号码</label>
+                <input type="text" name="" value="" readonly>
+            </div>
+            <button>查询</button>
+        </div>
+        <div class="psid">
+            <ul id="depList">
+                <li>冶金成套</li>
+                <li>设计三部</li>
+                <li>党群工作部</li>
+                <li>信息技术部</li>
+                <li>信息技术部</li>
+                <li>信息技术部</li>
+                <li>信息技术部</li>
+            </ul>
+        </div>
+        <div class="personCall clearfix" id="perCallList">
+            <div class="col-w-6 item">
+                <span>姓名</span>
+                <span>3619</span>
+            </div>
+            <div class="col-w-6 item">
+                <span>姓名</span>
+                <span>3619</span>
+            </div>
+        </div>          
+    </div>  
+</div>
+<%- include base/base.ejs %>
+<script src="/javascripts/phone.js"></script>
+<script>
+    (function(){
+        var showCall = '';
+        var depList = $('#depList');
+        var perCallList = $('#perCallList');
+        var active = null;
+        var showCallList =  function(dep){
+            showCall = '';
+            for(var i=0;i<phoneList.length;i++){
+                if (phoneList[i].dep == dep) {
+                    showCall += '<div class="col-w-6 item"><span>'+ phoneList[i].name +'</span><span>'+ phoneList[i].num +'</span></div>';
+                }
+            }
+            perCallList.html(showCall);
+        };
+        var init = function(){
+            depList.on('click', 'li', function(event) {
+                var obj = $(this);
+                var dep = obj.html();
+                if (active) {
+                    active.removeClass('active');
+                }
+                active = obj;
+                active.addClass('active');
+                showCallList(dep);
+            });
+        };
+        init();
+    })();
+</script>
+<%- include base/footer.ejs %>

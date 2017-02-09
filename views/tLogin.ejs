@@ -1,0 +1,19 @@
+<%- include base/header.ejs %>
+    <div class="main">
+        <form class="" method="post" action="/train/login">
+            <input type="text" name="" value="" placeholder="用户名">
+            <input type="text" name="" value="" placeholder="密码">
+            <button>提交</button>
+        </form>
+        <img src="<%=image%>" alt="">
+    </div>
+<%- include base/base.ejs %>
+<script>
+    (function(){
+        var loginSuggest = function(success){
+            global.subData('/api/loginSuggest',{},success);
+        }
+        var get
+    })();
+</script>
+<%- include base/footer.ejs %>
