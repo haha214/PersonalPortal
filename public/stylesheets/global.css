@@ -1,0 +1,1129 @@
+@font-face {
+  font-family: 'voltaire';
+  src: url('../fonts/voltaire-regular-webfont.eot');
+  src: url('../fonts/voltaire-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/voltaire-regular-webfont.woff') format('woff'), url('../fonts/voltaire-regular-webfont.ttf') format('truetype'), url('../fonts/voltaire-regular-webfont.svg#voltaireregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1482129823');
+  /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1482129823#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/iconfont.woff?t=1482129823') format('woff'), /* chrome, firefox */ url('../fonts/iconfont.ttf?t=1482129823') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('../fonts/iconfont.svg?t=1482129823#iconfont') format('svg')
+  /* iOS 4.1- */
+}
+* {
+  box-sizing: border-box;
+}
+:before,
+:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Tahoma, Helvetica, "microsoft yahei", "Hiragino Sans GB", Simsun, sans-serif;
+  line-height: 1.5;
+  font-size: 12px;
+}
+input,
+button {
+  outline: none;
+  border: none;
+}
+input,
+textarea,
+button {
+  font-family: Tahoma, Helvetica, "microsoft yahei", "Hiragino Sans GB", Simsun, sans-serif;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+.fL {
+  float: left;
+}
+.fR {
+  float: right;
+}
+/*文本单行超出省略号表示*/
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after,
+.form-group:before,
+.form-group:after {
+  display: table;
+  content: "";
+}
+.clearfix:after,
+.row:after,
+.form-group:after {
+  clear: both;
+}
+.clear {
+  clear: both;
+}
+/*手势*/
+.pointer {
+  cursor: pointer;
+}
+/*宽高已知居中*/
+.whCenter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/*文本居中*/
+.text-center {
+  text-align: center;
+}
+/*字体图片*/
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+}
+.glyphicon-pencil:before {
+  content: "\270f";
+}
+.glyphicon-trash:before {
+  content: "\e020";
+}
+.glyphicon-plus:before {
+  content: "\2b";
+}
+/*自定义图标字体*/
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-classify:before {
+  content: "\e601";
+}
+.icon-classify-red:before {
+  content: "\e604";
+}
+.icon-morenxuanzhong:before {
+  content: "\e64a";
+}
+.icon-shareyellow:before {
+  content: "\e600";
+}
+.icon-typecar118:before {
+  content: "\e618";
+}
+.icon-typecar127:before {
+  content: "\e621";
+}
+.icon-typecar117:before {
+  content: "\e631";
+}
+.icon-linecar103:before {
+  content: "\e605";
+}
+.icon-workflow:before {
+  content: "\e606";
+}
+.icon-fenxiangsvg:before {
+  content: "\e607";
+}
+.icon-xuanfufenleisvg:before {
+  content: "\e608";
+}
+.icon-envira:before {
+  content: "\e60a";
+}
+.icon-pingfen:before {
+  content: "\e610";
+}
+.icon-yuan:before {
+  content: "\e60b";
+}
+.icon-SCMliucheng:before {
+  content: "\e602";
+}
+.icon-liucheng:before {
+  content: "\e64c";
+}
+.icon-LogoWhalel:before {
+  content: "\e603";
+}
+.icon-Share:before {
+  content: "\e60f";
+}
+.icon-faxian:before {
+  content: "\e609";
+}
+.icon-ic_brightness__px:before {
+  content: "\ea90";
+}
+.icon-petadata:before {
+  content: "\e60c";
+}
+/*栅格*/
+[class*=col-w] {
+  float: left;
+  position: relative;
+}
+.col-w-1 {
+  width: 8.33333333%;
+}
+.col-w-2 {
+  width: 16.66666667%;
+}
+.col-w-3 {
+  width: 25%;
+}
+.col-w-4 {
+  width: 33.33333333%;
+}
+.col-w-5 {
+  width: 41.66666667%;
+}
+.col-w-6 {
+  width: 50%;
+}
+.col-w-7 {
+  width: 58.33333333%;
+}
+.col-w-8 {
+  width: 66.66666667%;
+}
+.col-w-9 {
+  width: 75%;
+}
+.col-w-10 {
+  width: 83.33333333%;
+}
+.col-w-11 {
+  width: 91.66666667%;
+}
+.col-w-12 {
+  width: 100%;
+}
+/*总容器*/
+.all-container {
+  width: 100%;
+  min-width: 1024px;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 80px;
+}
+/*导航*/
+.header {
+  height: 58px;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+.header .navbar {
+  font-size: 18px;
+  color: #999;
+}
+.header .navbar .account span {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+}
+.header h1 {
+  font-size: 32px;
+  font-weight: 500;
+  padding-top: 10px;
+  color: #00aeff;
+}
+/*工具栏*/
+.toolbar {
+  background-color: #6BB7F7;
+  padding: 0 20px;
+}
+.toolbar .t-opt {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+.toolbar .t-opt .t-item {
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  height: 100%;
+  padding: 0 10px;
+}
+.toolbar .t-opt .t-item:hover {
+  background-color: #4B99DA;
+}
+/*天气预报*/
+.weather {
+  color: #fff;
+  text-align: center;
+  background-image: url(../images/weabg.png);
+}
+.weather .w-query {
+  margin: 10px 0;
+}
+.weather .w-query input {
+  color: #313131;
+  width: 264px;
+  height: 27px;
+  line-height: 27px;
+  padding: 0 0 0 8px;
+  overflow: hidden;
+  font-size: 14px;
+  vertical-align: bottom;
+}
+.weather .w-query button {
+  height: 27px;
+  line-height: 27px;
+  padding: 0 5px;
+  background-color: #47B7B7;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+.weather .w-item {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 15px;
+}
+.weather .w-item p {
+  margin: 8px 0;
+}
+.weather .w-item img {
+  width: 35px;
+  height: 25px;
+}
+/*中间主内容*/
+.mid {
+  position: relative;
+  margin-top: 30px;
+}
+/*侧栏*/
+.sidebar {
+  width: 270px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #ececec;
+  background: #fcfcfc;
+}
+.sidebar h2 {
+  color: #00aeff;
+  line-height: 14px;
+  padding: 18px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 12px;
+}
+.sidebar .siditem {
+  padding: 13px 20px;
+}
+.sidebar .siditem a {
+  color: #666;
+  font-size: 16px;
+}
+.sidebar .siditem a .iconfont {
+  font-size: 8px;
+  margin-right: 5px;
+}
+.sidebar .siditem a:hover .iconfont font {
+  color: #bbb;
+}
+/*模块标题*/
+.caption_heading {
+  color: #00a0af;
+  position: relative;
+  font-weight: 300;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.caption_heading .title {
+  float: left;
+  position: relative;
+  padding-bottom: 8px;
+  color: #00a0af;
+}
+.caption_heading .title:after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: #00a0af;
+}
+/*弹出框输入网址*/
+.layui-layer-perWebsite {
+  /* .layui-layer-website(#e5beae,#f14d0b,#D07B59); */
+  line-height: 30px;
+  position: relative;
+}
+.layui-layer-perWebsite .form-group {
+  margin-bottom: 10px;
+}
+.layui-layer-perWebsite label {
+  display: inline-block;
+  color: #6c717b;
+}
+.layui-layer-perWebsite input {
+  border: 1px solid #89C8E2;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+}
+.layui-layer-perWebsite input:focus {
+  border: 1px solid #0D88BB;
+}
+.layui-layer-perWebsite .errTip {
+  color: #0D88BB;
+  visibility: hidden;
+  left: 0;
+}
+.layui-layer-pubWebsite {
+  line-height: 30px;
+  position: relative;
+}
+.layui-layer-pubWebsite .form-group {
+  margin-bottom: 10px;
+}
+.layui-layer-pubWebsite label {
+  display: inline-block;
+  color: #6c717b;
+}
+.layui-layer-pubWebsite input {
+  border: 1px solid #92B8B1;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+}
+.layui-layer-pubWebsite input:focus {
+  border: 1px solid #009f95;
+}
+.layui-layer-pubWebsite .errTip {
+  color: #01AAED;
+  visibility: hidden;
+  left: 0;
+}
+/*layer-skin-persym*/
+body .layer-skin-persym .layui-layer-title {
+  /*background-color: #D07B59;*/
+  background-color: #2288B5;
+  color: #fff;
+  border: none;
+}
+body .layer-skin-persym .layui-layer-btn0 {
+  background-color: #298DB9;
+  border: none;
+}
+body .layer-skin-persym .layui-layer-btn1 {
+  background-color: #B6DCEC;
+}
+body .layer-skin-delTip .layui-layer-title {
+  background-color: #4476A7;
+  color: #fff;
+  border: none;
+}
+body .layer-skin-delTip .layui-layer-btn0 {
+  background-color: #2e8ded;
+  color: #fff;
+  border: none;
+}
+/*消息列表*/
+.message .mes {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.message .mes i,
+.message .mes .timer {
+  color: #2F455D;
+  margin-right: 15px;
+}
+.message .mes a {
+  color: #7f8c8c;
+}
+/*系统模块*/
+.pubsym {
+  width: 250px;
+  margin: 20px auto 0;
+  padding: 0 10px;
+  background-color: #83BFA6;
+  font-size: 18px;
+  height: 100px;
+  text-align: center;
+  display: table;
+  position: relative;
+  color: #fff;
+}
+.pubsym .symSite,
+.pubsym .glyphicon-plus {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  cursor: pointer;
+}
+.pubsym .symSite span,
+.pubsym .glyphicon-plus span {
+  word-wrap: break-word;
+}
+.pubsym .mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+  filter: alpha(opacity=10);
+  color: #fff;
+  display: none;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.pubsym .mask span {
+  line-height: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.pubsym:hover .mask {
+  display: block;
+}
+.persym {
+  /*.sym(#D07B59);*/
+  width: 250px;
+  margin: 20px auto 0;
+  padding: 0 10px;
+  background-color: #30ACE3;
+  font-size: 18px;
+  height: 100px;
+  text-align: center;
+  display: table;
+  position: relative;
+  color: #fff;
+}
+.persym .symSite,
+.persym .glyphicon-plus {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  cursor: pointer;
+}
+.persym .symSite span,
+.persym .glyphicon-plus span {
+  word-wrap: break-word;
+}
+.persym .mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+  filter: alpha(opacity=10);
+  color: #fff;
+  display: none;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.persym .mask span {
+  line-height: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.persym:hover .mask {
+  display: block;
+}
+/*主页面*/
+.main {
+  /*消息模块*/
+  /*个人系统*/
+  /*公共系统*/
+}
+.main .mesinfo {
+  padding: 0 0 10px;
+}
+.main .mesinfo .message {
+  padding: 0 15px;
+}
+.main .personSym {
+  background: #fff;
+  padding: 30px 0 ;
+}
+.main .personSym h2 {
+  color: #00a0af;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+.main .publicSym {
+  padding: 20px 0 30px;
+}
+.main .publicSym h2 {
+  color: #00a0af;
+  font-size: 32px;
+  text-align: center;
+  border-bottom: 7px double #DEDEDE;
+  width: 200px;
+  margin: 0 auto 30px;
+}
+/*火车票页面*/
+.train {
+  width: 1000px;
+  margin: 0 auto
+  /*车票显示*/
+}
+.train .queryTrain {
+  padding: 12px 20px;
+  border: 1px solid #298cce;
+  height: 74px;
+  font-size: 14px;
+}
+.train .queryTrain form {
+  vertical-align: middle;
+  padding: 10px 0;
+}
+.train .queryTrain form .train-f-group {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.train .queryTrain form input[type='text'] {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #cfcdc7;
+  background: #fff;
+  padding-left: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+  vertical-align: top;
+}
+.train .queryTrain form .warning {
+  color: #999;
+  border-color: red!important;
+}
+.train .queryTrain form .change {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../images/bg02_03.png) no-repeat;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.train .queryTrain form .quick-s {
+  float: right;
+  position: relative;
+  top: -10px;
+}
+.train .queryTrain form .quick-s ul {
+  float: left;
+  width: 80px;
+  border-left: 1px solid #298cce;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+.train .queryTrain form .quick-s ul li {
+  height: 23px;
+  line-height: 23px;
+}
+.train .queryTrain form .quick-s button {
+  width: 92px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #FF8000;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 8px;
+  cursor: pointer;
+}
+.train .train-show {
+  /*车次*/
+  /*出发始发站*/
+  /*出/到时间*/
+  /*历时*/
+  /*座次*/
+  /*备注*/
+  /*表头*/
+  /*无票显示*/
+}
+.train .train-show .station_code {
+  width: 90px;
+}
+.train .train-show .station_from_to {
+  width: 100px;
+}
+.train .train-show .station_from_to strong {
+  color: #333;
+  display: block;
+  padding-left: 22px;
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 4px center;
+  background-repeat: no-repeat;
+}
+.train .train-show .station_from_to .start-s {
+  background-image: url(../images/train-icon_07.png);
+}
+.train .train-show .station_from_to .pass-s {
+  background-image: url(../images/train-icon_02.png);
+}
+.train .train-show .station_from_to .end-s {
+  background-image: url(../images/train-icon_05.png);
+}
+.train .train-show .station_time {
+  width: 82px;
+}
+.train .train-show .station_last {
+  width: 82px;
+}
+.train .train-show .station_seat {
+  width: 48px;
+}
+.train .train-show .station_remark {
+  width: 118px;
+}
+.train .train-show .train-header {
+  position: relative;
+  top: 0;
+  width: 1000px;
+}
+.train .train-show .train-list-h {
+  background-color: #2E92D1;
+  color: #fff;
+  display: table;
+  height: 52px;
+}
+.train .train-show .train-list-h li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background: url(../images/line_tlisth.png) right center no-repeat;
+  font-weight: bold;
+}
+.train .train-show .train-list-h .last {
+  background: none;
+}
+.train .train-show .train-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+  table-layout: fixed;
+  word-wrap: break-word;
+  border: 1px solid #298cce;
+}
+.train .train-show .train-table td {
+  height: 36px;
+  border-right: 1px solid #b0cedd;
+  border-top: 1px solid #b0cedd;
+  color: #999;
+}
+.train .train-show .train-table .last {
+  border-right: none;
+}
+.train .train-show .train-table .station_code {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+.train .train-show .train-table .show_strong {
+  color: #333;
+}
+.train .train-show .no-ticket {
+  color: #aaa;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 250px 0;
+  display: none;
+  text-align: center;
+}
+/*机票页面*/
+.flight {
+  width: 890px;
+  margin: 0 auto
+  /*查询框*/
+  /*查询结果*/
+}
+.flight .queryFlight {
+  padding: 10px;
+  border: 1px solid #ddd
+  /*往返城市切换按钮*/
+}
+.flight .queryFlight .flight-f-group {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px
+  /*警告框*/
+}
+.flight .queryFlight .flight-f-group input {
+  height: 100%;
+  width: 160px;
+  border: 1px solid #ddd;
+  padding: 0 15px;
+  vertical-align: top;
+  line-height: 35px;
+}
+.flight .queryFlight .flight-f-group .warning {
+  color: #25da7f;
+  border-color: #25da7f;
+}
+.flight .queryFlight .flight-f-c-btn {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 35px;
+  vertical-align: top;
+  background: url(../images/spirit.png) -76px 12px no-repeat;
+}
+.flight .queryFlight .flight-f-c-btn a {
+  position: absolute;
+  left: 14px;
+  top: 7px;
+  width: 22px;
+  height: 22px;
+  background: url(../images/spirit.png) -30px -2px no-repeat;
+}
+.flight .queryFlight button {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  background-color: #25da7f;
+  text-align: center;
+  font-size: 18px;
+  vertical-align: bottom;
+  float: right;
+  cursor: pointer;
+}
+.flight .flightRe {
+  /*查询结果不存在*/
+  /*查询结果列表*/
+}
+.flight .flightRe .air_header {
+  height: 40px;
+  padding: 10px 0 6px;
+  border-bottom: 2px solid #23cc77
+  /*航班信息*/
+  /*发出时间*/
+  /*到达时间*/
+  /*准点率*/
+  /*价格*/
+}
+.flight .flightRe .air_header .item {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  text-align: left;
+}
+.flight .flightRe .air_header .icon {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 7px;
+  height: 8px;
+  margin: 5px 0 0 5px;
+  vertical-align: text-top;
+  background: url(../images/list.png) -35px -45px no-repeat;
+}
+.flight .flightRe .air_header .sort_hangban {
+  width: 120px;
+  padding-left: 18px;
+}
+.flight .flightRe .air_header .sort_detime {
+  width: 184px;
+  padding-left: 44px;
+}
+.flight .flightRe .air_header .sort_arrtime {
+  width: 193px;
+  padding-left: 63px;
+}
+.flight .flightRe .air_header .sort_ontime {
+  width: 101px;
+  padding-left: 38px;
+}
+.flight .flightRe .air_header .sort_price {
+  width: 248px;
+  padding-left: 28px;
+}
+.flight .flightRe .no_ticket {
+  padding-top: 64px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #333;
+  display: none;
+}
+.flight .flightRe .air_list .flg {
+  padding: 15px 10px;
+  border-bottom: 1px solid #ddd
+  /*航班名字*/
+  /*航班始发时间*/
+  /*航班行驶*/
+  /*航班到达*/
+  /*餐食*/
+  /*分割线*/
+  /*准点率*/
+  /*最低价格*/
+}
+.flight .flightRe .air_list .flg .flg_item {
+  float: left;
+  color: #666;
+  line-height: 22px;
+}
+.flight .flightRe .air_list .flg .flg_name {
+  width: 110px;
+  padding-left: 5px;
+  text-align: left;
+  font-size: 12px;
+}
+.flight .flightRe .air_list .flg .flg_name span {
+  white-space: nowrap;
+}
+.flight .flightRe .air_list .flg .flg_start {
+  width: 120px;
+  padding-right: 10px;
+  text-align: right;
+}
+.flight .flightRe .air_list .flg .flg_start strong {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+.flight .flightRe .air_list .flg .flg_duration {
+  position: relative;
+  height: 54px;
+  width: 130px;
+  padding: 0 20px;
+  background: url(../images/line.png) center no-repeat;
+}
+.flight .flightRe .air_list .flg .flg_duration span {
+  position: absolute;
+  padding-top: 2px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  color: #999;
+}
+.flight .flightRe .air_list .flg .flg_duration em {
+  position: absolute;
+  top: 24px;
+  left: 53px;
+  padding-top: 7px;
+  font-size: 11px;
+  color: #23cc77;
+  width: 30px;
+  height: 27px;
+  font-style: normal;
+  font-weight: normal;
+  background: url(../images/stopping_point.png) 7px 0px no-repeat;
+}
+.flight .flightRe .air_list .flg .flg_arrival {
+  width: 110px;
+  padding-left: 10px;
+  text-align: left;
+}
+.flight .flightRe .air_list .flg .flg_arrival strong {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+.flight .flightRe .air_list .flg .flg_arrival strong i {
+  font-size: 12px;
+  color: #f60;
+  font-style: normal;
+  margin-left: 5px;
+}
+.flight .flightRe .air_list .flg .flg_dining {
+  margin-top: 4px;
+  padding: 9px 0 9px 18px;
+  width: 58px;
+  line-height: 18px;
+}
+.flight .flightRe .air_list .flg .list_sep {
+  width: 0;
+  height: 29px;
+  margin-top: 8px;
+  border-left: 1px solid #ddd;
+}
+.flight .flightRe .air_list .flg .flg_rate {
+  padding: 0 0 0 5px;
+  margin-top: 4px;
+  text-align: center;
+  width: 46px;
+}
+.flight .flightRe .air_list .flg .flg_price {
+  color: #f60;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 44px;
+  text-align: left;
+}
+.flight .flightRe .air_list .flg .flg_price strong {
+  font-size: 24px;
+}
+/*通讯录页面*/
+.phone {
+  width: 890px;
+  margin: 0 auto
+  /*查询框*/
+  /*通讯侧栏*/
+  /*通讯号码*/
+}
+.phone .queryNum {
+  padding: 10px 30px;
+  border: 1px solid #00A0AF;
+  margin-bottom: 20px;
+}
+.phone .queryNum .phone-f-group {
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  float: left;
+  margin-right: 20px;
+}
+.phone .queryNum label {
+  margin-right: 8px;
+}
+.phone .queryNum select,
+.phone .queryNum input {
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  width: 160px;
+  border: 1px solid #ddd;
+}
+.phone .queryNum button {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  background-color: #6BB7F7;
+  font-size: 18px;
+  cursor: pointer;
+}
+.phone .psid {
+  width: 230px;
+  float: left;
+  background-color: #ecedf1;
+  font-size: 18px;
+  color: #1F769B;
+}
+.phone .psid li {
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.phone .psid li:hover {
+  background-color: #ccc;
+}
+.phone .psid .active {
+  background-color: #ccc;
+}
+.phone .personCall {
+  margin-left: 240px;
+  font-size: 0;
+  color: #333;
+}
+.phone .personCall .item {
+  border-bottom: 1px solid #6BB7F7;
+  padding: 8px 0;
+}
+.phone .personCall .item span {
+  display: inline-block;
+  width: 50%;
+  font-size: 14px;
+  text-align: center;
+}
+/*页脚*/
+.footer {
+  margin-top: 30px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  background-color: #E6E6E6;
+  color: #00a0af;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
