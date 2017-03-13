@@ -4,14 +4,18 @@
             <div class="queryFlight">
                 <div class="flight-f-group">
                     <label for="start">出发地</label>
-                    <input type="text" value="" id="start">
+                    <input type="text" value="" id="start" class="chooseCity">
+                    <ul class="suggestions">
+                    </ul>
                 </div>
                 <div class="flight-f-c-btn">
                     <a href="javascript:;" id="change"></a>
                 </div>
                 <div class="flight-f-group">
                     <label for="end">到达地</label>
-                    <input type="text" name="" value="" id="end">
+                    <input type="text" name="" value="" id="end" class="chooseCity">
+                    <ul class="suggestions">
+                    </ul>
                 </div>
                 <div class="flight-f-group">
                     <label for="date">出发日</label>
@@ -80,6 +84,11 @@
     </div>
     {{/each}}
 </script>
+<script type="text/html" id="showList">
+    {{each list as item i}}
+        <li class="sugopt" data-name="{{item.cityName}}">{{item.cityName}}({{item.cityEnglishName}})</li>
+    {{/each}}
+</script>
 <script>
     (function(){
         var start = $('#start');
@@ -91,6 +100,8 @@
         var departureDate = '';
         var airList = $('#airList');
         var noMsg = $('#noMsg');
+        var chooseCity = $('.chooseCity');
+        var suggestions = $('.suggestions');
         var getFlightData = function(param,cb){
             global.getData('/api/getFlightData',param,cb);
         };
@@ -101,6 +112,25 @@
                 }
             }
             return false;
+        };
+        var matchCity = function(str){
+            var length = str.length;
+            var cities = [];
+            str = str.toLowerCase();
+            if (length == 0) {
+                return [];
+            }
+            for(var i = 0; i< CitiesList.length; i++){
+                var city = {};
+                var cityEnglishName = CitiesList[i].cityEnglishName.toLowerCase().replace(/\s+/g,"");
+                city.cityName = CitiesList[i].cityName;
+                city.cityEnglishName = CitiesList[i].cityEnglishName;
+                city.cityAbbr = CitiesList[i].cityAbbr;
+                if (str == city.cityName.substring(0,length) || str == cityEnglishName.substring(0,length) || str == city.cityAbbr.substring(0,length)) {
+                    cities.push(city);
+                }
+            }
+            return cities;
         };
         var verification = function(){
             if (start.val().length == 0) {
@@ -169,6 +199,30 @@
                 var change = start.val();
                 start.val(end.val());
                 end.val(change);
+            });
+            suggestions.on('click', '.sugopt', function(event) {
+                var that = $(this);
+                var city = that.attr('data-name');
+                that.parent().prev().val(city);
+            });
+            chooseCity.on('keyup', function(event) {
+                var that = $(this);
+                var cityList = that.next();
+                var cities = matchCity(that.val());
+                if (cities.length > 0) {
+                    var data = {list:cities};
+                    var compiled = template('showList',data);
+                    cityList.html(compiled);
+                    cityList.css('display', 'block');
+                } else{
+                    cityList.css('display', 'none');
+                }
+            });
+            chooseCity.on('blur',  function(event) {
+                var cityList = $(this).next();
+                setTimeout(function(){
+                    cityList.css('display', 'none');
+                },300);
             });
         };
         init();

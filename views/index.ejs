@@ -30,20 +30,20 @@
                     <div class="personSym">
                     <h2>[ 接入系统 ]</h2>
                     <div class="row pubsyms">
-                        <% data.persyms.forEach(function(item) { %>
                         <div class="col-w-3">
-                            <div class="persym" data-id="<%=item.id%>">
-                                <a href="<%=item.gw_title%>" title="<%=item.gw_mark%>" class="symSite"><%=item.gw_mark%></a>
-                                <div class="mask">
-                                    <span class="glyphicon glyphicon-trash fR del"></span>
-                                    <span class="glyphicon glyphicon-pencil fR edit"></span>
-                                </div>
+                            <div class="persym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-factory"></span>
+                                    <span class="symname">项目管理系统</span>
+                                </a>
                             </div>
                         </div>
-                        <% }); %>
-                        <div class="col-w-3 addSite">
+                        <div class="col-w-3">
                             <div class="persym">
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-xingzhuang"></span>
+                                    <span class="symname">翻译管理系统</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -51,8 +51,32 @@
                     <div class="publicSym">
                     <h2>公共系统</h2>
                     <div class="row pubsyms">
+                        <div class="col-w-2">
+                            <div class="pubsym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-classify"></span>
+                                    <span class="symname">oa管理系统</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-w-2">
+                            <div class="pubsym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-xingzhuang4"></span>
+                                    <span class="symname">oa管理系统</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-w-2">
+                            <div class="pubsym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-xingzhuang4"></span>
+                                    <span class="symname">oa管理系统</span>
+                                </a>
+                            </div>
+                        </div>
                         <% data.pubsyms.forEach(function(item) { %>
-                        <div class="col-w-3">
+                        <!-- <div class="col-w-3">
                             <div class="pubsym" data-id="<%=item.id%>">
                                 <a href="<%=item.gw_title%>" title="<%=item.gw_mark%>" class="symSite"><%=item.gw_mark%></a>
                                 <div class="mask">
@@ -60,11 +84,26 @@
                                     <span class="glyphicon glyphicon-pencil fR edit"></span>
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="col-w-2">
+                            <div class="pubsym" data-id="<%=item.id%>">
+                                <a href="<%=item.gw_title%>" title="<%=item.gw_mark%>" class="symSite">
+                                    <span class="iconfont icon-bookmark"></span>
+                                    <span class="symname"><%=item.gw_mark%></span>
+                                </a>
+                                <div class="operate">
+                                    <span class="glyphicon glyphicon-trash del"></span>
+                                    <span class="glyphicon glyphicon-pencil edit"></span>
+                                </div>
+                            </div>
                         </div>
                         <% }); %>
-                        <div class="col-w-3 addSite">
+                        <div class="col-w-2 addSite">
                             <div class="pubsym">
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <div class="symSite">
+                                    <span class="iconfont icon-add" style="cursor: pointer;"></span>
+                                    <span class="symname">添加</span>  
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -73,12 +112,15 @@
 <%- include base/base.ejs %>
         <script type="text/html" id="sitetemplate">
            {{each site as item i}}
-           <div class="col-w-3">
+           <div class="col-w-2">
                 <div class="{{item.parent}}" data-id="{{item.id}}">
-                    <a href="{{item.url}}" title="{{item.text}}" class="symSite">{{item.text}}</a>
-                    <div class="mask">
-                        <span class="glyphicon glyphicon-trash fR del"></span>
-                        <span class="glyphicon glyphicon-pencil fR edit"></span>
+                    <a href="{{item.url}}" title="{{item.text}}" class="symSite">
+                        <span class="iconfont icon-bookmark"></span>
+                        <span class="symname">{{item.text}}</span>
+                    </a>
+                    <div class="operate">
+                        <span class="glyphicon glyphicon-trash del"></span>
+                        <span class="glyphicon glyphicon-pencil edit"></span>
                     </div>
                 </div>
             </div>
@@ -101,7 +143,7 @@
                         global.getData('/api/delMyGw',param,cb);
                     }
                     //编辑模块
-                    $('.pubsyms,.persyms').on('click', '.edit', function(event) {
+                    $('.pubsyms').on('click', '.edit', function(event) {
                         var parentobj = $(this).parent().parent();
                         var parent = parentobj.attr('class');
                         var skin = '';
@@ -124,7 +166,7 @@
                                 break;
                         }
                         var edA = parentobj.children('a');
-                        var text = edA.text();
+                        var text = edA.attr('title');
                         var url = edA.attr('href');
                         layer.open({
                             title: '编辑网址',
@@ -153,7 +195,7 @@
                                 },function(data){
                                     //console.log(data);
                                     if (data && data.ret == 200) {
-                                        edA.text(text);
+                                        edA.children('.symname').text(text);
                                         edA.attr({
                                             href: url,
                                             title: text
@@ -168,9 +210,9 @@
                         });
                     });
                     //添加模块
-                    $('.pubsyms,.persyms').on('click', '.glyphicon-plus', function(event) {
+                    $('.pubsyms').on('click', '.icon-add', function(event) {
                         var that = $(this);
-                        var parent = $(this).parent().attr('class');
+                        var parent = $(this).parent().parent().attr('class');
                         var skin = '';
                         var layerClass = '';
                         var type = 0;
@@ -232,7 +274,7 @@
                         });
                     });
                     //删除模块
-                    $('.pubsyms,.persyms').on('click', '.del', function(event) {
+                    $('.pubsyms').on('click', '.del', function(event) {
                         var that = $(this);
                         layer.confirm('确定删除该收藏？',{
                             icon: 3,
@@ -246,7 +288,7 @@
                             },function(data){
                                 //console.log(data);
                                 if (data && data.ret == 200) {
-                                    that.parents('.col-w-3').remove();
+                                    that.parents('.col-w-2').remove();
                                     layer.close(index);
                                 } else{
                                     layer.close(index);

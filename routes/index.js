@@ -23,7 +23,7 @@ router.get('/', function(req, res, next) {
                     }
                 });
                 //console.log(data);
-                res.render('index', { title: '个人门户' ,data: data});
+                res.render('index', { title: '个人门户' ,data: data,banner: true});
             } catch(e){
                 next(e);
             }

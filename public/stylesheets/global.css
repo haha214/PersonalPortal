@@ -212,11 +212,11 @@ li {
   font-size: 32px;
   font-weight: 500;
   padding-top: 10px;
-  color: #00aeff;
+  color: #0F3E65;
 }
 /*工具栏*/
 .toolbar {
-  background-color: #6BB7F7;
+  background-color: #006289;
   padding: 0 20px;
 }
 .toolbar .t-opt {
@@ -433,95 +433,82 @@ body .layer-skin-delTip .layui-layer-btn0 {
 }
 /*系统模块*/
 .pubsym {
-  width: 250px;
-  margin: 20px auto 0;
-  padding: 0 10px;
-  background-color: #83BFA6;
-  font-size: 18px;
-  height: 100px;
+  padding: 0 15px;
   text-align: center;
-  display: table;
+  height: 160px;
+  color: #089D94;
   position: relative;
-  color: #fff;
 }
-.pubsym .symSite,
-.pubsym .glyphicon-plus {
-  display: table-cell;
-  vertical-align: middle;
-  color: #fff;
-  cursor: pointer;
+.pubsym .iconfont {
+  font-size: 56px;
+  color: #089D94;
+  display: inline-block;
+  width: 100%;
 }
-.pubsym .symSite span,
-.pubsym .glyphicon-plus span {
-  word-wrap: break-word;
+.pubsym .symSite {
+  display: block;
 }
-.pubsym .mask {
+.pubsym .symSite .symname {
+  display: inline-block;
+  font-size: 16px;
+  color: #160505;
+  margin: 5px 0;
+  font-weight: 600;
+}
+.pubsym .operate {
+  padding: 0 10px;
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 30px;
-  background-color: #000000;
-  background-color: rgba(0, 0, 0, 0.4);
-  filter: alpha(opacity=10);
-  color: #fff;
-  display: none;
-  padding: 5px 10px;
-  font-size: 12px;
+  right: 15px;
+  left: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #DC5E09;
 }
-.pubsym .mask span {
+.pubsym .operate span {
   line-height: 20px;
   cursor: pointer;
   margin-left: 10px;
-}
-.pubsym:hover .mask {
-  display: block;
 }
 .persym {
   /*.sym(#D07B59);*/
-  width: 250px;
-  margin: 20px auto 0;
-  padding: 0 10px;
-  background-color: #30ACE3;
-  font-size: 18px;
-  height: 100px;
+  /*.sym(#30ACE3);*/
+  padding: 0 15px;
   text-align: center;
-  display: table;
+  height: 160px;
+  color: #0C9AD4;
   position: relative;
-  color: #fff;
 }
-.persym .symSite,
-.persym .glyphicon-plus {
-  display: table-cell;
-  vertical-align: middle;
-  color: #fff;
-  cursor: pointer;
+.persym .iconfont {
+  font-size: 56px;
+  color: #0C9AD4;
+  display: inline-block;
+  width: 100%;
 }
-.persym .symSite span,
-.persym .glyphicon-plus span {
-  word-wrap: break-word;
+.persym .symSite {
+  display: block;
 }
-.persym .mask {
+.persym .symSite .symname {
+  display: inline-block;
+  font-size: 16px;
+  color: #000;
+  margin: 5px 0;
+  font-weight: 600;
+}
+.persym .operate {
+  padding: 0 10px;
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 30px;
-  background-color: #000000;
-  background-color: rgba(0, 0, 0, 0.4);
-  filter: alpha(opacity=10);
-  color: #fff;
-  display: none;
-  padding: 5px 10px;
-  font-size: 12px;
+  right: 15px;
+  left: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #DC5E09;
 }
-.persym .mask span {
+.persym .operate span {
   line-height: 20px;
   cursor: pointer;
   margin-left: 10px;
-}
-.persym:hover .mask {
-  display: block;
 }
 /*主页面*/
 .main {
@@ -536,7 +523,6 @@ body .layer-skin-delTip .layui-layer-btn0 {
   padding: 0 15px;
 }
 .main .personSym {
-  background: #fff;
   padding: 30px 0 ;
 }
 .main .personSym h2 {
@@ -547,6 +533,7 @@ body .layer-skin-delTip .layui-layer-btn0 {
 }
 .main .publicSym {
   padding: 20px 0 30px;
+  background: url(../images/2.jpg) no-repeat;
 }
 .main .publicSym h2 {
   color: #00a0af;
@@ -555,6 +542,10 @@ body .layer-skin-delTip .layui-layer-btn0 {
   border-bottom: 7px double #DEDEDE;
   width: 200px;
   margin: 0 auto 30px;
+}
+.main .pubsyms {
+  width: 960px;
+  margin: 0 auto;
 }
 /*火车票页面*/
 .train {
@@ -753,6 +744,7 @@ body .layer-skin-delTip .layui-layer-btn0 {
   height: 35px;
   line-height: 35px
   /*警告框*/
+  /*城市联想提示*/
 }
 .flight .queryFlight .flight-f-group input {
   height: 100%;
@@ -765,6 +757,28 @@ body .layer-skin-delTip .layui-layer-btn0 {
 .flight .queryFlight .flight-f-group .warning {
   color: #25da7f;
   border-color: #25da7f;
+}
+.flight .queryFlight .flight-f-group .suggestions {
+  position: absolute;
+  top: 100%;
+  left: 50px;
+  width: 180px;
+  border: 1px solid #ddd;
+  display: none;
+}
+.flight .queryFlight .flight-f-group .suggestions .sugopt {
+  padding: 6px 20px 6px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #fff;
+  color: #666;
+  line-height: 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.flight .queryFlight .flight-f-group .suggestions .sugopt:hover {
+  background: #63ca33;
+  color: #fff;
 }
 .flight .queryFlight .flight-f-c-btn {
   display: inline-block;

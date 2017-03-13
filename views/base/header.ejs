@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
     <link rel="stylesheet" type="text/css" href="/stylesheets/jquery.calendar.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/iconfont.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/global.css">
     <script src="/javascripts/jquery-1.11.1.min.js"></script>
     <script src="/javascripts/jquery.date_input.pack.js"></script>
@@ -13,6 +14,7 @@
   </head>
   <body>
     <div class="all-container">
+            
             <div class="header">
                 <div class="cf-logo fL">
                     <img src="/images/icon1.png" alt="">
@@ -25,6 +27,11 @@
                 </div>
                 <h1>一重集团大连工程技术有限公司统一门户系统</h1>
             </div>
+            <% if( typeof banner != 'undefined'){%>
+            <div>
+                <img src="/images/2032.jpg" alt="" style="width:100%;">
+            </div>
+            <%}%>
             <div class="toolbar">
                 <ul class="clearfix">
                     <li class="t-opt"><a class="t-item" href="/">首页</a></li>

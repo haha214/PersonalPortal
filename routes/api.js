@@ -33,7 +33,7 @@ router.get('/:method', function(req, res, next) {
                 from_station = req.query.from_station,
                 to_station = req.query.to_station,
                 purpose_codes = req.query.purpose_codes,
-                url = '/otn/leftTicket/queryZ?leftTicketDTO.train_date=' + date + '&leftTicketDTO.from_station=' + from_station + '&leftTicketDTO.to_station=' + to_station + '&purpose_codes=' + purpose_codes;
+                url = '/otn/leftTicket/query?leftTicketDTO.train_date=' + date + '&leftTicketDTO.from_station=' + from_station + '&leftTicketDTO.to_station=' + to_station + '&purpose_codes=' + purpose_codes;
                 //console.log(url);
                 var options = {
                     hostname : 'kyfw.12306.cn',
