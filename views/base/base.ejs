@@ -1,7 +1,21 @@
                 </div>
-            <div class="footer">
-                2016 © 一重集团大连工程技术有限公司
+            <% if( page == 'index'){%>
+            <div class="index-footer">
+                <div class="content">
+                    <div class="info">
+                        <p class="num">技术支持：0411 - 39243619 </p>
+                        <p class="address">地址：辽宁省大连市金普新区东北大街96号</p>
+                    </div>
+                    <div class="copyright">
+                        ©2017 一重集团大连工程技术有限公司 信息技术部 版权所有
+                    </div>
+                </div>
             </div>
+            <%}else{%>
+            <div class="footer">
+                2017 © 一重集团大连工程技术有限公司 信息技术部 版权所有
+            </div>
+            <%}%>
         </div>
         <script src="/javascripts/template.js"></script>
         <script type="text/html" id="weathertemplate">
@@ -42,6 +56,11 @@
                         }
                     });
                 };
+                $.ajaxSetup({
+                    error: function(x,h,r){
+                        console && console.log(x, h, r);
+                    }
+                });
                 //天气预报
                 (function(){
                     var wlayer = '';

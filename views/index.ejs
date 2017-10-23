@@ -1,128 +1,191 @@
 <%- include base/header.ejs %>
                 <div class="main">
-                    <!-- 通知信息 -->
-                   <!--  <div class="row mesinfo">
-                    <div class="message col-w-6">
-                        <h2 class="caption_heading clearfix">
-                            <a class="title" href="#">通知</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-w-12 mes text-ellipsis">
-                                <i class="glyphicon glyphicon-pencil"></i>
-                                <span class="timer">2016-07-12</span>
-                                <a href="#">2016同事打卡机奥拉夫卡是</a>
+                    <div class="index">
+                        <div class="ourMod clearfix">
+                            <div class="mod">
+                                <a href="http://172.29.2.25:8080/pm/login.action"  class="clearfix" target="_blank">
+                                    <span class="iconfont icon">&#xe799;</span>
+                                    <h4>项目管理系统</h4> 
+                                </a>
                             </div>
-                        </div>
-                    </div> 
-                    <div class="message col-w-6">
-                        <h2 class="caption_heading clearfix">
-                            <a class="title" href="#">通知</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-w-12 mes text-ellipsis">
-                                <i class="glyphicon glyphicon-pencil"></i>
-                                <span class="timer">2016-07-12</span>
-                                <a href="#">我是通知通知通知通知通知2016同事打卡机奥拉夫卡是</a>
+                            <div class="mod">
+                                <a href="http://172.29.2.25:8080/tm/login.action"  class="clearfix" target="_blank">
+                                    <span class="iconfont icon">&#xe824;</span>
+                                    <h4>翻译管理平台</h4> 
+                                </a>
                             </div>
-                        </div>
-                    </div> 
-                    </div> -->
-                    <div class="personSym">
-                    <h2>[ 接入系统 ]</h2>
-                    <div class="row pubsyms">
-                        <div class="col-w-3">
-                            <div class="persym">
-                                <a href="" title="" class="symSite">
-                                    <span class="iconfont icon-factory"></span>
-                                    <span class="symname">项目管理系统</span>
+                            <div class="mod">
+                                <a href="http://172.29.2.25:8080/hr/login.action"  class="clearfix" target="_blank">
+                                    <span class="iconfont icon">&#xe74a;</span>
+                                    <h4>人力资源系统</h4> 
+                                </a>
+                            </div>
+                            <div class="mod">
+                                <a href="http://172.29.2.2/kq/default.aspx" class="clearfix" target="_blank">
+                                    <span class="iconfont icon">&#xe615;</span>
+                                    <h4>网上请假系统</h4> 
+                                </a>
+                            </div>
+                            <div class="mod">
+                                <a href="http://172.29.2.101:8080/checkDrawings/login.jsp" target="_blank" class="clearfix">
+                                    <span class="iconfont icon">&#xe832;</span>
+                                    <h4>图纸审核平台</h4> 
+                                </a>
+                            </div>
+                            <div class="mod">
+                                <a href="http://172.29.2.2/jobnum/" target="_blank" class="clearfix">
+                                    <span class="iconfont icon">&#xe60e;</span>
+                                    <h4>产品号登录系统</h4> 
+                                </a>
+                            </div>
+                            <div class="mod">
+                                <a href="http://172.29.2.2/kc/entry.aspx" target="_blank" class="clearfix">
+                                    <span class="iconfont icon">&#xe635;</span>
+                                    <h4>技能考试系统</h4> 
                                 </a>
                             </div>
                         </div>
-                        <div class="col-w-3">
-                            <div class="persym">
-                                <a href="" title="" class="symSite">
-                                    <span class="iconfont icon-xingzhuang"></span>
-                                    <span class="symname">翻译管理系统</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="publicSym">
-                    <h2>公共系统</h2>
-                    <div class="row pubsyms">
-                        <div class="col-w-2">
-                            <div class="pubsym">
-                                <a href="" title="" class="symSite">
-                                    <span class="iconfont icon-classify"></span>
-                                    <span class="symname">oa管理系统</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-w-2">
-                            <div class="pubsym">
-                                <a href="" title="" class="symSite">
-                                    <span class="iconfont icon-xingzhuang4"></span>
-                                    <span class="symname">oa管理系统</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-w-2">
-                            <div class="pubsym">
-                                <a href="" title="" class="symSite">
-                                    <span class="iconfont icon-xingzhuang4"></span>
-                                    <span class="symname">oa管理系统</span>
-                                </a>
-                            </div>
-                        </div>
-                        <% data.pubsyms.forEach(function(item) { %>
-                        <!-- <div class="col-w-3">
-                            <div class="pubsym" data-id="<%=item.id%>">
-                                <a href="<%=item.gw_title%>" title="<%=item.gw_mark%>" class="symSite"><%=item.gw_mark%></a>
-                                <div class="mask">
-                                    <span class="glyphicon glyphicon-trash fR del"></span>
-                                    <span class="glyphicon glyphicon-pencil fR edit"></span>
+                        <div class="sec">
+                            <div class="aboutUs">
+                                <div class="fullContent">
+                                    <div class="fullimg">
+                                        <img src="/images/4-1.jpg" alt="">
+                                    </div> 
+                                    <div class="fullTitle">
+                                        <h3>ABOUT US</h3>
+                                    </div>
+                                    <div class="fullText">
+                                        一重集团大连工程技术有限公司信息技术部，专注于企业的信息化建设和发展，情报的翻译和管理，数字化图书馆的管理，《一重技术》的编辑和出版，致力于通过IT技术提高公司信息化层次和管理水平，满足公司各方面业务需求。其拥有专业的系统运维团队，软件开发团队，翻译团队和《一重技术》编辑部，凝聚了各专业的优秀员工，富有创造力和奉献精神。我们所做的一切都是以公司的利益为出发点，帮助公司全面切实的提高工作效率，为公司的设计研发工作保驾护航，我们坚信与公司共同成长！
+                                    </div>
                                 </div>
                             </div>
-                        </div> -->
-                        <div class="col-w-2">
-                            <div class="pubsym" data-id="<%=item.id%>">
-                                <a href="<%=item.gw_title%>" title="<%=item.gw_mark%>" class="symSite">
-                                    <span class="iconfont icon-bookmark"></span>
-                                    <span class="symname"><%=item.gw_mark%></span>
-                                </a>
-                                <div class="operate">
-                                    <span class="glyphicon glyphicon-trash del"></span>
-                                    <span class="glyphicon glyphicon-pencil edit"></span>
+                            <div class="selfMod">
+                                <div class="mods clearfix">
+                                    <div class="modrow clearfix">
+                                        <div class="mod mod1">
+                                            <a href="http://172.16.1.71/" target="_blank" class=" lower" >
+                                                <div class="content">
+                                                    <h3>邮件系统</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="mod mod2">
+                                            <a href="http://172.16.1.224/login.jsp" target="_blank" class="active lower">
+                                                <div class="content" >
+                                                    <h3>OA系统</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="mod mod3">
+                                            <a href="http://172.16.1.59/yzjtnw/yzmh/" target="_blank" class="lower">
+                                                <div class="content">
+                                                    <h3>一重统一门户平台</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="mod mod1">
+                                            <a href="http://172.16.1.69/cfhizyh/login.aspx" target="_blank" class=" lower active">
+                                                <div class="content" >
+                                                    <h3>业务管理系统</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="mod mod4">
+                                            <a href="http://172.16.1.25/cwgl/20/" target="_blank" class="lower" >
+                                                <div class="content">
+                                                    <h3>财务管理系统</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="mod mod3">
+                                            <a href="http://172.16.1.39/zgyz/" target="_blank" class="lower active">
+                                                <div class="content">
+                                                    <h3>集中采购平台</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="mod mod4">
+                                            <a href="http://172.16.1.76:8010/VIEW/NCR_LOGIN/default.aspx" target="_blank" class="lower">
+                                                <div class="content">
+                                                    <h3>NCR评审管理系统</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="mod mod3">
+                                            <a href="http://172.16.1.59/yzjtnw/yzmh/contents/116/3696.aspx" target="_blank" class="lower">
+                                                <div class="content">
+                                                    <h3>电子期刊</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <% data.pubsyms.forEach(function(item) { %>
+                                        <div class="mod pubsyms" data-id="<%=item.id%>">
+                                            <a href="<%=item.gw_title%>" class="lower" target="_blank">
+                                                <div class="content">
+                                                    <h3><%=item.gw_mark%></h3>
+                                                    <div class="opt">
+                                                        <span class="iconfont del">&#xe645;</span>
+                                                        <span class="iconfont edit">&#xe653;</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       <% }); %>
+                                        <div class="mod mod4" id="addBtn">
+                                            <div href="" title="" class="lower active">
+                                                <div class="content">
+                                                    <h3>+</h3>
+                                                    <div class="opt">
+                                                        点击添加
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="moreExp">
+                                <h2>给你最好的体验价值</h2>
+                                <p>系统运维、软件开发、网站建设、情报翻译，我们是专业的！我们了解大连工程技术有限公司的经营模式和需求！我们倡导让设计师感知我们服务和产品的体验价值！我们力争为设计师提供最大的便利！</p>
+                            </div>
+                        </div>
+                        <div class="idea">
+                            <div class="fullContent">
+                                <div class="text1">
+                                    <h3>系统运维</h3>
+                                    <p>优化网络结构，监督网络设备，保障网络畅通；防火墙、安全审计、病毒服务器维护，杜绝外界危险入侵；IT设备，中心机房服务器维护，系统实时备份，保证数据完整；对外承揽IT建设运维业务。</p>
+                                </div>
+                                <div class="text2">
+                                    <h3>软件开发</h3>
+                                    <p>健全公司信息化管理，设计开发应用管理软件；针对公司业务的应用管理软件和网站的系统分析、需求定制、开发、测试、集成和维护；公司网站的建设及运维；完善公司现有应用软件、信息系统，根据公司业务的发展组织并完成现有系统升级开发；对外承揽软件开发业务。</p>
+                                </div>
+                                <div class="text3">
+                                    <h3>情报翻译</h3>
+                                    <p>关注行业市场变化，搜集行业信息，情报大数据收集平台查询和电子图书馆的管理；承担公司日常外文资料的翻译，承担一般性技术交流、技术审查、商务洽谈等口译工作；《一重技术》的编辑、排版、校对及出版发行；对外承揽外文资料翻译业务。</p>
                                 </div>
                             </div>
                         </div>
-                        <% }); %>
-                        <div class="col-w-2 addSite">
-                            <div class="pubsym">
-                                <div class="symSite">
-                                    <span class="iconfont icon-add" style="cursor: pointer;"></span>
-                                    <span class="symname">添加</span>  
-                                </div>
+                        <div class="comPhilosophy">
+                            <div class="content">
+                                <h3>我们部门的理念</h3>
+                                <p>以服务赢得客户，以质量铸造口碑，以创新服务企业，以团结获得辉煌。我们坚信，团队至上！一个团结的团队是优秀成绩的基石，一个实干的团队是客户信赖的保证！</p>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
 <%- include base/base.ejs %>
         <script type="text/html" id="sitetemplate">
            {{each site as item i}}
-           <div class="col-w-2">
-                <div class="{{item.parent}}" data-id="{{item.id}}">
-                    <a href="{{item.url}}" title="{{item.text}}" class="symSite">
-                        <span class="iconfont icon-bookmark"></span>
-                        <span class="symname">{{item.text}}</span>
-                    </a>
-                    <div class="operate">
-                        <span class="glyphicon glyphicon-trash del"></span>
-                        <span class="glyphicon glyphicon-pencil edit"></span>
+            <div class="mod pubsyms" data-id="{{item.id}}">
+                <a href="{{item.url}}" class="lower" target="_blank">
+                    <div class="content">
+                        <h3>{{item.text}}</h3>
+                        <div class="opt">
+                            <span class="glyphicon glyphicon-trash del"></span>
+                            <span class="glyphicon glyphicon-pencil edit"></span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
            {{/each}}
         </script>
@@ -143,36 +206,19 @@
                         global.getData('/api/delMyGw',param,cb);
                     }
                     //编辑模块
-                    $('.pubsyms').on('click', '.edit', function(event) {
-                        var parentobj = $(this).parent().parent();
-                        var parent = parentobj.attr('class');
-                        var skin = '';
-                        var layerClass = '';
-                        var type = 0;
-                        var gwid = parentobj.attr('data-id');
-                        switch(parent){
-                            case 'persym':
-                                skin = 'layer-skin-persym';
-                                layerClass = 'layui-layer-perWebsite';
-                                type = 2;
-                                break;
-                            case 'pubsym':
-                                skin = 'layui-layer-molv';
-                                layerClass = 'layui-layer-pubWebsite';
-                                type = 1;
-                                break;
-                            default:
-                                console.log(parent);
-                                break;
-                        }
-                        var edA = parentobj.children('a');
-                        var text = edA.attr('title');
+                    $('.selfMod').on('click', '.edit', function(event) {
+                        event.preventDefault();
+                        var that = $(this);
+                        var edA = that.parents('a');
+                        var h3 = that.parent().prev();
+                        var gwid = that.parents(".pubsyms").attr('data-id');
+                        var text = h3.html();
                         var url = edA.attr('href');
                         layer.open({
                             title: '编辑网址',
-                            content: '<form method="get" class="'+ layerClass +'"><div class="form-group"><label for="siteName">标题：</label><input type="text" id="siteName" name="" value="'+ text +'" placeholder=""></div><div class="form-group"><label for="siteUrl">网址：</label><input type="text" id="siteUrl" name="" value="'+ url +'" placeholder=""></div><span class="errTip"></span></form>',
+                            content: '<form method="get" class="layui-layer-pubWebsite"><div class="form-group"><label for="siteName">标题：</label><input type="text" id="siteName" name="" value="'+ text +'" placeholder=""></div><div class="form-group"><label for="siteUrl">网址：</label><input type="text" id="siteUrl" name="" value="'+ url +'" placeholder=""></div><span class="errTip"></span></form>',
                             btn: ['确定','取消'],
-                            skin: skin,
+                            skin: 'layer-skin-pubsym',
                             yes: function(index, layero){
                                 var text = $('#siteName').val();
                                 var url = $('#siteUrl').val();
@@ -187,19 +233,16 @@
                                     return false;
                                 } 
                                 editGW({
-                                    userid: 310000,
+                                    userid: <%=userid%>,
                                     url: url,
                                     mark: text,
-                                    type: type,
+                                    type: '1',
                                     gwid: gwid
                                 },function(data){
                                     //console.log(data);
                                     if (data && data.ret == 200) {
-                                        edA.children('.symname').text(text);
-                                        edA.attr({
-                                            href: url,
-                                            title: text
-                                        });
+                                        edA.attr('href', url);
+                                        h3.html(text);
                                         layer.close(index);
                                     } else{
                                         layer.close(index);
@@ -210,32 +253,13 @@
                         });
                     });
                     //添加模块
-                    $('.pubsyms').on('click', '.icon-add', function(event) {
+                    $('#addBtn').on('click', function(event) {
                         var that = $(this);
-                        var parent = $(this).parent().parent().attr('class');
-                        var skin = '';
-                        var layerClass = '';
-                        var type = 0;
-                        switch(parent){
-                            case 'persym':
-                                skin = 'layer-skin-persym';
-                                layerClass = 'layui-layer-perWebsite';
-                                type = 2;
-                                break;
-                            case 'pubsym':
-                                skin = 'layui-layer-molv';
-                                layerClass = 'layui-layer-pubWebsite';
-                                type = 1;
-                                break;
-                            default:
-                                console.log(parent);
-                                break;
-                        }
                         layer.open({
                             title: '编辑网址',
-                            content: '<form method="get" class="'+ layerClass +'"><div class="form-group"><label for="siteName">标题：</label><input type="text" id="siteName" name="" value="" placeholder=""></div><div class="form-group"><label for="siteUrl">网址：</label><input type="text" id="siteUrl" name="" value="" placeholder=""></div><span class="errTip"></span></form>',
+                            content: '<form method="get" class="layui-layer-pubWebsite"><div class="form-group"><label for="siteName">标题：</label><input type="text" id="siteName" name="" value="" placeholder=""></div><div class="form-group"><label for="siteUrl">网址：</label><input type="text" id="siteUrl" name="" value="" placeholder=""></div><span class="errTip"></span></form>',
                             btn: ['确定','取消'],
-                            skin: skin,
+                            skin: 'layer-skin-pubsym',
                             yes: function(index, layero){
                                 var text = $('#siteName').val();
                                 var url = $('#siteUrl').val();
@@ -250,10 +274,10 @@
                                     return false;
                                 } 
                                 addGW({
-                                    userid : 310000,
+                                    userid : <%=userid%>,
                                     url : url,
                                     mark : text,
-                                    type : type
+                                    type : '1'
                                 },function(data){
                                     //console.log(data);
                                     if (data && data.ret == 200) {
@@ -261,12 +285,11 @@
                                             site:[{
                                                 text: text,
                                                 url : url,
-                                                parent :parent,
                                                 id : data.id
                                             }]
                                         };
                                         var compiled = template("sitetemplate", gw);
-                                        that.parents('.addSite').before(compiled);
+                                        that.before(compiled);
                                         layer.close(index);
                                     }
                                 });
@@ -274,21 +297,23 @@
                         });
                     });
                     //删除模块
-                    $('.pubsyms').on('click', '.del', function(event) {
+                    $('.selfMod').on('click', '.del', function(event) {
+                        event.preventDefault();
                         var that = $(this);
+                        var mod = that.parents('.pubsyms');
                         layer.confirm('确定删除该收藏？',{
                             icon: 3,
                             title: '提示',
                             skin: 'layer-skin-delTip'
                         },function(index){
-                            var gwid = that.parent().parent().attr('data-id');
+                            var gwid = mod.attr('data-id');
                             delGW({
-                                userid: 310000,
+                                userid: <%=userid%>,
                                 gwid : gwid
                             },function(data){
                                 //console.log(data);
                                 if (data && data.ret == 200) {
-                                    that.parents('.col-w-2').remove();
+                                    mod.remove();
                                     layer.close(index);
                                 } else{
                                     layer.close(index);

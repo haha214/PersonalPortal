@@ -1,16 +1,22 @@
 <%- include base/header.ejs %>
     <div class="main">
-        <div class="train">
+        <div class="trainT">
             <div class="queryTrain">
                 <form  method="get" >
                     <div class="train-f-group">
                         <label for="from_station">出发地</label>
-                        <input type="text" name="" value="" id="from_station">
+                        <input type="text" name="" value="" id="from_station" class="chooseCity">
+                        <ul class="suggestions">
+                        </ul>
                     </div>
-                    <span class="change" id="change"></span>
+                    <div class="train-f-c-btn">
+                        <a href="javascript:;" id="change"></a>
+                    </div>
                     <div class="train-f-group">
                         <label for="to_station">目的地</label>
-                        <input type="text" name="" value="" id="to_station">
+                        <input type="text" name="" value="" id="to_station" class="chooseCity">
+                        <ul class="suggestions">
+                        </ul>
                     </div>
                     <div class="train-f-group">
                         <label for="date">出发日</label>
@@ -21,94 +27,57 @@
                             $('.date_picker').date_input();
                         })
                     </script> 
-                    <div class="quick-s">
-                        <ul>
-                            <li>
-                                <input type="radio" name="purpose" value="ADULT" checked="checked" id="adult">
-                                <label for="adult">普通</label>
-                            </li>
-                            <li>
-                                <input type="radio" name="purpose" value="0X00" id="student">
-                                <label for="student">学生</label>
-                            </li>
-                        </ul>
-                        <button id="queryDbtn" type="button">查询</button>
-                    </div>
+                    <button id="queryDbtn" type="button">查询</button>
                 </form>
             </div>
             <div class="train-show">
-                <div class="train-header" id="train-header">
-                    <ul class="train-list-h clearfix">
-                        <li class="station_code"><span>车次</span></li>
-                        <li class="station_from_to"><span>出发/到达</span></li>
-                        <li class="station_time"><span>出/到时间</span></li>
-                        <li class="station_last"><span>历时</span></li>
-                        <li class="station_seat"><span>商务座</span></li>
-                        <li class="station_seat"><span>特等座</span></li>
-                        <li class="station_seat"><span>一等座</span></li>
-                        <li class="station_seat"><span>二等座</span></li>
-                        <li class="station_seat"><span>高级<br>软卧</span></li>
-                        <li class="station_seat"><span>软卧</span></li>
-                        <li class="station_seat"><span>硬卧</span></li>
-                        <li class="station_seat"><span>软座</span></li>
-                        <li class="station_seat"><span>硬座</span></li>
-                        <li class="station_seat"><span>无座</span></li>
-                        <li class="station_seat"><span>其他</span></li>
-                        <li class="station_remark last"><span>备注</span></li>
-                    </ul>
+                <div class="train-header clearfix" id="train-header">
+                   <span class="item sort_num">车次</span>
+                   <span class="item sort_time">发时/到时</span>
+                   <span class="item sort_station">出发/到达车站</span>
+                   <span class="item sort_arrtime">运行时间</span>
+                   <span class="item sort_price">参考票价</span>
+                   <span class="item sort_count">剩余票数</span>
                 </div>
-                <table class="train-table">
-                    <tbody id="train-body">
-                    </tbody>
-                </table>
+                <div class="train_list" id="train-body">
+                </div>
                 <div class="no-ticket" id="no-ticket"></div>
             </div>
         </div>
     </div>
 <%- include base/base.ejs %>
+<script src="/javascripts/stationTN.js"></script>
 <script type="text/html" id="traintemplate">
-    {{each data as item i}}
-    <tr>
-        <td class="station_code">{{item.queryLeftNewDTO.station_train_code}}</td>
-        <td class="station_from_to">
-            {{if item.queryLeftNewDTO.from_station_name == item.queryLeftNewDTO.start_station_name}}
-            <strong class="start-s">{{item.queryLeftNewDTO.from_station_name}}</strong>
-            {{else}}
-            <strong class="pass-s">{{item.queryLeftNewDTO.from_station_name}}</strong>
-            {{/if}}
-            {{if item.queryLeftNewDTO.to_station_name == item.queryLeftNewDTO.end_station_name}}
-            <strong class="end-s">{{item.queryLeftNewDTO.to_station_name}}</strong>
-            {{else}}
-            <strong class="pass-s">{{item.queryLeftNewDTO.to_station_name}}</strong>
-            {{/if}}
-        </td>
-        <td class="station_time">
-            <strong class="show_strong">{{item.queryLeftNewDTO.start_time}}</strong><br><strong>{{item.queryLeftNewDTO.arrive_time}}</strong>
-        </td>
-        <td class="station_last">
-            <strong class="show_strong">{{item.queryLeftNewDTO.lishi}}</strong><br>
-            {{if item.queryLeftNewDTO.day_difference == 0}}
-            <span class="show_strong">当日到达</span>
-            {{else if item.queryLeftNewDTO.day_difference == 1}}
-            <span class="show_strong">次日到达</span>
-            {{else}}
-            <span class="show_strong">{{item.queryLeftNewDTO.day_difference}}日到达</span>
-            {{/if}}
-        </td>
-        {{include 'ticketnum' item}}
-        <td class="station_remark last">预定</td>
-    </tr>
+    {{each list as item i}}
+    <div class="trainCase clearfix">
+        <div class="tr_num item">{{item.trainNum}}</div>
+        <div class="item tr_time">
+            <span class="start_time">{{item.departDepartTime}}</span>
+            <br>
+            <span class="end_time">{{item.destArriveTime}}</span>
+        </div>
+        <div class="item tr_station">
+            <span><i class="icon-{{item.departStationType}}"></i>{{item.departStationName}}</span>
+            <br>
+            <span><i class="icon-{{item.destStationType}}"></i>{{item.destStationName}}</span>
+        </div>
+        <div class="item tr_arrtime">{{item.durationStr}}</div>
+        {{include 'ticketList' item}}
+    </div>
     {{/each}}
 </script>
-<script type="text/html" id="ticketnum">
-    {{each numlist as num i}}
-    {{if num > 0}}
-    <td class="station_seat"><strong class="show_strong">{{num}}</strong></td>
-    {{else if num == '有'}}
-    <td class="station_seat"><strong class="show_strong" style="color:#26a306;">{{num}}</strong></td>
-    {{else}}
-    <td class="station_seat"><span>{{num}}</span></td>
-    {{/if}}
+<script type="text/html" id="ticketList">
+    <div class="item tr_price">
+        <ul>
+        {{each prices as item i}}
+            <li class="p_list"><span class="seat_name">{{item.seatName}}</span><span class="seat_pri">￥{{item.price}}</span><span class="seat_count">余{{item.leftNumber}}张</span></li>
+        {{/each}}
+        </ul>
+    </div>
+</script>
+<script type="text/html" id="showList">
+    {{each list as item i}}
+        <li class="sugopt" data-name="{{item.cityName}}">{{item.cityName}}({{item.cityEnglishName}})</li>
     {{/each}}
 </script>
 <script>
@@ -119,29 +88,51 @@
         var from_station = $('#from_station');
         //目的地
         var to_station = $('#to_station');
+        var chooseCity = $('.chooseCity');
+        var suggestions = $('.suggestions');
         var getTrainDate = function(param,cb){
-            global.getData('/api/getTrainDate',param,cb);
+            global.getData('/api/getTNTrainDate',param,cb);
+        };
+        var hasCity = function(str){
+            for(var i = 0; i < station.length; i++){
+                if (station[i].cityName == str) {
+                    return true;
+                }
+            }
+            return false;
+        };
+        var matchCity = function(str){
+            var length = str.length;
+            var cities = [];
+            str = str.toLowerCase();
+            if (length == 0) {
+                return [];
+            }
+            for(var i = 0; i< station.length; i++){
+                var city = {};
+                var citypinyin = station[i].pinyin.toLowerCase().replace(/\s+/g,"");
+                city.cityName = station[i].cityName;
+                city.cityEnglishName = station[i].pinyin;
+                if (str == city.cityName.substring(0,length) || str == citypinyin.substring(0,length)) {
+                    cities.push(city);
+                }
+            }
+            return cities;
         };
         var updataTrainData =  function(){
             var train_body = $('#train-body');
             var no_ticket = $('#no-ticket');
-            var message = '';
             var index = layer.load(1);
             getTrainDate({
                 date: date.val(),
-                from_station: station_names[from_station.val()],
-                to_station : station_names[to_station.val()],
-                purpose_codes: $('input[name="purpose"]:checked').val()
+                from_station: from_station.val(),
+                to_station : to_station.val()
             },function(data){
-                console.log(data);
-                if (data.data) {
-                    if (data.data.length > 0) {
-                        $.each(data.data, function(index, item) {
-                            item.numlist = [item.queryLeftNewDTO.swz_num,item.queryLeftNewDTO.tz_num,item.queryLeftNewDTO.zy_num,item.queryLeftNewDTO.ze_num,item.queryLeftNewDTO.gr_num,item.queryLeftNewDTO.rw_num,item.queryLeftNewDTO.yw_num,item.queryLeftNewDTO.rz_num,item.queryLeftNewDTO.yz_num,item.queryLeftNewDTO.wz_num,item.queryLeftNewDTO.qt_num];
-                        });
-                        var compiled = template('traintemplate',data);
+                //console.log(data);
+                if (data.code == 200 && data.data) {
+                    if (data.data.list && data.data.list.length > 0) {
+                        var compiled = template('traintemplate',data.data);
                         no_ticket.css('display', 'none');
-                        //console.log(compiled);
                         train_body.html(compiled);
                     } else{
                         train_body.html('');
@@ -149,18 +140,9 @@
                         no_ticket.css('display', 'block');
                     }
                 } else {
-                    if (data.messages.length == 0) {
-                        train_body.html('');
-                        no_ticket.html('查询失败');
-                        no_ticket.css('display', 'block');
-                    } else{
-                        for(var i = 0; i<data.messages.length; i++){
-                            message += data.messages[i] + '<br>';
-                        }
-                        train_body.html('');
-                        no_ticket.html(message);
-                        no_ticket.css('display', 'block');
-                    }  
+                    train_body.html('');
+                    no_ticket.html('查询失败');
+                    no_ticket.css('display', 'block'); 
                 }
                 layer.close(index);
             });
@@ -170,7 +152,7 @@
                 from_station.addClass('warning');
                 return false;
             }
-            if (typeof station_names[from_station.val()] == 'undefined') {
+            if (!hasCity(from_station.val())) {
                 from_station.addClass('warning');
                 from_station.val('无法匹配');
                 return false;
@@ -179,7 +161,7 @@
                 to_station.addClass('warning');
                 return false;
             }
-            if (typeof station_names[to_station.val()] == 'undefined') {
+            if (!hasCity(to_station.val())) {
                 to_station.addClass('warning');
                 to_station.val('无法匹配');
                 return false;
@@ -191,16 +173,6 @@
             return true;
         }
         var init = function(){
-            var theader = $('#train-header');
-            var win = $(window);
-            var top = theader.offset().top;
-            win.on('scroll', function(event) {
-                if (win.scrollTop() > top) {
-                    theader.css('position', 'fixed');
-                } else{
-                    theader.css('position', 'relative');
-                }
-            });
             $('#queryDbtn').on('click', function(event) {
                 event.preventDefault();
                 if (verification()) {
@@ -218,6 +190,30 @@
                     from_station.val(to_val);
                     to_station.val(from_val);
                 }
+            });
+            suggestions.on('click', '.sugopt', function(event) {
+                var that = $(this);
+                var city = that.attr('data-name');
+                that.parent().prev().val(city);
+            });
+            chooseCity.on('keyup', function(event) {
+                var that = $(this);
+                var cityList = that.next();
+                var cities = matchCity(that.val());
+                if (cities.length > 0) {
+                    var data = {list:cities};
+                    var compiled = template('showList',data);
+                    cityList.html(compiled);
+                    cityList.css('display', 'block');
+                } else{
+                    cityList.css('display', 'none');
+                }
+            });
+            chooseCity.on('blur',  function(event) {
+                var cityList = $(this).next();
+                setTimeout(function(){
+                    cityList.css('display', 'none');
+                },300);
             });
         }
         init();

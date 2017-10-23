@@ -9,37 +9,52 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/global.css">
     <script src="/javascripts/jquery-1.11.1.min.js"></script>
     <script src="/javascripts/jquery.date_input.pack.js"></script>
-    <script src="/javascripts/station.js"></script>
+    <script src="/javascripts/jquery.pseudo.js"></script>
     <script src="/javascripts/layer/layer.js"></script>
   </head>
   <body>
+    <!--[if lt IE 8]>
+　　<div class="version">
+        您的浏览器版本过低，部分页面无法正常显示，请联系管理员进行版本升级！
+    </div>
+　　<![endif]-->
     <div class="all-container">
-            
-            <div class="header">
-                <div class="cf-logo fL">
-                    <img src="/images/icon1.png" alt="">
-                </div>
-                <div class="navbar fR">
-                    <div class="account fR">
-                        <span>用户名</span>
-                        <span>退出登录</span>
+           <% switch(page){ case 'index' :%>
+                <div class="header" style="height:650px;background-image:url(/images/banner.jpg);">
+            <%break; case 'train' :%>
+               <div class="header" style="background-image:url(/images/train.jpg);">
+            <%break; case 'flight' :%>
+                <div class="header" style="background-image:url(/images/q3.jpg);">
+            <%break; case 'phone' :%>
+                <div class="header" style="background-image:url(/images/phone.jpg);">
+            <%break;}%>
+                    <h2 class="headerH">DETC PORTAL SITE</h2>
+                    <div class="navbar clearfix">
+                       <ul>
+                            <li><a href="/" title="" id="index">首页</a></li>
+                            <li><button type="button" id="weabtn">天气预报</button></li>
+                            <li><a href="/train" title="" id="train">火车票查询</a></li>
+                            <li><a href="/flight" title="" id="flight">飞机票查询</a></li>
+                            <li><a href="http://172.29.2.26:8080/cas/logout?service=http://172.29.2.26:8080/cas/login">注销</a></li>
+                            <!-- <li><a href="/phone" title="" id="phone">通讯录</a></li> -->
+                        </ul> 
                     </div>
                 </div>
-                <h1>一重集团大连工程技术有限公司统一门户系统</h1>
-            </div>
-            <% if( typeof banner != 'undefined'){%>
-            <div>
-                <img src="/images/2032.jpg" alt="" style="width:100%;">
-            </div>
-            <%}%>
-            <div class="toolbar">
-                <ul class="clearfix">
-                    <li class="t-opt"><a class="t-item" href="/">首页</a></li>
-                    <li class="t-opt"><button type="button" id="weabtn" class="t-item">天气预报</button></li>
-                    <li class="t-opt"><a class="t-item" href="/train">火车票查询</a></li>
-                    <li class="t-opt"><a class="t-item" href="/flight">飞机票查询</a></li>
-                    <li class="t-opt"><a class="t-item" href="/phone">通讯录</a></li>
-                    <li class="t-opt"><button class="t-item">功能功能</button></li>
-                </ul>
-            </div>
+            <script>
+                (function(){
+                    var page = "<%=page%>";
+                    document.getElementById(page).setAttribute('class', 'active');
+
+                    function getCookie(name){  
+                        var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));  
+                        if(arr != null){  
+                            return unescape(arr[2]);   
+                        }else{  
+                            return null;  
+                        }  
+                    }  
+                    var uid = getCookie('uid');
+                    $('#index').attr('href', '/?uid=' + uid);
+                })();
+            </script>
             <div class="mid">

@@ -9,7 +9,7 @@ var zlib = require('zlib');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('train', { title: '火车票查询' });
+  res.render('train', { title: '火车票查询' ,'page' : 'train'});
 });
 
 // router.get('/login', function(req, res, next) {

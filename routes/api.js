@@ -12,14 +12,15 @@ router.get('/:method', function(req, res, next) {
     switch(req.params.method) {
         case 'getWeather':
             var city = encodeURIComponent(xss(req.query.city));
-            request('http://api.k780.com:88/?app=weather.future&weaid=' + city + '&appkey=22254&sign=391029e5f5eea956ff495fa50b38c5c1&format=json', function(error, response, body) {
+            request(config.server + '/api/getWeather?city=' + city, function(error, response, body) {
                 res.header('Content-type', 'application/json');
                 res.header('Charset', 'utf8');
                 try {
                     if(!error && response.statusCode == 200) {
                         //console.log(JSON.parse(body)); // Show the HTML for the Google homepage. 
-                        res.send(JSON.parse(body));
-                    }
+                        return res.send(JSON.parse(body));
+                    } 
+                    throw error;
                 } catch(e) {
                     res.send({
                         success: 0,
@@ -51,7 +52,7 @@ router.get('/:method', function(req, res, next) {
                     response.on('end',function(){
                         var buff = Buffer.concat(datas,size);
                         var result = iconv.decode(buff,'utf8');
-                        //console.log(result);
+                        console.log(result);
                         res.send(result);
                     });
                 }).on('error',function(e){
@@ -61,19 +62,65 @@ router.get('/:method', function(req, res, next) {
                     });
                 });
             break;
+            //途牛火车票接口
+        case 'getTNTrainDate':
+                var date = req.query.date,
+                    from_station = encodeURIComponent(req.query.from_station),
+                    to_station = encodeURIComponent(req.query.to_station);
+                request(config.server + '/api/getTNTrainDate?date=' + date + '&from_station=' + from_station + '&to_station=' + to_station,function(error,response,body){
+                    res.header('Content-type', 'application/json');
+                    res.header('Charset', 'utf8');
+                    try {
+                        if(!error && response.statusCode == 200) {
+                            //console.log(JSON.parse(body).data.list); // Show the HTML for the Google homepage. 
+                            return res.send(body);
+                        } 
+                        throw error;
+                    } catch(e) {
+                        console.log(e);
+                        res.send({
+                            code: 500,
+                            msg: '服务器异常'
+                        });
+                    }
+                });
+            break;
         //获取机票信息
+        // case 'getFlightData' :
+        //     var orgCityCode = req.query.orgCityCode,
+        //         dstCityCode = req.query.dstCityCode,
+        //         departureDate = req.query.date;
+        //         request('https://flight-api.tuniu.com/query/queryTickets/category?callback=&{orgCityCode:'+ orgCityCode +',dstCityCode:'+ dstCityCode +',departureDate:"'+ departureDate +'"}', function(error, response, body) {
+        //             res.header('Content-type', 'application/json');
+        //             res.header('Charset', 'utf8');
+        //             try {
+        //                 if(!error && response.statusCode == 200) {
+        //                     //console.log(JSON.parse(body)); // Show the HTML for the Google homepage. 
+        //                     return res.send(JSON.parse(body));
+        //                 } 
+        //                 throw error;
+        //             } catch(e) {
+        //                 console.log(e);
+        //                 res.send({
+        //                     success: false,
+        //                     msg: '服务器异常'
+        //                 });
+        //             }
+        //         });
+        //     break;
         case 'getFlightData' :
             var orgCityCode = req.query.orgCityCode,
                 dstCityCode = req.query.dstCityCode,
                 departureDate = req.query.date;
-                request('https://flight-api.tuniu.com/query/queryTickets/category?callback=&{orgCityCode:'+ orgCityCode +',dstCityCode:'+ dstCityCode +',departureDate:"'+ departureDate +'"}', function(error, response, body) {
+                request(config.server + '/api/getFlightData?orgCityCode=' + orgCityCode + '&dstCityCode=' + dstCityCode + '&date=' + departureDate, function(error, response, body) {
                     res.header('Content-type', 'application/json');
                     res.header('Charset', 'utf8');
                     try {
                         if(!error && response.statusCode == 200) {
                             //console.log(JSON.parse(body)); // Show the HTML for the Google homepage. 
-                            res.send(JSON.parse(body));
-                        }
+                            return res.send(JSON.parse(body));
+                        } 
+                        throw error;
                     } catch(e) {
                         console.log(e);
                         res.send({
@@ -89,14 +136,15 @@ router.get('/:method', function(req, res, next) {
                 url  = encodeURIComponent(req.query.url),
                 mark = encodeURIComponent(req.query.mark),
                 type = req.query.type;
-            request('http://172.29.2.25:8080/gw/addMyGw.action?user_id=' + userid +'&gw_URL='+ url +'&gw_mark=' + mark +'&gw_type=' + type,function(error,response,body){
+            request('http://172.29.2.26:8080/gw/addMyGw.action?user_id=' + userid +'&gw_URL='+ url +'&gw_mark=' + mark +'&gw_type=' + type,function(error,response,body){
                 res.header('Content-type', 'application/json');
                 res.header('Charset', 'utf8');
                 try{
                     if(!error && response.statusCode == 200) {
                         //console.log(JSON.parse(body)); // Show the HTML for the Google homepage. 
-                        res.send(JSON.parse(body));
-                    }
+                        return res.send(JSON.parse(body));
+                    } 
+                    throw error;
                 } catch(e){
                     res.send({
                         ret: 505
@@ -108,14 +156,15 @@ router.get('/:method', function(req, res, next) {
         case 'delMyGw' :
             var userid = req.query.userid,
                 gwid = req.query.gwid;
-            request('http://172.29.2.25:8080/gw/delMyGw.action?user_id=' + userid + '&id=' + gwid,function(error,response,body){
+            request('http://172.29.2.26:8080/gw/delMyGw.action?user_id=' + userid + '&id=' + gwid,function(error,response,body){
                 res.header('Content-type', 'application/json');
                 res.header('Charset', 'utf8');
                 try{
                     if(!error && response.statusCode == 200) {
                         //console.log(JSON.parse(body)); // Show the HTML for the Google homepage. 
-                        res.send(JSON.parse(body));
-                    }
+                        return res.send(JSON.parse(body));
+                    } 
+                    throw error;
                 } catch(e){
                     res.send({
                         ret: 505
@@ -130,14 +179,15 @@ router.get('/:method', function(req, res, next) {
                 mark = encodeURIComponent(req.query.mark),
                 type = req.query.type,
                 gwid = req.query.gwid;
-            request('http://172.29.2.25:8080/gw/updateMyGw.action?user_id=' + userid + '&id=' + gwid + '&gw_URL='+ url +'&gw_mark=' + mark +'&gw_type=' + type,function(error,response,body){
+            request('http://172.29.2.26:8080/gw/updateMyGw.action?user_id=' + userid + '&id=' + gwid + '&gw_URL='+ url +'&gw_mark=' + mark +'&gw_type=' + type,function(error,response,body){
                 res.header('Content-type', 'application/json');
                 res.header('Charset', 'utf8');
                 try{
                     if(!error && response.statusCode == 200) {
                         console.log(JSON.parse(body)); // Show the HTML for the Google homepage. 
-                        res.send(JSON.parse(body));
-                    }
+                        return res.send(JSON.parse(body));
+                    } 
+                    throw error;
                 } catch(e){
                     res.send({
                         ret: 505

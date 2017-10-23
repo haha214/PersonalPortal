@@ -14,8 +14,8 @@ var config = {
             db: 'pp',
             host: 'localhost',
             port: 27017
-        }
-        // server: 'http://dev.wuanlife.com:800/'
+        },
+        server: 'http://172.29.71.137:3001'
     },
 
     test: {
@@ -39,8 +39,8 @@ var config = {
             db: 'wuanDB',
             host: 'localhost',
             port: 27017
-        }
-        // server: 'http://dev.wuanlife.com:800/',
+        },
+        server: 'http://172.29.71.137:3001'
     }
 };
 
