@@ -1,21 +1,21 @@
-<%- include base/header.ejs %>
+﻿<%- include base/header.ejs %>
                 <div class="main">
                     <div class="index">
                         <div class="ourMod clearfix">
                             <div class="mod">
-                                <a href="http://172.29.2.25:8080/pm/login.action"  class="clearfix" target="_blank">
+                                <a href="http://172.29.2.26:8080/pm/login.action"  class="clearfix" target="_blank">
                                     <span class="iconfont icon">&#xe799;</span>
                                     <h4>项目管理系统</h4> 
                                 </a>
                             </div>
                             <div class="mod">
-                                <a href="http://172.29.2.25:8080/tm/login.action"  class="clearfix" target="_blank">
+                                <a href="http://172.29.2.26:8080/tm/login.action"  class="clearfix" target="_blank">
                                     <span class="iconfont icon">&#xe824;</span>
                                     <h4>翻译管理平台</h4> 
                                 </a>
                             </div>
                             <div class="mod">
-                                <a href="http://172.29.2.25:8080/hr/login.action"  class="clearfix" target="_blank">
+                                <a href="http://172.29.2.26:8080/hr"  class="clearfix" target="_blank">
                                     <span class="iconfont icon">&#xe74a;</span>
                                     <h4>人力资源系统</h4> 
                                 </a>
@@ -27,17 +27,51 @@
                                 </a>
                             </div>
                             <div class="mod">
-                                <a href="http://172.29.2.101:8080/checkDrawings/login.jsp" target="_blank" class="clearfix">
-                                    <span class="iconfont icon">&#xe832;</span>
-                                    <h4>图纸审核平台</h4> 
+                                <a href="http://172.29.2.26:8080/jh/tpm/queryMonthTPMR.action"  class="clearfix">
+                                    <span class="iconfont icon">&#xe666;</span>
+                                    <h4>项目计划管理</h4> 
                                 </a>
                             </div>
+                            <div class="mod">
+                                <a href="http://172.29.36.145:3000/"  class="clearfix" target="_blank">
+                                    <span class="iconfont icon" style="color:#ff5722;">&#xe921;</span>
+                                    <h4>专业知识与情报平台</h4> 
+                                </a>
+                            </div>
+                            
                             <div class="mod">
                                 <a href="http://172.29.2.2/jobnum/" target="_blank" class="clearfix">
                                     <span class="iconfont icon">&#xe60e;</span>
                                     <h4>产品号登录系统</h4> 
                                 </a>
                             </div>
+                            <div class="mod">
+                                <a href="http://172.29.2.101:8080/cd/login.jsp" target="_blank" class="clearfix">
+                                    <span class="iconfont icon">&#xe832;</span>
+                                    <h4>图纸审核平台</h4> 
+                                </a>
+                            </div>
+                            <div class="mod">
+                                <% if (sides == 0) { %>
+                                <a href="http://172.29.2.18/kns55/" target="_blank" class="clearfix">
+                                <% } else { %>
+                                <a href="http://172.29.71.98/kns55/" target="_blank" class="clearfix">
+                                <% } %>
+                                    <span class="iconfont icon">&#xe62d;</span>
+                                    <h4>CNKI知识网络服务平台</h4> 
+                                </a>
+                            </div>
+                             <div class="mod">
+                                <% if (sides == 0) { %>
+                                <a href="http://172.29.2.18/hyindex/cmmt/index.html" target="_blank" class="clearfix">
+                                <% } else { %>
+                                <a href="http://172.29.71.98/hyindex/cmmt/index.html" target="_blank" class="clearfix">
+                                <% } %>
+                                    <span class="iconfont icon">&#xe62c;</span>
+                                    <h4>机械制造知识资源总库</h4> 
+                                </a>
+                            </div>
+                            
                             <div class="mod">
                                 <a href="http://172.29.2.2/kc/entry.aspx" target="_blank" class="clearfix">
                                     <span class="iconfont icon">&#xe635;</span>
@@ -50,7 +84,7 @@
                                 <div class="fullContent">
                                     <div class="fullimg">
                                         <img src="/images/4-1.jpg" alt="">
-                                    </div> 
+                                    </div>
                                     <div class="fullTitle">
                                         <h3>ABOUT US</h3>
                                     </div>
@@ -324,5 +358,26 @@
                     });
                 })();
             })();
+        </script>
+        <div class="advert">
+               <h2> <a href="http://172.29.36.145:3000/" title="">专业知识与情报平台</a><br>上线啦</h2>
+                <p class="ad-des">电子期刊在线预览<br>学术论文一键下载</p>
+                <p class="ad-link">
+                    点击模块可以直达网站
+                </p> 
+                <a class="ad-content" href="http://172.29.36.145:3000/" style="z-index:1;"></a>
+            <!-- <div class="ad-items">
+                <a href="" title="" class="text-ellipsis">现代化生产线建设项目（更新）</a>
+                <a href="" title="" class="text-ellipsis">工业地产四期标准厂房建设项目（PPP）（更新）</a>
+                <a href="" title="" class="text-ellipsis">高性能惯导产品及精密导航仪器生产线建设项目</a>
+            </div> -->
+            <button class="close-btn">关闭通知</button>
+        </div>
+        <script>
+            (function(){
+                $('.close-btn').on('click',  function(event) {
+                    $('.advert').css('display', 'none');
+                });
+            })()
         </script>
 <%- include base/footer.ejs %>

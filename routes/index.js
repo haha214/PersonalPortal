@@ -10,7 +10,15 @@ router.get('/', function(req, res, next) {
         uid = req.query.uid;
     if (!userid) return next();
     userid = new Buffer(userid,'base64').toString();
-    //console.log(userid);
+    /*console.log(req.connection.remoteAddress);*/
+    var ip = req.connection.remoteAddress;
+    var segment = ip.split(".")[2];
+    var side ;
+    if (segment <= 95 && segment >= 64) {
+        side = 1 //外网
+    } else{
+        side = 0; //内网
+    }
     request('http://172.29.2.26:8080/gw/findMyGw.action?user_id=' + userid,function(error,response,body){
         if (!error && response.statusCode == 200) {
             try{
@@ -28,7 +36,7 @@ router.get('/', function(req, res, next) {
                 });
                 //console.log(data);
                 res.setHeader('Set-Cookie','uid=' + uid );
-                res.render('index', { title: '个人门户' ,data: data,page: 'index',userid: userid});
+                res.render('index', { title: '个人门户' ,data: data,page: 'index',userid: userid,sides: side});
             } catch(e){
                 next(e);
             }
