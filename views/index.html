@@ -1,0 +1,276 @@
+<%- include base/header.ejs %>
+                <div class="main">
+                    <div class="personSym">
+                    <h2>[ 接入系统 ]</h2>
+                    <div class="row pubsyms">
+                        <div class="col-w-3">
+                            <div class="persym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-factory"></span>
+                                    <span class="symname">项目管理系统</spa4n>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-w-3">
+                            <div class="persym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-xingzhuang"></span>
+                                    <span class="symname">翻译管理系统</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="publicSym">
+                    <h2>公共系统</h2>
+                    <div class="row pubsyms">
+                        <div class="col-w-2">
+                            <div class="pubsym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-classify"></span>
+                                    <span class="symname">oa管理系统</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-w-2">
+                            <div class="pubsym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-xingzhuang4"></span>
+                                    <span class="symname">oa管理系统</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-w-2">
+                            <div class="pubsym">
+                                <a href="" title="" class="symSite">
+                                    <span class="iconfont icon-xingzhuang4"></span>
+                                    <span class="symname">oa管理系统</span>
+                                </a>
+                            </div>
+                        </div>
+                        <% data.pubsyms.forEach(function(item) { %>
+                        <!-- <div class="col-w-3">
+                            <div class="pubsym" data-id="<%=item.id%>">
+                                <a href="<%=item.gw_title%>" title="<%=item.gw_mark%>" class="symSite"><%=item.gw_mark%></a>
+                                <div class="mask">
+                                    <span class="glyphicon glyphicon-trash fR del"></span>
+                                    <span class="glyphicon glyphicon-pencil fR edit"></span>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col-w-2">
+                            <div class="pubsym" data-id="<%=item.id%>">
+                                <a href="<%=item.gw_title%>" title="<%=item.gw_mark%>" class="symSite">
+                                    <span class="iconfont icon-bookmark"></span>
+                                    <span class="symname"><%=item.gw_mark%></span>
+                                </a>
+                                <div class="operate">
+                                    <span class="glyphicon glyphicon-trash del"></span>
+                                    <span class="glyphicon glyphicon-pencil edit"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <% }); %>
+                        <div class="col-w-2 addSite">
+                            <div class="pubsym">
+                                <div class="symSite">
+                                    <span class="iconfont icon-add" style="cursor: pointer;"></span>
+                                    <span class="symname">添加</span>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+<%- include base/base.ejs %>
+        <script type="text/html" id="sitetemplate">
+           {{each site as item i}}
+           <div class="col-w-2">
+                <div class="{{item.parent}}" data-id="{{item.id}}">
+                    <a href="{{item.url}}" title="{{item.text}}" class="symSite">
+                        <span class="iconfont icon-bookmark"></span>
+                        <span class="symname">{{item.text}}</span>
+                    </a>
+                    <div class="operate">
+                        <span class="glyphicon glyphicon-trash del"></span>
+                        <span class="glyphicon glyphicon-pencil edit"></span>
+                    </div>
+                </div>
+            </div>
+           {{/each}}
+        </script>
+        <script>
+            (function(){
+                //系统模块操作
+                (function(){
+                    //添加模块请求
+                    var addGW = function(param,cb){
+                        global.getData('/api/addMyGw',param,cb);
+                    };
+                    //编辑模块请求
+                    var editGW = function(param,cb){
+                        global.getData('/api/editMyGw',param,cb);
+                    }
+                    //删除模块请求
+                    var delGW = function(param,cb){
+                        global.getData('/api/delMyGw',param,cb);
+                    }
+                    //编辑模块
+                    $('.pubsyms').on('click', '.edit', function(event) {
+                        var parentobj = $(this).parent().parent();
+                        var parent = parentobj.attr('class');
+                        var skin = '';
+                        var layerClass = '';
+                        var type = 0;
+                        var gwid = parentobj.attr('data-id');
+                        switch(parent){
+                            case 'persym':
+                                skin = 'layer-skin-persym';
+                                layerClass = 'layui-layer-perWebsite';
+                                type = 2;
+                                break;
+                            case 'pubsym':
+                                skin = 'layui-layer-molv';
+                                layerClass = 'layui-layer-pubWebsite';
+                                type = 1;
+                                break;
+                            default:
+                                console.log(parent);
+                                break;
+                        }
+                        var edA = parentobj.children('a');
+                        var text = edA.attr('title');
+                        var url = edA.attr('href');
+                        layer.open({
+                            title: '编辑网址',
+                            content: '<form method="get" class="'+ layerClass +'"><div class="form-group"><label for="siteName">标题：</label><input type="text" id="siteName" name="" value="'+ text +'" placeholder=""></div><div class="form-group"><label for="siteUrl">网址：</label><input type="text" id="siteUrl" name="" value="'+ url +'" placeholder=""></div><span class="errTip"></span></form>',
+                            btn: ['确定','取消'],
+                            skin: skin,
+                            yes: function(index, layero){
+                                var text = $('#siteName').val();
+                                var url = $('#siteUrl').val();
+                                if (text.length > 15) {
+                                    $('.errTip').text('网站名称不能超过15字符');
+                                    $('.errTip').css('visibility', 'visible');
+                                    return false;
+                                }
+                                if (text.length <1 || url.length <1) {
+                                    $('.errTip').text('请添加网站');
+                                    $('.errTip').css('visibility', 'visible');
+                                    return false;
+                                } 
+                                editGW({
+                                    userid: 310000,
+                                    url: url,
+                                    mark: text,
+                                    type: type,
+                                    gwid: gwid
+                                },function(data){
+                                    //console.log(data);
+                                    if (data && data.ret == 200) {
+                                        edA.children('.symname').text(text);
+                                        edA.attr({
+                                            href: url,
+                                            title: text
+                                        });
+                                        layer.close(index);
+                                    } else{
+                                        layer.close(index);
+                                        layer.alert('服务器异常', {icon: 2});
+                                    }
+                                });                              
+                            }
+                        });
+                    });
+                    //添加模块
+                    $('.pubsyms').on('click', '.icon-add', function(event) {
+                        var that = $(this);
+                        var parent = $(this).parent().parent().attr('class');
+                        var skin = '';
+                        var layerClass = '';
+                        var type = 0;
+                        switch(parent){
+                            case 'persym':
+                                skin = 'layer-skin-persym';
+                                layerClass = 'layui-layer-perWebsite';
+                                type = 2;
+                                break;
+                            case 'pubsym':
+                                skin = 'layui-layer-molv';
+                                layerClass = 'layui-layer-pubWebsite';
+                                type = 1;
+                                break;
+                            default:
+                                console.log(parent);
+                                break;
+                        }
+                        layer.open({
+                            title: '编辑网址',
+                            content: '<form method="get" class="'+ layerClass +'"><div class="form-group"><label for="siteName">标题：</label><input type="text" id="siteName" name="" value="" placeholder=""></div><div class="form-group"><label for="siteUrl">网址：</label><input type="text" id="siteUrl" name="" value="" placeholder=""></div><span class="errTip"></span></form>',
+                            btn: ['确定','取消'],
+                            skin: skin,
+                            yes: function(index, layero){
+                                var text = $('#siteName').val();
+                                var url = $('#siteUrl').val();
+                                if (text.length > 15) {
+                                    $('.errTip').text('网站名称不能超过15字符');
+                                    $('.errTip').css('visibility', 'visible');
+                                    return false;
+                                }
+                                if (text.length <1 || url.length <1) {
+                                    $('.errTip').text('请添加网站');
+                                    $('.errTip').css('visibility', 'visible');
+                                    return false;
+                                } 
+                                addGW({
+                                    userid : 310000,
+                                    url : url,
+                                    mark : text,
+                                    type : type
+                                },function(data){
+                                    //console.log(data);
+                                    if (data && data.ret == 200) {
+                                        var gw = {
+                                            site:[{
+                                                text: text,
+                                                url : url,
+                                                parent :parent,
+                                                id : data.id
+                                            }]
+                                        };
+                                        var compiled = template("sitetemplate", gw);
+                                        that.parents('.addSite').before(compiled);
+                                        layer.close(index);
+                                    }
+                                });
+                            }
+                        });
+                    });
+                    //删除模块
+                    $('.pubsyms').on('click', '.del', function(event) {
+                        var that = $(this);
+                        layer.confirm('确定删除该收藏？',{
+                            icon: 3,
+                            title: '提示',
+                            skin: 'layer-skin-delTip'
+                        },function(index){
+                            var gwid = that.parent().parent().attr('data-id');
+                            delGW({
+                                userid: 310000,
+                                gwid : gwid
+                            },function(data){
+                                //console.log(data);
+                                if (data && data.ret == 200) {
+                                    that.parents('.col-w-2').remove();
+                                    layer.close(index);
+                                } else{
+                                    layer.close(index);
+                                    layer.alert('服务器异常,删除失败', {icon: 2});
+                                }
+                            });
+                        });
+                    });
+                })();
+            })();
+        </script>
+<%- include base/footer.ejs %>

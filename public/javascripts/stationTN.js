@@ -1,0 +1,21109 @@
+var station = [{
+	"code": "30260",
+	"name": "\u671d\u9633\u5357",
+	"pinyin": "chao yang nan huo che zhan",
+	"cityCode": 1905,
+	"cityName": "\u671d\u9633\u5357"
+}, {
+	"code": "1175034",
+	"name": "\u4e00\u9762\u5761",
+	"pinyin": "yimianpo",
+	"cityCode": 1102,
+	"cityName": "\u4e00\u9762\u5761"
+}, {
+	"code": "1175035",
+	"name": "\u4e00\u9762\u5c71",
+	"pinyin": "yimianshan",
+	"cityCode": 1907,
+	"cityName": "\u4e00\u9762\u5c71"
+}, {
+	"code": "1175036",
+	"name": "\u4e03\u53f0\u6cb3",
+	"pinyin": "qitaihe",
+	"cityCode": 1112,
+	"cityName": "\u4e03\u53f0\u6cb3"
+}, {
+	"code": "1175037",
+	"name": "\u4e03\u7538",
+	"pinyin": "qidian",
+	"cityCode": 3302,
+	"cityName": "\u4e03\u7538"
+}, {
+	"code": "1175038",
+	"name": "\u4e07\u4e50",
+	"pinyin": "wanle",
+	"cityCode": 1102,
+	"cityName": "\u4e07\u4e50"
+}, {
+	"code": "1175039",
+	"name": "\u4e07\u5b81",
+	"pinyin": "wanning",
+	"cityCode": 908,
+	"cityName": "\u4e07\u5b81"
+}, {
+	"code": "1175040",
+	"name": "\u4e07\u5dde",
+	"pinyin": "wanzhou",
+	"cityCode": 300,
+	"cityName": "\u4e07\u5dde"
+}, {
+	"code": "1175041",
+	"name": "\u4e07\u5e74",
+	"pinyin": "wannian",
+	"cityCode": 1711,
+	"cityName": "\u4e07\u5e74"
+}, {
+	"code": "1175042",
+	"name": "\u4e07\u6c34\u6cc9",
+	"pinyin": "wanshuiquan",
+	"cityCode": 2104,
+	"cityName": "\u4e07\u6c34\u6cc9"
+}, {
+	"code": "1175043",
+	"name": "\u4e07\u6e90",
+	"pinyin": "wanyuan",
+	"cityCode": 2804,
+	"cityName": "\u4e07\u6e90"
+}, {
+	"code": "1175044",
+	"name": "\u4e09\u4e49\u4e95",
+	"pinyin": "sanyijing",
+	"cityCode": 2105,
+	"cityName": "\u4e09\u4e49\u4e95"
+}, {
+	"code": "1175045",
+	"name": "\u4e09\u4e9a",
+	"pinyin": "sanya",
+	"cityCode": 906,
+	"cityName": "\u4e09\u4e9a"
+}, {
+	"code": "1175046",
+	"name": "\u4e09\u5341\u4e09\u53f7",
+	"pinyin": "sanshisanhao",
+	"cityCode": 1810,
+	"cityName": "\u4e09\u5341\u4e09\u53f7"
+}, {
+	"code": "1175047",
+	"name": "\u4e09\u5341\u91cc\u5821",
+	"pinyin": "sanshilipu",
+	"cityCode": 1906,
+	"cityName": "\u4e09\u5341\u91cc\u5821"
+}, {
+	"code": "1175048",
+	"name": "\u4e09\u539f",
+	"pinyin": "sanyuan",
+	"cityCode": 2710,
+	"cityName": "\u4e09\u539f"
+}, {
+	"code": "1175050",
+	"name": "\u4e09\u576a",
+	"pinyin": "sanping",
+	"cityCode": 3102,
+	"cityName": "\u4e09\u576a"
+}, {
+	"code": "1175051",
+	"name": "\u4e09\u5802\u96c6",
+	"pinyin": "santangji",
+	"cityCode": 108,
+	"cityName": "\u4e09\u5802\u96c6"
+}, {
+	"code": "1175052",
+	"name": "\u4e09\u5806\u5b50",
+	"pinyin": "sanduizi",
+	"cityCode": 2820,
+	"cityName": "\u4e09\u5806\u5b50"
+}, {
+	"code": "1175053",
+	"name": "\u4e09\u5821",
+	"pinyin": "sanbao",
+	"cityCode": 200,
+	"cityName": "\u4e09\u5821"
+}, {
+	"code": "1175054",
+	"name": "\u4e09\u5bb6\u5e97",
+	"pinyin": "sanjiadian",
+	"cityCode": 200,
+	"cityName": "\u4e09\u5bb6\u5e97"
+}, {
+	"code": "1175055",
+	"name": "\u4e09\u660e",
+	"pinyin": "sanming",
+	"cityCode": 409,
+	"cityName": "\u4e09\u660e"
+}, {
+	"code": "1175056",
+	"name": "\u4e09\u6c34",
+	"pinyin": "sanshui",
+	"cityCode": 607,
+	"cityName": "\u4e09\u6c34"
+}, {
+	"code": "1175057",
+	"name": "\u4e09\u6c47\u9547",
+	"pinyin": "sanhuizhen",
+	"cityCode": 2804,
+	"cityName": "\u4e09\u6c47\u9547"
+}, {
+	"code": "1175058",
+	"name": "\u4e09\u6c5f\u53bf",
+	"pinyin": "sanjiangxian",
+	"cityCode": 709,
+	"cityName": "\u4e09\u6c5f\u53bf"
+}, {
+	"code": "1175059",
+	"name": "\u4e09\u6c5f\u53e3",
+	"pinyin": "sanjiangkou",
+	"cityCode": 1914,
+	"cityName": "\u4e09\u6c5f\u53e3"
+}, {
+	"code": "1175060",
+	"name": "\u4e09\u6c5f",
+	"pinyin": "sanjiang",
+	"cityCode": 300,
+	"cityName": "\u4e09\u6c5f"
+}, {
+	"code": "1175061",
+	"name": "\u4e09\u6cb3\u53bf",
+	"pinyin": "sanhexian",
+	"cityCode": 1010,
+	"cityName": "\u4e09\u6cb3\u53bf"
+}, {
+	"code": "1175062",
+	"name": "\u4e09\u6e90\u6d66",
+	"pinyin": "sanyuanpu",
+	"cityCode": 1811,
+	"cityName": "\u4e09\u6e90\u6d66"
+}, {
+	"code": "1175063",
+	"name": "\u4e09\u82b1\u77f3",
+	"pinyin": "sanhuashi",
+	"cityCode": 2705,
+	"cityName": "\u4e09\u82b1\u77f3"
+}, {
+	"code": "1175064",
+	"name": "\u4e09\u95e8\u53bf",
+	"pinyin": "sanmenxian",
+	"cityCode": 3424,
+	"cityName": "\u4e09\u95e8\u53bf"
+}, {
+	"code": "1175065",
+	"name": "\u4e09\u95e8\u5ce1\u5357",
+	"pinyin": "sanmenxianan",
+	"cityCode": 1214,
+	"cityName": "\u4e09\u95e8\u5ce1\u5357"
+}, {
+	"code": "1175066",
+	"name": "\u4e09\u95e8\u5ce1",
+	"pinyin": "sanmenxia",
+	"cityCode": 1214,
+	"cityName": "\u4e09\u95e8\u5ce1"
+}, {
+	"code": "1175067",
+	"name": "\u4e09\u95e8\u5ce1\u897f",
+	"pinyin": "sanmenxiaxi",
+	"cityCode": 1214,
+	"cityName": "\u4e09\u95e8\u5ce1\u897f"
+}, {
+	"code": "1175068",
+	"name": "\u4e09\u95f4\u623f",
+	"pinyin": "sanjianfang",
+	"cityCode": 1111,
+	"cityName": "\u4e09\u95f4\u623f"
+}, {
+	"code": "1175070",
+	"name": "\u4e0a\u56ed",
+	"pinyin": "shangyuan",
+	"cityCode": 1905,
+	"cityName": "\u4e0a\u56ed"
+}, {
+	"code": "1175071",
+	"name": "\u4e0a\u676d",
+	"pinyin": "shanghang",
+	"cityCode": 404,
+	"cityName": "\u4e0a\u676d"
+}, {
+	"code": "1175072",
+	"name": "\u4e0a\u677f\u57ce\u5357",
+	"pinyin": "shangbanchengnan",
+	"cityCode": 1006,
+	"cityName": "\u4e0a\u677f\u57ce\u5357"
+}, {
+	"code": "1175073",
+	"name": "\u4e0a\u677f\u57ce",
+	"pinyin": "shangbancheng",
+	"cityCode": 1006,
+	"cityName": "\u4e0a\u677f\u57ce"
+}, {
+	"code": "1175074",
+	"name": "\u4e0a\u6d77\u5357",
+	"pinyin": "shanghainan",
+	"cityCode": 2500,
+	"cityName": "\u4e0a\u6d77\u5357"
+}, {
+	"code": "1175075",
+	"name": "\u4e0a\u6d77",
+	"pinyin": "shanghai",
+	"cityCode": 2500,
+	"cityName": "\u4e0a\u6d77"
+}, {
+	"code": "1175076",
+	"name": "\u4e0a\u6d77\u8679\u6865",
+	"pinyin": "shanghaihongqiao",
+	"cityCode": 2500,
+	"cityName": "\u4e0a\u6d77\u8679\u6865"
+}, {
+	"code": "1175077",
+	"name": "\u4e0a\u6d77\u897f",
+	"pinyin": "shanghaixi",
+	"cityCode": 2500,
+	"cityName": "\u4e0a\u6d77\u897f"
+}, {
+	"code": "1175078",
+	"name": "\u4e0a\u8425",
+	"pinyin": "shangying",
+	"cityCode": 1808,
+	"cityName": "\u4e0a\u8425"
+}, {
+	"code": "1175079",
+	"name": "\u4e0a\u865e",
+	"pinyin": "shangyu",
+	"cityCode": 3422,
+	"cityName": "\u4e0a\u865e"
+}, {
+	"code": "1175080",
+	"name": "\u4e0a\u8c37",
+	"pinyin": "shanggu",
+	"cityCode": 1006,
+	"cityName": "\u4e0a\u8c37"
+}, {
+	"code": "1175081",
+	"name": "\u4e0a\u9976",
+	"pinyin": "shangrao",
+	"cityCode": 1711,
+	"cityName": "\u4e0a\u9976"
+}, {
+	"code": "1175082",
+	"name": "\u4e0b\u53f0\u5b50",
+	"pinyin": "xiataizi",
+	"cityCode": 1006,
+	"cityName": "\u4e0b\u53f0\u5b50"
+}, {
+	"code": "1175083",
+	"name": "\u4e0b\u57ce\u5b50",
+	"pinyin": "xiachengzi",
+	"cityCode": 1110,
+	"cityName": "\u4e0b\u57ce\u5b50"
+}, {
+	"code": "1175084",
+	"name": "\u4e0b\u5b89",
+	"pinyin": "xiaan",
+	"cityCode": 1002,
+	"cityName": "\u4e0b\u5b89"
+}, {
+	"code": "1175085",
+	"name": "\u4e0b\u666e\u96c4",
+	"pinyin": "xiapuxiong",
+	"cityCode": 2823,
+	"cityName": "\u4e0b\u666e\u96c4"
+}, {
+	"code": "1175086",
+	"name": "\u4e0b\u677f\u57ce",
+	"pinyin": "xiabancheng",
+	"cityCode": 1006,
+	"cityName": "\u4e0b\u677f\u57ce"
+}, {
+	"code": "1175087",
+	"name": "\u4e0b\u76d8\u77f3",
+	"pinyin": "xiapanshi",
+	"cityCode": 2611,
+	"cityName": "\u4e0b\u76d8\u77f3"
+}, {
+	"code": "1175088",
+	"name": "\u4e0b\u82b1\u56ed",
+	"pinyin": "xiahuayuan",
+	"cityCode": 1016,
+	"cityName": "\u4e0b\u82b1\u56ed"
+}, {
+	"code": "1175089",
+	"name": "\u4e19\u8c37",
+	"pinyin": "binggu",
+	"cityCode": 2820,
+	"cityName": "\u4e19\u8c37"
+}, {
+	"code": "1175090",
+	"name": "\u4e1c\u4e30",
+	"pinyin": "dongfeng",
+	"cityCode": 1806,
+	"cityName": "\u4e1c\u4e30"
+}, {
+	"code": "1175092",
+	"name": "\u4e1c\u4eac\u57ce",
+	"pinyin": "dongjingcheng",
+	"cityCode": 1110,
+	"cityName": "\u4e1c\u4eac\u57ce"
+}, {
+	"code": "1175093",
+	"name": "\u4e1c\u4f73\u6728\u65af",
+	"pinyin": "dongjiamusi",
+	"cityCode": 1108,
+	"cityName": "\u4e1c\u4f73\u6728\u65af"
+}, {
+	"code": "1175094",
+	"name": "\u4e1c\u5149",
+	"pinyin": "dongguang",
+	"cityCode": 1005,
+	"cityName": "\u4e1c\u5149"
+}, {
+	"code": "1175095",
+	"name": "\u4e1c\u5347",
+	"pinyin": "dongsheng",
+	"cityCode": 627,
+	"cityName": "\u4e1c\u5347"
+}, {
+	"code": "1175096",
+	"name": "\u4e1c\u53f0",
+	"pinyin": "dongtai",
+	"cityCode": 1621,
+	"cityName": "\u4e1c\u53f0"
+}, {
+	"code": "1175097",
+	"name": "\u4e1c\u575d",
+	"pinyin": "dongba",
+	"cityCode": 2810,
+	"cityName": "\u4e1c\u575d"
+}, {
+	"code": "1175098",
+	"name": "\u4e1c\u5b89",
+	"pinyin": "dongan",
+	"cityCode": 1513,
+	"cityName": "\u4e1c\u5b89"
+}, {
+	"code": "1175099",
+	"name": "\u4e1c\u5bab",
+	"pinyin": "donggong",
+	"cityCode": 2107,
+	"cityName": "\u4e1c\u5bab"
+}, {
+	"code": "1175100",
+	"name": "\u4e1c\u5bcc",
+	"pinyin": "dongfu",
+	"cityCode": 1808,
+	"cityName": "\u4e1c\u5bcc"
+}, {
+	"code": "1175101",
+	"name": "\u4e1c\u5c71",
+	"pinyin": "dongshan",
+	"cityCode": 1809,
+	"cityName": "\u4e1c\u5c71"
+}, {
+	"code": "1175102",
+	"name": "\u4e1c\u620c",
+	"pinyin": "dongxu",
+	"cityCode": 1008,
+	"cityName": "\u4e1c\u620c"
+}, {
+	"code": "1175103",
+	"name": "\u4e1c\u65b9\u7ea2",
+	"pinyin": "dongfanghong",
+	"cityCode": 1109,
+	"cityName": "\u4e1c\u65b9\u7ea2"
+}, {
+	"code": "1175104",
+	"name": "\u4e1c\u6765",
+	"pinyin": "donglai",
+	"cityCode": 2110,
+	"cityName": "\u4e1c\u6765"
+}, {
+	"code": "1175105",
+	"name": "\u4e1c\u6cb3\u5357",
+	"pinyin": "donghenan",
+	"cityCode": 2604,
+	"cityName": "\u4e1c\u6cb3\u5357"
+}, {
+	"code": "1175106",
+	"name": "\u4e1c\u6d77\u53bf",
+	"pinyin": "donghaixian",
+	"cityCode": 1610,
+	"cityName": "\u4e1c\u6d77\u53bf"
+}, {
+	"code": "1175107",
+	"name": "\u4e1c\u6de4\u5730",
+	"pinyin": "dongyudi",
+	"cityCode": 2610,
+	"cityName": "\u4e1c\u6de4\u5730"
+}, {
+	"code": "1175108",
+	"name": "\u4e1c\u81f3",
+	"pinyin": "dongzhi",
+	"cityCode": 109,
+	"cityName": "\u4e1c\u81f3"
+}, {
+	"code": "1175109",
+	"name": "\u4e1c\u839e\u4e1c",
+	"pinyin": "dongguandong",
+	"cityCode": 606,
+	"cityName": "\u4e1c\u839e\u4e1c"
+}, {
+	"code": "1175110",
+	"name": "\u4e1c\u839e",
+	"pinyin": "dongguan",
+	"cityCode": 606,
+	"cityName": "\u4e1c\u839e"
+}, {
+	"code": "1175111",
+	"name": "\u4e1c\u8425",
+	"pinyin": "dongying",
+	"cityCode": 2406,
+	"cityName": "\u4e1c\u8425"
+}, {
+	"code": "1175112",
+	"name": "\u4e1c\u8f9b\u5e84",
+	"pinyin": "dongxinzhuang",
+	"cityCode": 1910,
+	"cityName": "\u4e1c\u8f9b\u5e84"
+}, {
+	"code": "1175113",
+	"name": "\u4e1c\u8fb9\u4e95",
+	"pinyin": "dongbianjing",
+	"cityCode": 1114,
+	"cityName": "\u4e1c\u8fb9\u4e95"
+}, {
+	"code": "1175114",
+	"name": "\u4e1c\u901a\u5316",
+	"pinyin": "dongtonghua",
+	"cityCode": 1811,
+	"cityName": "\u4e1c\u901a\u5316"
+}, {
+	"code": "1175115",
+	"name": "\u4e1c\u9547",
+	"pinyin": "dongzhen",
+	"cityCode": 2613,
+	"cityName": "\u4e1c\u9547"
+}, {
+	"code": "1175116",
+	"name": "\u4e24\u5bb6",
+	"pinyin": "liangjia",
+	"cityCode": 1803,
+	"cityName": "\u4e24\u5bb6"
+}, {
+	"code": "1175117",
+	"name": "\u4e2d\u534e\u95e8",
+	"pinyin": "zhonghuamen",
+	"cityCode": 1602,
+	"cityName": "\u4e2d\u534e\u95e8"
+}, {
+	"code": "1175118",
+	"name": "\u4e2d\u536b",
+	"pinyin": "zhongwei",
+	"cityCode": 2206,
+	"cityName": "\u4e2d\u536b"
+}, {
+	"code": "1175119",
+	"name": "\u4e2d\u548c",
+	"pinyin": "zhonghe",
+	"cityCode": 1111,
+	"cityName": "\u4e2d\u548c"
+}, {
+	"code": "1175120",
+	"name": "\u4e2d\u5b81\u4e1c",
+	"pinyin": "zhongningdong",
+	"cityCode": 2206,
+	"cityName": "\u4e2d\u5b81\u4e1c"
+}, {
+	"code": "1175122",
+	"name": "\u4e2d\u5c71\u5317",
+	"pinyin": "zhongshanbei",
+	"cityCode": 627,
+	"cityName": "\u4e2d\u5c71\u5317"
+}, {
+	"code": "1175123",
+	"name": "\u4e2d\u5c71",
+	"pinyin": "zhongshan",
+	"cityCode": 627,
+	"cityName": "\u4e2d\u5c71"
+}, {
+	"code": "1175124",
+	"name": "\u4e30\u4e50\u9547",
+	"pinyin": "fenglezhen",
+	"cityCode": 1113,
+	"cityName": "\u4e30\u4e50\u9547"
+}, {
+	"code": "1175125",
+	"name": "\u4e30\u53f0",
+	"pinyin": "fengtai",
+	"cityCode": 200,
+	"cityName": "\u4e30\u53f0"
+}, {
+	"code": "1175126",
+	"name": "\u4e30\u53f0\u897f",
+	"pinyin": "fengtaixi",
+	"cityCode": 200,
+	"cityName": "\u4e30\u53f0\u897f"
+}, {
+	"code": "1175127",
+	"name": "\u4e30\u57ce\u5357",
+	"pinyin": "fengchengnan",
+	"cityCode": 1713,
+	"cityName": "\u4e30\u57ce\u5357"
+}, {
+	"code": "1175128",
+	"name": "\u4e30\u57ce",
+	"pinyin": "fengcheng",
+	"cityCode": 1713,
+	"cityName": "\u4e30\u57ce"
+}, {
+	"code": "1175129",
+	"name": "\u4e30\u5e93",
+	"pinyin": "fengku",
+	"cityCode": 1810,
+	"cityName": "\u4e30\u5e93"
+}, {
+	"code": "1175130",
+	"name": "\u4e30\u6c34\u6751",
+	"pinyin": "fengshuicun",
+	"cityCode": 502,
+	"cityName": "\u4e30\u6c34\u6751"
+}, {
+	"code": "1175131",
+	"name": "\u4e30\u9547",
+	"pinyin": "fengzhen",
+	"cityCode": 2108,
+	"cityName": "\u4e30\u9547"
+}, {
+	"code": "1175132",
+	"name": "\u4e30\u987a",
+	"pinyin": "fengshun",
+	"cityCode": 614,
+	"cityName": "\u4e30\u987a"
+}, {
+	"code": "1175133",
+	"name": "\u4e34\u6c34",
+	"pinyin": "linshui",
+	"cityCode": 1008,
+	"cityName": "\u4e34\u6c34"
+}, {
+	"code": "1175134",
+	"name": "\u4e34\u6c82\u5317",
+	"pinyin": "linyibei",
+	"cityCode": 2411,
+	"cityName": "\u4e34\u6c82\u5317"
+}, {
+	"code": "1175135",
+	"name": "\u4e34\u6c82",
+	"pinyin": "linyi",
+	"cityCode": 2411,
+	"cityName": "\u4e34\u6c82"
+}, {
+	"code": "1175136",
+	"name": "\u4e34\u6cb3",
+	"pinyin": "linhe",
+	"cityCode": 2109,
+	"cityName": "\u4e34\u6cb3"
+}, {
+	"code": "1175137",
+	"name": "\u4e34\u6cfd",
+	"pinyin": "linze",
+	"cityCode": 515,
+	"cityName": "\u4e34\u6cfd"
+}, {
+	"code": "1175138",
+	"name": "\u4e34\u6d3a\u5173",
+	"pinyin": "linmingguan",
+	"cityCode": 1008,
+	"cityName": "\u4e34\u6d3a\u5173"
+}, {
+	"code": "1175140",
+	"name": "\u4e34\u6e05",
+	"pinyin": "linqing",
+	"cityCode": 2410,
+	"cityName": "\u4e34\u6e05"
+}, {
+	"code": "1175141",
+	"name": "\u4e34\u6e58",
+	"pinyin": "linxiang",
+	"cityCode": 1512,
+	"cityName": "\u4e34\u6e58"
+}, {
+	"code": "1175143",
+	"name": "\u4e34\u897f",
+	"pinyin": "linxi",
+	"cityCode": 1015,
+	"cityName": "\u4e34\u897f"
+}, {
+	"code": "1175144",
+	"name": "\u4e39\u4e1c",
+	"pinyin": "dandong",
+	"cityCode": 1907,
+	"cityName": "\u4e39\u4e1c"
+}, {
+	"code": "1175145",
+	"name": "\u4e39\u51e4",
+	"pinyin": "danfeng",
+	"cityCode": 2707,
+	"cityName": "\u4e39\u51e4"
+}, {
+	"code": "1175146",
+	"name": "\u4e39\u9633\u5317",
+	"pinyin": "danyangbei",
+	"cityCode": 1626,
+	"cityName": "\u4e39\u9633\u5317"
+}, {
+	"code": "1175147",
+	"name": "\u4e39\u9633",
+	"pinyin": "danyang",
+	"cityCode": 1626,
+	"cityName": "\u4e39\u9633"
+}, {
+	"code": "1175148",
+	"name": "\u4e3d\u6c34",
+	"pinyin": "lishui",
+	"cityCode": 3414,
+	"cityName": "\u4e3d\u6c34"
+}, {
+	"code": "1175149",
+	"name": "\u4e3d\u6c5f",
+	"pinyin": "lijiang",
+	"cityCode": 3312,
+	"cityName": "\u4e3d\u6c5f"
+}, {
+	"code": "1175150",
+	"name": "\u4e45\u957f",
+	"pinyin": "jiuzhang",
+	"cityCode": 802,
+	"cityName": "\u4e45\u957f"
+}, {
+	"code": "1175151",
+	"name": "\u4e49\u4e4c",
+	"pinyin": "yiwu",
+	"cityCode": 3411,
+	"cityName": "\u4e49\u4e4c"
+}, {
+	"code": "1175152",
+	"name": "\u4e49\u53bf",
+	"pinyin": "yixian",
+	"cityCode": 1911,
+	"cityName": "\u4e49\u53bf"
+}, {
+	"code": "1175153",
+	"name": "\u4e49\u9a6c",
+	"pinyin": "yima",
+	"cityCode": 1214,
+	"cityName": "\u4e49\u9a6c"
+}, {
+	"code": "1175154",
+	"name": "\u4e4c\u5170\u4e2d",
+	"pinyin": "wulanzhong",
+	"cityCode": 2112,
+	"cityName": "\u4e4c\u5170\u4e2d"
+}, {
+	"code": "1175155",
+	"name": "\u4e4c\u5170\u6d69\u7279",
+	"pinyin": "wulanhaote",
+	"cityCode": 2112,
+	"cityName": "\u4e4c\u5170\u6d69\u7279"
+}, {
+	"code": "1175156",
+	"name": "\u4e4c\u5c14\u65d7\u6c57",
+	"pinyin": "wuerqihan",
+	"cityCode": 2107,
+	"cityName": "\u4e4c\u5c14\u65d7\u6c57"
+}, {
+	"code": "1175157",
+	"name": "\u4e4c\u62c9\u7279\u524d\u65d7",
+	"pinyin": "wulateqianqi",
+	"cityCode": 2109,
+	"cityName": "\u4e4c\u62c9\u7279\u524d\u65d7"
+}, {
+	"code": "1175158",
+	"name": "\u4e4c\u6d77",
+	"pinyin": "wuhai",
+	"cityCode": 2111,
+	"cityName": "\u4e4c\u6d77"
+}, {
+	"code": "1175159",
+	"name": "\u4e4c\u6d77\u897f",
+	"pinyin": "wuhaixi",
+	"cityCode": 2111,
+	"cityName": "\u4e4c\u6d77\u897f"
+}, {
+	"code": "1175160",
+	"name": "\u4e4c\u82cf",
+	"pinyin": "wusu",
+	"cityCode": 3117,
+	"cityName": "\u4e4c\u82cf"
+}, {
+	"code": "1175161",
+	"name": "\u4e4c\u897f",
+	"pinyin": "wuxi",
+	"cityCode": 3102,
+	"cityName": "\u4e4c\u897f"
+}, {
+	"code": "1175162",
+	"name": "\u4e4c\u9c81\u5e03\u94c1",
+	"pinyin": "wulubutie",
+	"cityCode": 2107,
+	"cityName": "\u4e4c\u9c81\u5e03\u94c1"
+}, {
+	"code": "1175163",
+	"name": "\u4e4c\u9c81\u6728\u9f50",
+	"pinyin": "wulumuqi",
+	"cityCode": 3102,
+	"cityName": "\u4e4c\u9c81\u6728\u9f50"
+}, {
+	"code": "1175164",
+	"name": "\u4e50\u571f\u9a7f",
+	"pinyin": "letuyi",
+	"cityCode": 3107,
+	"cityName": "\u4e50\u571f\u9a7f"
+}, {
+	"code": "1175165",
+	"name": "\u4e50\u5e73\u5e02",
+	"pinyin": "lepingshi",
+	"cityCode": 1706,
+	"cityName": "\u4e50\u5e73\u5e02"
+}, {
+	"code": "1175166",
+	"name": "\u4e50\u660c",
+	"pinyin": "lechang",
+	"cityCode": 618,
+	"cityName": "\u4e50\u660c"
+}, {
+	"code": "1175167",
+	"name": "\u4e50\u6e05",
+	"pinyin": "yueqing",
+	"cityCode": 3426,
+	"cityName": "\u4e50\u6e05"
+}, {
+	"code": "1175168",
+	"name": "\u4e50\u7d20\u6cb3",
+	"pinyin": "lesuhe",
+	"cityCode": 2705,
+	"cityName": "\u4e50\u7d20\u6cb3"
+}, {
+	"code": "1175169",
+	"name": "\u4e50\u90fd",
+	"pinyin": "ledu",
+	"cityCode": 2306,
+	"cityName": "\u4e50\u90fd"
+}, {
+	"code": "1175170",
+	"name": "\u4e5c\u5410\u7855",
+	"pinyin": "nietushuo",
+	"cityCode": 2110,
+	"cityName": "\u4e5c\u5410\u7855"
+}, {
+	"code": "1175171",
+	"name": "\u4e5d\u53f0",
+	"pinyin": "jiutai",
+	"cityCode": 1802,
+	"cityName": "\u4e5d\u53f0"
+}, {
+	"code": "1175172",
+	"name": "\u4e5d\u6c5f",
+	"pinyin": "jiujiang",
+	"cityCode": 1708,
+	"cityName": "\u4e5d\u6c5f"
+}, {
+	"code": "1175173",
+	"name": "\u4e5d\u9f99\u5c71",
+	"pinyin": "jiulongshan",
+	"cityCode": 1012,
+	"cityName": "\u4e5d\u9f99\u5c71"
+}, {
+	"code": "1175174",
+	"name": "\u4e73\u5c71",
+	"pinyin": "rushan",
+	"cityCode": 2418,
+	"cityName": "\u4e73\u5c71"
+}, {
+	"code": "1175175",
+	"name": "\u4e7e\u5b89",
+	"pinyin": "qianan",
+	"cityCode": 1810,
+	"cityName": "\u4e7e\u5b89"
+}, {
+	"code": "1175176",
+	"name": "\u4e8c\u5858",
+	"pinyin": "ertang",
+	"cityCode": 705,
+	"cityName": "\u4e8c\u5858"
+}, {
+	"code": "1175177",
+	"name": "\u4e8c\u5bc6\u6cb3",
+	"pinyin": "ermihe",
+	"cityCode": 1811,
+	"cityName": "\u4e8c\u5bc6\u6cb3"
+}, {
+	"code": "1175178",
+	"name": "\u4e8c\u8fde",
+	"pinyin": "erlian",
+	"cityCode": 2113,
+	"cityName": "\u4e8c\u8fde"
+}, {
+	"code": "1175179",
+	"name": "\u4e8c\u9053\u6e7e",
+	"pinyin": "erdaowan",
+	"cityCode": 1111,
+	"cityName": "\u4e8c\u9053\u6e7e"
+}, {
+	"code": "1175180",
+	"name": "\u4e8c\u90ce\u5e99",
+	"pinyin": "erlangmiao",
+	"cityCode": 2816,
+	"cityName": "\u4e8c\u90ce\u5e99"
+}, {
+	"code": "1175181",
+	"name": "\u4e8e\u5bb6\u5e84",
+	"pinyin": "yujiazhuang",
+	"cityCode": 1003,
+	"cityName": "\u4e8e\u5bb6\u5e84"
+}, {
+	"code": "1175182",
+	"name": "\u4e8e\u90fd",
+	"pinyin": "yudu",
+	"cityCode": 1704,
+	"cityName": "\u4e8e\u90fd"
+}, {
+	"code": "1175184",
+	"name": "\u4e91\u68a6",
+	"pinyin": "yunmeng",
+	"cityCode": 1417,
+	"cityName": "\u4e91\u68a6"
+}, {
+	"code": "1175185",
+	"name": "\u4e94\u4e94",
+	"pinyin": "wuwu",
+	"cityCode": 3112,
+	"cityName": "\u4e94\u4e94"
+}, {
+	"code": "1175186",
+	"name": "\u4e94\u51e4\u6eaa",
+	"pinyin": "wufengxi",
+	"cityCode": 2802,
+	"cityName": "\u4e94\u51e4\u6eaa"
+}, {
+	"code": "1175187",
+	"name": "\u4e94\u5341\u5bb6\u5b50",
+	"pinyin": "wushijiazi",
+	"cityCode": 2105,
+	"cityName": "\u4e94\u5341\u5bb6\u5b50"
+}, {
+	"code": "1175188",
+	"name": "\u4e94\u539f",
+	"pinyin": "wuyuan",
+	"cityCode": 2109,
+	"cityName": "\u4e94\u539f"
+}, {
+	"code": "1175189",
+	"name": "\u4e94\u53f0\u5c71",
+	"pinyin": "wutaishan",
+	"cityCode": 2610,
+	"cityName": "\u4e94\u53f0\u5c71"
+}, {
+	"code": "1175190",
+	"name": "\u4e94\u5927\u8fde\u6c60",
+	"pinyin": "wudalianchi",
+	"cityCode": 1107,
+	"cityName": "\u4e94\u5927\u8fde\u6c60"
+}, {
+	"code": "1175191",
+	"name": "\u4e94\u5bb6",
+	"pinyin": "wujia",
+	"cityCode": 1102,
+	"cityName": "\u4e94\u5bb6"
+}, {
+	"code": "1175193",
+	"name": "\u4e94\u5e38",
+	"pinyin": "wuchang",
+	"cityCode": 1102,
+	"cityName": "\u4e94\u5e38"
+}, {
+	"code": "1175194",
+	"name": "\u4e94\u6797",
+	"pinyin": "wulin",
+	"cityCode": 1110,
+	"cityName": "\u4e94\u6797"
+}, {
+	"code": "1175195",
+	"name": "\u4e94\u83b2",
+	"pinyin": "wulian",
+	"cityCode": 2415,
+	"cityName": "\u4e94\u83b2"
+}, {
+	"code": "1175196",
+	"name": "\u4e94\u9f99\u80cc",
+	"pinyin": "wulongbei",
+	"cityCode": 1907,
+	"cityName": "\u4e94\u9f99\u80cc"
+}, {
+	"code": "1175197",
+	"name": "\u4e95\u5188\u5c71",
+	"pinyin": "jinggangshan",
+	"cityCode": 1705,
+	"cityName": "\u4e95\u5188\u5c71"
+}, {
+	"code": "1175198",
+	"name": "\u4e95\u5357",
+	"pinyin": "jingnan",
+	"cityCode": 1002,
+	"cityName": "\u4e95\u5357"
+}, {
+	"code": "1175199",
+	"name": "\u4e95\u5e97",
+	"pinyin": "jingdian",
+	"cityCode": 1008,
+	"cityName": "\u4e95\u5e97"
+}, {
+	"code": "1175200",
+	"name": "\u4e95\u9649",
+	"pinyin": "jingxing",
+	"cityCode": 1002,
+	"cityName": "\u4e95\u9649"
+}, {
+	"code": "1175201",
+	"name": "\u4e9a\u590d",
+	"pinyin": "yafu",
+	"cityCode": 1808,
+	"cityName": "\u4e9a\u590d"
+}, {
+	"code": "1175202",
+	"name": "\u4e9a\u5e03\u529b",
+	"pinyin": "yabuli",
+	"cityCode": 1102,
+	"cityName": "\u4e9a\u5e03\u529b"
+}, {
+	"code": "1175203",
+	"name": "\u4e9a\u9f99\u6e7e",
+	"pinyin": "yalongwan",
+	"cityCode": 906,
+	"cityName": "\u4e9a\u9f99\u6e7e"
+}, {
+	"code": "1175204",
+	"name": "\u4ea4\u754c",
+	"pinyin": "jiaojie",
+	"cityCode": 1212,
+	"cityName": "\u4ea4\u754c"
+}, {
+	"code": "1175205",
+	"name": "\u4eac\u5c71",
+	"pinyin": "jingshan",
+	"cityCode": 1419,
+	"cityName": "\u4eac\u5c71"
+}, {
+	"code": "1175206",
+	"name": "\u4ead\u6797",
+	"pinyin": "tinglin",
+	"cityCode": 2500,
+	"cityName": "\u4ead\u6797"
+}, {
+	"code": "1175207",
+	"name": "\u4eb3\u5dde",
+	"pinyin": "bozhou",
+	"cityCode": 105,
+	"cityName": "\u4eb3\u5dde"
+}, {
+	"code": "1175208",
+	"name": "\u4ec0\u91cc\u5e97",
+	"pinyin": "shilidian",
+	"cityCode": 1008,
+	"cityName": "\u4ec0\u91cc\u5e97"
+}, {
+	"code": "1175209",
+	"name": "\u4ecb\u4f11",
+	"pinyin": "jiexiu",
+	"cityCode": 2612,
+	"cityName": "\u4ecb\u4f11"
+}, {
+	"code": "1175210",
+	"name": "\u4ed3\u5c71\u9547",
+	"pinyin": "cangshanzhen",
+	"cityCode": 2805,
+	"cityName": "\u4ed3\u5c71\u9547"
+}, {
+	"code": "1175211",
+	"name": "\u4ed9\u4eba\u6865",
+	"pinyin": "xianrenqiao",
+	"cityCode": 1804,
+	"cityName": "\u4ed9\u4eba\u6865"
+}, {
+	"code": "1175212",
+	"name": "\u4ed9\u6751",
+	"pinyin": "xiancun",
+	"cityCode": 602,
+	"cityName": "\u4ed9\u6751"
+}, {
+	"code": "1175213",
+	"name": "\u4ed9\u6797",
+	"pinyin": "xianlin",
+	"cityCode": 1602,
+	"cityName": "\u4ed9\u6797"
+}, {
+	"code": "1175215",
+	"name": "\u4ee3\u53bf",
+	"pinyin": "daixian",
+	"cityCode": 2610,
+	"cityName": "\u4ee3\u53bf"
+}, {
+	"code": "1175216",
+	"name": "\u4ee3\u6e7e",
+	"pinyin": "daiwan",
+	"cityCode": 2813,
+	"cityName": "\u4ee3\u6e7e"
+}, {
+	"code": "1175217",
+	"name": "\u4efb\u4e18",
+	"pinyin": "renqiu",
+	"cityCode": 1005,
+	"cityName": "\u4efb\u4e18"
+}, {
+	"code": "1175218",
+	"name": "\u4f0a\u56fe\u91cc\u6cb3",
+	"pinyin": "yitulihe",
+	"cityCode": 2107,
+	"cityName": "\u4f0a\u56fe\u91cc\u6cb3"
+}, {
+	"code": "1175219",
+	"name": "\u4f0a\u5b81",
+	"pinyin": "yining",
+	"cityCode": 3119,
+	"cityName": "\u4f0a\u5b81"
+}, {
+	"code": "1175220",
+	"name": "\u4f0a\u62c9\u54c8",
+	"pinyin": "yilaha",
+	"cityCode": 1107,
+	"cityName": "\u4f0a\u62c9\u54c8"
+}, {
+	"code": "1175221",
+	"name": "\u4f0a\u6625",
+	"pinyin": "yichun",
+	"cityCode": 1115,
+	"cityName": "\u4f0a\u6625"
+}, {
+	"code": "1175222",
+	"name": "\u4f0a\u6797",
+	"pinyin": "yilin",
+	"cityCode": 1110,
+	"cityName": "\u4f0a\u6797"
+}, {
+	"code": "1175223",
+	"name": "\u4f11\u5b81",
+	"pinyin": "xiuning",
+	"cityCode": 113,
+	"cityName": "\u4f11\u5b81"
+}, {
+	"code": "1175224",
+	"name": "\u4f1a\u540c",
+	"pinyin": "huitong",
+	"cityCode": 1506,
+	"cityName": "\u4f1a\u540c"
+}, {
+	"code": "1175225",
+	"name": "\u4f4e\u7a9d\u94fa",
+	"pinyin": "diwopu",
+	"cityCode": 508,
+	"cityName": "\u4f4e\u7a9d\u94fa"
+}, {
+	"code": "1175226",
+	"name": "\u4f59\u59da",
+	"pinyin": "yuyao",
+	"cityCode": 3415,
+	"cityName": "\u4f59\u59da"
+}, {
+	"code": "1175227",
+	"name": "\u4f59\u676d",
+	"pinyin": "yuhang",
+	"cityCode": 3402,
+	"cityName": "\u4f59\u676d"
+}, {
+	"code": "1175228",
+	"name": "\u4f59\u7cae\u5821",
+	"pinyin": "yuliangpu",
+	"cityCode": 2110,
+	"cityName": "\u4f59\u7cae\u5821"
+}, {
+	"code": "1175229",
+	"name": "\u4f5b\u5c71",
+	"pinyin": "foshan",
+	"cityCode": 607,
+	"cityName": "\u4f5b\u5c71"
+}, {
+	"code": "1175230",
+	"name": "\u4f5b\u5cad",
+	"pinyin": "biling",
+	"cityCode": 1112,
+	"cityName": "\u4f5b\u5cad"
+}, {
+	"code": "1175231",
+	"name": "\u4f73\u6728\u65af",
+	"pinyin": "jiamusi",
+	"cityCode": 1108,
+	"cityName": "\u4f73\u6728\u65af"
+}, {
+	"code": "1175232",
+	"name": "\u4f9d\u5b89",
+	"pinyin": "yian",
+	"cityCode": 1111,
+	"cityName": "\u4f9d\u5b89"
+}, {
+	"code": "1175233",
+	"name": "\u4faf\u6756\u5b50",
+	"pinyin": "houzhangzi",
+	"cityCode": 1905,
+	"cityName": "\u4faf\u6756\u5b50"
+}, {
+	"code": "1175234",
+	"name": "\u4faf\u9a6c",
+	"pinyin": "houma",
+	"cityCode": 2608,
+	"cityName": "\u4faf\u9a6c"
+}, {
+	"code": "1175235",
+	"name": "\u4fdd\u5b9a\u4e1c",
+	"pinyin": "baodingdong",
+	"cityCode": 1003,
+	"cityName": "\u4fdd\u5b9a\u4e1c"
+}, {
+	"code": "1175236",
+	"name": "\u4fdd\u5b9a",
+	"pinyin": "baoding",
+	"cityCode": 1003,
+	"cityName": "\u4fdd\u5b9a"
+}, {
+	"code": "1175237",
+	"name": "\u4fdd\u5b9a\u897f",
+	"pinyin": "baodingxi",
+	"cityCode": 1003,
+	"cityName": "\u4fdd\u5b9a\u897f"
+}, {
+	"code": "1175238",
+	"name": "\u4fdd\u5eb7",
+	"pinyin": "baokang",
+	"cityCode": 2110,
+	"cityName": "\u4fdd\u5eb7"
+}, {
+	"code": "1175239",
+	"name": "\u4fde\u51b2",
+	"pinyin": "yuchong",
+	"cityCode": 2826,
+	"cityName": "\u4fde\u51b2"
+}, {
+	"code": "1175240",
+	"name": "\u4fe1\u4e30",
+	"pinyin": "xinfeng",
+	"cityCode": 1704,
+	"cityName": "\u4fe1\u4e30"
+}, {
+	"code": "1175241",
+	"name": "\u4fe1\u9633\u4e1c",
+	"pinyin": "xinyangdong",
+	"cityCode": 1217,
+	"cityName": "\u4fe1\u9633\u4e1c"
+}, {
+	"code": "1175242",
+	"name": "\u4fe1\u9633",
+	"pinyin": "xinyang",
+	"cityCode": 1217,
+	"cityName": "\u4fe1\u9633"
+}, {
+	"code": "1175243",
+	"name": "\u502d\u80af",
+	"pinyin": "woken",
+	"cityCode": 1112,
+	"cityName": "\u502d\u80af"
+}, {
+	"code": "1175244",
+	"name": "\u5043\u5e08",
+	"pinyin": "yanshi",
+	"cityCode": 1210,
+	"cityName": "\u5043\u5e08"
+}, {
+	"code": "1175247",
+	"name": "\u5143\u5b9d\u5c71",
+	"pinyin": "yuanbaoshan",
+	"cityCode": 2105,
+	"cityName": "\u5143\u5b9d\u5c71"
+}, {
+	"code": "1175248",
+	"name": "\u5143\u6c0f",
+	"pinyin": "yuanshi",
+	"cityCode": 1002,
+	"cityName": "\u5143\u6c0f"
+}, {
+	"code": "1175249",
+	"name": "\u5143\u7530\u575d",
+	"pinyin": "yuantianba",
+	"cityCode": 811,
+	"cityName": "\u5143\u7530\u575d"
+}, {
+	"code": "1175250",
+	"name": "\u5143\u8c0b",
+	"pinyin": "yuanmou",
+	"cityCode": 3305,
+	"cityName": "\u5143\u8c0b"
+}, {
+	"code": "1175251",
+	"name": "\u5143\u9f99",
+	"pinyin": "yuanlong",
+	"cityCode": 511,
+	"cityName": "\u5143\u9f99"
+}, {
+	"code": "1175252",
+	"name": "\u5149\u660e\u57ce",
+	"pinyin": "guangmingcheng",
+	"cityCode": 619,
+	"cityName": "\u5149\u660e\u57ce"
+}, {
+	"code": "1175253",
+	"name": "\u5149\u6cfd",
+	"pinyin": "guangze",
+	"cityCode": 405,
+	"cityName": "\u5149\u6cfd"
+}, {
+	"code": "1175254",
+	"name": "\u514b\u4e1c",
+	"pinyin": "kedong",
+	"cityCode": 1111,
+	"cityName": "\u514b\u4e1c"
+}, {
+	"code": "1175255",
+	"name": "\u514b\u5229",
+	"pinyin": "keli",
+	"cityCode": 1111,
+	"cityName": "\u514b\u5229"
+}, {
+	"code": "1175256",
+	"name": "\u514b\u5c71",
+	"pinyin": "keshan",
+	"cityCode": 1111,
+	"cityName": "\u514b\u5c71"
+}, {
+	"code": "1175257",
+	"name": "\u514b\u62c9\u739b\u4f9d",
+	"pinyin": "kelamayi",
+	"cityCode": 3112,
+	"cityName": "\u514b\u62c9\u739b\u4f9d"
+}, {
+	"code": "1175258",
+	"name": "\u514d\u6e21\u6cb3",
+	"pinyin": "mianduhe",
+	"cityCode": 2107,
+	"cityName": "\u514d\u6e21\u6cb3"
+}, {
+	"code": "1175260",
+	"name": "\u5156\u5dde",
+	"pinyin": "yanzhou",
+	"cityCode": 2408,
+	"cityName": "\u5156\u5dde"
+}, {
+	"code": "1175261",
+	"name": "\u5168\u5dde",
+	"pinyin": "quanzhou",
+	"cityCode": 705,
+	"cityName": "\u5168\u5dde"
+}, {
+	"code": "1175262",
+	"name": "\u5168\u6912",
+	"pinyin": "quanjiao",
+	"cityCode": 107,
+	"cityName": "\u5168\u6912"
+}, {
+	"code": "1175263",
+	"name": "\u516b\u4ed9\u7b52",
+	"pinyin": "baxiantong",
+	"cityCode": 2110,
+	"cityName": "\u516b\u4ed9\u7b52"
+}, {
+	"code": "1175264",
+	"name": "\u516b\u5e99",
+	"pinyin": "bamiao",
+	"cityCode": 2804,
+	"cityName": "\u516b\u5e99"
+}, {
+	"code": "1175265",
+	"name": "\u516b\u65b9",
+	"pinyin": "bafang",
+	"cityCode": 1111,
+	"cityName": "\u516b\u65b9"
+}, {
+	"code": "1175266",
+	"name": "\u516b\u82cf\u6728",
+	"pinyin": "basumu",
+	"cityCode": 2108,
+	"cityName": "\u516b\u82cf\u6728"
+}, {
+	"code": "1175268",
+	"name": "\u516b\u9053\u58d5",
+	"pinyin": "badaohao",
+	"cityCode": 1911,
+	"cityName": "\u516b\u9053\u58d5"
+}, {
+	"code": "1175269",
+	"name": "\u516b\u90fd",
+	"pinyin": "badou",
+	"cityCode": 1705,
+	"cityName": "\u516b\u90fd"
+}, {
+	"code": "1175270",
+	"name": "\u516b\u9762\u57ce",
+	"pinyin": "bamiancheng",
+	"cityCode": 1914,
+	"cityName": "\u516b\u9762\u57ce"
+}, {
+	"code": "1175271",
+	"name": "\u516b\u9762\u901a",
+	"pinyin": "bamiantong",
+	"cityCode": 1110,
+	"cityName": "\u516b\u9762\u901a"
+}, {
+	"code": "1175272",
+	"name": "\u516c\u4e3b\u5cad\u5357",
+	"pinyin": "gongzhulingnan",
+	"cityCode": 1809,
+	"cityName": "\u516c\u4e3b\u5cad\u5357"
+}, {
+	"code": "1175273",
+	"name": "\u516c\u4e3b\u5cad",
+	"pinyin": "gongzhuling",
+	"cityCode": 1809,
+	"cityName": "\u516c\u4e3b\u5cad"
+}, {
+	"code": "1175274",
+	"name": "\u516c\u8425\u5b50",
+	"pinyin": "gongyingzi",
+	"cityCode": 1905,
+	"cityName": "\u516c\u8425\u5b50"
+}, {
+	"code": "1175275",
+	"name": "\u516d\u5b89",
+	"pinyin": "luan",
+	"cityCode": 115,
+	"cityName": "\u516d\u5b89"
+}, {
+	"code": "1175276",
+	"name": "\u516d\u679d",
+	"pinyin": "liuzhi",
+	"cityCode": 807,
+	"cityName": "\u516d\u679d"
+}, {
+	"code": "1175277",
+	"name": "\u516d\u76d8\u6c34",
+	"pinyin": "liupanshui",
+	"cityCode": 807,
+	"cityName": "\u516d\u76d8\u6c34"
+}, {
+	"code": "1175279",
+	"name": "\u5170\u5cad",
+	"pinyin": "lanling",
+	"cityCode": 1109,
+	"cityName": "\u5170\u5cad"
+}, {
+	"code": "1175280",
+	"name": "\u5170\u5dde\u4e1c",
+	"pinyin": "lanzhoudong",
+	"cityCode": 3202,
+	"cityName": "\u5170\u5dde\u4e1c"
+}, {
+	"code": "1175281",
+	"name": "\u5170\u5dde",
+	"pinyin": "lanzhou",
+	"cityCode": 3202,
+	"cityName": "\u5170\u5dde"
+}, {
+	"code": "1175283",
+	"name": "\u5170\u68f1",
+	"pinyin": "lanling",
+	"cityCode": 1102,
+	"cityName": "\u5170\u68f1"
+}, {
+	"code": "1175284",
+	"name": "\u5170\u8003",
+	"pinyin": "lankao",
+	"cityCode": 1208,
+	"cityName": "\u5170\u8003"
+}, {
+	"code": "1175285",
+	"name": "\u5171\u9752\u57ce",
+	"pinyin": "gongqingcheng",
+	"cityCode": 1708,
+	"cityName": "\u5171\u9752\u57ce"
+}, {
+	"code": "1175286",
+	"name": "\u5173\u6797",
+	"pinyin": "guanlin",
+	"cityCode": 1210,
+	"cityName": "\u5173\u6797"
+}, {
+	"code": "1175287",
+	"name": "\u5174\u4e1a",
+	"pinyin": "xingye",
+	"cityCode": 712,
+	"cityName": "\u5174\u4e1a"
+}, {
+	"code": "1175288",
+	"name": "\u5174\u4e49",
+	"pinyin": "xingyi",
+	"cityCode": 809,
+	"cityName": "\u5174\u4e49"
+}, {
+	"code": "1175290",
+	"name": "\u5174\u56fd",
+	"pinyin": "xingguo",
+	"cityCode": 1704,
+	"cityName": "\u5174\u56fd"
+}, {
+	"code": "1175291",
+	"name": "\u5174\u57ce",
+	"pinyin": "xingcheng",
+	"cityCode": 1910,
+	"cityName": "\u5174\u57ce"
+}, {
+	"code": "1175292",
+	"name": "\u5174\u5b81",
+	"pinyin": "xingning",
+	"cityCode": 614,
+	"cityName": "\u5174\u5b81"
+}, {
+	"code": "1175293",
+	"name": "\u5174\u5b89\u5cad",
+	"pinyin": "xinganling",
+	"cityCode": 2107,
+	"cityName": "\u5174\u5b89\u5cad"
+}, {
+	"code": "1175294",
+	"name": "\u5174\u5b89",
+	"pinyin": "xingan",
+	"cityCode": 705,
+	"cityName": "\u5174\u5b89"
+}, {
+	"code": "1175295",
+	"name": "\u5174\u5bff",
+	"pinyin": "xingshou",
+	"cityCode": 200,
+	"cityName": "\u5174\u5bff"
+}, {
+	"code": "1175296",
+	"name": "\u5174\u5e73",
+	"pinyin": "xingping",
+	"cityCode": 2710,
+	"cityName": "\u5174\u5e73"
+}, {
+	"code": "1175297",
+	"name": "\u5174\u9686\u53bf",
+	"pinyin": "xinglongxian",
+	"cityCode": 1006,
+	"cityName": "\u5174\u9686\u53bf"
+}, {
+	"code": "1175299",
+	"name": "\u5175\u9a6c\u8425",
+	"pinyin": "bingmaying",
+	"cityCode": 200,
+	"cityName": "\u5175\u9a6c\u8425"
+}, {
+	"code": "1175300",
+	"name": "\u517b\u9f99\u53f8",
+	"pinyin": "yanglongsi",
+	"cityCode": 802,
+	"cityName": "\u517b\u9f99\u53f8"
+}, {
+	"code": "1175301",
+	"name": "\u5185\u4e61",
+	"pinyin": "neixiang",
+	"cityCode": 1211,
+	"cityName": "\u5185\u4e61"
+}, {
+	"code": "1175302",
+	"name": "\u5185\u6c5f",
+	"pinyin": "neijiang",
+	"cityCode": 2819,
+	"cityName": "\u5185\u6c5f"
+}, {
+	"code": "1175303",
+	"name": "\u5195\u5b81",
+	"pinyin": "mianning",
+	"cityCode": 2823,
+	"cityName": "\u5195\u5b81"
+}, {
+	"code": "1175304",
+	"name": "\u5195\u5c71",
+	"pinyin": "mianshan",
+	"cityCode": 2823,
+	"cityName": "\u5195\u5c71"
+}, {
+	"code": "1175305",
+	"name": "\u519c\u5b89",
+	"pinyin": "nongan",
+	"cityCode": 1802,
+	"cityName": "\u519c\u5b89"
+}, {
+	"code": "1175306",
+	"name": "\u51a0\u8c78\u5c71",
+	"pinyin": "guanzhaishan",
+	"cityCode": 404,
+	"cityName": "\u51a0\u8c78\u5c71"
+}, {
+	"code": "1175307",
+	"name": "\u51af\u5c6f",
+	"pinyin": "fengtun",
+	"cityCode": 1111,
+	"cityName": "\u51af\u5c6f"
+}, {
+	"code": "1175308",
+	"name": "\u51cc\u5bb6\u573a",
+	"pinyin": "lingjiachang",
+	"cityCode": 2819,
+	"cityName": "\u51cc\u5bb6\u573a"
+}, {
+	"code": "1175309",
+	"name": "\u51cc\u6d77",
+	"pinyin": "linghai",
+	"cityCode": 1911,
+	"cityName": "\u51cc\u6d77"
+}, {
+	"code": "1175312",
+	"name": "\u51e4\u51f0\u57ce",
+	"pinyin": "fenghuangcheng",
+	"cityCode": 1907,
+	"cityName": "\u51e4\u51f0\u57ce"
+}, {
+	"code": "1175313",
+	"name": "\u51e4\u53bf",
+	"pinyin": "fengxian",
+	"cityCode": 2704,
+	"cityName": "\u51e4\u53bf"
+}, {
+	"code": "1175314",
+	"name": "\u51e4\u5dde",
+	"pinyin": "fengzhou",
+	"cityCode": 2704,
+	"cityName": "\u51e4\u5dde"
+}, {
+	"code": "1175315",
+	"name": "\u51e4\u9633",
+	"pinyin": "fengyang",
+	"cityCode": 107,
+	"cityName": "\u51e4\u9633"
+}, {
+	"code": "1175316",
+	"name": "\u51ed\u7965",
+	"pinyin": "pingxiang",
+	"cityCode": 715,
+	"cityName": "\u51ed\u7965"
+}, {
+	"code": "1175317",
+	"name": "\u51ef\u91cc",
+	"pinyin": "kaili",
+	"cityCode": 806,
+	"cityName": "\u51ef\u91cc"
+}, {
+	"code": "1175318",
+	"name": "\u5206\u5b9c",
+	"pinyin": "fenyi",
+	"cityCode": 1712,
+	"cityName": "\u5206\u5b9c"
+}, {
+	"code": "1175319",
+	"name": "\u5218\u5bb6\u6751",
+	"pinyin": "liujiacun",
+	"cityCode": 1906,
+	"cityName": "\u5218\u5bb6\u6751"
+}, {
+	"code": "1175320",
+	"name": "\u5218\u5bb6\u6cb3",
+	"pinyin": "liujiahe",
+	"cityCode": 1907,
+	"cityName": "\u5218\u5bb6\u6cb3"
+}, {
+	"code": "1175321",
+	"name": "\u5218\u5c6f",
+	"pinyin": "liutun",
+	"cityCode": 1910,
+	"cityName": "\u5218\u5c6f"
+}, {
+	"code": "1175322",
+	"name": "\u5229\u5ddd",
+	"pinyin": "lichuan",
+	"cityCode": 1403,
+	"cityName": "\u5229\u5ddd"
+}, {
+	"code": "1175323",
+	"name": "\u5230\u4fdd",
+	"pinyin": "daobao",
+	"cityCode": 1803,
+	"cityName": "\u5230\u4fdd"
+}, {
+	"code": "1175324",
+	"name": "\u524d\u5341\u5bb6",
+	"pinyin": "qianshijia",
+	"cityCode": 2110,
+	"cityName": "\u524d\u5341\u5bb6"
+}, {
+	"code": "1175325",
+	"name": "\u524d\u6cb3",
+	"pinyin": "qianhe",
+	"cityCode": 1808,
+	"cityName": "\u524d\u6cb3"
+}, {
+	"code": "1175326",
+	"name": "\u524d\u8fdb\u9547",
+	"pinyin": "qianjinzhen",
+	"cityCode": 1108,
+	"cityName": "\u524d\u8fdb\u9547"
+}, {
+	"code": "1175327",
+	"name": "\u52a0\u683c\u8fbe\u5947",
+	"pinyin": "jiagedaqi",
+	"cityCode": 1105,
+	"cityName": "\u52a0\u683c\u8fbe\u5947"
+}, {
+	"code": "1175328",
+	"name": "\u52b1\u5bb6",
+	"pinyin": "lijia",
+	"cityCode": 1911,
+	"cityName": "\u52b1\u5bb6"
+}, {
+	"code": "1175329",
+	"name": "\u52b2\u677e\u9547",
+	"pinyin": "jinsong",
+	"cityCode": 2107,
+	"cityName": "\u52b2\u677e\u9547"
+}, {
+	"code": "1175330",
+	"name": "\u52c3\u5229",
+	"pinyin": "boli",
+	"cityCode": 1112,
+	"cityName": "\u52c3\u5229"
+}, {
+	"code": "1175331",
+	"name": "\u52c9\u53bf",
+	"pinyin": "mianxian",
+	"cityCode": 2705,
+	"cityName": "\u52c9\u53bf"
+}, {
+	"code": "1175332",
+	"name": "\u52e4\u4e30\u8425",
+	"pinyin": "qinfengying",
+	"cityCode": 3305,
+	"cityName": "\u52e4\u4e30\u8425"
+}, {
+	"code": "1175333",
+	"name": "\u5305\u5934\u4e1c",
+	"pinyin": "baotoudong",
+	"cityCode": 2104,
+	"cityName": "\u5305\u5934\u4e1c"
+}, {
+	"code": "1175334",
+	"name": "\u5305\u5934",
+	"pinyin": "baotou",
+	"cityCode": 2104,
+	"cityName": "\u5305\u5934"
+}, {
+	"code": "1175335",
+	"name": "\u5305\u5934\u897f",
+	"pinyin": "baotouxi",
+	"cityCode": 2104,
+	"cityName": "\u5305\u5934\u897f"
+}, {
+	"code": "1175336",
+	"name": "\u5316\u5904",
+	"pinyin": "huachu",
+	"cityCode": 807,
+	"cityName": "\u5316\u5904"
+}, {
+	"code": "1175337",
+	"name": "\u5316\u5dde",
+	"pinyin": "huazhou",
+	"cityCode": 613,
+	"cityName": "\u5316\u5dde"
+}, {
+	"code": "1175338",
+	"name": "\u5316\u5fb7",
+	"pinyin": "huade",
+	"cityCode": 2108,
+	"cityName": "\u5316\u5fb7"
+}, {
+	"code": "1175340",
+	"name": "\u5317\u4eac\u5317",
+	"pinyin": "beijingbei",
+	"cityCode": 200,
+	"cityName": "\u5317\u4eac\u5317"
+}, {
+	"code": "1175341",
+	"name": "\u5317\u4eac\u5357",
+	"pinyin": "beijingnan",
+	"cityCode": 200,
+	"cityName": "\u5317\u4eac\u5357"
+}, {
+	"code": "1175342",
+	"name": "\u5317\u4eac",
+	"pinyin": "beijing",
+	"cityCode": 200,
+	"cityName": "\u5317\u4eac"
+}, {
+	"code": "1175343",
+	"name": "\u5317\u4eac\u897f",
+	"pinyin": "beijingxi",
+	"cityCode": 200,
+	"cityName": "\u5317\u4eac\u897f"
+}, {
+	"code": "1175344",
+	"name": "\u5317\u4ed3",
+	"pinyin": "beicang",
+	"cityCode": 3000,
+	"cityName": "\u5317\u4ed3"
+}, {
+	"code": "1175345",
+	"name": "\u5317\u5174\u5b89",
+	"pinyin": "beixingan",
+	"cityCode": 2112,
+	"cityName": "\u5317\u5174\u5b89"
+}, {
+	"code": "1175346",
+	"name": "\u5317\u53ec\u5e97",
+	"pinyin": "beizhaodian",
+	"cityCode": 1211,
+	"cityName": "\u5317\u53ec\u5e97"
+}, {
+	"code": "1175348",
+	"name": "\u5317\u5934\u6cb3",
+	"pinyin": "beitouhe",
+	"cityCode": 2107,
+	"cityName": "\u5317\u5934\u6cb3"
+}, {
+	"code": "1175349",
+	"name": "\u5317\u5b85",
+	"pinyin": "beizhai",
+	"cityCode": 200,
+	"cityName": "\u5317\u5b85"
+}, {
+	"code": "1175350",
+	"name": "\u5317\u5b89",
+	"pinyin": "beian",
+	"cityCode": 1107,
+	"cityName": "\u5317\u5b89"
+}, {
+	"code": "1175351",
+	"name": "\u5317\u5c6f\u5e02",
+	"pinyin": "beitunshi",
+	"cityCode": 3104,
+	"cityName": "\u5317\u5c6f\u5e02"
+}, {
+	"code": "1175352",
+	"name": "\u5317\u5c6f\u9547",
+	"pinyin": "beitunzhen",
+	"cityCode": 3104,
+	"cityName": "\u5317\u5c6f\u9547"
+}, {
+	"code": "1175354",
+	"name": "\u5317\u677f\u6865",
+	"pinyin": "beibanqiao",
+	"cityCode": 2606,
+	"cityName": "\u5317\u677f\u6865"
+}, {
+	"code": "1175355",
+	"name": "\u5317\u6d41",
+	"pinyin": "beiliu",
+	"cityCode": 712,
+	"cityName": "\u5317\u6d41"
+}, {
+	"code": "1175356",
+	"name": "\u5317\u7530\u53d7",
+	"pinyin": "beitianshou",
+	"cityCode": 2612,
+	"cityName": "\u5317\u7530\u53d7"
+}, {
+	"code": "1175357",
+	"name": "\u5317\u789a",
+	"pinyin": "beibei",
+	"cityCode": 300,
+	"cityName": "\u5317\u789a"
+}, {
+	"code": "1175358",
+	"name": "\u5317\u78f4",
+	"pinyin": "beideng",
+	"cityCode": 1905,
+	"cityName": "\u5317\u78f4"
+}, {
+	"code": "1175360",
+	"name": "\u5317\u9633",
+	"pinyin": "beiyang",
+	"cityCode": 2612,
+	"cityName": "\u5317\u9633"
+}, {
+	"code": "1175361",
+	"name": "\u5341\u4e09\u95f4\u623f",
+	"pinyin": "shisanjianfang",
+	"cityCode": 3109,
+	"cityName": "\u5341\u4e09\u95f4\u623f"
+}, {
+	"code": "1175362",
+	"name": "\u5341\u5830",
+	"pinyin": "shiyan",
+	"cityCode": 1410,
+	"cityName": "\u5341\u5830"
+}, {
+	"code": "1175364",
+	"name": "\u5343\u9633",
+	"pinyin": "qianyang",
+	"cityCode": 2704,
+	"cityName": "\u5343\u9633"
+}, {
+	"code": "1175365",
+	"name": "\u5348\u6c72",
+	"pinyin": "wuji",
+	"cityCode": 1008,
+	"cityName": "\u5348\u6c72"
+}, {
+	"code": "1175366",
+	"name": "\u534e\u5bb9",
+	"pinyin": "huarong",
+	"cityCode": 1404,
+	"cityName": "\u534e\u5bb9"
+}, {
+	"code": "1175367",
+	"name": "\u534e\u5c71\u5317",
+	"pinyin": "huashanbei",
+	"cityCode": 2706,
+	"cityName": "\u534e\u5c71\u5317"
+}, {
+	"code": "1175368",
+	"name": "\u534e\u5c71",
+	"pinyin": "huashan",
+	"cityCode": 2706,
+	"cityName": "\u534e\u5c71"
+}, {
+	"code": "1175369",
+	"name": "\u534e\u84e5",
+	"pinyin": "huaying",
+	"cityCode": 2809,
+	"cityName": "\u534e\u84e5"
+}, {
+	"code": "1175370",
+	"name": "\u5353\u5c71",
+	"pinyin": "zhuoshan",
+	"cityCode": 2107,
+	"cityName": "\u5353\u5c71"
+}, {
+	"code": "1175371",
+	"name": "\u5353\u8d44\u5c71",
+	"pinyin": "zhuozishan",
+	"cityCode": 2108,
+	"cityName": "\u5353\u8d44\u5c71"
+}, {
+	"code": "1175372",
+	"name": "\u5357\u4e39",
+	"pinyin": "nandan",
+	"cityCode": 707,
+	"cityName": "\u5357\u4e39"
+}, {
+	"code": "1175373",
+	"name": "\u5357\u4eac\u5357",
+	"pinyin": "nanjingnan",
+	"cityCode": 1602,
+	"cityName": "\u5357\u4eac\u5357"
+}, {
+	"code": "1175374",
+	"name": "\u5357\u4eac",
+	"pinyin": "nanjing",
+	"cityCode": 1602,
+	"cityName": "\u5357\u4eac"
+}, {
+	"code": "1175375",
+	"name": "\u5357\u4eac\u897f",
+	"pinyin": "nanjingxi",
+	"cityCode": 1602,
+	"cityName": "\u5357\u4eac\u897f"
+}, {
+	"code": "1175376",
+	"name": "\u5357\u5145",
+	"pinyin": "nanchong",
+	"cityCode": 2818,
+	"cityName": "\u5357\u5145"
+}, {
+	"code": "1175377",
+	"name": "\u5357\u5174\u5b89",
+	"pinyin": "nanxingan",
+	"cityCode": 2112,
+	"cityName": "\u5357\u5174\u5b89"
+}, {
+	"code": "1175378",
+	"name": "\u5357\u53e3",
+	"pinyin": "nankou",
+	"cityCode": 200,
+	"cityName": "\u5357\u53e3"
+}, {
+	"code": "1175379",
+	"name": "\u5357\u53ec",
+	"pinyin": "nanzhao",
+	"cityCode": 1211,
+	"cityName": "\u5357\u53ec"
+}, {
+	"code": "1175380",
+	"name": "\u5357\u5927\u5e99",
+	"pinyin": "nandamiao",
+	"cityCode": 1006,
+	"cityName": "\u5357\u5927\u5e99"
+}, {
+	"code": "1175382",
+	"name": "\u5357\u5b81",
+	"pinyin": "nanning",
+	"cityCode": 702,
+	"cityName": "\u5357\u5b81"
+}, {
+	"code": "1175384",
+	"name": "\u5357\u5c14\u5c97",
+	"pinyin": "nanergang",
+	"cityCode": 2823,
+	"cityName": "\u5357\u5c14\u5c97"
+}, {
+	"code": "1175385",
+	"name": "\u5357\u5c94",
+	"pinyin": "nancha",
+	"cityCode": 1115,
+	"cityName": "\u5357\u5c94"
+}, {
+	"code": "1175386",
+	"name": "\u5357\u5cb8\u575d",
+	"pinyin": "nananba",
+	"cityCode": 2825,
+	"cityName": "\u5357\u5cb8\u575d"
+}, {
+	"code": "1175387",
+	"name": "\u5357\u5e73\u5357",
+	"pinyin": "nanpingnan",
+	"cityCode": 405,
+	"cityName": "\u5357\u5e73\u5357"
+}, {
+	"code": "1175388",
+	"name": "\u5357\u5e73",
+	"pinyin": "nanping",
+	"cityCode": 405,
+	"cityName": "\u5357\u5e73"
+}, {
+	"code": "1175389",
+	"name": "\u5357\u660c",
+	"pinyin": "nanchang",
+	"cityCode": 1702,
+	"cityName": "\u5357\u660c"
+}, {
+	"code": "1175390",
+	"name": "\u5357\u6742\u6728",
+	"pinyin": "nanzamu",
+	"cityCode": 1908,
+	"cityName": "\u5357\u6742\u6728"
+}, {
+	"code": "1175392",
+	"name": "\u5357\u767d\u9547",
+	"pinyin": "nanbaizhen",
+	"cityCode": 811,
+	"cityName": "\u5357\u767d\u9547"
+}, {
+	"code": "1175393",
+	"name": "\u5357\u82ac",
+	"pinyin": "nanfen",
+	"cityCode": 1904,
+	"cityName": "\u5357\u82ac"
+}, {
+	"code": "1175395",
+	"name": "\u5357\u901a",
+	"pinyin": "nantong",
+	"cityCode": 1611,
+	"cityName": "\u5357\u901a"
+}, {
+	"code": "1175396",
+	"name": "\u5357\u9633",
+	"pinyin": "nanyang",
+	"cityCode": 1211,
+	"cityName": "\u5357\u9633"
+}, {
+	"code": "1175397",
+	"name": "\u535a\u514b\u56fe",
+	"pinyin": "boketu",
+	"cityCode": 2107,
+	"cityName": "\u535a\u514b\u56fe"
+}, {
+	"code": "1175398",
+	"name": "\u535a\u9ccc",
+	"pinyin": "boao",
+	"cityCode": 905,
+	"cityName": "\u535a\u9ccc"
+}, {
+	"code": "1175399",
+	"name": "\u5361\u4f26",
+	"pinyin": "kalun",
+	"cityCode": 1802,
+	"cityName": "\u5361\u4f26"
+}, {
+	"code": "1175400",
+	"name": "\u5362\u9f99",
+	"pinyin": "lulong",
+	"cityCode": 1012,
+	"cityName": "\u5362\u9f99"
+}, {
+	"code": "1175401",
+	"name": "\u5367\u91cc\u5c6f",
+	"pinyin": "wolitun",
+	"cityCode": 1104,
+	"cityName": "\u5367\u91cc\u5c6f"
+}, {
+	"code": "1175402",
+	"name": "\u536b\u4e1c",
+	"pinyin": "weidong",
+	"cityCode": 2112,
+	"cityName": "\u536b\u4e1c"
+}, {
+	"code": "1175403",
+	"name": "\u536b\u661f",
+	"pinyin": "weixing",
+	"cityCode": 1109,
+	"cityName": "\u536b\u661f"
+}, {
+	"code": "1175404",
+	"name": "\u536b\u8f89",
+	"pinyin": "weihui",
+	"cityCode": 1216,
+	"cityName": "\u536b\u8f89"
+}, {
+	"code": "1175405",
+	"name": "\u539f\u5e73",
+	"pinyin": "yuanping",
+	"cityCode": 2610,
+	"cityName": "\u539f\u5e73"
+}, {
+	"code": "1175406",
+	"name": "\u539f\u6797",
+	"pinyin": "yuanlin",
+	"cityCode": 2107,
+	"cityName": "\u539f\u6797"
+}, {
+	"code": "1175407",
+	"name": "\u53a6\u95e8\u5317",
+	"pinyin": "xiamenbei",
+	"cityCode": 414,
+	"cityName": "\u53a6\u95e8\u5317"
+}, {
+	"code": "1175409",
+	"name": "\u53a6\u95e8\u9ad8\u5d0e",
+	"pinyin": "xiamengaoqi",
+	"cityCode": 414,
+	"cityName": "\u53a6\u95e8\u9ad8\u5d0e"
+}, {
+	"code": "1175410",
+	"name": "\u53cb\u597d",
+	"pinyin": "youhao",
+	"cityCode": 1115,
+	"cityName": "\u53cb\u597d"
+}, {
+	"code": "1175411",
+	"name": "\u53cc\u4e30",
+	"pinyin": "shuangfeng",
+	"cityCode": 1115,
+	"cityName": "\u53cc\u4e30"
+}, {
+	"code": "1175412",
+	"name": "\u53cc\u57ce\u5317",
+	"pinyin": "shuangchengbei",
+	"cityCode": 1102,
+	"cityName": "\u53cc\u57ce\u5317"
+}, {
+	"code": "1175413",
+	"name": "\u53cc\u57ce\u5821",
+	"pinyin": "shuangchengpu",
+	"cityCode": 1102,
+	"cityName": "\u53cc\u57ce\u5821"
+}, {
+	"code": "1175414",
+	"name": "\u53cc\u6865",
+	"pinyin": "shuangqiao",
+	"cityCode": 200,
+	"cityName": "\u53cc\u6865"
+}, {
+	"code": "1175415",
+	"name": "\u53cc\u6cb3\u53e3",
+	"pinyin": "shuanghekou",
+	"cityCode": 2816,
+	"cityName": "\u53cc\u6cb3\u53e3"
+}, {
+	"code": "1175416",
+	"name": "\u53cc\u6d41",
+	"pinyin": "shuangliu",
+	"cityCode": 2802,
+	"cityName": "\u53cc\u6d41"
+}, {
+	"code": "1175417",
+	"name": "\u53cc\u724c",
+	"pinyin": "shuangpai",
+	"cityCode": 1513,
+	"cityName": "\u53cc\u724c"
+}, {
+	"code": "1175418",
+	"name": "\u53cc\u77f3\u6865",
+	"pinyin": "shuangshiqiao",
+	"cityCode": 300,
+	"cityName": "\u53cc\u77f3\u6865"
+}, {
+	"code": "1175419",
+	"name": "\u53cc\u9e2d\u5c71",
+	"pinyin": "shuangyashan",
+	"cityCode": 1113,
+	"cityName": "\u53cc\u9e2d\u5c71"
+}, {
+	"code": "1175420",
+	"name": "\u53cc\u9f99\u5c71",
+	"pinyin": "shuanglongshan",
+	"cityCode": 1108,
+	"cityName": "\u53cc\u9f99\u5c71"
+}, {
+	"code": "1175421",
+	"name": "\u53cc\u9f99",
+	"pinyin": "shuanglong",
+	"cityCode": 2804,
+	"cityName": "\u53cc\u9f99"
+}, {
+	"code": "1175422",
+	"name": "\u53d1\u8033",
+	"pinyin": "faer",
+	"cityCode": 807,
+	"cityName": "\u53d1\u8033"
+}, {
+	"code": "1175423",
+	"name": "\u53d6\u67f4\u6cb3",
+	"pinyin": "quchaihe",
+	"cityCode": 1808,
+	"cityName": "\u53d6\u67f4\u6cb3"
+}, {
+	"code": "1175424",
+	"name": "\u53e3\u524d",
+	"pinyin": "kouqian",
+	"cityCode": 1808,
+	"cityName": "\u53e3\u524d"
+}, {
+	"code": "1175425",
+	"name": "\u53e4\u4e08",
+	"pinyin": "guzhang",
+	"cityCode": 1507,
+	"cityName": "\u53e4\u4e08"
+}, {
+	"code": "1175426",
+	"name": "\u53e4\u4ea4",
+	"pinyin": "gujiao",
+	"cityCode": 2602,
+	"cityName": "\u53e4\u4ea4"
+}, {
+	"code": "1175427",
+	"name": "\u53e4\u57ce\u6e7e",
+	"pinyin": "guchengwan",
+	"cityCode": 2104,
+	"cityName": "\u53e4\u57ce\u6e7e"
+}, {
+	"code": "1175429",
+	"name": "\u53e4\u57ce\u9547",
+	"pinyin": "guchengzhen",
+	"cityCode": 1110,
+	"cityName": "\u53e4\u57ce\u9547"
+}, {
+	"code": "1175430",
+	"name": "\u53e4\u6d6a",
+	"pinyin": "gulang",
+	"cityCode": 513,
+	"cityName": "\u53e4\u6d6a"
+}, {
+	"code": "1175431",
+	"name": "\u53e4\u7530",
+	"pinyin": "gutian",
+	"cityCode": 406,
+	"cityName": "\u53e4\u7530"
+}, {
+	"code": "1175433",
+	"name": "\u53e4\u91cc\u91d1",
+	"pinyin": "gulijin",
+	"cityCode": 2107,
+	"cityName": "\u53e4\u91cc\u91d1"
+}, {
+	"code": "1175435",
+	"name": "\u53f0\u524d",
+	"pinyin": "taiqian",
+	"cityCode": 1213,
+	"cityName": "\u53f0\u524d"
+}, {
+	"code": "1175436",
+	"name": "\u53f0\u5b89",
+	"pinyin": "taian",
+	"cityCode": 1903,
+	"cityName": "\u53f0\u5b89"
+}, {
+	"code": "1175437",
+	"name": "\u53f0\u5dde",
+	"pinyin": "taizhou",
+	"cityCode": 3424,
+	"cityName": "\u53f0\u5dde"
+}, {
+	"code": "1175438",
+	"name": "\u53f6\u57ce",
+	"pinyin": "yecheng",
+	"cityCode": 3111,
+	"cityName": "\u53f6\u57ce"
+}, {
+	"code": "1175439",
+	"name": "\u53f6\u67cf\u5bff",
+	"pinyin": "yebaishou",
+	"cityCode": 1905,
+	"cityName": "\u53f6\u67cf\u5bff"
+}, {
+	"code": "1175440",
+	"name": "\u53f6\u69ad",
+	"pinyin": "yexie",
+	"cityCode": 2500,
+	"cityName": "\u53f6\u69ad"
+}, {
+	"code": "1175441",
+	"name": "\u53f6\u8302",
+	"pinyin": "yemao",
+	"cityCode": 707,
+	"cityName": "\u53f6\u8302"
+}, {
+	"code": "1175442",
+	"name": "\u5408\u5ddd",
+	"pinyin": "hechuan",
+	"cityCode": 300,
+	"cityName": "\u5408\u5ddd"
+}, {
+	"code": "1175443",
+	"name": "\u5408\u80a5\u5317\u57ce",
+	"pinyin": "hefeibeicheng",
+	"cityCode": 102,
+	"cityName": "\u5408\u80a5\u5317\u57ce"
+}, {
+	"code": "1175444",
+	"name": "\u5408\u80a5",
+	"pinyin": "hefei",
+	"cityCode": 102,
+	"cityName": "\u5408\u80a5"
+}, {
+	"code": "1175446",
+	"name": "\u5409\u5b89",
+	"pinyin": "jian",
+	"cityCode": 1705,
+	"cityName": "\u5409\u5b89"
+}, {
+	"code": "1175447",
+	"name": "\u5409\u6587",
+	"pinyin": "jiwen",
+	"cityCode": 2107,
+	"cityName": "\u5409\u6587"
+}, {
+	"code": "1175448",
+	"name": "\u5409\u6797\u5317",
+	"pinyin": "jilinbei",
+	"cityCode": 1808,
+	"cityName": "\u5409\u6797\u5317"
+}, {
+	"code": "1175450",
+	"name": "\u5409\u6797\u897f",
+	"pinyin": "jilinxi",
+	"cityCode": 1808,
+	"cityName": "\u5409\u6797\u897f"
+}, {
+	"code": "1175452",
+	"name": "\u5409\u9996",
+	"pinyin": "jishou",
+	"cityCode": 1507,
+	"cityName": "\u5409\u9996"
+}, {
+	"code": "1175453",
+	"name": "\u540c\u5fc3",
+	"pinyin": "tongxin",
+	"cityCode": 2205,
+	"cityName": "\u540c\u5fc3"
+}, {
+	"code": "1175454",
+	"name": "\u540e\u575d",
+	"pinyin": "houba",
+	"cityCode": 2104,
+	"cityName": "\u540e\u575d"
+}, {
+	"code": "1175455",
+	"name": "\u5410\u9c81\u756a",
+	"pinyin": "tulufan",
+	"cityCode": 3118,
+	"cityName": "\u5410\u9c81\u756a"
+}, {
+	"code": "1175456",
+	"name": "\u5411\u5858",
+	"pinyin": "xiangtang",
+	"cityCode": 1702,
+	"cityName": "\u5411\u5858"
+}, {
+	"code": "1175458",
+	"name": "\u5411\u9633\u9547",
+	"pinyin": "xiangyangzhen",
+	"cityCode": 2703,
+	"cityName": "\u5411\u9633\u9547"
+}, {
+	"code": "1175459",
+	"name": "\u5415\u6881",
+	"pinyin": "lvliang",
+	"cityCode": 2607,
+	"cityName": "\u5415\u6881"
+}, {
+	"code": "1175461",
+	"name": "\u5434\u5bb6\u5c6f",
+	"pinyin": "wujiatun",
+	"cityCode": 1902,
+	"cityName": "\u5434\u5bb6\u5c6f"
+}, {
+	"code": "1175462",
+	"name": "\u5434\u6865",
+	"pinyin": "wuqiao",
+	"cityCode": 1005,
+	"cityName": "\u5434\u6865"
+}, {
+	"code": "1175463",
+	"name": "\u5468\u53e3",
+	"pinyin": "zhoukou",
+	"cityCode": 1219,
+	"cityName": "\u5468\u53e3"
+}, {
+	"code": "1175464",
+	"name": "\u5468\u5bb6",
+	"pinyin": "zhoujia",
+	"cityCode": 1102,
+	"cityName": "\u5468\u5bb6"
+}, {
+	"code": "1175465",
+	"name": "\u547c\u4e2d",
+	"pinyin": "huzhong",
+	"cityCode": 1105,
+	"cityName": "\u547c\u4e2d"
+}, {
+	"code": "1175466",
+	"name": "\u547c\u5170",
+	"pinyin": "hulan",
+	"cityCode": 1102,
+	"cityName": "\u547c\u5170"
+}, {
+	"code": "1175467",
+	"name": "\u547c\u548c\u6d69\u7279\u4e1c",
+	"pinyin": "huhehaotedong",
+	"cityCode": 2102,
+	"cityName": "\u547c\u548c\u6d69\u7279\u4e1c"
+}, {
+	"code": "1175468",
+	"name": "\u547c\u548c\u6d69\u7279",
+	"pinyin": "huhehaote",
+	"cityCode": 2102,
+	"cityName": "\u547c\u548c\u6d69\u7279"
+}, {
+	"code": "1175469",
+	"name": "\u547c\u56fe\u58c1",
+	"pinyin": "hutubi",
+	"cityCode": 3107,
+	"cityName": "\u547c\u56fe\u58c1"
+}, {
+	"code": "1175470",
+	"name": "\u547c\u6e90",
+	"pinyin": "huyuan",
+	"cityCode": 1105,
+	"cityName": "\u547c\u6e90"
+}, {
+	"code": "1175471",
+	"name": "\u548c\u5e73\u6751",
+	"pinyin": "hepingcun",
+	"cityCode": 2104,
+	"cityName": "\u548c\u5e73\u6751"
+}, {
+	"code": "1175472",
+	"name": "\u548c\u7530",
+	"pinyin": "hetian",
+	"cityCode": 3110,
+	"cityName": "\u548c\u7530"
+}, {
+	"code": "1175473",
+	"name": "\u548c\u9759",
+	"pinyin": "hejing",
+	"cityCode": 3114,
+	"cityName": "\u548c\u9759"
+}, {
+	"code": "1175474",
+	"name": "\u54b8\u5b81\u5317",
+	"pinyin": "xianningbei",
+	"cityCode": 1414,
+	"cityName": "\u54b8\u5b81\u5317"
+}, {
+	"code": "1175475",
+	"name": "\u54b8\u5b81",
+	"pinyin": "xianning",
+	"cityCode": 1414,
+	"cityName": "\u54b8\u5b81"
+}, {
+	"code": "1175476",
+	"name": "\u54b8\u9633",
+	"pinyin": "xianyang",
+	"cityCode": 2710,
+	"cityName": "\u54b8\u9633"
+}, {
+	"code": "1175477",
+	"name": "\u54c8\u514b",
+	"pinyin": "hake",
+	"cityCode": 2107,
+	"cityName": "\u54c8\u514b"
+}, {
+	"code": "1175478",
+	"name": "\u54c8\u5bc6",
+	"pinyin": "hami",
+	"cityCode": 3109,
+	"cityName": "\u54c8\u5bc6"
+}, {
+	"code": "1175479",
+	"name": "\u54c8\u5c14\u5df4\u5cad",
+	"pinyin": "haerbaling",
+	"cityCode": 1812,
+	"cityName": "\u54c8\u5c14\u5df4\u5cad"
+}, {
+	"code": "1175480",
+	"name": "\u54c8\u5c14\u6ee8\u4e1c",
+	"pinyin": "haerbindong",
+	"cityCode": 1102,
+	"cityName": "\u54c8\u5c14\u6ee8\u4e1c"
+}, {
+	"code": "1175481",
+	"name": "\u54c8\u5c14\u6ee8",
+	"pinyin": "haerbin",
+	"cityCode": 1102,
+	"cityName": "\u54c8\u5c14\u6ee8"
+}, {
+	"code": "1175482",
+	"name": "\u54c8\u5c14\u6ee8\u897f",
+	"pinyin": "haerbinxi",
+	"cityCode": 1102,
+	"cityName": "\u54c8\u5c14\u6ee8\u897f"
+}, {
+	"code": "1175483",
+	"name": "\u54c8\u5ddd",
+	"pinyin": "hachuan",
+	"cityCode": 1111,
+	"cityName": "\u54c8\u5ddd"
+}, {
+	"code": "1175485",
+	"name": "\u54c8\u62c9\u82cf",
+	"pinyin": "halasu",
+	"cityCode": 2107,
+	"cityName": "\u54c8\u62c9\u82cf"
+}, {
+	"code": "1175486",
+	"name": "\u54c8\u8fbe\u9633",
+	"pinyin": "hadayang",
+	"cityCode": 2107,
+	"cityName": "\u54c8\u8fbe\u9633"
+}, {
+	"code": "1175488",
+	"name": "\u5510\u5bb6\u6e7e",
+	"pinyin": "tangjiawan",
+	"cityCode": 628,
+	"cityName": "\u5510\u5bb6\u6e7e"
+}, {
+	"code": "1175490",
+	"name": "\u5510\u5c71",
+	"pinyin": "tangshan",
+	"cityCode": 1013,
+	"cityName": "\u5510\u5c71"
+}, {
+	"code": "1175491",
+	"name": "\u5510\u6cb3",
+	"pinyin": "tanghe",
+	"cityCode": 1211,
+	"cityName": "\u5510\u6cb3"
+}, {
+	"code": "1175492",
+	"name": "\u5546\u4e18\u5357",
+	"pinyin": "shangqiunan",
+	"cityCode": 1215,
+	"cityName": "\u5546\u4e18\u5357"
+}, {
+	"code": "1175493",
+	"name": "\u5546\u4e18",
+	"pinyin": "shangqiu",
+	"cityCode": 1215,
+	"cityName": "\u5546\u4e18"
+}, {
+	"code": "1175494",
+	"name": "\u5546\u5357",
+	"pinyin": "shangnan",
+	"cityCode": 2707,
+	"cityName": "\u5546\u5357"
+}, {
+	"code": "1175495",
+	"name": "\u5546\u57ce",
+	"pinyin": "shangcheng",
+	"cityCode": 1217,
+	"cityName": "\u5546\u57ce"
+}, {
+	"code": "1175496",
+	"name": "\u5546\u6d1b",
+	"pinyin": "shangluo",
+	"cityCode": 2707,
+	"cityName": "\u5546\u6d1b"
+}, {
+	"code": "1175497",
+	"name": "\u5546\u90fd",
+	"pinyin": "shangdu",
+	"cityCode": 2108,
+	"cityName": "\u5546\u90fd"
+}, {
+	"code": "1175498",
+	"name": "\u5580\u4ec0",
+	"pinyin": "kashi",
+	"cityCode": 3111,
+	"cityName": "\u5580\u4ec0"
+}, {
+	"code": "1175499",
+	"name": "\u5580\u5587\u5176",
+	"pinyin": "kalaqi",
+	"cityCode": 2107,
+	"cityName": "\u5580\u5587\u5176"
+}, {
+	"code": "1175500",
+	"name": "\u559c\u5fb7",
+	"pinyin": "xide",
+	"cityCode": 2823,
+	"cityName": "\u559c\u5fb7"
+}, {
+	"code": "1175501",
+	"name": "\u5609\u5174\u5357",
+	"pinyin": "jiaxingnan",
+	"cityCode": 3410,
+	"cityName": "\u5609\u5174\u5357"
+}, {
+	"code": "1175502",
+	"name": "\u5609\u5174",
+	"pinyin": "jiaxing",
+	"cityCode": 3410,
+	"cityName": "\u5609\u5174"
+}, {
+	"code": "1175503",
+	"name": "\u5609\u5584\u5357",
+	"pinyin": "jiashannan",
+	"cityCode": 3410,
+	"cityName": "\u5609\u5584\u5357"
+}, {
+	"code": "1175504",
+	"name": "\u5609\u5584",
+	"pinyin": "jiashan",
+	"cityCode": 3410,
+	"cityName": "\u5609\u5584"
+}, {
+	"code": "1175505",
+	"name": "\u5609\u5cea\u5173",
+	"pinyin": "jiayuguan",
+	"cityCode": 516,
+	"cityName": "\u5609\u5cea\u5173"
+}, {
+	"code": "1175506",
+	"name": "\u5609\u5ddd",
+	"pinyin": "jiachuan",
+	"cityCode": 2810,
+	"cityName": "\u5609\u5ddd"
+}, {
+	"code": "1175507",
+	"name": "\u5609\u7965",
+	"pinyin": "jiaxiang",
+	"cityCode": 2408,
+	"cityName": "\u5609\u7965"
+}, {
+	"code": "1175508",
+	"name": "\u56db\u5206\u5730",
+	"pinyin": "sifendi",
+	"cityCode": 2105,
+	"cityName": "\u56db\u5206\u5730"
+}, {
+	"code": "1175509",
+	"name": "\u56db\u5206\u6ee9",
+	"pinyin": "sifentan",
+	"cityCode": 2109,
+	"cityName": "\u56db\u5206\u6ee9"
+}, {
+	"code": "1175510",
+	"name": "\u56db\u5408\u6c38",
+	"pinyin": "siheyong",
+	"cityCode": 1006,
+	"cityName": "\u56db\u5408\u6c38"
+}, {
+	"code": "1175511",
+	"name": "\u56db\u5e73\u4e1c",
+	"pinyin": "sipingdong",
+	"cityCode": 1809,
+	"cityName": "\u56db\u5e73\u4e1c"
+}, {
+	"code": "1175512",
+	"name": "\u56db\u5e73",
+	"pinyin": "siping",
+	"cityCode": 1809,
+	"cityName": "\u56db\u5e73"
+}, {
+	"code": "1175514",
+	"name": "\u56db\u65b9",
+	"pinyin": "sifang",
+	"cityCode": 2413,
+	"cityName": "\u56db\u65b9"
+}, {
+	"code": "1175515",
+	"name": "\u56db\u9053\u6e7e",
+	"pinyin": "sidaowan",
+	"cityCode": 2105,
+	"cityName": "\u56db\u9053\u6e7e"
+}, {
+	"code": "1175516",
+	"name": "\u56db\u9a6c\u67b6",
+	"pinyin": "simajia",
+	"cityCode": 1108,
+	"cityName": "\u56db\u9a6c\u67b6"
+}, {
+	"code": "1175517",
+	"name": "\u56e2\u6797",
+	"pinyin": "tuanlin",
+	"cityCode": 1811,
+	"cityName": "\u56e2\u6797"
+}, {
+	"code": "1175518",
+	"name": "\u56e2\u7ed3",
+	"pinyin": "tuanjie",
+	"cityCode": 1111,
+	"cityName": "\u56e2\u7ed3"
+}, {
+	"code": "1175519",
+	"name": "\u56fa\u539f",
+	"pinyin": "guyuan",
+	"cityCode": 2203,
+	"cityName": "\u56fa\u539f"
+}, {
+	"code": "1175520",
+	"name": "\u56fa\u59cb",
+	"pinyin": "gushi",
+	"cityCode": 1217,
+	"cityName": "\u56fa\u59cb"
+}, {
+	"code": "1175521",
+	"name": "\u56fa\u9547",
+	"pinyin": "guzhen",
+	"cityCode": 104,
+	"cityName": "\u56fa\u9547"
+}, {
+	"code": "1175522",
+	"name": "\u56fd\u5149",
+	"pinyin": "guoguang",
+	"cityCode": 3114,
+	"cityName": "\u56fd\u5149"
+}, {
+	"code": "1175523",
+	"name": "\u56fe\u4eec",
+	"pinyin": "tumen",
+	"cityCode": 1812,
+	"cityName": "\u56fe\u4eec"
+}, {
+	"code": "1175524",
+	"name": "\u56fe\u5f3a",
+	"pinyin": "tuqiang",
+	"cityCode": 1105,
+	"cityName": "\u56fe\u5f3a"
+}, {
+	"code": "1175525",
+	"name": "\u56fe\u91cc\u6cb3",
+	"pinyin": "tulihe",
+	"cityCode": 2107,
+	"cityName": "\u56fe\u91cc\u6cb3"
+}, {
+	"code": "1175526",
+	"name": "\u571f\u6eaa",
+	"pinyin": "tuxi",
+	"cityCode": 2804,
+	"cityName": "\u571f\u6eaa"
+}, {
+	"code": "1175527",
+	"name": "\u571f\u7267\u5c14\u53f0",
+	"pinyin": "tumuertai",
+	"cityCode": 2108,
+	"cityName": "\u571f\u7267\u5c14\u53f0"
+}, {
+	"code": "1175528",
+	"name": "\u571f\u8d35\u4e4c\u62c9",
+	"pinyin": "tuguiwula",
+	"cityCode": 2108,
+	"cityName": "\u571f\u8d35\u4e4c\u62c9"
+}, {
+	"code": "1175529",
+	"name": "\u571f\u95e8\u5b50",
+	"pinyin": "tumenzi",
+	"cityCode": 513,
+	"cityName": "\u571f\u95e8\u5b50"
+}, {
+	"code": "1175530",
+	"name": "\u5742\u5c3e",
+	"pinyin": "banwei",
+	"cityCode": 404,
+	"cityName": "\u5742\u5c3e"
+}, {
+	"code": "1175532",
+	"name": "\u5766\u9014",
+	"pinyin": "tantu",
+	"cityCode": 1803,
+	"cityName": "\u5766\u9014"
+}, {
+	"code": "1175533",
+	"name": "\u576a\u77f3",
+	"pinyin": "pingshi",
+	"cityCode": 618,
+	"cityName": "\u576a\u77f3"
+}, {
+	"code": "1175534",
+	"name": "\u57ce\u56fa",
+	"pinyin": "chenggu",
+	"cityCode": 2705,
+	"cityName": "\u57ce\u56fa"
+}, {
+	"code": "1175535",
+	"name": "\u57ce\u5b50\u5766",
+	"pinyin": "chengzitan",
+	"cityCode": 1906,
+	"cityName": "\u57ce\u5b50\u5766"
+}, {
+	"code": "1175536",
+	"name": "\u57ce\u9633",
+	"pinyin": "chengyang",
+	"cityCode": 2413,
+	"cityName": "\u57ce\u9633"
+}, {
+	"code": "1175537",
+	"name": "\u5854\u54c8",
+	"pinyin": "taha",
+	"cityCode": 1111,
+	"cityName": "\u5854\u54c8"
+}, {
+	"code": "1175538",
+	"name": "\u5854\u5c14\u6839",
+	"pinyin": "taergen",
+	"cityCode": 1105,
+	"cityName": "\u5854\u5c14\u6839"
+}, {
+	"code": "1175539",
+	"name": "\u5854\u5c71",
+	"pinyin": "tashan",
+	"cityCode": 1910,
+	"cityName": "\u5854\u5c71"
+}, {
+	"code": "1175540",
+	"name": "\u5854\u6cb3",
+	"pinyin": "tahe",
+	"cityCode": 1105,
+	"cityName": "\u5854\u6cb3"
+}, {
+	"code": "1175541",
+	"name": "\u5854\u6e90",
+	"pinyin": "tayuan",
+	"cityCode": 1105,
+	"cityName": "\u5854\u6e90"
+}, {
+	"code": "1175542",
+	"name": "\u5858\u5934\u53a6",
+	"pinyin": "tangtousha",
+	"cityCode": 606,
+	"cityName": "\u5858\u5934\u53a6"
+}, {
+	"code": "1175543",
+	"name": "\u5858\u5e93",
+	"pinyin": "tangku",
+	"cityCode": 709,
+	"cityName": "\u5858\u5e93"
+}, {
+	"code": "1175544",
+	"name": "\u5858\u6cbd",
+	"pinyin": "tanggu",
+	"cityCode": 3000,
+	"cityName": "\u5858\u6cbd"
+}, {
+	"code": "1175545",
+	"name": "\u589f\u6c9f",
+	"pinyin": "xugou",
+	"cityCode": 1610,
+	"cityName": "\u589f\u6c9f"
+}, {
+	"code": "1175546",
+	"name": "\u58a8\u51b2",
+	"pinyin": "mochong",
+	"cityCode": 805,
+	"cityName": "\u58a8\u51b2"
+}, {
+	"code": "1175547",
+	"name": "\u58a8\u7389",
+	"pinyin": "moyu",
+	"cityCode": 3110,
+	"cityName": "\u58a8\u7389"
+}, {
+	"code": "1175548",
+	"name": "\u58ee\u5fd7",
+	"pinyin": "zhuangzhi",
+	"cityCode": 1104,
+	"cityName": "\u58ee\u5fd7"
+}, {
+	"code": "1175549",
+	"name": "\u590f\u575d",
+	"pinyin": "xiaba",
+	"cityCode": 300,
+	"cityName": "\u590f\u575d"
+}, {
+	"code": "1175550",
+	"name": "\u590f\u9091\u53bf",
+	"pinyin": "xiayixian",
+	"cityCode": 1215,
+	"cityName": "\u590f\u9091\u53bf"
+}, {
+	"code": "1175551",
+	"name": "\u590f\u96c6",
+	"pinyin": "xiaji",
+	"cityCode": 1211,
+	"cityName": "\u590f\u96c6"
+}, {
+	"code": "1175553",
+	"name": "\u5927\u4e4c\u82cf",
+	"pinyin": "dawusu",
+	"cityCode": 1105,
+	"cityName": "\u5927\u4e4c\u82cf"
+}, {
+	"code": "1175554",
+	"name": "\u5927\u4fdd\u5f53",
+	"pinyin": "dabaodang",
+	"cityCode": 2712,
+	"cityName": "\u5927\u4fdd\u5f53"
+}, {
+	"code": "1175555",
+	"name": "\u5927\u5173\u51b2",
+	"pinyin": "daguanchong",
+	"cityCode": 802,
+	"cityName": "\u5927\u5173\u51b2"
+}, {
+	"code": "1175556",
+	"name": "\u5927\u5174",
+	"pinyin": "daxing",
+	"cityCode": 1111,
+	"cityName": "\u5927\u5174"
+}, {
+	"code": "1175557",
+	"name": "\u5927\u5174\u9547",
+	"pinyin": "daxingzhen",
+	"cityCode": 1806,
+	"cityName": "\u5927\u5174\u9547"
+}, {
+	"code": "1175562",
+	"name": "\u5927\u5be8",
+	"pinyin": "dazhai",
+	"cityCode": 802,
+	"cityName": "\u5927\u5be8"
+}, {
+	"code": "1175563",
+	"name": "\u5927\u5e73\u623f",
+	"pinyin": "dapingfang",
+	"cityCode": 1905,
+	"cityName": "\u5927\u5e73\u623f"
+}, {
+	"code": "1175564",
+	"name": "\u5927\u5e86",
+	"pinyin": "daqing",
+	"cityCode": 1104,
+	"cityName": "\u5927\u5e86"
+}, {
+	"code": "1175565",
+	"name": "\u5927\u5f90\u5c6f",
+	"pinyin": "daxutun",
+	"cityCode": 1910,
+	"cityName": "\u5927\u5f90\u5c6f"
+}, {
+	"code": "1175566",
+	"name": "\u5927\u5fb7",
+	"pinyin": "dade",
+	"cityCode": 3305,
+	"cityName": "\u5927\u5fb7"
+}, {
+	"code": "1175567",
+	"name": "\u5927\u6210",
+	"pinyin": "dacheng",
+	"cityCode": 1902,
+	"cityName": "\u5927\u6210"
+}, {
+	"code": "1175568",
+	"name": "\u5927\u6768\u6811",
+	"pinyin": "dayangshu",
+	"cityCode": 2107,
+	"cityName": "\u5927\u6768\u6811"
+}, {
+	"code": "1175569",
+	"name": "\u5927\u677f",
+	"pinyin": "daban",
+	"cityCode": 2105,
+	"cityName": "\u5927\u677f"
+}, {
+	"code": "1175570",
+	"name": "\u5927\u6797",
+	"pinyin": "dalin",
+	"cityCode": 2110,
+	"cityName": "\u5927\u6797"
+}, {
+	"code": "1175571",
+	"name": "\u5927\u68a8\u6811",
+	"pinyin": "dalishu",
+	"cityCode": 1808,
+	"cityName": "\u5927\u68a8\u6811"
+}, {
+	"code": "1175572",
+	"name": "\u5927\u6c11\u5c6f",
+	"pinyin": "damintun",
+	"cityCode": 1111,
+	"cityName": "\u5927\u6c11\u5c6f"
+}, {
+	"code": "1175573",
+	"name": "\u5927\u6e21\u53e3",
+	"pinyin": "dadukou",
+	"cityCode": 300,
+	"cityName": "\u5927\u6e21\u53e3"
+}, {
+	"code": "1175574",
+	"name": "\u5927\u6e7e",
+	"pinyin": "dawan",
+	"cityCode": 3321,
+	"cityName": "\u5927\u6e7e"
+}, {
+	"code": "1175575",
+	"name": "\u5927\u6ee9",
+	"pinyin": "datan",
+	"cityCode": 2810,
+	"cityName": "\u5927\u6ee9"
+}, {
+	"code": "1175577",
+	"name": "\u5927\u7406",
+	"pinyin": "dali",
+	"cityCode": 3306,
+	"cityName": "\u5927\u7406"
+}, {
+	"code": "1175578",
+	"name": "\u5927\u7528",
+	"pinyin": "dayong",
+	"cityCode": 807,
+	"cityName": "\u5927\u7528"
+}, {
+	"code": "1175579",
+	"name": "\u5927\u77f3\u5934",
+	"pinyin": "dashitou",
+	"cityCode": 1812,
+	"cityName": "\u5927\u77f3\u5934"
+}, {
+	"code": "1175580",
+	"name": "\u5927\u77f3\u677f",
+	"pinyin": "dashiban",
+	"cityCode": 806,
+	"cityName": "\u5927\u77f3\u677f"
+}, {
+	"code": "1175581",
+	"name": "\u5927\u77f3\u6865",
+	"pinyin": "dashiqiao",
+	"cityCode": 1915,
+	"cityName": "\u5927\u77f3\u6865"
+}, {
+	"code": "1175583",
+	"name": "\u5927\u82f1\u4e1c",
+	"pinyin": "dayingdong",
+	"cityCode": 2821,
+	"cityName": "\u5927\u82f1\u4e1c"
+}, {
+	"code": "1175584",
+	"name": "\u5927\u8425",
+	"pinyin": "daying",
+	"cityCode": 2610,
+	"cityName": "\u5927\u8425"
+}, {
+	"code": "1175585",
+	"name": "\u5927\u8425\u9547",
+	"pinyin": "dayingzhen",
+	"cityCode": 1009,
+	"cityName": "\u5927\u8425\u9547"
+}, {
+	"code": "1175586",
+	"name": "\u5927\u864e\u5c71",
+	"pinyin": "dahushan",
+	"cityCode": 1911,
+	"cityName": "\u5927\u864e\u5c71"
+}, {
+	"code": "1175587",
+	"name": "\u5927\u8db3",
+	"pinyin": "dazu",
+	"cityCode": 300,
+	"cityName": "\u5927\u8db3"
+}, {
+	"code": "1175589",
+	"name": "\u5927\u8fde\u5317",
+	"pinyin": "dalianbei",
+	"cityCode": 1906,
+	"cityName": "\u5927\u8fde\u5317"
+}, {
+	"code": "1175590",
+	"name": "\u5927\u8fde",
+	"pinyin": "dalian",
+	"cityCode": 1906,
+	"cityName": "\u5927\u8fde"
+}, {
+	"code": "1175591",
+	"name": "\u5927\u9633\u5c94",
+	"pinyin": "dayangcha",
+	"cityCode": 1804,
+	"cityName": "\u5927\u9633\u5c94"
+}, {
+	"code": "1175592",
+	"name": "\u5929\u4e49",
+	"pinyin": "tianyi",
+	"cityCode": 2105,
+	"cityName": "\u5929\u4e49"
+}, {
+	"code": "1175593",
+	"name": "\u5929\u56de\u9547",
+	"pinyin": "tianhuizhen",
+	"cityCode": 2802,
+	"cityName": "\u5929\u56de\u9547"
+}, {
+	"code": "1175594",
+	"name": "\u5929\u5c97",
+	"pinyin": "tiangang",
+	"cityCode": 1808,
+	"cityName": "\u5929\u5c97"
+}, {
+	"code": "1175595",
+	"name": "\u5929\u67f1\u5c71",
+	"pinyin": "tianzhushan",
+	"cityCode": 103,
+	"cityName": "\u5929\u67f1\u5c71"
+}, {
+	"code": "1175596",
+	"name": "\u5929\u6c34",
+	"pinyin": "tianshui",
+	"cityCode": 511,
+	"cityName": "\u5929\u6c34"
+}, {
+	"code": "1175598",
+	"name": "\u5929\u6d25\u5357",
+	"pinyin": "tianjinnan",
+	"cityCode": 3000,
+	"cityName": "\u5929\u6d25\u5357"
+}, {
+	"code": "1175599",
+	"name": "\u5929\u6d25",
+	"pinyin": "tianjin",
+	"cityCode": 3000,
+	"cityName": "\u5929\u6d25"
+}, {
+	"code": "1175600",
+	"name": "\u5929\u6d25\u897f",
+	"pinyin": "tianjinxi",
+	"cityCode": 3000,
+	"cityName": "\u5929\u6d25\u897f"
+}, {
+	"code": "1175601",
+	"name": "\u5929\u9547",
+	"pinyin": "tianzhen",
+	"cityCode": 2604,
+	"cityName": "\u5929\u9547"
+}, {
+	"code": "1175603",
+	"name": "\u5929\u95e8",
+	"pinyin": "tianmen",
+	"cityCode": 1407,
+	"cityName": "\u5929\u95e8"
+}, {
+	"code": "1175604",
+	"name": "\u592a\u539f\u4e1c",
+	"pinyin": "taiyuandong",
+	"cityCode": 2602,
+	"cityName": "\u592a\u539f\u4e1c"
+}, {
+	"code": "1175605",
+	"name": "\u592a\u539f\u5317",
+	"pinyin": "taiyuanbei",
+	"cityCode": 2602,
+	"cityName": "\u592a\u539f\u5317"
+}, {
+	"code": "1175606",
+	"name": "\u592a\u539f",
+	"pinyin": "taiyuan",
+	"cityCode": 2602,
+	"cityName": "\u592a\u539f"
+}, {
+	"code": "1175607",
+	"name": "\u592a\u59e5\u5c71",
+	"pinyin": "taimushan",
+	"cityCode": 406,
+	"cityName": "\u592a\u59e5\u5c71"
+}, {
+	"code": "1175608",
+	"name": "\u592a\u5b50\u6cb3",
+	"pinyin": "taizihe",
+	"cityCode": 1912,
+	"cityName": "\u592a\u5b50\u6cb3"
+}, {
+	"code": "1175609",
+	"name": "\u592a\u5e73\u5cad",
+	"pinyin": "taipingling",
+	"cityCode": 1812,
+	"cityName": "\u592a\u5e73\u5cad"
+}, {
+	"code": "1175610",
+	"name": "\u592a\u5e73\u5ddd",
+	"pinyin": "taipingchuan",
+	"cityCode": 1810,
+	"cityName": "\u592a\u5e73\u5ddd"
+}, {
+	"code": "1175611",
+	"name": "\u592a\u5e73\u5e84",
+	"pinyin": "taipingzhuang",
+	"cityCode": 2110,
+	"cityName": "\u592a\u5e73\u5e84"
+}, {
+	"code": "1175612",
+	"name": "\u592a\u5e73\u5e97",
+	"pinyin": "taipingdian",
+	"cityCode": 1416,
+	"cityName": "\u592a\u5e73\u5e97"
+}, {
+	"code": "1175613",
+	"name": "\u592a\u5e73\u9547",
+	"pinyin": "taipingzhen",
+	"cityCode": 1113,
+	"cityName": "\u592a\u5e73\u9547"
+}, {
+	"code": "1175614",
+	"name": "\u592a\u6e56",
+	"pinyin": "taihu",
+	"cityCode": 103,
+	"cityName": "\u592a\u6e56"
+}, {
+	"code": "1175615",
+	"name": "\u592a\u767d",
+	"pinyin": "taibai",
+	"cityCode": 811,
+	"cityName": "\u592a\u767d"
+}, {
+	"code": "1175616",
+	"name": "\u592a\u8c37",
+	"pinyin": "taigu",
+	"cityCode": 2612,
+	"cityName": "\u592a\u8c37"
+}, {
+	"code": "1175617",
+	"name": "\u592a\u9633\u5347",
+	"pinyin": "taiyangsheng",
+	"cityCode": 1104,
+	"cityName": "\u592a\u9633\u5347"
+}, {
+	"code": "1175618",
+	"name": "\u592a\u9633\u6751",
+	"pinyin": "taiyangcun",
+	"cityCode": 709,
+	"cityName": "\u592a\u9633\u6751"
+}, {
+	"code": "1175619",
+	"name": "\u592a\u9633\u6c9f",
+	"pinyin": "taiyanggou",
+	"cityCode": 1105,
+	"cityName": "\u592a\u9633\u6c9f"
+}, {
+	"code": "1175620",
+	"name": "\u5934\u9053\u6865",
+	"pinyin": "toudaoqiao",
+	"cityCode": 2109,
+	"cityName": "\u5934\u9053\u6865"
+}, {
+	"code": "1175622",
+	"name": "\u5948\u66fc",
+	"pinyin": "naiman",
+	"cityCode": 2110,
+	"cityName": "\u5948\u66fc"
+}, {
+	"code": "1175623",
+	"name": "\u5949\u5316",
+	"pinyin": "fenghua",
+	"cityCode": 3415,
+	"cityName": "\u5949\u5316"
+}, {
+	"code": "1175624",
+	"name": "\u594e\u5c6f\u4e1c",
+	"pinyin": "kuitundong",
+	"cityCode": 3119,
+	"cityName": "\u594e\u5c6f\u4e1c"
+}, {
+	"code": "1175626",
+	"name": "\u594e\u5c71",
+	"pinyin": "kuishan",
+	"cityCode": 1110,
+	"cityName": "\u594e\u5c71"
+}, {
+	"code": "1175627",
+	"name": "\u5973\u513f\u6cb3",
+	"pinyin": "nverhe",
+	"cityCode": 1911,
+	"cityName": "\u5973\u513f\u6cb3"
+}, {
+	"code": "1175628",
+	"name": "\u5982\u768b",
+	"pinyin": "rugao",
+	"cityCode": 1611,
+	"cityName": "\u5982\u768b"
+}, {
+	"code": "1175629",
+	"name": "\u59d1\u5bb6\u5821",
+	"pinyin": "gujiabao",
+	"cityCode": 2108,
+	"cityName": "\u59d1\u5bb6\u5821"
+}, {
+	"code": "1175630",
+	"name": "\u59da\u5343\u6237\u5c6f",
+	"pinyin": "yaoqianhutun",
+	"cityCode": 1902,
+	"cityName": "\u59da\u5343\u6237\u5c6f"
+}, {
+	"code": "1175631",
+	"name": "\u59dc\u5830",
+	"pinyin": "jiangyan",
+	"cityCode": 1617,
+	"cityName": "\u59dc\u5830"
+}, {
+	"code": "1175632",
+	"name": "\u59dc\u5bb6",
+	"pinyin": "jiangjia",
+	"cityCode": 1114,
+	"cityName": "\u59dc\u5bb6"
+}, {
+	"code": "1175633",
+	"name": "\u5a01\u5b81",
+	"pinyin": "weining",
+	"cityCode": 1904,
+	"cityName": "\u5a01\u5b81"
+}, {
+	"code": "1175634",
+	"name": "\u5a01\u5cad",
+	"pinyin": "weiling",
+	"cityCode": 1115,
+	"cityName": "\u5a01\u5cad"
+}, {
+	"code": "1175635",
+	"name": "\u5a01\u6d77",
+	"pinyin": "weihai",
+	"cityCode": 2418,
+	"cityName": "\u5a01\u6d77"
+}, {
+	"code": "1175636",
+	"name": "\u5a01\u7b90",
+	"pinyin": "weiqing",
+	"cityCode": 807,
+	"cityName": "\u5a01\u7b90"
+}, {
+	"code": "1175637",
+	"name": "\u5a01\u820d",
+	"pinyin": "weishe",
+	"cityCode": 809,
+	"cityName": "\u5a01\u820d"
+}, {
+	"code": "1175638",
+	"name": "\u5a04\u5e95",
+	"pinyin": "loudi",
+	"cityCode": 1508,
+	"cityName": "\u5a04\u5e95"
+}, {
+	"code": "1175639",
+	"name": "\u5ae9\u6c5f",
+	"pinyin": "nenjiang",
+	"cityCode": 1107,
+	"cityName": "\u5ae9\u6c5f"
+}, {
+	"code": "1175640",
+	"name": "\u5b50\u6d32",
+	"pinyin": "zizhou",
+	"cityCode": 2712,
+	"cityName": "\u5b50\u6d32"
+}, {
+	"code": "1175641",
+	"name": "\u5b50\u957f",
+	"pinyin": "zichang",
+	"cityCode": 2711,
+	"cityName": "\u5b50\u957f"
+}, {
+	"code": "1175642",
+	"name": "\u5b54\u6ee9",
+	"pinyin": "kongtan",
+	"cityCode": 2825,
+	"cityName": "\u5b54\u6ee9"
+}, {
+	"code": "1175643",
+	"name": "\u5b59\u5434",
+	"pinyin": "sunwu",
+	"cityCode": 1107,
+	"cityName": "\u5b59\u5434"
+}, {
+	"code": "1175644",
+	"name": "\u5b59\u5bb6",
+	"pinyin": "sunjia",
+	"cityCode": 1102,
+	"cityName": "\u5b59\u5bb6"
+}, {
+	"code": "1175645",
+	"name": "\u5b5d\u611f\u5317",
+	"pinyin": "xiaoganbei",
+	"cityCode": 1417,
+	"cityName": "\u5b5d\u611f\u5317"
+}, {
+	"code": "1175646",
+	"name": "\u5b5d\u611f",
+	"pinyin": "xiaogan",
+	"cityCode": 1417,
+	"cityName": "\u5b5d\u611f"
+}, {
+	"code": "1175647",
+	"name": "\u5b5f\u5bb6\u5c97",
+	"pinyin": "mengjiagang",
+	"cityCode": 1108,
+	"cityName": "\u5b5f\u5bb6\u5c97"
+}, {
+	"code": "1175650",
+	"name": "\u5b64\u5e97\u5b50",
+	"pinyin": "gudianzi",
+	"cityCode": 1808,
+	"cityName": "\u5b64\u5e97\u5b50"
+}, {
+	"code": "1175651",
+	"name": "\u5b81\u56fd",
+	"pinyin": "ningguo",
+	"cityCode": 121,
+	"cityName": "\u5b81\u56fd"
+}, {
+	"code": "1175652",
+	"name": "\u5b81\u5b89",
+	"pinyin": "ningan",
+	"cityCode": 1110,
+	"cityName": "\u5b81\u5b89"
+}, {
+	"code": "1175653",
+	"name": "\u5b81\u5bb6",
+	"pinyin": "ningjia",
+	"cityCode": 2112,
+	"cityName": "\u5b81\u5bb6"
+}, {
+	"code": "1175654",
+	"name": "\u5b81\u5fb7",
+	"pinyin": "ningde",
+	"cityCode": 406,
+	"cityName": "\u5b81\u5fb7"
+}, {
+	"code": "1175656",
+	"name": "\u5b81\u6b66",
+	"pinyin": "ningwu",
+	"cityCode": 2610,
+	"cityName": "\u5b81\u6b66"
+}, {
+	"code": "1175658",
+	"name": "\u5b81\u6ce2",
+	"pinyin": "ningbo",
+	"cityCode": 3415,
+	"cityName": "\u5b81\u6ce2"
+}, {
+	"code": "1175659",
+	"name": "\u5b81\u6d77",
+	"pinyin": "ninghai",
+	"cityCode": 3415,
+	"cityName": "\u5b81\u6d77"
+}, {
+	"code": "1175660",
+	"name": "\u5b81\u9675\u53bf",
+	"pinyin": "ninglingxian",
+	"cityCode": 1215,
+	"cityName": "\u5b81\u9675\u53bf"
+}, {
+	"code": "1175661",
+	"name": "\u5b89\u53e3\u7a91",
+	"pinyin": "ankouyao",
+	"cityCode": 510,
+	"cityName": "\u5b89\u53e3\u7a91"
+}, {
+	"code": "1175662",
+	"name": "\u5b89\u56fe",
+	"pinyin": "antu",
+	"cityCode": 1812,
+	"cityName": "\u5b89\u56fe"
+}, {
+	"code": "1175663",
+	"name": "\u5b89\u5bb6",
+	"pinyin": "anjia",
+	"cityCode": 1102,
+	"cityName": "\u5b89\u5bb6"
+}, {
+	"code": "1175664",
+	"name": "\u5b89\u5e7f",
+	"pinyin": "anguang",
+	"cityCode": 1803,
+	"cityName": "\u5b89\u5e7f"
+}, {
+	"code": "1175665",
+	"name": "\u5b89\u5e86\u6c9f",
+	"pinyin": "anqinggou",
+	"cityCode": 2105,
+	"cityName": "\u5b89\u5e86\u6c9f"
+}, {
+	"code": "1175666",
+	"name": "\u5b89\u5e86",
+	"pinyin": "anqing",
+	"cityCode": 103,
+	"cityName": "\u5b89\u5e86"
+}, {
+	"code": "1175667",
+	"name": "\u5b89\u5e86\u897f",
+	"pinyin": "anqingxi",
+	"cityCode": 103,
+	"cityName": "\u5b89\u5e86\u897f"
+}, {
+	"code": "1175668",
+	"name": "\u5b89\u5eb7",
+	"pinyin": "ankang",
+	"cityCode": 2703,
+	"cityName": "\u5b89\u5eb7"
+}, {
+	"code": "1175669",
+	"name": "\u5b89\u6eaa",
+	"pinyin": "anxi",
+	"cityCode": 408,
+	"cityName": "\u5b89\u6eaa"
+}, {
+	"code": "1175670",
+	"name": "\u5b89\u8fbe",
+	"pinyin": "anda",
+	"cityCode": 1114,
+	"cityName": "\u5b89\u8fbe"
+}, {
+	"code": "1175671",
+	"name": "\u5b89\u9633\u4e1c",
+	"pinyin": "anyangdong",
+	"cityCode": 1203,
+	"cityName": "\u5b89\u9633\u4e1c"
+}, {
+	"code": "1175672",
+	"name": "\u5b89\u9633",
+	"pinyin": "anyang",
+	"cityCode": 1203,
+	"cityName": "\u5b89\u9633"
+}, {
+	"code": "1175673",
+	"name": "\u5b89\u9646",
+	"pinyin": "anlu",
+	"cityCode": 1417,
+	"cityName": "\u5b89\u9646"
+}, {
+	"code": "1175674",
+	"name": "\u5b89\u96c6\u6d77",
+	"pinyin": "anjihai",
+	"cityCode": 3117,
+	"cityName": "\u5b89\u96c6\u6d77"
+}, {
+	"code": "1175675",
+	"name": "\u5b89\u987a",
+	"pinyin": "anshun",
+	"cityCode": 803,
+	"cityName": "\u5b89\u987a"
+}, {
+	"code": "1175676",
+	"name": "\u5b8b",
+	"pinyin": "song",
+	"cityCode": 1114,
+	"cityName": "\u5b8b"
+}, {
+	"code": "1175677",
+	"name": "\u5b8c\u5de5",
+	"pinyin": "wangong",
+	"cityCode": 2107,
+	"cityName": "\u5b8c\u5de5"
+}, {
+	"code": "1175678",
+	"name": "\u5b98\u5385",
+	"pinyin": "guanting",
+	"cityCode": 1016,
+	"cityName": "\u5b98\u5385"
+}, {
+	"code": "1175679",
+	"name": "\u5b98\u6e21",
+	"pinyin": "guandu",
+	"cityCode": 2804,
+	"cityName": "\u5b98\u6e21"
+}, {
+	"code": "1175680",
+	"name": "\u5b98\u9ad8",
+	"pinyin": "guangao",
+	"cityCode": 200,
+	"cityName": "\u5b98\u9ad8"
+}, {
+	"code": "1175681",
+	"name": "\u5b9a\u5357",
+	"pinyin": "dingnan",
+	"cityCode": 1704,
+	"cityName": "\u5b9a\u5357"
+}, {
+	"code": "1175682",
+	"name": "\u5b9a\u5dde\u4e1c",
+	"pinyin": "dingzhoudong",
+	"cityCode": 1003,
+	"cityName": "\u5b9a\u5dde\u4e1c"
+}, {
+	"code": "1175683",
+	"name": "\u5b9a\u5dde",
+	"pinyin": "dingzhou",
+	"cityCode": 1003,
+	"cityName": "\u5b9a\u5dde"
+}, {
+	"code": "1175684",
+	"name": "\u5b9a\u897f",
+	"pinyin": "dingxi",
+	"cityCode": 504,
+	"cityName": "\u5b9a\u897f"
+}, {
+	"code": "1175685",
+	"name": "\u5b9a\u8fdc",
+	"pinyin": "dingyuan",
+	"cityCode": 107,
+	"cityName": "\u5b9a\u8fdc"
+}, {
+	"code": "1175686",
+	"name": "\u5b9a\u9676",
+	"pinyin": "dingtao",
+	"cityCode": 2407,
+	"cityName": "\u5b9a\u9676"
+}, {
+	"code": "1175687",
+	"name": "\u5b9c\u57ce",
+	"pinyin": "yicheng",
+	"cityCode": 1416,
+	"cityName": "\u5b9c\u57ce"
+}, {
+	"code": "1175688",
+	"name": "\u5b9c\u5bbe\u5357",
+	"pinyin": "yibinnan",
+	"cityCode": 2825,
+	"cityName": "\u5b9c\u5bbe\u5357"
+}, {
+	"code": "1175689",
+	"name": "\u5b9c\u5bbe",
+	"pinyin": "yibin",
+	"cityCode": 2825,
+	"cityName": "\u5b9c\u5bbe"
+}, {
+	"code": "1175690",
+	"name": "\u5b9c\u5dde",
+	"pinyin": "yizhou",
+	"cityCode": 707,
+	"cityName": "\u5b9c\u5dde"
+}, {
+	"code": "1175691",
+	"name": "\u5b9c\u660c\u4e1c",
+	"pinyin": "yichangdong",
+	"cityCode": 1418,
+	"cityName": "\u5b9c\u660c\u4e1c"
+}, {
+	"code": "1175693",
+	"name": "\u5b9c\u6625",
+	"pinyin": "yichun",
+	"cityCode": 1713,
+	"cityName": "\u5b9c\u6625"
+}, {
+	"code": "1175694",
+	"name": "\u5b9d\u4e30",
+	"pinyin": "baofeng",
+	"cityCode": 1212,
+	"cityName": "\u5b9d\u4e30"
+}, {
+	"code": "1175695",
+	"name": "\u5b9d\u6797",
+	"pinyin": "baolin",
+	"cityCode": 1110,
+	"cityName": "\u5b9d\u6797"
+}, {
+	"code": "1175696",
+	"name": "\u5b9d\u6cc9\u5cad",
+	"pinyin": "baoquanling",
+	"cityCode": 1106,
+	"cityName": "\u5b9d\u6cc9\u5cad"
+}, {
+	"code": "1175697",
+	"name": "\u5b9d\u9e21",
+	"pinyin": "baoji",
+	"cityCode": 2704,
+	"cityName": "\u5b9d\u9e21"
+}, {
+	"code": "1175698",
+	"name": "\u5b9d\u9f99\u5c71",
+	"pinyin": "baolongshan",
+	"cityCode": 2110,
+	"cityName": "\u5b9d\u9f99\u5c71"
+}, {
+	"code": "1175699",
+	"name": "\u5ba3\u5316",
+	"pinyin": "xuanhua",
+	"cityCode": 1016,
+	"cityName": "\u5ba3\u5316"
+}, {
+	"code": "1175700",
+	"name": "\u5ba3\u57ce",
+	"pinyin": "xuancheng",
+	"cityCode": 121,
+	"cityName": "\u5ba3\u57ce"
+}, {
+	"code": "1175701",
+	"name": "\u5ba3\u5a01",
+	"pinyin": "xuanwei",
+	"cityCode": 3315,
+	"cityName": "\u5ba3\u5a01"
+}, {
+	"code": "1175702",
+	"name": "\u5ba3\u6c49",
+	"pinyin": "xuanhan",
+	"cityCode": 2804,
+	"cityName": "\u5ba3\u6c49"
+}, {
+	"code": "1175703",
+	"name": "\u5bb9\u53bf",
+	"pinyin": "rongxian",
+	"cityCode": 712,
+	"cityName": "\u5bb9\u53bf"
+}, {
+	"code": "1175704",
+	"name": "\u5bb9\u6842",
+	"pinyin": "ronggui",
+	"cityCode": 607,
+	"cityName": "\u5bb9\u6842"
+}, {
+	"code": "1175705",
+	"name": "\u5bbf\u5dde\u4e1c",
+	"pinyin": "suzhoudong",
+	"cityCode": 117,
+	"cityName": "\u5bbf\u5dde\u4e1c"
+}, {
+	"code": "1175706",
+	"name": "\u5bbf\u5dde",
+	"pinyin": "suzhou",
+	"cityCode": 117,
+	"cityName": "\u5bbf\u5dde"
+}, {
+	"code": "1175707",
+	"name": "\u5bbf\u677e",
+	"pinyin": "susong",
+	"cityCode": 103,
+	"cityName": "\u5bbf\u677e"
+}, {
+	"code": "1175708",
+	"name": "\u5bc6\u4e91",
+	"pinyin": "miyun",
+	"cityCode": 200,
+	"cityName": "\u5bc6\u4e91"
+}, {
+	"code": "1175709",
+	"name": "\u5bc6\u5730",
+	"pinyin": "midi",
+	"cityCode": 2820,
+	"cityName": "\u5bc6\u5730"
+}, {
+	"code": "1175710",
+	"name": "\u5bc6\u5c71",
+	"pinyin": "mishan",
+	"cityCode": 1109,
+	"cityName": "\u5bc6\u5c71"
+}, {
+	"code": "1175711",
+	"name": "\u5bc6\u9a6c\u9f99",
+	"pinyin": "mimalong",
+	"cityCode": 3305,
+	"cityName": "\u5bc6\u9a6c\u9f99"
+}, {
+	"code": "1175712",
+	"name": "\u5bcc\u62c9\u5c14\u57fa",
+	"pinyin": "fulaerji",
+	"cityCode": 1111,
+	"cityName": "\u5bcc\u62c9\u5c14\u57fa"
+}, {
+	"code": "1175713",
+	"name": "\u5bcc\u6e90",
+	"pinyin": "fuyuan",
+	"cityCode": 3315,
+	"cityName": "\u5bcc\u6e90"
+}, {
+	"code": "1175714",
+	"name": "\u5bcc\u88d5",
+	"pinyin": "fuyu",
+	"cityCode": 1111,
+	"cityName": "\u5bcc\u88d5"
+}, {
+	"code": "1175715",
+	"name": "\u5bcc\u9526",
+	"pinyin": "fujin",
+	"cityCode": 1108,
+	"cityName": "\u5bcc\u9526"
+}, {
+	"code": "1175717",
+	"name": "\u5bdf\u7d20\u9f50",
+	"pinyin": "chasuqi",
+	"cityCode": 2102,
+	"cityName": "\u5bdf\u7d20\u9f50"
+}, {
+	"code": "1175718",
+	"name": "\u5be8\u9686",
+	"pinyin": "zhailong",
+	"cityCode": 709,
+	"cityName": "\u5be8\u9686"
+}, {
+	"code": "1175719",
+	"name": "\u5bf9\u9752\u5c71",
+	"pinyin": "duiqingshan",
+	"cityCode": 1102,
+	"cityName": "\u5bf9\u9752\u5c71"
+}, {
+	"code": "1175720",
+	"name": "\u5c0f\u5357",
+	"pinyin": "xiaonan",
+	"cityCode": 1802,
+	"cityName": "\u5c0f\u5357"
+}, {
+	"code": "1175721",
+	"name": "\u5c0f\u5bfa\u6c9f",
+	"pinyin": "xiaosigou",
+	"cityCode": 1006,
+	"cityName": "\u5c0f\u5bfa\u6c9f"
+}, {
+	"code": "1175723",
+	"name": "\u5c0f\u626c\u6c14",
+	"pinyin": "xiaoyangqi",
+	"cityCode": 2107,
+	"cityName": "\u5c0f\u626c\u6c14"
+}, {
+	"code": "1175724",
+	"name": "\u5c0f\u6865",
+	"pinyin": "xiaoqiao",
+	"cityCode": 2818,
+	"cityName": "\u5c0f\u6865"
+}, {
+	"code": "1175725",
+	"name": "\u5c0f\u6cb3\u6cbf",
+	"pinyin": "xiaoheyan",
+	"cityCode": 2105,
+	"cityName": "\u5c0f\u6cb3\u6cbf"
+}, {
+	"code": "1175727",
+	"name": "\u5c0f\u6eaa\u575d",
+	"pinyin": "xiaoxiba",
+	"cityCode": 2816,
+	"cityName": "\u5c0f\u6eaa\u575d"
+}, {
+	"code": "1175728",
+	"name": "\u5c0f\u96e8\u8c37",
+	"pinyin": "xiaoyugu",
+	"cityCode": 807,
+	"cityName": "\u5c0f\u96e8\u8c37"
+}, {
+	"code": "1175729",
+	"name": "\u5c14\u8d5b\u6cb3",
+	"pinyin": "ersaihe",
+	"cityCode": 2823,
+	"cityName": "\u5c14\u8d5b\u6cb3"
+}, {
+	"code": "1175730",
+	"name": "\u5c1a\u5bb6",
+	"pinyin": "shangjia",
+	"cityCode": 1114,
+	"cityName": "\u5c1a\u5bb6"
+}, {
+	"code": "1175732",
+	"name": "\u5c1a\u6b66",
+	"pinyin": "shangwu",
+	"cityCode": 2810,
+	"cityName": "\u5c1a\u6b66"
+}, {
+	"code": "1175733",
+	"name": "\u5c3c\u6ce2",
+	"pinyin": "nibo",
+	"cityCode": 2823,
+	"cityName": "\u5c3c\u6ce2"
+}, {
+	"code": "1175734",
+	"name": "\u5c3e\u4e9a",
+	"pinyin": "weiya",
+	"cityCode": 3109,
+	"cityName": "\u5c3e\u4e9a"
+}, {
+	"code": "1175735",
+	"name": "\u5c45\u5eb8\u5173",
+	"pinyin": "juyongguan",
+	"cityCode": 200,
+	"cityName": "\u5c45\u5eb8\u5173"
+}, {
+	"code": "1175736",
+	"name": "\u5c71\u4e39",
+	"pinyin": "shandan",
+	"cityCode": 515,
+	"cityName": "\u5c71\u4e39"
+}, {
+	"code": "1175737",
+	"name": "\u5c71\u573a\u5c6f",
+	"pinyin": "shanchangtun",
+	"cityCode": 1809,
+	"cityName": "\u5c71\u573a\u5c6f"
+}, {
+	"code": "1175738",
+	"name": "\u5c71\u57ce\u9547",
+	"pinyin": "shanchengzhen",
+	"cityCode": 1811,
+	"cityName": "\u5c71\u57ce\u9547"
+}, {
+	"code": "1175739",
+	"name": "\u5c71\u5e02",
+	"pinyin": "shanshi",
+	"cityCode": 1110,
+	"cityName": "\u5c71\u5e02"
+}, {
+	"code": "1175741",
+	"name": "\u5c71\u6e7e\u5b50",
+	"pinyin": "shanwanzi",
+	"cityCode": 2105,
+	"cityName": "\u5c71\u6e7e\u5b50"
+}, {
+	"code": "1175742",
+	"name": "\u5c91\u6eaa",
+	"pinyin": "cenxi",
+	"cityCode": 711,
+	"cityName": "\u5c91\u6eaa"
+}, {
+	"code": "1175743",
+	"name": "\u5ca9\u5c71",
+	"pinyin": "yanshan",
+	"cityCode": 2107,
+	"cityName": "\u5ca9\u5c71"
+}, {
+	"code": "1175744",
+	"name": "\u5cad\u5317",
+	"pinyin": "lingbei",
+	"cityCode": 2107,
+	"cityName": "\u5cad\u5317"
+}, {
+	"code": "1175745",
+	"name": "\u5cad\u5357",
+	"pinyin": "lingnan",
+	"cityCode": 2107,
+	"cityName": "\u5cad\u5357"
+}, {
+	"code": "1175747",
+	"name": "\u5cb3\u9633\u4e1c",
+	"pinyin": "yueyangdong",
+	"cityCode": 1512,
+	"cityName": "\u5cb3\u9633\u4e1c"
+}, {
+	"code": "1175748",
+	"name": "\u5cb3\u9633",
+	"pinyin": "yueyang",
+	"cityCode": 1512,
+	"cityName": "\u5cb3\u9633"
+}, {
+	"code": "1175749",
+	"name": "\u5ce1\u6c5f",
+	"pinyin": "xiajiang",
+	"cityCode": 1705,
+	"cityName": "\u5ce1\u6c5f"
+}, {
+	"code": "1175750",
+	"name": "\u5ce8\u7709",
+	"pinyin": "emei",
+	"cityCode": 2813,
+	"cityName": "\u5ce8\u7709"
+}, {
+	"code": "1175751",
+	"name": "\u5ce8\u8fb9",
+	"pinyin": "ebian",
+	"cityCode": 2813,
+	"cityName": "\u5ce8\u8fb9"
+}, {
+	"code": "1175752",
+	"name": "\u5cfb\u5fb7",
+	"pinyin": "junde",
+	"cityCode": 1110,
+	"cityName": "\u5cfb\u5fb7"
+}, {
+	"code": "1175753",
+	"name": "\u5d07\u5de6",
+	"pinyin": "chongzuo",
+	"cityCode": 715,
+	"cityName": "\u5d07\u5de6"
+}, {
+	"code": "1175754",
+	"name": "\u5d14\u5be8",
+	"pinyin": "cuizhai",
+	"cityCode": 1620,
+	"cityName": "\u5d14\u5be8"
+}, {
+	"code": "1175756",
+	"name": "\u5d6f\u5c97",
+	"pinyin": "cuogang",
+	"cityCode": 2107,
+	"cityName": "\u5d6f\u5c97"
+}, {
+	"code": "1175758",
+	"name": "\u5de5\u519c\u6e56",
+	"pinyin": "gongnonghu",
+	"cityCode": 1810,
+	"cityName": "\u5de5\u519c\u6e56"
+}, {
+	"code": "1175759",
+	"name": "\u5de6\u5bb6",
+	"pinyin": "zuojia",
+	"cityCode": 1808,
+	"cityName": "\u5de6\u5bb6"
+}, {
+	"code": "1175760",
+	"name": "\u5de8\u91ce",
+	"pinyin": "juye",
+	"cityCode": 2407,
+	"cityName": "\u5de8\u91ce"
+}, {
+	"code": "1175761",
+	"name": "\u5de9\u4e49\u5357",
+	"pinyin": "gongyinan",
+	"cityCode": 1202,
+	"cityName": "\u5de9\u4e49\u5357"
+}, {
+	"code": "1175762",
+	"name": "\u5de9\u4e49",
+	"pinyin": "gongyi",
+	"cityCode": 1202,
+	"cityName": "\u5de9\u4e49"
+}, {
+	"code": "1175763",
+	"name": "\u5df4\u4e1c",
+	"pinyin": "badong",
+	"cityCode": 1403,
+	"cityName": "\u5df4\u4e1c"
+}, {
+	"code": "1175764",
+	"name": "\u5df4\u4e2d",
+	"pinyin": "bazhong",
+	"cityCode": 2803,
+	"cityName": "\u5df4\u4e2d"
+}, {
+	"code": "1175765",
+	"name": "\u5df4\u5c71",
+	"pinyin": "bashan",
+	"cityCode": 2705,
+	"cityName": "\u5df4\u5c71"
+}, {
+	"code": "1175766",
+	"name": "\u5df4\u5f66\u9ad8\u52d2",
+	"pinyin": "bayangaole",
+	"cityCode": 2109,
+	"cityName": "\u5df4\u5f66\u9ad8\u52d2"
+}, {
+	"code": "1175767",
+	"name": "\u5df4\u6797",
+	"pinyin": "balin",
+	"cityCode": 2107,
+	"cityName": "\u5df4\u6797"
+}, {
+	"code": "1175768",
+	"name": "\u5df4\u695a",
+	"pinyin": "bachu",
+	"cityCode": 3111,
+	"cityName": "\u5df4\u695a"
+}, {
+	"code": "1175769",
+	"name": "\u5e03\u6d77",
+	"pinyin": "buhai",
+	"cityCode": 1802,
+	"cityName": "\u5e03\u6d77"
+}, {
+	"code": "1175770",
+	"name": "\u5e08\u5b97",
+	"pinyin": "shizong",
+	"cityCode": 3315,
+	"cityName": "\u5e08\u5b97"
+}, {
+	"code": "1175771",
+	"name": "\u5e26\u5cad",
+	"pinyin": "dailing",
+	"cityCode": 1115,
+	"cityName": "\u5e26\u5cad"
+}, {
+	"code": "1175772",
+	"name": "\u5e38\u5dde\u5317",
+	"pinyin": "changzhoubei",
+	"cityCode": 1604,
+	"cityName": "\u5e38\u5dde\u5317"
+}, {
+	"code": "1175773",
+	"name": "\u5e38\u5dde",
+	"pinyin": "changzhou",
+	"cityCode": 1604,
+	"cityName": "\u5e38\u5dde"
+}, {
+	"code": "1175774",
+	"name": "\u5e38\u5fb7",
+	"pinyin": "changde",
+	"cityCode": 1503,
+	"cityName": "\u5e38\u5fb7"
+}, {
+	"code": "1175775",
+	"name": "\u5e3d\u513f\u5c71",
+	"pinyin": "maoershan",
+	"cityCode": 1102,
+	"cityName": "\u5e3d\u513f\u5c71"
+}, {
+	"code": "1175776",
+	"name": "\u5e73\u51c9\u5357",
+	"pinyin": "pingliangnan",
+	"cityCode": 510,
+	"cityName": "\u5e73\u51c9\u5357"
+}, {
+	"code": "1175777",
+	"name": "\u5e73\u51c9",
+	"pinyin": "pingliang",
+	"cityCode": 510,
+	"cityName": "\u5e73\u51c9"
+}, {
+	"code": "1175778",
+	"name": "\u5e73\u539f",
+	"pinyin": "pingyuan",
+	"cityCode": 2405,
+	"cityName": "\u5e73\u539f"
+}, {
+	"code": "1175779",
+	"name": "\u5e73\u53f0",
+	"pinyin": "pingtai",
+	"cityCode": 1803,
+	"cityName": "\u5e73\u53f0"
+}, {
+	"code": "1175780",
+	"name": "\u5e73\u574a",
+	"pinyin": "pingfang",
+	"cityCode": 1006,
+	"cityName": "\u5e73\u574a"
+}, {
+	"code": "1175781",
+	"name": "\u5e73\u578b\u5173",
+	"pinyin": "pingxingguan",
+	"cityCode": 2604,
+	"cityName": "\u5e73\u578b\u5173"
+}, {
+	"code": "1175782",
+	"name": "\u5e73\u5b89\u9a7f",
+	"pinyin": "pinganyi",
+	"cityCode": 2306,
+	"cityName": "\u5e73\u5b89\u9a7f"
+}, {
+	"code": "1175783",
+	"name": "\u5e73\u5c71",
+	"pinyin": "pingshan",
+	"cityCode": 1102,
+	"cityName": "\u5e73\u5c71"
+}, {
+	"code": "1175784",
+	"name": "\u5e73\u5c97\u9547",
+	"pinyin": "pinggang",
+	"cityCode": 1806,
+	"cityName": "\u5e73\u5c97\u9547"
+}, {
+	"code": "1175786",
+	"name": "\u5e73\u5e84",
+	"pinyin": "pingzhuang",
+	"cityCode": 2105,
+	"cityName": "\u5e73\u5e84"
+}, {
+	"code": "1175787",
+	"name": "\u5e73\u623f",
+	"pinyin": "pingfang",
+	"cityCode": 1102,
+	"cityName": "\u5e73\u623f"
+}, {
+	"code": "1175788",
+	"name": "\u5e73\u65fa",
+	"pinyin": "pingwang",
+	"cityCode": 2604,
+	"cityName": "\u5e73\u65fa"
+}, {
+	"code": "1175789",
+	"name": "\u5e73\u679c",
+	"pinyin": "pingguo",
+	"cityCode": 703,
+	"cityName": "\u5e73\u679c"
+}, {
+	"code": "1175790",
+	"name": "\u5e73\u6cc9",
+	"pinyin": "pingquan",
+	"cityCode": 1006,
+	"cityName": "\u5e73\u6cc9"
+}, {
+	"code": "1175792",
+	"name": "\u5e73\u6e56",
+	"pinyin": "pinghu",
+	"cityCode": 619,
+	"cityName": "\u5e73\u6e56"
+}, {
+	"code": "1175793",
+	"name": "\u5e73\u7530",
+	"pinyin": "pingtian",
+	"cityCode": 807,
+	"cityName": "\u5e73\u7530"
+}, {
+	"code": "1175794",
+	"name": "\u5e73\u793e",
+	"pinyin": "pingshe",
+	"cityCode": 2610,
+	"cityName": "\u5e73\u793e"
+}, {
+	"code": "1175795",
+	"name": "\u5e73\u9065",
+	"pinyin": "pingyao",
+	"cityCode": 2612,
+	"cityName": "\u5e73\u9065"
+}, {
+	"code": "1175796",
+	"name": "\u5e73\u9091",
+	"pinyin": "pingyi",
+	"cityCode": 2411,
+	"cityName": "\u5e73\u9091"
+}, {
+	"code": "1175797",
+	"name": "\u5e73\u9876\u5c71",
+	"pinyin": "pingdingshan",
+	"cityCode": 1212,
+	"cityName": "\u5e73\u9876\u5c71"
+}, {
+	"code": "1175798",
+	"name": "\u5e73\u9876\u5c71\u897f",
+	"pinyin": "pingdingshanxi",
+	"cityCode": 1212,
+	"cityName": "\u5e73\u9876\u5c71\u897f"
+}, {
+	"code": "1175799",
+	"name": "\u5e7f\u5143",
+	"pinyin": "guangyuan",
+	"cityCode": 2810,
+	"cityName": "\u5e7f\u5143"
+}, {
+	"code": "1175800",
+	"name": "\u5e7f\u5b89",
+	"pinyin": "guangan",
+	"cityCode": 2809,
+	"cityName": "\u5e7f\u5b89"
+}, {
+	"code": "1175801",
+	"name": "\u5e7f\u5dde\u4e1c",
+	"pinyin": "guangzhoudong",
+	"cityCode": 602,
+	"cityName": "\u5e7f\u5dde\u4e1c"
+}, {
+	"code": "1175802",
+	"name": "\u5e7f\u5dde\u5317",
+	"pinyin": "guangzhoubei",
+	"cityCode": 602,
+	"cityName": "\u5e7f\u5dde\u5317"
+}, {
+	"code": "1175803",
+	"name": "\u5e7f\u5dde\u5357",
+	"pinyin": "guangzhounan",
+	"cityCode": 602,
+	"cityName": "\u5e7f\u5dde\u5357"
+}, {
+	"code": "1175804",
+	"name": "\u5e7f\u5dde",
+	"pinyin": "guangzhou",
+	"cityCode": 602,
+	"cityName": "\u5e7f\u5dde"
+}, {
+	"code": "1175806",
+	"name": "\u5e7f\u5fb7",
+	"pinyin": "guangde",
+	"cityCode": 121,
+	"cityName": "\u5e7f\u5fb7"
+}, {
+	"code": "1175808",
+	"name": "\u5e7f\u6c49",
+	"pinyin": "guanghan",
+	"cityCode": 2805,
+	"cityName": "\u5e7f\u6c49"
+}, {
+	"code": "1175809",
+	"name": "\u5e7f\u901a",
+	"pinyin": "guangtong",
+	"cityCode": 3305,
+	"cityName": "\u5e7f\u901a"
+}, {
+	"code": "1175810",
+	"name": "\u5e84\u513f\u4e0a",
+	"pinyin": "zhuangershang",
+	"cityCode": 2610,
+	"cityName": "\u5e84\u513f\u4e0a"
+}, {
+	"code": "1175811",
+	"name": "\u5e86\u5b89",
+	"pinyin": "qingan",
+	"cityCode": 1114,
+	"cityName": "\u5e86\u5b89"
+}, {
+	"code": "1175812",
+	"name": "\u5e86\u76db",
+	"pinyin": "qingsheng",
+	"cityCode": 602,
+	"cityName": "\u5e86\u76db"
+}, {
+	"code": "1175813",
+	"name": "\u5e90\u5c71",
+	"pinyin": "lushan",
+	"cityCode": 1708,
+	"cityName": "\u5e90\u5c71"
+}, {
+	"code": "1175814",
+	"name": "\u5e90\u6c5f",
+	"pinyin": "lujiang",
+	"cityCode": 102,
+	"cityName": "\u5e90\u6c5f"
+}, {
+	"code": "1175815",
+	"name": "\u5e93\u5c14\u52d2",
+	"pinyin": "kuerle",
+	"cityCode": 3114,
+	"cityName": "\u5e93\u5c14\u52d2"
+}, {
+	"code": "1175816",
+	"name": "\u5e93\u8f66",
+	"pinyin": "kuche",
+	"cityCode": 3103,
+	"cityName": "\u5e93\u8f66"
+}, {
+	"code": "1175817",
+	"name": "\u5e93\u90fd\u5c14",
+	"pinyin": "kuduer",
+	"cityCode": 2107,
+	"cityName": "\u5e93\u90fd\u5c14"
+}, {
+	"code": "1175818",
+	"name": "\u5e94\u57ce",
+	"pinyin": "yingcheng",
+	"cityCode": 1417,
+	"cityName": "\u5e94\u57ce"
+}, {
+	"code": "1175819",
+	"name": "\u5e99\u53f0\u5b50",
+	"pinyin": "miaotaizi",
+	"cityCode": 1102,
+	"cityName": "\u5e99\u53f0\u5b50"
+}, {
+	"code": "1175820",
+	"name": "\u5e99\u57ce",
+	"pinyin": "miaocheng",
+	"cityCode": 200,
+	"cityName": "\u5e99\u57ce"
+}, {
+	"code": "1175821",
+	"name": "\u5e99\u9633",
+	"pinyin": "miaoyang",
+	"cityCode": 1907,
+	"cityName": "\u5e99\u9633"
+}, {
+	"code": "1175822",
+	"name": "\u5eb7\u5e84",
+	"pinyin": "kangzhuang",
+	"cityCode": 200,
+	"cityName": "\u5eb7\u5e84"
+}, {
+	"code": "1175823",
+	"name": "\u5eb7\u91d1\u4e95",
+	"pinyin": "kangjinjing",
+	"cityCode": 1102,
+	"cityName": "\u5eb7\u91d1\u4e95"
+}, {
+	"code": "1175824",
+	"name": "\u5ec9\u6c5f",
+	"pinyin": "lianjiang",
+	"cityCode": 625,
+	"cityName": "\u5ec9\u6c5f"
+}, {
+	"code": "1175825",
+	"name": "\u5eca\u574a\u5317",
+	"pinyin": "langfangbei",
+	"cityCode": 1010,
+	"cityName": "\u5eca\u574a\u5317"
+}, {
+	"code": "1175826",
+	"name": "\u5eca\u574a",
+	"pinyin": "langfang",
+	"cityCode": 1010,
+	"cityName": "\u5eca\u574a"
+}, {
+	"code": "1175827",
+	"name": "\u5ef6\u5409",
+	"pinyin": "yanji",
+	"cityCode": 1812,
+	"cityName": "\u5ef6\u5409"
+}, {
+	"code": "1175828",
+	"name": "\u5ef6\u5b89",
+	"pinyin": "yanan",
+	"cityCode": 2711,
+	"cityName": "\u5ef6\u5b89"
+}, {
+	"code": "1175830",
+	"name": "\u5efa\u4e09\u6c5f",
+	"pinyin": "jiansanjiang",
+	"cityCode": 1108,
+	"cityName": "\u5efa\u4e09\u6c5f"
+}, {
+	"code": "1175831",
+	"name": "\u5efa\u59cb",
+	"pinyin": "jianshi",
+	"cityCode": 1403,
+	"cityName": "\u5efa\u59cb"
+}, {
+	"code": "1175833",
+	"name": "\u5efa\u6e56",
+	"pinyin": "jianhu",
+	"cityCode": 1621,
+	"cityName": "\u5efa\u6e56"
+}, {
+	"code": "1175834",
+	"name": "\u5efa\u74ef",
+	"pinyin": "jianou",
+	"cityCode": 405,
+	"cityName": "\u5efa\u74ef"
+}, {
+	"code": "1175835",
+	"name": "\u5efa\u9633",
+	"pinyin": "jianyang",
+	"cityCode": 405,
+	"cityName": "\u5efa\u9633"
+}, {
+	"code": "1175836",
+	"name": "\u5f00\u539f",
+	"pinyin": "kaiyuan",
+	"cityCode": 1914,
+	"cityName": "\u5f00\u539f"
+}, {
+	"code": "1175837",
+	"name": "\u5f00\u539f\u897f",
+	"pinyin": "kaiyuanxi",
+	"cityCode": 1914,
+	"cityName": "\u5f00\u539f\u897f"
+}, {
+	"code": "1175838",
+	"name": "\u5f00\u5b89",
+	"pinyin": "kaian",
+	"cityCode": 1802,
+	"cityName": "\u5f00\u5b89"
+}, {
+	"code": "1175839",
+	"name": "\u5f00\u5c01",
+	"pinyin": "kaifeng",
+	"cityCode": 1208,
+	"cityName": "\u5f00\u5c01"
+}, {
+	"code": "1175840",
+	"name": "\u5f00\u6c5f",
+	"pinyin": "kaijiang",
+	"cityCode": 2804,
+	"cityName": "\u5f00\u6c5f"
+}, {
+	"code": "1175841",
+	"name": "\u5f00\u901a",
+	"pinyin": "kaitong",
+	"cityCode": 1803,
+	"cityName": "\u5f00\u901a"
+}, {
+	"code": "1175842",
+	"name": "\u5f00\u9c81",
+	"pinyin": "kailu",
+	"cityCode": 2110,
+	"cityName": "\u5f00\u9c81"
+}, {
+	"code": "1175843",
+	"name": "\u5f0b\u9633\u4e1c",
+	"pinyin": "yiyangdong",
+	"cityCode": 1711,
+	"cityName": "\u5f0b\u9633\u4e1c"
+}, {
+	"code": "1175844",
+	"name": "\u5f20\u4e09\u8425",
+	"pinyin": "zhangsanying",
+	"cityCode": 1006,
+	"cityName": "\u5f20\u4e09\u8425"
+}, {
+	"code": "1175845",
+	"name": "\u5f20\u53f0\u5b50",
+	"pinyin": "zhangtaizi",
+	"cityCode": 1912,
+	"cityName": "\u5f20\u53f0\u5b50"
+}, {
+	"code": "1175846",
+	"name": "\u5f20\u5bb6\u53e3\u5357",
+	"pinyin": "zhangjiakounan",
+	"cityCode": 1016,
+	"cityName": "\u5f20\u5bb6\u53e3\u5357"
+}, {
+	"code": "1175848",
+	"name": "\u5f20\u5bb6\u754c",
+	"pinyin": "zhangjiajie",
+	"cityCode": 1514,
+	"cityName": "\u5f20\u5bb6\u754c"
+}, {
+	"code": "1175849",
+	"name": "\u5f20\u5bb6\u8239",
+	"pinyin": "zhangjiachuan",
+	"cityCode": 2706,
+	"cityName": "\u5f20\u5bb6\u8239"
+}, {
+	"code": "1175850",
+	"name": "\u5f20\u5be8",
+	"pinyin": "zhangzhai",
+	"cityCode": 1620,
+	"cityName": "\u5f20\u5be8"
+}, {
+	"code": "1175851",
+	"name": "\u5f20\u6396",
+	"pinyin": "zhangye",
+	"cityCode": 515,
+	"cityName": "\u5f20\u6396"
+}, {
+	"code": "1175852",
+	"name": "\u5f20\u6865",
+	"pinyin": "zhangqiao",
+	"cityCode": 2706,
+	"cityName": "\u5f20\u6865"
+}, {
+	"code": "1175853",
+	"name": "\u5f20\u767e\u6e7e",
+	"pinyin": "zhangbaiwan",
+	"cityCode": 1006,
+	"cityName": "\u5f20\u767e\u6e7e"
+}, {
+	"code": "1175854",
+	"name": "\u5f20\u7ef4\u5c6f",
+	"pinyin": "zhangweitun",
+	"cityCode": 1114,
+	"cityName": "\u5f20\u7ef4\u5c6f"
+}, {
+	"code": "1175855",
+	"name": "\u5f20\u8f9b",
+	"pinyin": "zhangxin",
+	"cityCode": 200,
+	"cityName": "\u5f20\u8f9b"
+}, {
+	"code": "1175856",
+	"name": "\u5f20\u96c6",
+	"pinyin": "zhangji",
+	"cityCode": 112,
+	"cityName": "\u5f20\u96c6"
+}, {
+	"code": "1175857",
+	"name": "\u5f53\u9633",
+	"pinyin": "dangyang",
+	"cityCode": 1418,
+	"cityName": "\u5f53\u9633"
+}, {
+	"code": "1175858",
+	"name": "\u5f5d\u826f",
+	"pinyin": "yiliang",
+	"cityCode": 3321,
+	"cityName": "\u5f5d\u826f"
+}, {
+	"code": "1175859",
+	"name": "\u5f6c\u6c5f",
+	"pinyin": "binjiang",
+	"cityCode": 1713,
+	"cityName": "\u5f6c\u6c5f"
+}, {
+	"code": "1175860",
+	"name": "\u5f6d\u5c71",
+	"pinyin": "pengshan",
+	"cityCode": 2817,
+	"cityName": "\u5f6d\u5c71"
+}, {
+	"code": "1175861",
+	"name": "\u5f6d\u6c34",
+	"pinyin": "pengshui",
+	"cityCode": 300,
+	"cityName": "\u5f6d\u6c34"
+}, {
+	"code": "1175862",
+	"name": "\u5f6d\u6cfd",
+	"pinyin": "pengze",
+	"cityCode": 1708,
+	"cityName": "\u5f6d\u6cfd"
+}, {
+	"code": "1175863",
+	"name": "\u5f70\u660e",
+	"pinyin": "zhangming",
+	"cityCode": 2816,
+	"cityName": "\u5f70\u660e"
+}, {
+	"code": "1175864",
+	"name": "\u5f70\u6b66",
+	"pinyin": "zhangwu",
+	"cityCode": 1909,
+	"cityName": "\u5f70\u6b66"
+}, {
+	"code": "1175865",
+	"name": "\u5f90\u5bb6",
+	"pinyin": "xujia",
+	"cityCode": 1102,
+	"cityName": "\u5f90\u5bb6"
+}, {
+	"code": "1175866",
+	"name": "\u5f90\u5dde\u4e1c",
+	"pinyin": "xuzhoudong",
+	"cityCode": 1620,
+	"cityName": "\u5f90\u5dde\u4e1c"
+}, {
+	"code": "1175867",
+	"name": "\u5f90\u5dde",
+	"pinyin": "xuzhou",
+	"cityCode": 1620,
+	"cityName": "\u5f90\u5dde"
+}, {
+	"code": "1175868",
+	"name": "\u5f90\u95fb",
+	"pinyin": "xuwen",
+	"cityCode": 625,
+	"cityName": "\u5f90\u95fb"
+}, {
+	"code": "1175869",
+	"name": "\u5f97\u80dc\u53f0",
+	"pinyin": "deshengtai",
+	"cityCode": 1914,
+	"cityName": "\u5f97\u80dc\u53f0"
+}, {
+	"code": "1175870",
+	"name": "\u5fb7\u4ee4\u54c8",
+	"pinyin": "delingha",
+	"cityCode": 2303,
+	"cityName": "\u5fb7\u4ee4\u54c8"
+}, {
+	"code": "1175871",
+	"name": "\u5fb7\u4f2f\u65af",
+	"pinyin": "debosi",
+	"cityCode": 2112,
+	"cityName": "\u5fb7\u4f2f\u65af"
+}, {
+	"code": "1175872",
+	"name": "\u5fb7\u5b89",
+	"pinyin": "dean",
+	"cityCode": 1708,
+	"cityName": "\u5fb7\u5b89"
+}, {
+	"code": "1175873",
+	"name": "\u5fb7\u5dde\u4e1c",
+	"pinyin": "dezhoudong",
+	"cityCode": 2405,
+	"cityName": "\u5fb7\u5dde\u4e1c"
+}, {
+	"code": "1175874",
+	"name": "\u5fb7\u5dde",
+	"pinyin": "dezhou",
+	"cityCode": 2405,
+	"cityName": "\u5fb7\u5dde"
+}, {
+	"code": "1175875",
+	"name": "\u5fb7\u60e0",
+	"pinyin": "dehui",
+	"cityCode": 1802,
+	"cityName": "\u5fb7\u60e0"
+}, {
+	"code": "1175876",
+	"name": "\u5fb7\u60e0\u897f",
+	"pinyin": "dehuixi",
+	"cityCode": 1802,
+	"cityName": "\u5fb7\u60e0\u897f"
+}, {
+	"code": "1175877",
+	"name": "\u5fb7\u660c",
+	"pinyin": "dechang",
+	"cityCode": 2823,
+	"cityName": "\u5fb7\u660c"
+}, {
+	"code": "1175878",
+	"name": "\u5fb7\u9633",
+	"pinyin": "deyang",
+	"cityCode": 2805,
+	"cityName": "\u5fb7\u9633"
+}, {
+	"code": "1175879",
+	"name": "\u5fbd\u53bf",
+	"pinyin": "huixian",
+	"cityCode": 512,
+	"cityName": "\u5fbd\u53bf"
+}, {
+	"code": "1175880",
+	"name": "\u5ffb\u5dde",
+	"pinyin": "xinzhou",
+	"cityCode": 2610,
+	"cityName": "\u5ffb\u5dde"
+}, {
+	"code": "1175881",
+	"name": "\u6000\u4ec1",
+	"pinyin": "huairen",
+	"cityCode": 2605,
+	"cityName": "\u6000\u4ec1"
+}, {
+	"code": "1175882",
+	"name": "\u6000\u5316",
+	"pinyin": "huaihua",
+	"cityCode": 1506,
+	"cityName": "\u6000\u5316"
+}, {
+	"code": "1175883",
+	"name": "\u6000\u67d4\u5317",
+	"pinyin": "huairoubei",
+	"cityCode": 200,
+	"cityName": "\u6000\u67d4\u5317"
+}, {
+	"code": "1175884",
+	"name": "\u6000\u67d4",
+	"pinyin": "huairou",
+	"cityCode": 200,
+	"cityName": "\u6000\u67d4"
+}, {
+	"code": "1175885",
+	"name": "\u601d\u6fdb",
+	"pinyin": "simeng",
+	"cityCode": 2817,
+	"cityName": "\u601d\u6fdb"
+}, {
+	"code": "1175886",
+	"name": "\u6052\u5730\u8425",
+	"pinyin": "hengdiying",
+	"cityCode": 1111,
+	"cityName": "\u6052\u5730\u8425"
+}, {
+	"code": "1175889",
+	"name": "\u606f\u70fd",
+	"pinyin": "xifeng",
+	"cityCode": 802,
+	"cityName": "\u606f\u70fd"
+}, {
+	"code": "1175890",
+	"name": "\u60ac\u949f",
+	"pinyin": "xuanzhong",
+	"cityCode": 1008,
+	"cityName": "\u60ac\u949f"
+}, {
+	"code": "1175891",
+	"name": "\u60e0\u5c71",
+	"pinyin": "huishan",
+	"cityCode": 1619,
+	"cityName": "\u60e0\u5c71"
+}, {
+	"code": "1175892",
+	"name": "\u60e0\u5dde",
+	"pinyin": "huizhou",
+	"cityCode": 609,
+	"cityName": "\u60e0\u5dde"
+}, {
+	"code": "1175893",
+	"name": "\u6148\u5229",
+	"pinyin": "cili",
+	"cityCode": 1514,
+	"cityName": "\u6148\u5229"
+}, {
+	"code": "1175894",
+	"name": "\u6210\u5409\u601d\u6c57",
+	"pinyin": "chengjisihan",
+	"cityCode": 2107,
+	"cityName": "\u6210\u5409\u601d\u6c57"
+}, {
+	"code": "1175895",
+	"name": "\u6210\u90fd\u4e1c",
+	"pinyin": "chengdudong",
+	"cityCode": 2802,
+	"cityName": "\u6210\u90fd\u4e1c"
+}, {
+	"code": "1175897",
+	"name": "\u6210\u90fd",
+	"pinyin": "chengdu",
+	"cityCode": 2802,
+	"cityName": "\u6210\u90fd"
+}, {
+	"code": "1175898",
+	"name": "\u6210\u9ad8\u5b50",
+	"pinyin": "chenggaozi",
+	"cityCode": 1102,
+	"cityName": "\u6210\u9ad8\u5b50"
+}, {
+	"code": "1175899",
+	"name": "\u621a\u5885\u5830",
+	"pinyin": "qishuyan",
+	"cityCode": 1604,
+	"cityName": "\u621a\u5885\u5830"
+}, {
+	"code": "1175900",
+	"name": "\u623f\u5c71",
+	"pinyin": "fangshan",
+	"cityCode": 200,
+	"cityName": "\u623f\u5c71"
+}, {
+	"code": "1175901",
+	"name": "\u624e\u4f50",
+	"pinyin": "zhazuo",
+	"cityCode": 802,
+	"cityName": "\u624e\u4f50"
+}, {
+	"code": "1175902",
+	"name": "\u624e\u5170\u5c6f",
+	"pinyin": "zhalantun",
+	"cityCode": 2107,
+	"cityName": "\u624e\u5170\u5c6f"
+}, {
+	"code": "1175903",
+	"name": "\u624e\u7f57\u6728\u5f97",
+	"pinyin": "zhaluomude",
+	"cityCode": 2107,
+	"cityName": "\u624e\u7f57\u6728\u5f97"
+}, {
+	"code": "1175904",
+	"name": "\u624e\u8d49\u8bfa\u5c14",
+	"pinyin": "zhalainuoer",
+	"cityCode": 2107,
+	"cityName": "\u624e\u8d49\u8bfa\u5c14"
+}, {
+	"code": "1175905",
+	"name": "\u624e\u97f3\u6cb3",
+	"pinyin": "zhayinhe",
+	"cityCode": 1114,
+	"cityName": "\u624e\u97f3\u6cb3"
+}, {
+	"code": "1175906",
+	"name": "\u6258\u514b\u900a",
+	"pinyin": "tuokexun",
+	"cityCode": 3118,
+	"cityName": "\u6258\u514b\u900a"
+}, {
+	"code": "1175907",
+	"name": "\u6258\u6258",
+	"pinyin": "tuotuo",
+	"cityCode": 3106,
+	"cityName": "\u6258\u6258"
+}, {
+	"code": "1175908",
+	"name": "\u626c\u5dde",
+	"pinyin": "yangzhou",
+	"cityCode": 1622,
+	"cityName": "\u626c\u5dde"
+}, {
+	"code": "1175909",
+	"name": "\u6276\u4f59\u5317",
+	"pinyin": "fuyubei",
+	"cityCode": 1810,
+	"cityName": "\u6276\u4f59\u5317"
+}, {
+	"code": "1175910",
+	"name": "\u6276\u4f59",
+	"pinyin": "fuyu",
+	"cityCode": 1810,
+	"cityName": "\u6276\u4f59"
+}, {
+	"code": "1175911",
+	"name": "\u627f\u5b89\u94fa",
+	"pinyin": "chenganpu",
+	"cityCode": 1002,
+	"cityName": "\u627f\u5b89\u94fa"
+}, {
+	"code": "1175912",
+	"name": "\u627f\u5fb7\u4e1c",
+	"pinyin": "chengdedong",
+	"cityCode": 1006,
+	"cityName": "\u627f\u5fb7\u4e1c"
+}, {
+	"code": "1175913",
+	"name": "\u627f\u5fb7",
+	"pinyin": "chengde",
+	"cityCode": 1006,
+	"cityName": "\u627f\u5fb7"
+}, {
+	"code": "1175914",
+	"name": "\u629a\u5b81",
+	"pinyin": "funing",
+	"cityCode": 1012,
+	"cityName": "\u629a\u5b81"
+}, {
+	"code": "1175915",
+	"name": "\u629a\u8fdc",
+	"pinyin": "fuyuan",
+	"cityCode": 1108,
+	"cityName": "\u629a\u8fdc"
+}, {
+	"code": "1175917",
+	"name": "\u629a\u987a",
+	"pinyin": "fushun",
+	"cityCode": 1908,
+	"cityName": "\u629a\u987a"
+}, {
+	"code": "1175919",
+	"name": "\u62c9\u54c8",
+	"pinyin": "laha",
+	"cityCode": 1111,
+	"cityName": "\u62c9\u54c8"
+}, {
+	"code": "1175920",
+	"name": "\u62c9\u6797",
+	"pinyin": "lalin",
+	"cityCode": 1102,
+	"cityName": "\u62c9\u6797"
+}, {
+	"code": "1175921",
+	"name": "\u62c9\u8428",
+	"pinyin": "lasa",
+	"cityCode": 3202,
+	"cityName": "\u62c9\u8428"
+}, {
+	"code": "1175922",
+	"name": "\u62c9\u9c8a",
+	"pinyin": "lazha",
+	"cityCode": 2820,
+	"cityName": "\u62c9\u9c8a"
+}, {
+	"code": "1175924",
+	"name": "\u6362\u65b0\u5929",
+	"pinyin": "huanxintian",
+	"cityCode": 1108,
+	"cityName": "\u6362\u65b0\u5929"
+}, {
+	"code": "1175925",
+	"name": "\u63ed\u9633",
+	"pinyin": "jieyang",
+	"cityCode": 611,
+	"cityName": "\u63ed\u9633"
+}, {
+	"code": "1175926",
+	"name": "\u64ad\u660e",
+	"pinyin": "boming",
+	"cityCode": 2610,
+	"cityName": "\u64ad\u660e"
+}, {
+	"code": "1175927",
+	"name": "\u6500\u679d\u82b1",
+	"pinyin": "panzhihua",
+	"cityCode": 2820,
+	"cityName": "\u6500\u679d\u82b1"
+}, {
+	"code": "1175929",
+	"name": "\u6566\u5316",
+	"pinyin": "dunhua",
+	"cityCode": 1812,
+	"cityName": "\u6566\u5316"
+}, {
+	"code": "1175931",
+	"name": "\u6587\u5730",
+	"pinyin": "wendi",
+	"cityCode": 712,
+	"cityName": "\u6587\u5730"
+}, {
+	"code": "1175932",
+	"name": "\u6587\u660c",
+	"pinyin": "wenchang",
+	"cityCode": 909,
+	"cityName": "\u6587\u660c"
+}, {
+	"code": "1175933",
+	"name": "\u6587\u767b",
+	"pinyin": "wendeng",
+	"cityCode": 2418,
+	"cityName": "\u6587\u767b"
+}, {
+	"code": "1175934",
+	"name": "\u6597\u6c9f\u5b50",
+	"pinyin": "dougouzi",
+	"cityCode": 1110,
+	"cityName": "\u6597\u6c9f\u5b50"
+}, {
+	"code": "1175935",
+	"name": "\u65b0\u4e61\u4e1c",
+	"pinyin": "xinxiangdong",
+	"cityCode": 1216,
+	"cityName": "\u65b0\u4e61\u4e1c"
+}, {
+	"code": "1175936",
+	"name": "\u65b0\u4e61",
+	"pinyin": "xinxiang",
+	"cityCode": 1216,
+	"cityName": "\u65b0\u4e61"
+}, {
+	"code": "1175937",
+	"name": "\u65b0\u4f1a",
+	"pinyin": "xinhui",
+	"cityCode": 610,
+	"cityName": "\u65b0\u4f1a"
+}, {
+	"code": "1175938",
+	"name": "\u65b0\u4f59",
+	"pinyin": "xinyu",
+	"cityCode": 1712,
+	"cityName": "\u65b0\u4f59"
+}, {
+	"code": "1175939",
+	"name": "\u65b0\u51c9",
+	"pinyin": "xinliang",
+	"cityCode": 2823,
+	"cityName": "\u65b0\u51c9"
+}, {
+	"code": "1175940",
+	"name": "\u65b0\u5316",
+	"pinyin": "xinhua",
+	"cityCode": 1508,
+	"cityName": "\u65b0\u5316"
+}, {
+	"code": "1175941",
+	"name": "\u65b0\u534e\u5c6f",
+	"pinyin": "xinhuatun",
+	"cityCode": 1104,
+	"cityName": "\u65b0\u534e\u5c6f"
+}, {
+	"code": "1175942",
+	"name": "\u65b0\u534e",
+	"pinyin": "xinhua",
+	"cityCode": 1110,
+	"cityName": "\u65b0\u534e"
+}, {
+	"code": "1175943",
+	"name": "\u65b0\u53bf",
+	"pinyin": "xinxian",
+	"cityCode": 1217,
+	"cityName": "\u65b0\u53bf"
+}, {
+	"code": "1175944",
+	"name": "\u65b0\u548c",
+	"pinyin": "xinhe",
+	"cityCode": 3103,
+	"cityName": "\u65b0\u548c"
+}, {
+	"code": "1175945",
+	"name": "\u65b0\u56fa\u9547",
+	"pinyin": "xinguzhen",
+	"cityCode": 1008,
+	"cityName": "\u65b0\u56fa\u9547"
+}, {
+	"code": "1175946",
+	"name": "\u65b0\u573a",
+	"pinyin": "xinchang",
+	"cityCode": 811,
+	"cityName": "\u65b0\u573a"
+}, {
+	"code": "1175947",
+	"name": "\u65b0\u5929",
+	"pinyin": "xintian",
+	"cityCode": 1105,
+	"cityName": "\u65b0\u5929"
+}, {
+	"code": "1175948",
+	"name": "\u65b0\u5b89\u53bf",
+	"pinyin": "xinanxian",
+	"cityCode": 1210,
+	"cityName": "\u65b0\u5b89\u53bf"
+}, {
+	"code": "1175949",
+	"name": "\u65b0\u5bd2\u5cad",
+	"pinyin": "xinhanling",
+	"cityCode": 1912,
+	"cityName": "\u65b0\u5bd2\u5cad"
+}, {
+	"code": "1175950",
+	"name": "\u65b0\u5e10\u623f",
+	"pinyin": "xinzhangfang",
+	"cityCode": 2107,
+	"cityName": "\u65b0\u5e10\u623f"
+}, {
+	"code": "1175951",
+	"name": "\u65b0\u5e72",
+	"pinyin": "xingan",
+	"cityCode": 1705,
+	"cityName": "\u65b0\u5e72"
+}, {
+	"code": "1175953",
+	"name": "\u65b0\u6643",
+	"pinyin": "xinhuang",
+	"cityCode": 1506,
+	"cityName": "\u65b0\u6643"
+}, {
+	"code": "1175954",
+	"name": "\u65b0\u6797",
+	"pinyin": "xinlin",
+	"cityCode": 1105,
+	"cityName": "\u65b0\u6797"
+}, {
+	"code": "1175955",
+	"name": "\u65b0\u6865",
+	"pinyin": "xinqiao",
+	"cityCode": 2500,
+	"cityName": "\u65b0\u6865"
+}, {
+	"code": "1175956",
+	"name": "\u65b0\u6c11",
+	"pinyin": "xinmin",
+	"cityCode": 1902,
+	"cityName": "\u65b0\u6c11"
+}, {
+	"code": "1175957",
+	"name": "\u65b0\u6c5f",
+	"pinyin": "xinjiang",
+	"cityCode": 2820,
+	"cityName": "\u65b0\u6c5f"
+}, {
+	"code": "1175958",
+	"name": "\u65b0\u6c82",
+	"pinyin": "xinyi",
+	"cityCode": 1620,
+	"cityName": "\u65b0\u6c82"
+}, {
+	"code": "1175960",
+	"name": "\u65b0\u797a\u5468",
+	"pinyin": "xinqizhou",
+	"cityCode": 1702,
+	"cityName": "\u65b0\u797a\u5468"
+}, {
+	"code": "1175961",
+	"name": "\u65b0\u7acb\u5c6f",
+	"pinyin": "xinlitun",
+	"cityCode": 1911,
+	"cityName": "\u65b0\u7acb\u5c6f"
+}, {
+	"code": "1175962",
+	"name": "\u65b0\u7edb",
+	"pinyin": "xinjiang",
+	"cityCode": 2613,
+	"cityName": "\u65b0\u7edb"
+}, {
+	"code": "1175963",
+	"name": "\u65b0\u8087",
+	"pinyin": "xinzhao",
+	"cityCode": 1104,
+	"cityName": "\u65b0\u8087"
+}, {
+	"code": "1175964",
+	"name": "\u65b0\u827e\u91cc",
+	"pinyin": "xinaili",
+	"cityCode": 2112,
+	"cityName": "\u65b0\u827e\u91cc"
+}, {
+	"code": "1175965",
+	"name": "\u65b0\u90b1",
+	"pinyin": "xinqiu",
+	"cityCode": 1909,
+	"cityName": "\u65b0\u90b1"
+}, {
+	"code": "1175966",
+	"name": "\u65b0\u9999\u574a",
+	"pinyin": "xinxiangfang",
+	"cityCode": 1102,
+	"cityName": "\u65b0\u9999\u574a"
+}, {
+	"code": "1175967",
+	"name": "\u65bd\u79c9",
+	"pinyin": "shibing",
+	"cityCode": 806,
+	"cityName": "\u65bd\u79c9"
+}, {
+	"code": "1175969",
+	"name": "\u65d7\u4e0b\u8425",
+	"pinyin": "qixiaying",
+	"cityCode": 2108,
+	"cityName": "\u65d7\u4e0b\u8425"
+}, {
+	"code": "1175970",
+	"name": "\u65d7\u5c71",
+	"pinyin": "qishan",
+	"cityCode": 2107,
+	"cityName": "\u65d7\u5c71"
+}, {
+	"code": "1175971",
+	"name": "\u65e0\u9521\u4e1c",
+	"pinyin": "wuxidong",
+	"cityCode": 1619,
+	"cityName": "\u65e0\u9521\u4e1c"
+}, {
+	"code": "1175972",
+	"name": "\u65e0\u9521\u65b0\u533a",
+	"pinyin": "wuxixinqu",
+	"cityCode": 1619,
+	"cityName": "\u65e0\u9521\u65b0\u533a"
+}, {
+	"code": "1175973",
+	"name": "\u65e0\u9521",
+	"pinyin": "wuxi",
+	"cityCode": 1619,
+	"cityName": "\u65e0\u9521"
+}, {
+	"code": "1175974",
+	"name": "\u65e5\u7167",
+	"pinyin": "rizhao",
+	"cityCode": 2415,
+	"cityName": "\u65e5\u7167"
+}, {
+	"code": "1175975",
+	"name": "\u65e9\u9633",
+	"pinyin": "zaoyang",
+	"cityCode": 2703,
+	"cityName": "\u65e9\u9633"
+}, {
+	"code": "1175976",
+	"name": "\u65ec\u9633\u5317",
+	"pinyin": "xunyangbei",
+	"cityCode": 2703,
+	"cityName": "\u65ec\u9633\u5317"
+}, {
+	"code": "1175977",
+	"name": "\u65ec\u9633",
+	"pinyin": "xunyang",
+	"cityCode": 2703,
+	"cityName": "\u65ec\u9633"
+}, {
+	"code": "1175978",
+	"name": "\u6602\u6602\u6eaa",
+	"pinyin": "angangxi",
+	"cityCode": 1111,
+	"cityName": "\u6602\u6602\u6eaa"
+}, {
+	"code": "1175979",
+	"name": "\u6606\u5c71\u5357",
+	"pinyin": "kunshannan",
+	"cityCode": 1615,
+	"cityName": "\u6606\u5c71\u5357"
+}, {
+	"code": "1175980",
+	"name": "\u6606\u5c71",
+	"pinyin": "kunshan",
+	"cityCode": 1615,
+	"cityName": "\u6606\u5c71"
+}, {
+	"code": "1175981",
+	"name": "\u6606\u660e\u5357",
+	"pinyin": "kunmingnan",
+	"cityCode": 3302,
+	"cityName": "\u6606\u660e\u5357"
+}, {
+	"code": "1175982",
+	"name": "\u6606\u660e",
+	"pinyin": "kunming",
+	"cityCode": 3302,
+	"cityName": "\u6606\u660e"
+}, {
+	"code": "1175983",
+	"name": "\u6606\u660e\u897f",
+	"pinyin": "kunmingxi",
+	"cityCode": 3302,
+	"cityName": "\u6606\u660e\u897f"
+}, {
+	"code": "1175984",
+	"name": "\u660c\u4e50",
+	"pinyin": "changle",
+	"cityCode": 2417,
+	"cityName": "\u660c\u4e50"
+}, {
+	"code": "1175985",
+	"name": "\u660c\u56fe",
+	"pinyin": "changtu",
+	"cityCode": 1914,
+	"cityName": "\u660c\u56fe"
+}, {
+	"code": "1175986",
+	"name": "\u660c\u56fe\u897f",
+	"pinyin": "changtuxi",
+	"cityCode": 1914,
+	"cityName": "\u660c\u56fe\u897f"
+}, {
+	"code": "1175987",
+	"name": "\u660c\u5e73\u5317",
+	"pinyin": "changpingbei",
+	"cityCode": 200,
+	"cityName": "\u660c\u5e73\u5317"
+}, {
+	"code": "1175988",
+	"name": "\u660c\u5e73",
+	"pinyin": "changping",
+	"cityCode": 200,
+	"cityName": "\u660c\u5e73"
+}, {
+	"code": "1175989",
+	"name": "\u660c\u9ece",
+	"pinyin": "changli",
+	"cityCode": 1012,
+	"cityName": "\u660c\u9ece"
+}, {
+	"code": "1175991",
+	"name": "\u660e\u57ce",
+	"pinyin": "mingcheng",
+	"cityCode": 1808,
+	"cityName": "\u660e\u57ce"
+}, {
+	"code": "1175992",
+	"name": "\u660e\u6e2f",
+	"pinyin": "minggang",
+	"cityCode": 1217,
+	"cityName": "\u660e\u6e2f"
+}, {
+	"code": "1175993",
+	"name": "\u660e\u9633",
+	"pinyin": "mingyang",
+	"cityCode": 1906,
+	"cityName": "\u660e\u9633"
+}, {
+	"code": "1175994",
+	"name": "\u6625\u7533",
+	"pinyin": "chunshen",
+	"cityCode": 2500,
+	"cityName": "\u6625\u7533"
+}, {
+	"code": "1175995",
+	"name": "\u662d\u901a",
+	"pinyin": "zhaotong",
+	"cityCode": 3321,
+	"cityName": "\u662d\u901a"
+}, {
+	"code": "1175996",
+	"name": "\u664b\u57ce\u5317",
+	"pinyin": "jinchengbei",
+	"cityCode": 2606,
+	"cityName": "\u664b\u57ce\u5317"
+}, {
+	"code": "1175997",
+	"name": "\u664b\u57ce",
+	"pinyin": "jincheng",
+	"cityCode": 2606,
+	"cityName": "\u664b\u57ce"
+}, {
+	"code": "1175998",
+	"name": "\u664b\u5dde",
+	"pinyin": "jinzhou",
+	"cityCode": 1002,
+	"cityName": "\u664b\u5dde"
+}, {
+	"code": "1175999",
+	"name": "\u664b\u6c5f",
+	"pinyin": "jinjiang",
+	"cityCode": 408,
+	"cityName": "\u664b\u6c5f"
+}, {
+	"code": "1176001",
+	"name": "\u666e\u5170\u5e97",
+	"pinyin": "pulandian",
+	"cityCode": 1906,
+	"cityName": "\u666e\u5170\u5e97"
+}, {
+	"code": "1176002",
+	"name": "\u666e\u5b9a",
+	"pinyin": "puding",
+	"cityCode": 803,
+	"cityName": "\u666e\u5b9a"
+}, {
+	"code": "1176003",
+	"name": "\u666e\u6e7e",
+	"pinyin": "puwan",
+	"cityCode": 1906,
+	"cityName": "\u666e\u6e7e"
+}, {
+	"code": "1176004",
+	"name": "\u666e\u96c4",
+	"pinyin": "puxiong",
+	"cityCode": 2823,
+	"cityName": "\u666e\u96c4"
+}, {
+	"code": "1176005",
+	"name": "\u666f\u5fb7\u9547",
+	"pinyin": "jingdezhen",
+	"cityCode": 1706,
+	"cityName": "\u666f\u5fb7\u9547"
+}, {
+	"code": "1176006",
+	"name": "\u666f\u6cf0",
+	"pinyin": "jingtai",
+	"cityCode": 503,
+	"cityName": "\u666f\u6cf0"
+}, {
+	"code": "1176007",
+	"name": "\u66f2\u5bb6\u5e97",
+	"pinyin": "qujiadian",
+	"cityCode": 1914,
+	"cityName": "\u66f2\u5bb6\u5e97"
+}, {
+	"code": "1176008",
+	"name": "\u66f2\u961c\u4e1c",
+	"pinyin": "qufudong",
+	"cityCode": 2408,
+	"cityName": "\u66f2\u961c\u4e1c"
+}, {
+	"code": "1176009",
+	"name": "\u66f2\u961c",
+	"pinyin": "qufu",
+	"cityCode": 2408,
+	"cityName": "\u66f2\u961c"
+}, {
+	"code": "1176010",
+	"name": "\u66f2\u9756",
+	"pinyin": "qujing",
+	"cityCode": 3315,
+	"cityName": "\u66f2\u9756"
+}, {
+	"code": "1176011",
+	"name": "\u66f9\u53bf",
+	"pinyin": "caoxian",
+	"cityCode": 2407,
+	"cityName": "\u66f9\u53bf"
+}, {
+	"code": "1176012",
+	"name": "\u66f9\u5983\u7538\u5357",
+	"pinyin": "caofeidiannan",
+	"cityCode": 1013,
+	"cityName": "\u66f9\u5983\u7538\u5357"
+}, {
+	"code": "1176013",
+	"name": "\u66f9\u5983\u7538",
+	"pinyin": "caofeidian",
+	"cityCode": 1013,
+	"cityName": "\u66f9\u5983\u7538"
+}, {
+	"code": "1176014",
+	"name": "\u6708\u5c71",
+	"pinyin": "yueshan",
+	"cityCode": 1206,
+	"cityName": "\u6708\u5c71"
+}, {
+	"code": "1176015",
+	"name": "\u6714\u5dde",
+	"pinyin": "shuozhou",
+	"cityCode": 2605,
+	"cityName": "\u6714\u5dde"
+}, {
+	"code": "1176016",
+	"name": "\u6717\u4e61",
+	"pinyin": "langxiang",
+	"cityCode": 1115,
+	"cityName": "\u6717\u4e61"
+}, {
+	"code": "1176017",
+	"name": "\u671b\u6c5f",
+	"pinyin": "wangjiang",
+	"cityCode": 1108,
+	"cityName": "\u671b\u6c5f"
+}, {
+	"code": "1176019",
+	"name": "\u671d\u9633\u5ddd",
+	"pinyin": "chaoyangchuan",
+	"cityCode": 1812,
+	"cityName": "\u671d\u9633\u5ddd"
+}, {
+	"code": "1176021",
+	"name": "\u6728\u7af9\u6cb3",
+	"pinyin": "muzhuhe",
+	"cityCode": 811,
+	"cityName": "\u6728\u7af9\u6cb3"
+}, {
+	"code": "1176023",
+	"name": "\u672c\u6eaa",
+	"pinyin": "benxi",
+	"cityCode": 1904,
+	"cityName": "\u672c\u6eaa"
+}, {
+	"code": "1176024",
+	"name": "\u6731\u5bb6\u6c9f",
+	"pinyin": "zhujiagou",
+	"cityCode": 1110,
+	"cityName": "\u6731\u5bb6\u6c9f"
+}, {
+	"code": "1176025",
+	"name": "\u6731\u65e5\u548c",
+	"pinyin": "zhurihe",
+	"cityCode": 2113,
+	"cityName": "\u6731\u65e5\u548c"
+}, {
+	"code": "1176026",
+	"name": "\u6731\u6768\u6eaa",
+	"pinyin": "zhuyangxi",
+	"cityCode": 300,
+	"cityName": "\u6731\u6768\u6eaa"
+}, {
+	"code": "1176027",
+	"name": "\u6731\u77f3\u5be8",
+	"pinyin": "zhushizhai",
+	"cityCode": 805,
+	"cityName": "\u6731\u77f3\u5be8"
+}, {
+	"code": "1176028",
+	"name": "\u674e\u5bb6",
+	"pinyin": "lijia",
+	"cityCode": 1107,
+	"cityName": "\u674e\u5bb6"
+}, {
+	"code": "1176031",
+	"name": "\u674f\u6811",
+	"pinyin": "xingshu",
+	"cityCode": 1112,
+	"cityName": "\u674f\u6811"
+}, {
+	"code": "1176032",
+	"name": "\u675c\u5bb6",
+	"pinyin": "dujia",
+	"cityCode": 1102,
+	"cityName": "\u675c\u5bb6"
+}, {
+	"code": "1176034",
+	"name": "\u6765\u821f",
+	"pinyin": "laizhou",
+	"cityCode": 405,
+	"cityName": "\u6765\u821f"
+}, {
+	"code": "1176035",
+	"name": "\u6768\u5bb6\u5e97",
+	"pinyin": "yangjiadian",
+	"cityCode": 1910,
+	"cityName": "\u6768\u5bb6\u5e97"
+}, {
+	"code": "1176036",
+	"name": "\u6768\u5c97",
+	"pinyin": "yanggang",
+	"cityCode": 1109,
+	"cityName": "\u6768\u5c97"
+}, {
+	"code": "1176037",
+	"name": "\u6768\u6728",
+	"pinyin": "yangmu",
+	"cityCode": 1110,
+	"cityName": "\u6768\u6728"
+}, {
+	"code": "1176038",
+	"name": "\u6768\u6751",
+	"pinyin": "yangcun",
+	"cityCode": 3000,
+	"cityName": "\u6768\u6751"
+}, {
+	"code": "1176039",
+	"name": "\u6768\u67f3\u8857",
+	"pinyin": "yangliujie",
+	"cityCode": 805,
+	"cityName": "\u6768\u67f3\u8857"
+}, {
+	"code": "1176040",
+	"name": "\u6768\u67f3\u9752",
+	"pinyin": "yangliuqing",
+	"cityCode": 3000,
+	"cityName": "\u6768\u67f3\u9752"
+}, {
+	"code": "1176041",
+	"name": "\u6768\u6f29",
+	"pinyin": "yangxuan",
+	"cityCode": 2813,
+	"cityName": "\u6768\u6f29"
+}, {
+	"code": "1176042",
+	"name": "\u676d\u5dde\u4e1c",
+	"pinyin": "hangzhoudong",
+	"cityCode": 3402,
+	"cityName": "\u676d\u5dde\u4e1c"
+}, {
+	"code": "1176044",
+	"name": "\u676d\u5dde",
+	"pinyin": "hangzhou",
+	"cityCode": 3402,
+	"cityName": "\u676d\u5dde"
+}, {
+	"code": "1176045",
+	"name": "\u677e\u539f",
+	"pinyin": "songyuan",
+	"cityCode": 1810,
+	"cityName": "\u677e\u539f"
+}, {
+	"code": "1176046",
+	"name": "\u677e\u5cad",
+	"pinyin": "songling",
+	"cityCode": 2107,
+	"cityName": "\u677e\u5cad"
+}, {
+	"code": "1176047",
+	"name": "\u677e\u6797",
+	"pinyin": "songlin",
+	"cityCode": 3315,
+	"cityName": "\u677e\u6797"
+}, {
+	"code": "1176049",
+	"name": "\u677e\u6811\u9547",
+	"pinyin": "songshuzhen",
+	"cityCode": 1804,
+	"cityName": "\u677e\u6811\u9547"
+}, {
+	"code": "1176050",
+	"name": "\u677e\u6843",
+	"pinyin": "songtao",
+	"cityCode": 808,
+	"cityName": "\u677e\u6843"
+}, {
+	"code": "1176051",
+	"name": "\u677e\u6c5f\u5357",
+	"pinyin": "songjiangnan",
+	"cityCode": 2500,
+	"cityName": "\u677e\u6c5f\u5357"
+}, {
+	"code": "1176053",
+	"name": "\u677e\u6c5f",
+	"pinyin": "songjiang",
+	"cityCode": 2500,
+	"cityName": "\u677e\u6c5f"
+}, {
+	"code": "1176054",
+	"name": "\u677e\u6ecb",
+	"pinyin": "songzi",
+	"cityCode": 1408,
+	"cityName": "\u677e\u6ecb"
+}, {
+	"code": "1176055",
+	"name": "\u6797\u4e1c",
+	"pinyin": "lindong",
+	"cityCode": 2105,
+	"cityName": "\u6797\u4e1c"
+}, {
+	"code": "1176056",
+	"name": "\u6797\u53e3",
+	"pinyin": "linkou",
+	"cityCode": 1110,
+	"cityName": "\u6797\u53e3"
+}, {
+	"code": "1176057",
+	"name": "\u6797\u5b50\u5934",
+	"pinyin": "linzitou",
+	"cityCode": 1804,
+	"cityName": "\u6797\u5b50\u5934"
+}, {
+	"code": "1176059",
+	"name": "\u6797\u6e90",
+	"pinyin": "linyuan",
+	"cityCode": 1104,
+	"cityName": "\u6797\u6e90"
+}, {
+	"code": "1176060",
+	"name": "\u6797\u76db\u5821",
+	"pinyin": "linshengpu",
+	"cityCode": 1902,
+	"cityName": "\u6797\u76db\u5821"
+}, {
+	"code": "1176061",
+	"name": "\u6797\u897f",
+	"pinyin": "linxi",
+	"cityCode": 2105,
+	"cityName": "\u6797\u897f"
+}, {
+	"code": "1176062",
+	"name": "\u679d\u57ce",
+	"pinyin": "zhicheng",
+	"cityCode": 1418,
+	"cityName": "\u679d\u57ce"
+}, {
+	"code": "1176064",
+	"name": "\u67a3\u5e84",
+	"pinyin": "zaozhuang",
+	"cityCode": 2420,
+	"cityName": "\u67a3\u5e84"
+}, {
+	"code": "1176065",
+	"name": "\u67a3\u5e84\u897f",
+	"pinyin": "zaozhuangxi",
+	"cityCode": 2420,
+	"cityName": "\u67a3\u5e84\u897f"
+}, {
+	"code": "1176066",
+	"name": "\u67a3\u5f3a",
+	"pinyin": "zaoqiang",
+	"cityCode": 1009,
+	"cityName": "\u67a3\u5f3a"
+}, {
+	"code": "1176067",
+	"name": "\u67a3\u6797",
+	"pinyin": "zaolin",
+	"cityCode": 2610,
+	"cityName": "\u67a3\u6797"
+}, {
+	"code": "1176068",
+	"name": "\u67a3\u9633",
+	"pinyin": "zaoyang",
+	"cityCode": 1416,
+	"cityName": "\u67a3\u9633"
+}, {
+	"code": "1176069",
+	"name": "\u67ab\u6cfe",
+	"pinyin": "fengjing",
+	"cityCode": 2500,
+	"cityName": "\u67ab\u6cfe"
+}, {
+	"code": "1176070",
+	"name": "\u67cf\u6797",
+	"pinyin": "bailin",
+	"cityCode": 300,
+	"cityName": "\u67cf\u6797"
+}, {
+	"code": "1176071",
+	"name": "\u67cf\u679c",
+	"pinyin": "baiguo",
+	"cityCode": 807,
+	"cityName": "\u67cf\u679c"
+}, {
+	"code": "1176072",
+	"name": "\u67de\u6c34",
+	"pinyin": "zhashui",
+	"cityCode": 2707,
+	"cityName": "\u67de\u6c34"
+}, {
+	"code": "1176073",
+	"name": "\u67e5\u5e03\u560e",
+	"pinyin": "chabuga",
+	"cityCode": 2105,
+	"cityName": "\u67e5\u5e03\u560e"
+}, {
+	"code": "1176074",
+	"name": "\u67ef\u5766",
+	"pinyin": "ketan",
+	"cityCode": 102,
+	"cityName": "\u67ef\u5766"
+}, {
+	"code": "1176075",
+	"name": "\u67f3\u56ed",
+	"pinyin": "liuyuan",
+	"cityCode": 508,
+	"cityName": "\u67f3\u56ed"
+}, {
+	"code": "1176076",
+	"name": "\u67f3\u5dde",
+	"pinyin": "liuzhou",
+	"cityCode": 709,
+	"cityName": "\u67f3\u5dde"
+}, {
+	"code": "1176077",
+	"name": "\u67f3\u6cb3",
+	"pinyin": "liuhe",
+	"cityCode": 1811,
+	"cityName": "\u67f3\u6cb3"
+}, {
+	"code": "1176078",
+	"name": "\u67f3\u8f9b\u5e84",
+	"pinyin": "liuxinzhuang",
+	"cityCode": 1002,
+	"cityName": "\u67f3\u8f9b\u5e84"
+}, {
+	"code": "1176079",
+	"name": "\u67f4\u5e84",
+	"pinyin": "chaizhuang",
+	"cityCode": 2608,
+	"cityName": "\u67f4\u5e84"
+}, {
+	"code": "1176080",
+	"name": "\u67f4\u6c9f\u5821",
+	"pinyin": "chaigoupu",
+	"cityCode": 1016,
+	"cityName": "\u67f4\u6c9f\u5821"
+}, {
+	"code": "1176081",
+	"name": "\u67f4\u6cb3",
+	"pinyin": "chaihe",
+	"cityCode": 1110,
+	"cityName": "\u67f4\u6cb3"
+}, {
+	"code": "1176082",
+	"name": "\u680b\u9752\u6811",
+	"pinyin": "dongqingshu",
+	"cityCode": 805,
+	"cityName": "\u680b\u9752\u6811"
+}, {
+	"code": "1176083",
+	"name": "\u682a\u6d32",
+	"pinyin": "zhuzhou",
+	"cityCode": 1515,
+	"cityName": "\u682a\u6d32"
+}, {
+	"code": "1176084",
+	"name": "\u682a\u6d32\u897f",
+	"pinyin": "zhuzhouxi",
+	"cityCode": 1515,
+	"cityName": "\u682a\u6d32\u897f"
+}, {
+	"code": "1176085",
+	"name": "\u683c\u4ee5\u5934",
+	"pinyin": "geyitou",
+	"cityCode": 3315,
+	"cityName": "\u683c\u4ee5\u5934"
+}, {
+	"code": "1176086",
+	"name": "\u683c\u5c14\u6728",
+	"pinyin": "geermu",
+	"cityCode": 2303,
+	"cityName": "\u683c\u5c14\u6728"
+}, {
+	"code": "1176087",
+	"name": "\u683c\u91cc\u576a",
+	"pinyin": "geliping",
+	"cityCode": 2820,
+	"cityName": "\u683c\u91cc\u576a"
+}, {
+	"code": "1176089",
+	"name": "\u6842\u6797",
+	"pinyin": "guilin",
+	"cityCode": 705,
+	"cityName": "\u6842\u6797"
+}, {
+	"code": "1176090",
+	"name": "\u6843\u5c71",
+	"pinyin": "taoshan",
+	"cityCode": 1115,
+	"cityName": "\u6843\u5c71"
+}, {
+	"code": "1176091",
+	"name": "\u6843\u6751",
+	"pinyin": "taocun",
+	"cityCode": 2419,
+	"cityName": "\u6843\u6751"
+}, {
+	"code": "1176092",
+	"name": "\u6850\u4e61",
+	"pinyin": "tongxiang",
+	"cityCode": 3410,
+	"cityName": "\u6850\u4e61"
+}, {
+	"code": "1176093",
+	"name": "\u6850\u57ce",
+	"pinyin": "tongcheng",
+	"cityCode": 103,
+	"cityName": "\u6850\u57ce"
+}, {
+	"code": "1176094",
+	"name": "\u6850\u5b50\u6797",
+	"pinyin": "tongzilin",
+	"cityCode": 2820,
+	"cityName": "\u6850\u5b50\u6797"
+}, {
+	"code": "1176095",
+	"name": "\u6850\u67cf",
+	"pinyin": "tongbai",
+	"cityCode": 1211,
+	"cityName": "\u6850\u67cf"
+}, {
+	"code": "1176096",
+	"name": "\u6850\u6893",
+	"pinyin": "tongzi",
+	"cityCode": 811,
+	"cityName": "\u6850\u6893"
+}, {
+	"code": "1176097",
+	"name": "\u6851\u6839\u8fbe\u6765",
+	"pinyin": "sanggendalai",
+	"cityCode": 2113,
+	"cityName": "\u6851\u6839\u8fbe\u6765"
+}, {
+	"code": "1176098",
+	"name": "\u6865\u4e0a",
+	"pinyin": "qiaoshang",
+	"cityCode": 2608,
+	"cityName": "\u6865\u4e0a"
+}, {
+	"code": "1176100",
+	"name": "\u6865\u5934",
+	"pinyin": "qiaotou",
+	"cityCode": 1904,
+	"cityName": "\u6865\u5934"
+}, {
+	"code": "1176101",
+	"name": "\u6866\u5357",
+	"pinyin": "huanan",
+	"cityCode": 1108,
+	"cityName": "\u6866\u5357"
+}, {
+	"code": "1176102",
+	"name": "\u6866\u6797",
+	"pinyin": "hualin",
+	"cityCode": 1110,
+	"cityName": "\u6866\u6797"
+}, {
+	"code": "1176103",
+	"name": "\u6881\u5c71",
+	"pinyin": "liangshan",
+	"cityCode": 2408,
+	"cityName": "\u6881\u5c71"
+}, {
+	"code": "1176104",
+	"name": "\u6881\u5e73",
+	"pinyin": "liangping",
+	"cityCode": 300,
+	"cityName": "\u6881\u5e73"
+}, {
+	"code": "1176105",
+	"name": "\u6885\u5dde",
+	"pinyin": "meizhou",
+	"cityCode": 614,
+	"cityName": "\u6885\u5dde"
+}, {
+	"code": "1176106",
+	"name": "\u6885\u6cb3\u53e3",
+	"pinyin": "meihekou",
+	"cityCode": 1811,
+	"cityName": "\u6885\u6cb3\u53e3"
+}, {
+	"code": "1176107",
+	"name": "\u6885\u82b1\u5c71",
+	"pinyin": "meihuashan",
+	"cityCode": 804,
+	"cityName": "\u6885\u82b1\u5c71"
+}, {
+	"code": "1176108",
+	"name": "\u68a7\u5dde",
+	"pinyin": "wuzhou",
+	"cityCode": 711,
+	"cityName": "\u68a7\u5dde"
+}, {
+	"code": "1176109",
+	"name": "\u68a8\u6811\u9547",
+	"pinyin": "lishuzhen",
+	"cityCode": 1109,
+	"cityName": "\u68a8\u6811\u9547"
+}, {
+	"code": "1176111",
+	"name": "\u6911\u6728\u9547",
+	"pinyin": "pimuzhen",
+	"cityCode": 2819,
+	"cityName": "\u6911\u6728\u9547"
+}, {
+	"code": "1176112",
+	"name": "\u695a\u5c71",
+	"pinyin": "chushan",
+	"cityCode": 1110,
+	"cityName": "\u695a\u5c71"
+}, {
+	"code": "1176113",
+	"name": "\u695a\u96c4",
+	"pinyin": "chuxiong",
+	"cityCode": 3305,
+	"cityName": "\u695a\u96c4"
+}, {
+	"code": "1176114",
+	"name": "\u6986\u6797",
+	"pinyin": "yulin",
+	"cityCode": 2712,
+	"cityName": "\u6986\u6797"
+}, {
+	"code": "1176115",
+	"name": "\u6986\u6811\u53f0",
+	"pinyin": "yushutai",
+	"cityCode": 1902,
+	"cityName": "\u6986\u6811\u53f0"
+}, {
+	"code": "1176116",
+	"name": "\u6986\u6811\u5c6f",
+	"pinyin": "yushutun",
+	"cityCode": 1111,
+	"cityName": "\u6986\u6811\u5c6f"
+}, {
+	"code": "1176117",
+	"name": "\u6986\u6811",
+	"pinyin": "yushu",
+	"cityCode": 1802,
+	"cityName": "\u6986\u6811"
+}, {
+	"code": "1176118",
+	"name": "\u6986\u6b21",
+	"pinyin": "yuci",
+	"cityCode": 2612,
+	"cityName": "\u6986\u6b21"
+}, {
+	"code": "1176119",
+	"name": "\u6986\u793e",
+	"pinyin": "yushe",
+	"cityCode": 2612,
+	"cityName": "\u6986\u793e"
+}, {
+	"code": "1176120",
+	"name": "\u6a1f\u6728\u5934",
+	"pinyin": "zhangmutou",
+	"cityCode": 606,
+	"cityName": "\u6a1f\u6728\u5934"
+}, {
+	"code": "1176121",
+	"name": "\u6a1f\u6811\u4e1c",
+	"pinyin": "zhangshudong",
+	"cityCode": 1713,
+	"cityName": "\u6a1f\u6811\u4e1c"
+}, {
+	"code": "1176122",
+	"name": "\u6a1f\u6811",
+	"pinyin": "zhangshu",
+	"cityCode": 1713,
+	"cityName": "\u6a1f\u6811"
+}, {
+	"code": "1176123",
+	"name": "\u6a2a\u5cf0",
+	"pinyin": "hengfeng",
+	"cityCode": 1711,
+	"cityName": "\u6a2a\u5cf0"
+}, {
+	"code": "1176124",
+	"name": "\u6a2a\u6ca5",
+	"pinyin": "hengli",
+	"cityCode": 606,
+	"cityName": "\u6a2a\u6ca5"
+}, {
+	"code": "1176125",
+	"name": "\u6a2a\u9053\u6cb3\u5b50",
+	"pinyin": "hengdaohezi",
+	"cityCode": 1110,
+	"cityName": "\u6a2a\u9053\u6cb3\u5b50"
+}, {
+	"code": "1176126",
+	"name": "\u6b59\u53bf",
+	"pinyin": "shexian",
+	"cityCode": 113,
+	"cityName": "\u6b59\u53bf"
+}, {
+	"code": "1176127",
+	"name": "\u6b63\u5b9a\u673a\u573a",
+	"pinyin": "zhengdingjichang",
+	"cityCode": 1002,
+	"cityName": "\u6b63\u5b9a\u673a\u573a"
+}, {
+	"code": "1176129",
+	"name": "\u6b63\u9576\u767d\u65d7",
+	"pinyin": "zhengxiangbaiqi",
+	"cityCode": 2113,
+	"cityName": "\u6b63\u9576\u767d\u65d7"
+}, {
+	"code": "1176130",
+	"name": "\u6b66\u4e49",
+	"pinyin": "wuyi",
+	"cityCode": 3411,
+	"cityName": "\u6b66\u4e49"
+}, {
+	"code": "1176131",
+	"name": "\u6b66\u4e61",
+	"pinyin": "wuxiang",
+	"cityCode": 2603,
+	"cityName": "\u6b66\u4e61"
+}, {
+	"code": "1176132",
+	"name": "\u6b66\u529f",
+	"pinyin": "wugong",
+	"cityCode": 2710,
+	"cityName": "\u6b66\u529f"
+}, {
+	"code": "1176133",
+	"name": "\u6b66\u5937\u5c71",
+	"pinyin": "wuyishan",
+	"cityCode": 405,
+	"cityName": "\u6b66\u5937\u5c71"
+}, {
+	"code": "1176134",
+	"name": "\u6b66\u5a01\u5357",
+	"pinyin": "wuweinan",
+	"cityCode": 513,
+	"cityName": "\u6b66\u5a01\u5357"
+}, {
+	"code": "1176135",
+	"name": "\u6b66\u5a01",
+	"pinyin": "wuwei",
+	"cityCode": 513,
+	"cityName": "\u6b66\u5a01"
+}, {
+	"code": "1176136",
+	"name": "\u6b66\u5b89",
+	"pinyin": "wuan",
+	"cityCode": 1008,
+	"cityName": "\u6b66\u5b89"
+}, {
+	"code": "1176137",
+	"name": "\u6b66\u5c71",
+	"pinyin": "wushan",
+	"cityCode": 511,
+	"cityName": "\u6b66\u5c71"
+}, {
+	"code": "1176138",
+	"name": "\u6b66\u5f53\u5c71",
+	"pinyin": "wudangshan",
+	"cityCode": 1410,
+	"cityName": "\u6b66\u5f53\u5c71"
+}, {
+	"code": "1176139",
+	"name": "\u6b66\u660c",
+	"pinyin": "wuchang",
+	"cityCode": 1402,
+	"cityName": "\u6b66\u660c"
+}, {
+	"code": "1176140",
+	"name": "\u6b66\u6c49",
+	"pinyin": "wuhan",
+	"cityCode": 1402,
+	"cityName": "\u6b66\u6c49"
+}, {
+	"code": "1176141",
+	"name": "\u6b66\u6e05",
+	"pinyin": "wuqing",
+	"cityCode": 3000,
+	"cityName": "\u6b66\u6e05"
+}, {
+	"code": "1176142",
+	"name": "\u6b66\u7a74",
+	"pinyin": "wuxue",
+	"cityCode": 1405,
+	"cityName": "\u6b66\u7a74"
+}, {
+	"code": "1176144",
+	"name": "\u6b66\u9686",
+	"pinyin": "wulong",
+	"cityCode": 300,
+	"cityName": "\u6b66\u9686"
+}, {
+	"code": "1176145",
+	"name": "\u6b6a\u5934\u5c71",
+	"pinyin": "waitoushan",
+	"cityCode": 1904,
+	"cityName": "\u6b6a\u5934\u5c71"
+}, {
+	"code": "1176146",
+	"name": "\u6bdb\u544a\u5410",
+	"pinyin": "maogaotu",
+	"cityCode": 2110,
+	"cityName": "\u6bdb\u544a\u5410"
+}, {
+	"code": "1176147",
+	"name": "\u6c11\u6743",
+	"pinyin": "minquan",
+	"cityCode": 1215,
+	"cityName": "\u6c11\u6743"
+}, {
+	"code": "1176148",
+	"name": "\u6c21\u6cc9",
+	"pinyin": "dongquan",
+	"cityCode": 1804,
+	"cityName": "\u6c21\u6cc9"
+}, {
+	"code": "1176149",
+	"name": "\u6c34\u5bb6\u6e56",
+	"pinyin": "shuijiahu",
+	"cityCode": 102,
+	"cityName": "\u6c34\u5bb6\u6e56"
+}, {
+	"code": "1176150",
+	"name": "\u6c34\u5bcc",
+	"pinyin": "shuifu",
+	"cityCode": 3321,
+	"cityName": "\u6c34\u5bcc"
+}, {
+	"code": "1176151",
+	"name": "\u6c38\u4e50\u5e97",
+	"pinyin": "yongledian",
+	"cityCode": 2710,
+	"cityName": "\u6c38\u4e50\u5e97"
+}, {
+	"code": "1176152",
+	"name": "\u6c38\u4fee",
+	"pinyin": "yongxiu",
+	"cityCode": 1708,
+	"cityName": "\u6c38\u4fee"
+}, {
+	"code": "1176154",
+	"name": "\u6c38\u5609",
+	"pinyin": "yongjia",
+	"cityCode": 3426,
+	"cityName": "\u6c38\u5609"
+}, {
+	"code": "1176155",
+	"name": "\u6c38\u5b89",
+	"pinyin": "yongan",
+	"cityCode": 409,
+	"cityName": "\u6c38\u5b89"
+}, {
+	"code": "1176156",
+	"name": "\u6c38\u5b9a",
+	"pinyin": "yongding",
+	"cityCode": 404,
+	"cityName": "\u6c38\u5b9a"
+}, {
+	"code": "1176157",
+	"name": "\u6c38\u5ddd",
+	"pinyin": "yongchuan",
+	"cityCode": 300,
+	"cityName": "\u6c38\u5ddd"
+}, {
+	"code": "1176158",
+	"name": "\u6c38\u5dde",
+	"pinyin": "yongzhou",
+	"cityCode": 1513,
+	"cityName": "\u6c38\u5dde"
+}, {
+	"code": "1176159",
+	"name": "\u6c38\u5eb7",
+	"pinyin": "yongkang",
+	"cityCode": 3411,
+	"cityName": "\u6c38\u5eb7"
+}, {
+	"code": "1176160",
+	"name": "\u6c38\u6d4e",
+	"pinyin": "yongji",
+	"cityCode": 2613,
+	"cityName": "\u6c38\u6d4e"
+}, {
+	"code": "1176161",
+	"name": "\u6c38\u7538",
+	"pinyin": "yongdian",
+	"cityCode": 1907,
+	"cityName": "\u6c38\u7538"
+}, {
+	"code": "1176162",
+	"name": "\u6c38\u767b",
+	"pinyin": "yongdeng",
+	"cityCode": 502,
+	"cityName": "\u6c38\u767b"
+}, {
+	"code": "1176163",
+	"name": "\u6c38\u798f",
+	"pinyin": "yongfu",
+	"cityCode": 705,
+	"cityName": "\u6c38\u798f"
+}, {
+	"code": "1176164",
+	"name": "\u6c38\u90ce",
+	"pinyin": "yonglang",
+	"cityCode": 2823,
+	"cityName": "\u6c38\u90ce"
+}, {
+	"code": "1176165",
+	"name": "\u6c47\u6d41\u6cb3",
+	"pinyin": "huiliuhe",
+	"cityCode": 2107,
+	"cityName": "\u6c47\u6d41\u6cb3"
+}, {
+	"code": "1176166",
+	"name": "\u6c49\u4e2d",
+	"pinyin": "hanzhong",
+	"cityCode": 2705,
+	"cityName": "\u6c49\u4e2d"
+}, {
+	"code": "1176167",
+	"name": "\u6c49\u53e3",
+	"pinyin": "hankou",
+	"cityCode": 1402,
+	"cityName": "\u6c49\u53e3"
+}, {
+	"code": "1176169",
+	"name": "\u6c49\u6e90",
+	"pinyin": "hanyuan",
+	"cityCode": 2824,
+	"cityName": "\u6c49\u6e90"
+}, {
+	"code": "1176170",
+	"name": "\u6c49\u9634",
+	"pinyin": "hanyin",
+	"cityCode": 2703,
+	"cityName": "\u6c49\u9634"
+}, {
+	"code": "1176171",
+	"name": "\u6c55\u5934",
+	"pinyin": "shantou",
+	"cityCode": 616,
+	"cityName": "\u6c55\u5934"
+}, {
+	"code": "1176172",
+	"name": "\u6c5d\u5dde",
+	"pinyin": "ruzhou",
+	"cityCode": 1212,
+	"cityName": "\u6c5d\u5dde"
+}, {
+	"code": "1176174",
+	"name": "\u6c5f\u534e",
+	"pinyin": "jianghua",
+	"cityCode": 1513,
+	"cityName": "\u6c5f\u534e"
+}, {
+	"code": "1176175",
+	"name": "\u6c5f\u5bc6\u5cf0",
+	"pinyin": "jiangmifeng",
+	"cityCode": 1808,
+	"cityName": "\u6c5f\u5bc6\u5cf0"
+}, {
+	"code": "1176176",
+	"name": "\u6c5f\u5c71",
+	"pinyin": "jiangshan",
+	"cityCode": 3419,
+	"cityName": "\u6c5f\u5c71"
+}, {
+	"code": "1176177",
+	"name": "\u6c5f\u5e02",
+	"pinyin": "jiangshi",
+	"cityCode": 1506,
+	"cityName": "\u6c5f\u5e02"
+}, {
+	"code": "1176178",
+	"name": "\u6c5f\u6865",
+	"pinyin": "jiangqiao",
+	"cityCode": 1111,
+	"cityName": "\u6c5f\u6865"
+}, {
+	"code": "1176179",
+	"name": "\u6c5f\u6c38",
+	"pinyin": "jiangyong",
+	"cityCode": 1513,
+	"cityName": "\u6c5f\u6c38"
+}, {
+	"code": "1176180",
+	"name": "\u6c5f\u6cb9",
+	"pinyin": "jiangyou",
+	"cityCode": 2816,
+	"cityName": "\u6c5f\u6cb9"
+}, {
+	"code": "1176181",
+	"name": "\u6c5f\u6d25",
+	"pinyin": "jiangjin",
+	"cityCode": 300,
+	"cityName": "\u6c5f\u6d25"
+}, {
+	"code": "1176182",
+	"name": "\u6c5f\u6e90",
+	"pinyin": "jiangyuan",
+	"cityCode": 1804,
+	"cityName": "\u6c5f\u6e90"
+}, {
+	"code": "1176183",
+	"name": "\u6c5f\u90fd",
+	"pinyin": "jiangdu",
+	"cityCode": 1622,
+	"cityName": "\u6c5f\u90fd"
+}, {
+	"code": "1176184",
+	"name": "\u6c5f\u95e8",
+	"pinyin": "jiangmen",
+	"cityCode": 610,
+	"cityName": "\u6c5f\u95e8"
+}, {
+	"code": "1176185",
+	"name": "\u6c60\u5dde",
+	"pinyin": "chizhou",
+	"cityCode": 109,
+	"cityName": "\u6c60\u5dde"
+}, {
+	"code": "1176186",
+	"name": "\u6c64\u539f",
+	"pinyin": "tangyuan",
+	"cityCode": 1108,
+	"cityName": "\u6c64\u539f"
+}, {
+	"code": "1176187",
+	"name": "\u6c64\u5934\u6c9f",
+	"pinyin": "tangtougou",
+	"cityCode": 1006,
+	"cityName": "\u6c64\u5934\u6c9f"
+}, {
+	"code": "1176188",
+	"name": "\u6c64\u5c71\u57ce",
+	"pinyin": "tangshancheng",
+	"cityCode": 1907,
+	"cityName": "\u6c64\u5c71\u57ce"
+}, {
+	"code": "1176190",
+	"name": "\u6c64\u6cb3",
+	"pinyin": "tanghe",
+	"cityCode": 1907,
+	"cityName": "\u6c64\u6cb3"
+}, {
+	"code": "1176192",
+	"name": "\u6c68\u7f57\u4e1c",
+	"pinyin": "miluodong",
+	"cityCode": 1512,
+	"cityName": "\u6c68\u7f57\u4e1c"
+}, {
+	"code": "1176193",
+	"name": "\u6c68\u7f57",
+	"pinyin": "miluo",
+	"cityCode": 1512,
+	"cityName": "\u6c68\u7f57"
+}, {
+	"code": "1176194",
+	"name": "\u6c6a\u6e05",
+	"pinyin": "wangqing",
+	"cityCode": 1812,
+	"cityName": "\u6c6a\u6e05"
+}, {
+	"code": "1176195",
+	"name": "\u6c81\u53bf",
+	"pinyin": "qinxian",
+	"cityCode": 2603,
+	"cityName": "\u6c81\u53bf"
+}, {
+	"code": "1176196",
+	"name": "\u6c81\u9633",
+	"pinyin": "qinyang",
+	"cityCode": 1206,
+	"cityName": "\u6c81\u9633"
+}, {
+	"code": "1176197",
+	"name": "\u6c82\u5357",
+	"pinyin": "yinan",
+	"cityCode": 2411,
+	"cityName": "\u6c82\u5357"
+}, {
+	"code": "1176198",
+	"name": "\u6c82\u6c34",
+	"pinyin": "yishui",
+	"cityCode": 2411,
+	"cityName": "\u6c82\u6c34"
+}, {
+	"code": "1176199",
+	"name": "\u6c88\u5bb6",
+	"pinyin": "shenjia",
+	"cityCode": 1102,
+	"cityName": "\u6c88\u5bb6"
+}, {
+	"code": "1176201",
+	"name": "\u6c88\u9633\u5317",
+	"pinyin": "shenyangbei",
+	"cityCode": 1902,
+	"cityName": "\u6c88\u9633\u5317"
+}, {
+	"code": "1176202",
+	"name": "\u6c88\u9633\u5357",
+	"pinyin": "shenyangnan",
+	"cityCode": 1902,
+	"cityName": "\u6c88\u9633\u5357"
+}, {
+	"code": "1176203",
+	"name": "\u6c88\u9633",
+	"pinyin": "shenyang",
+	"cityCode": 1902,
+	"cityName": "\u6c88\u9633"
+}, {
+	"code": "1176204",
+	"name": "\u6c88\u9633\u897f",
+	"pinyin": "shenyangxi",
+	"cityCode": 1902,
+	"cityName": "\u6c88\u9633\u897f"
+}, {
+	"code": "1176206",
+	"name": "\u6c99\u56ed",
+	"pinyin": "shayuan",
+	"cityCode": 1114,
+	"cityName": "\u6c99\u56ed"
+}, {
+	"code": "1176207",
+	"name": "\u6c99\u5768\u5b50",
+	"pinyin": "shatuozi",
+	"cityCode": 1006,
+	"cityName": "\u6c99\u5768\u5b50"
+}, {
+	"code": "1176208",
+	"name": "\u6c99\u57ce",
+	"pinyin": "shacheng",
+	"cityCode": 1016,
+	"cityName": "\u6c99\u57ce"
+}, {
+	"code": "1176209",
+	"name": "\u6c99\u5858",
+	"pinyin": "shatang",
+	"cityCode": 1620,
+	"cityName": "\u6c99\u5858"
+}, {
+	"code": "1176210",
+	"name": "\u6c99\u6c99\u5761",
+	"pinyin": "shashapo",
+	"cityCode": 3321,
+	"cityName": "\u6c99\u6c99\u5761"
+}, {
+	"code": "1176211",
+	"name": "\u6c99\u6cb3\u5e02",
+	"pinyin": "shaheshi",
+	"cityCode": 1015,
+	"cityName": "\u6c99\u6cb3\u5e02"
+}, {
+	"code": "1176212",
+	"name": "\u6c99\u6cb3",
+	"pinyin": "shahe",
+	"cityCode": 200,
+	"cityName": "\u6c99\u6cb3"
+}, {
+	"code": "1176213",
+	"name": "\u6c99\u6d77",
+	"pinyin": "shahai",
+	"cityCode": 1905,
+	"cityName": "\u6c99\u6d77"
+}, {
+	"code": "1176215",
+	"name": "\u6c99\u6eaa\u575d",
+	"pinyin": "shaxiba",
+	"cityCode": 2810,
+	"cityName": "\u6c99\u6eaa\u575d"
+}, {
+	"code": "1176216",
+	"name": "\u6c9b\u5c6f",
+	"pinyin": "peitun",
+	"cityCode": 1620,
+	"cityName": "\u6c9b\u5c6f"
+}, {
+	"code": "1176217",
+	"name": "\u6c9f\u53e3",
+	"pinyin": "goukou",
+	"cityCode": 2107,
+	"cityName": "\u6c9f\u53e3"
+}, {
+	"code": "1176218",
+	"name": "\u6c9f\u5e2e\u5b50",
+	"pinyin": "goubangzi",
+	"cityCode": 1911,
+	"cityName": "\u6c9f\u5e2e\u5b50"
+}, {
+	"code": "1176219",
+	"name": "\u6ca7\u53e3",
+	"pinyin": "cangkou",
+	"cityCode": 2413,
+	"cityName": "\u6ca7\u53e3"
+}, {
+	"code": "1176220",
+	"name": "\u6ca7\u5dde",
+	"pinyin": "cangzhou",
+	"cityCode": 1005,
+	"cityName": "\u6ca7\u5dde"
+}, {
+	"code": "1176221",
+	"name": "\u6ca7\u5dde\u897f",
+	"pinyin": "cangzhouxi",
+	"cityCode": 1005,
+	"cityName": "\u6ca7\u5dde\u897f"
+}, {
+	"code": "1176222",
+	"name": "\u6cad\u9633",
+	"pinyin": "shuyang",
+	"cityCode": 1614,
+	"cityName": "\u6cad\u9633"
+}, {
+	"code": "1176223",
+	"name": "\u6cb1\u6cb1\u6cb3",
+	"pinyin": "tuotuohe",
+	"cityCode": 2303,
+	"cityName": "\u6cb1\u6cb1\u6cb3"
+}, {
+	"code": "1176224",
+	"name": "\u6cb3\u5507",
+	"pinyin": "hechun",
+	"cityCode": 625,
+	"cityName": "\u6cb3\u5507"
+}, {
+	"code": "1176225",
+	"name": "\u6cb3\u6d25",
+	"pinyin": "hejin",
+	"cityCode": 2613,
+	"cityName": "\u6cb3\u6d25"
+}, {
+	"code": "1176226",
+	"name": "\u6cb3\u6e90",
+	"pinyin": "heyuan",
+	"cityCode": 608,
+	"cityName": "\u6cb3\u6e90"
+}, {
+	"code": "1176227",
+	"name": "\u6cbb\u5c71",
+	"pinyin": "zhishan",
+	"cityCode": 1110,
+	"cityName": "\u6cbb\u5c71"
+}, {
+	"code": "1176228",
+	"name": "\u6cc9\u5dde\u4e1c",
+	"pinyin": "quanzhoudong",
+	"cityCode": 408,
+	"cityName": "\u6cc9\u5dde\u4e1c"
+}, {
+	"code": "1176229",
+	"name": "\u6cc9\u5dde",
+	"pinyin": "quanzhou",
+	"cityCode": 408,
+	"cityName": "\u6cc9\u5dde"
+}, {
+	"code": "1176230",
+	"name": "\u6cc9\u6c34",
+	"pinyin": "quanshui",
+	"cityCode": 1906,
+	"cityName": "\u6cc9\u6c34"
+}, {
+	"code": "1176231",
+	"name": "\u6cc9\u9633",
+	"pinyin": "quanyang",
+	"cityCode": 1804,
+	"cityName": "\u6cc9\u9633"
+}, {
+	"code": "1176232",
+	"name": "\u6cca\u5934",
+	"pinyin": "botou",
+	"cityCode": 1005,
+	"cityName": "\u6cca\u5934"
+}, {
+	"code": "1176233",
+	"name": "\u6cd7\u6c34",
+	"pinyin": "sishui",
+	"cityCode": 2408,
+	"cityName": "\u6cd7\u6c34"
+}, {
+	"code": "1176234",
+	"name": "\u6ce1\u5b50",
+	"pinyin": "paozi",
+	"cityCode": 1909,
+	"cityName": "\u6ce1\u5b50"
+}, {
+	"code": "1176235",
+	"name": "\u6cf0\u548c",
+	"pinyin": "taihe",
+	"cityCode": 1705,
+	"cityName": "\u6cf0\u548c"
+}, {
+	"code": "1176236",
+	"name": "\u6cf0\u5b89",
+	"pinyin": "taian",
+	"cityCode": 2416,
+	"cityName": "\u6cf0\u5b89"
+}, {
+	"code": "1176237",
+	"name": "\u6cf0\u5c71",
+	"pinyin": "taishan",
+	"cityCode": 2416,
+	"cityName": "\u6cf0\u5c71"
+}, {
+	"code": "1176238",
+	"name": "\u6cf0\u5dde",
+	"pinyin": "taizhou",
+	"cityCode": 1617,
+	"cityName": "\u6cf0\u5dde"
+}, {
+	"code": "1176239",
+	"name": "\u6cf0\u5eb7",
+	"pinyin": "taikang",
+	"cityCode": 1104,
+	"cityName": "\u6cf0\u5eb7"
+}, {
+	"code": "1176240",
+	"name": "\u6cf0\u6765",
+	"pinyin": "tailai",
+	"cityCode": 1111,
+	"cityName": "\u6cf0\u6765"
+}, {
+	"code": "1176241",
+	"name": "\u6cf0\u8fbe",
+	"pinyin": "taida",
+	"cityCode": 3000,
+	"cityName": "\u6cf0\u8fbe"
+}, {
+	"code": "1176242",
+	"name": "\u6d1b\u9633\u4e1c",
+	"pinyin": "luoyangdong",
+	"cityCode": 1210,
+	"cityName": "\u6d1b\u9633\u4e1c"
+}, {
+	"code": "1176243",
+	"name": "\u6d1b\u9633",
+	"pinyin": "luoyang",
+	"cityCode": 1210,
+	"cityName": "\u6d1b\u9633"
+}, {
+	"code": "1176244",
+	"name": "\u6d1b\u9633\u9f99\u95e8",
+	"pinyin": "luoyanglongmen",
+	"cityCode": 1210,
+	"cityName": "\u6d1b\u9633\u9f99\u95e8"
+}, {
+	"code": "1176245",
+	"name": "\u6d1e\u5e99\u6cb3",
+	"pinyin": "dongmiaohe",
+	"cityCode": 1006,
+	"cityName": "\u6d1e\u5e99\u6cb3"
+}, {
+	"code": "1176246",
+	"name": "\u6d2a\u5b89\u4e61",
+	"pinyin": "honganxiang",
+	"cityCode": 2802,
+	"cityName": "\u6d2a\u5b89\u4e61"
+}, {
+	"code": "1176247",
+	"name": "\u6d2a\u6d1e",
+	"pinyin": "hongtong",
+	"cityCode": 2608,
+	"cityName": "\u6d2a\u6d1e"
+}, {
+	"code": "1176248",
+	"name": "\u6d2e\u5357",
+	"pinyin": "taonan",
+	"cityCode": 1803,
+	"cityName": "\u6d2e\u5357"
+}, {
+	"code": "1176249",
+	"name": "\u6d41\u5c71",
+	"pinyin": "liushan",
+	"cityCode": 709,
+	"cityName": "\u6d41\u5c71"
+}, {
+	"code": "1176250",
+	"name": "\u6d41\u6c34\u6c9f",
+	"pinyin": "liushuigou",
+	"cityCode": 1006,
+	"cityName": "\u6d41\u6c34\u6c9f"
+}, {
+	"code": "1176251",
+	"name": "\u6d41\u6eaa\u573a",
+	"pinyin": "liuxichang",
+	"cityCode": 2804,
+	"cityName": "\u6d41\u6eaa\u573a"
+}, {
+	"code": "1176252",
+	"name": "\u6d4e\u5357\u4e1c",
+	"pinyin": "jinandong",
+	"cityCode": 2402,
+	"cityName": "\u6d4e\u5357\u4e1c"
+}, {
+	"code": "1176253",
+	"name": "\u6d4e\u5357",
+	"pinyin": "jinan",
+	"cityCode": 2402,
+	"cityName": "\u6d4e\u5357"
+}, {
+	"code": "1176254",
+	"name": "\u6d4e\u5357\u897f",
+	"pinyin": "jinanxi",
+	"cityCode": 2402,
+	"cityName": "\u6d4e\u5357\u897f"
+}, {
+	"code": "1176255",
+	"name": "\u6d4e\u5b81",
+	"pinyin": "jining",
+	"cityCode": 2408,
+	"cityName": "\u6d4e\u5b81"
+}, {
+	"code": "1176256",
+	"name": "\u6d4e\u6e90",
+	"pinyin": "jiyuan",
+	"cityCode": 1207,
+	"cityName": "\u6d4e\u6e90"
+}, {
+	"code": "1176257",
+	"name": "\u6d60\u6c34",
+	"pinyin": "xishui",
+	"cityCode": 1405,
+	"cityName": "\u6d60\u6c34"
+}, {
+	"code": "1176258",
+	"name": "\u6d69\u826f\u6cb3",
+	"pinyin": "haolianghe",
+	"cityCode": 1115,
+	"cityName": "\u6d69\u826f\u6cb3"
+}, {
+	"code": "1176259",
+	"name": "\u6d77\u4f26",
+	"pinyin": "hailun",
+	"cityCode": 1114,
+	"cityName": "\u6d77\u4f26"
+}, {
+	"code": "1176260",
+	"name": "\u6d77\u5317",
+	"pinyin": "haibei",
+	"cityCode": 1114,
+	"cityName": "\u6d77\u5317"
+}, {
+	"code": "1176261",
+	"name": "\u6d77\u53e3\u4e1c",
+	"pinyin": "haikoudong",
+	"cityCode": 902,
+	"cityName": "\u6d77\u53e3\u4e1c"
+}, {
+	"code": "1176262",
+	"name": "\u6d77\u53e3",
+	"pinyin": "haikou",
+	"cityCode": 902,
+	"cityName": "\u6d77\u53e3"
+}, {
+	"code": "1176263",
+	"name": "\u6d77\u57ce",
+	"pinyin": "haicheng",
+	"cityCode": 1903,
+	"cityName": "\u6d77\u57ce"
+}, {
+	"code": "1176264",
+	"name": "\u6d77\u57ce\u897f",
+	"pinyin": "haichengxi",
+	"cityCode": 1903,
+	"cityName": "\u6d77\u57ce\u897f"
+}, {
+	"code": "1176265",
+	"name": "\u6d77\u5b81",
+	"pinyin": "haining",
+	"cityCode": 3410,
+	"cityName": "\u6d77\u5b81"
+}, {
+	"code": "1176266",
+	"name": "\u6d77\u5b81\u897f",
+	"pinyin": "hainingxi",
+	"cityCode": 3410,
+	"cityName": "\u6d77\u5b81\u897f"
+}, {
+	"code": "1176267",
+	"name": "\u6d77\u5b89\u53bf",
+	"pinyin": "haianxian",
+	"cityCode": 1611,
+	"cityName": "\u6d77\u5b89\u53bf"
+}, {
+	"code": "1176268",
+	"name": "\u6d77\u62c9\u5c14",
+	"pinyin": "hailaer",
+	"cityCode": 2107,
+	"cityName": "\u6d77\u62c9\u5c14"
+}, {
+	"code": "1176269",
+	"name": "\u6d77\u6797",
+	"pinyin": "hailin",
+	"cityCode": 1110,
+	"cityName": "\u6d77\u6797"
+}, {
+	"code": "1176270",
+	"name": "\u6d77\u6d6a",
+	"pinyin": "hailang",
+	"cityCode": 1110,
+	"cityName": "\u6d77\u6d6a"
+}, {
+	"code": "1176271",
+	"name": "\u6d77\u77f3\u6e7e",
+	"pinyin": "haishiwan",
+	"cityCode": 502,
+	"cityName": "\u6d77\u77f3\u6e7e"
+}, {
+	"code": "1176272",
+	"name": "\u6d77\u9633",
+	"pinyin": "haiyang",
+	"cityCode": 2419,
+	"cityName": "\u6d77\u9633"
+}, {
+	"code": "1176273",
+	"name": "\u6d89\u53bf",
+	"pinyin": "shexian",
+	"cityCode": 1008,
+	"cityName": "\u6d89\u53bf"
+}, {
+	"code": "1176274",
+	"name": "\u6d9e\u6e90",
+	"pinyin": "laiyuan",
+	"cityCode": 1003,
+	"cityName": "\u6d9e\u6e90"
+}, {
+	"code": "1176275",
+	"name": "\u6d9f\u6e90",
+	"pinyin": "lianyuan",
+	"cityCode": 1508,
+	"cityName": "\u6d9f\u6e90"
+}, {
+	"code": "1176276",
+	"name": "\u6da1\u9633",
+	"pinyin": "guoyang",
+	"cityCode": 105,
+	"cityName": "\u6da1\u9633"
+}, {
+	"code": "1176277",
+	"name": "\u6daa\u9675",
+	"pinyin": "fuling",
+	"cityCode": 300,
+	"cityName": "\u6daa\u9675"
+}, {
+	"code": "1176278",
+	"name": "\u6db5\u6c5f",
+	"pinyin": "hanjiang",
+	"cityCode": 407,
+	"cityName": "\u6db5\u6c5f"
+}, {
+	"code": "1176279",
+	"name": "\u6dbf\u5dde\u4e1c",
+	"pinyin": "zhuozhoudong",
+	"cityCode": 1003,
+	"cityName": "\u6dbf\u5dde\u4e1c"
+}, {
+	"code": "1176280",
+	"name": "\u6dbf\u5dde",
+	"pinyin": "zhuozhou",
+	"cityCode": 1003,
+	"cityName": "\u6dbf\u5dde"
+}, {
+	"code": "1176281",
+	"name": "\u6dc4\u535a",
+	"pinyin": "zibo",
+	"cityCode": 2421,
+	"cityName": "\u6dc4\u535a"
+}, {
+	"code": "1176282",
+	"name": "\u6dc7\u53bf",
+	"pinyin": "qixian",
+	"cityCode": 1204,
+	"cityName": "\u6dc7\u53bf"
+}, {
+	"code": "1176283",
+	"name": "\u6dee\u5317",
+	"pinyin": "huaibei",
+	"cityCode": 110,
+	"cityName": "\u6dee\u5317"
+}, {
+	"code": "1176284",
+	"name": "\u6dee\u5357\u4e1c",
+	"pinyin": "huainandong",
+	"cityCode": 112,
+	"cityName": "\u6dee\u5357\u4e1c"
+}, {
+	"code": "1176285",
+	"name": "\u6dee\u5357",
+	"pinyin": "huainan",
+	"cityCode": 112,
+	"cityName": "\u6dee\u5357"
+}, {
+	"code": "1176287",
+	"name": "\u6dee\u5b89",
+	"pinyin": "huaian",
+	"cityCode": 1606,
+	"cityName": "\u6dee\u5b89"
+}, {
+	"code": "1176288",
+	"name": "\u6dee\u6ee8",
+	"pinyin": "huaibin",
+	"cityCode": 1217,
+	"cityName": "\u6dee\u6ee8"
+}, {
+	"code": "1176289",
+	"name": "\u6df1\u5733\u4e1c",
+	"pinyin": "shenzhendong",
+	"cityCode": 619,
+	"cityName": "\u6df1\u5733\u4e1c"
+}, {
+	"code": "1176290",
+	"name": "\u6df1\u5733\u5317",
+	"pinyin": "shenzhenbei",
+	"cityCode": 619,
+	"cityName": "\u6df1\u5733\u5317"
+}, {
+	"code": "1176291",
+	"name": "\u6df1\u5733",
+	"pinyin": "shenzhen",
+	"cityCode": 619,
+	"cityName": "\u6df1\u5733"
+}, {
+	"code": "1176292",
+	"name": "\u6df1\u5733\u897f",
+	"pinyin": "shenzhenxi",
+	"cityCode": 619,
+	"cityName": "\u6df1\u5733\u897f"
+}, {
+	"code": "1176293",
+	"name": "\u6df1\u5dde",
+	"pinyin": "shenzhou",
+	"cityCode": 1009,
+	"cityName": "\u6df1\u5dde"
+}, {
+	"code": "1176294",
+	"name": "\u6df1\u6cb3",
+	"pinyin": "shenhe",
+	"cityCode": 805,
+	"cityName": "\u6df1\u6cb3"
+}, {
+	"code": "1176295",
+	"name": "\u6e05\u534e\u56ed",
+	"pinyin": "qinghuayuan",
+	"cityCode": 200,
+	"cityName": "\u6e05\u534e\u56ed"
+}, {
+	"code": "1176296",
+	"name": "\u6e05\u539f",
+	"pinyin": "qingyuan",
+	"cityCode": 1908,
+	"cityName": "\u6e05\u539f"
+}, {
+	"code": "1176297",
+	"name": "\u6e05\u5f90",
+	"pinyin": "qingxu",
+	"cityCode": 2602,
+	"cityName": "\u6e05\u5f90"
+}, {
+	"code": "1176298",
+	"name": "\u6e05\u6c34",
+	"pinyin": "qingshui",
+	"cityCode": 508,
+	"cityName": "\u6e05\u6c34"
+}, {
+	"code": "1176299",
+	"name": "\u6e05\u6cb3\u57ce",
+	"pinyin": "qinghecheng",
+	"cityCode": 1015,
+	"cityName": "\u6e05\u6cb3\u57ce"
+}, {
+	"code": "1176300",
+	"name": "\u6e05\u6cb3",
+	"pinyin": "qinghe",
+	"cityCode": 200,
+	"cityName": "\u6e05\u6cb3"
+}, {
+	"code": "1176301",
+	"name": "\u6e05\u6cb3\u95e8",
+	"pinyin": "qinghemen",
+	"cityCode": 1909,
+	"cityName": "\u6e05\u6cb3\u95e8"
+}, {
+	"code": "1176302",
+	"name": "\u6e05\u6cf0\u5761",
+	"pinyin": "qingtaipo",
+	"cityCode": 805,
+	"cityName": "\u6e05\u6cf0\u5761"
+}, {
+	"code": "1176303",
+	"name": "\u6e05\u6da7\u53bf",
+	"pinyin": "qingjianxian",
+	"cityCode": 2712,
+	"cityName": "\u6e05\u6da7\u53bf"
+}, {
+	"code": "1176304",
+	"name": "\u6e05\u6da7",
+	"pinyin": "qingjian",
+	"cityCode": 2613,
+	"cityName": "\u6e05\u6da7"
+}, {
+	"code": "1176305",
+	"name": "\u6e05\u8fdc",
+	"pinyin": "qingyuan",
+	"cityCode": 615,
+	"cityName": "\u6e05\u8fdc"
+}, {
+	"code": "1176306",
+	"name": "\u6e11\u6c60\u5357",
+	"pinyin": "mianchinan",
+	"cityCode": 1214,
+	"cityName": "\u6e11\u6c60\u5357"
+}, {
+	"code": "1176307",
+	"name": "\u6e11\u6c60",
+	"pinyin": "mianchi",
+	"cityCode": 1214,
+	"cityName": "\u6e11\u6c60"
+}, {
+	"code": "1176308",
+	"name": "\u6e20\u53bf",
+	"pinyin": "quxian",
+	"cityCode": 2804,
+	"cityName": "\u6e20\u53bf"
+}, {
+	"code": "1176309",
+	"name": "\u6e21\u5e02",
+	"pinyin": "dushi",
+	"cityCode": 2804,
+	"cityName": "\u6e21\u5e02"
+}, {
+	"code": "1176310",
+	"name": "\u6e29\u5cad",
+	"pinyin": "wenling",
+	"cityCode": 3424,
+	"cityName": "\u6e29\u5cad"
+}, {
+	"code": "1176311",
+	"name": "\u6e29\u5dde\u5357",
+	"pinyin": "wenzhounan",
+	"cityCode": 3426,
+	"cityName": "\u6e29\u5dde\u5357"
+}, {
+	"code": "1176312",
+	"name": "\u6e29\u5dde",
+	"pinyin": "wenzhou",
+	"cityCode": 3426,
+	"cityName": "\u6e29\u5dde"
+}, {
+	"code": "1176314",
+	"name": "\u6e29\u6cc9\u5bfa",
+	"pinyin": "wenquansi",
+	"cityCode": 1904,
+	"cityName": "\u6e29\u6cc9\u5bfa"
+}, {
+	"code": "1176315",
+	"name": "\u6e29\u6cc9",
+	"pinyin": "wenquan",
+	"cityCode": 3302,
+	"cityName": "\u6e29\u6cc9"
+}, {
+	"code": "1176316",
+	"name": "\u6e2d\u5357\u5317",
+	"pinyin": "weinanbei",
+	"cityCode": 2706,
+	"cityName": "\u6e2d\u5357\u5317"
+}, {
+	"code": "1176318",
+	"name": "\u6e2f\u53e3\u9547",
+	"pinyin": "gangkouzhen",
+	"cityCode": 121,
+	"cityName": "\u6e2f\u53e3\u9547"
+}, {
+	"code": "1176319",
+	"name": "\u6e56\u53e3",
+	"pinyin": "hukou",
+	"cityCode": 1708,
+	"cityName": "\u6e56\u53e3"
+}, {
+	"code": "1176320",
+	"name": "\u6e56\u7530",
+	"pinyin": "hutian",
+	"cityCode": 2421,
+	"cityName": "\u6e56\u7530"
+}, {
+	"code": "1176321",
+	"name": "\u6e58\u4e61",
+	"pinyin": "xiangxiang",
+	"cityCode": 1510,
+	"cityName": "\u6e58\u4e61"
+}, {
+	"code": "1176322",
+	"name": "\u6e58\u6f6d",
+	"pinyin": "xiangtan",
+	"cityCode": 1510,
+	"cityName": "\u6e58\u6f6d"
+}, {
+	"code": "1176323",
+	"name": "\u6e5b\u6c5f",
+	"pinyin": "zhanjiang",
+	"cityCode": 625,
+	"cityName": "\u6e5b\u6c5f"
+}, {
+	"code": "1176324",
+	"name": "\u6e5b\u6c5f\u897f",
+	"pinyin": "zhanjiangxi",
+	"cityCode": 625,
+	"cityName": "\u6e5b\u6c5f\u897f"
+}, {
+	"code": "1176326",
+	"name": "\u6e7e\u6c9a",
+	"pinyin": "wanzhi",
+	"cityCode": 120,
+	"cityName": "\u6e7e\u6c9a"
+}, {
+	"code": "1176327",
+	"name": "\u6e7e\u6c9f",
+	"pinyin": "wangou",
+	"cityCode": 1804,
+	"cityName": "\u6e7e\u6c9f"
+}, {
+	"code": "1176328",
+	"name": "\u6e86\u6d66",
+	"pinyin": "xupu",
+	"cityCode": 1506,
+	"cityName": "\u6e86\u6d66"
+}, {
+	"code": "1176329",
+	"name": "\u6e90\u6f6d",
+	"pinyin": "yuantan",
+	"cityCode": 615,
+	"cityName": "\u6e90\u6f6d"
+}, {
+	"code": "1176330",
+	"name": "\u6eb6\u53e3",
+	"pinyin": "rongkou",
+	"cityCode": 113,
+	"cityName": "\u6eb6\u53e3"
+}, {
+	"code": "1176331",
+	"name": "\u6ec1\u5dde\u5317",
+	"pinyin": "chuzhoubei",
+	"cityCode": 107,
+	"cityName": "\u6ec1\u5dde\u5317"
+}, {
+	"code": "1176332",
+	"name": "\u6ec1\u5dde",
+	"pinyin": "chuzhou",
+	"cityCode": 107,
+	"cityName": "\u6ec1\u5dde"
+}, {
+	"code": "1176333",
+	"name": "\u6ed5\u5dde\u4e1c",
+	"pinyin": "tengzhoudong",
+	"cityCode": 2420,
+	"cityName": "\u6ed5\u5dde\u4e1c"
+}, {
+	"code": "1176334",
+	"name": "\u6ed5\u5dde",
+	"pinyin": "tengzhou",
+	"cityCode": 2420,
+	"cityName": "\u6ed5\u5dde"
+}, {
+	"code": "1176335",
+	"name": "\u6ee1\u6d32\u91cc",
+	"pinyin": "manzhouli",
+	"cityCode": 2107,
+	"cityName": "\u6ee1\u6d32\u91cc"
+}, {
+	"code": "1176336",
+	"name": "\u6ee6\u53bf",
+	"pinyin": "luanxian",
+	"cityCode": 1013,
+	"cityName": "\u6ee6\u53bf"
+}, {
+	"code": "1176337",
+	"name": "\u6ee6\u5e73",
+	"pinyin": "luanping",
+	"cityCode": 1006,
+	"cityName": "\u6ee6\u5e73"
+}, {
+	"code": "1176338",
+	"name": "\u6ee6\u6cb3\u6cbf",
+	"pinyin": "luanheyan",
+	"cityCode": 1006,
+	"cityName": "\u6ee6\u6cb3\u6cbf"
+}, {
+	"code": "1176339",
+	"name": "\u6ee8\u6c5f",
+	"pinyin": "binjiang",
+	"cityCode": 1102,
+	"cityName": "\u6ee8\u6c5f"
+}, {
+	"code": "1176340",
+	"name": "\u6f20\u6cb3\u53bf",
+	"pinyin": "mohexian",
+	"cityCode": 1105,
+	"cityName": "\u6f20\u6cb3\u53bf"
+}, {
+	"code": "1176341",
+	"name": "\u6f20\u6cb3",
+	"pinyin": "mohe",
+	"cityCode": 1105,
+	"cityName": "\u6f20\u6cb3"
+}, {
+	"code": "1176343",
+	"name": "\u6f2f\u6cb3",
+	"pinyin": "luohe",
+	"cityCode": 1209,
+	"cityName": "\u6f2f\u6cb3"
+}, {
+	"code": "1176344",
+	"name": "\u6f2f\u6cb3\u897f",
+	"pinyin": "luohexi",
+	"cityCode": 1209,
+	"cityName": "\u6f2f\u6cb3\u897f"
+}, {
+	"code": "1176345",
+	"name": "\u6f33\u5dde\u4e1c",
+	"pinyin": "zhangzhoudong",
+	"cityCode": 415,
+	"cityName": "\u6f33\u5dde\u4e1c"
+}, {
+	"code": "1176346",
+	"name": "\u6f33\u5dde",
+	"pinyin": "zhangzhou",
+	"cityCode": 415,
+	"cityName": "\u6f33\u5dde"
+}, {
+	"code": "1176347",
+	"name": "\u6f33\u5e73",
+	"pinyin": "zhangping",
+	"cityCode": 404,
+	"cityName": "\u6f33\u5e73"
+}, {
+	"code": "1176348",
+	"name": "\u6f4d\u574a",
+	"pinyin": "weifang",
+	"cityCode": 2417,
+	"cityName": "\u6f4d\u574a"
+}, {
+	"code": "1176351",
+	"name": "\u6f62\u5ddd",
+	"pinyin": "huangchuan",
+	"cityCode": 1217,
+	"cityName": "\u6f62\u5ddd"
+}, {
+	"code": "1176352",
+	"name": "\u6f6d\u5c97",
+	"pinyin": "tangang",
+	"cityCode": 1702,
+	"cityName": "\u6f6d\u5c97"
+}, {
+	"code": "1176353",
+	"name": "\u6f6e\u5dde",
+	"pinyin": "chaozhou",
+	"cityCode": 604,
+	"cityName": "\u6f6e\u5dde"
+}, {
+	"code": "1176354",
+	"name": "\u6f7c\u5173",
+	"pinyin": "tongguan",
+	"cityCode": 2706,
+	"cityName": "\u6f7c\u5173"
+}, {
+	"code": "1176355",
+	"name": "\u6f7c\u5357",
+	"pinyin": "tongnan",
+	"cityCode": 300,
+	"cityName": "\u6f7c\u5357"
+}, {
+	"code": "1176356",
+	"name": "\u6fa7\u53bf",
+	"pinyin": "lixian",
+	"cityCode": 1503,
+	"cityName": "\u6fa7\u53bf"
+}, {
+	"code": "1176357",
+	"name": "\u704c\u6c34",
+	"pinyin": "guanshui",
+	"cityCode": 1907,
+	"cityName": "\u704c\u6c34"
+}, {
+	"code": "1176358",
+	"name": "\u706b\u70e7\u5be8",
+	"pinyin": "huoshaozhai",
+	"cityCode": 2704,
+	"cityName": "\u706b\u70e7\u5be8"
+}, {
+	"code": "1176359",
+	"name": "\u706b\u94fa",
+	"pinyin": "huopu",
+	"cityCode": 807,
+	"cityName": "\u706b\u94fa"
+}, {
+	"code": "1176360",
+	"name": "\u706f\u5854",
+	"pinyin": "dengta",
+	"cityCode": 1912,
+	"cityName": "\u706f\u5854"
+}, {
+	"code": "1176361",
+	"name": "\u7075\u4e18",
+	"pinyin": "lingqiu",
+	"cityCode": 2604,
+	"cityName": "\u7075\u4e18"
+}, {
+	"code": "1176362",
+	"name": "\u7075\u5b9d",
+	"pinyin": "lingbao",
+	"cityCode": 1214,
+	"cityName": "\u7075\u5b9d"
+}, {
+	"code": "1176363",
+	"name": "\u7075\u5b9d\u897f",
+	"pinyin": "lingbaoxi",
+	"cityCode": 1214,
+	"cityName": "\u7075\u5b9d\u897f"
+}, {
+	"code": "1176364",
+	"name": "\u7075\u5c71",
+	"pinyin": "lingshan",
+	"cityCode": 1903,
+	"cityName": "\u7075\u5c71"
+}, {
+	"code": "1176365",
+	"name": "\u7075\u6b66",
+	"pinyin": "lingwu",
+	"cityCode": 2202,
+	"cityName": "\u7075\u6b66"
+}, {
+	"code": "1176366",
+	"name": "\u7075\u77f3",
+	"pinyin": "lingshi",
+	"cityCode": 2612,
+	"cityName": "\u7075\u77f3"
+}, {
+	"code": "1176367",
+	"name": "\u7089\u6865",
+	"pinyin": "luqiao",
+	"cityCode": 107,
+	"cityName": "\u7089\u6865"
+}, {
+	"code": "1176368",
+	"name": "\u708e\u65b9",
+	"pinyin": "yanfang",
+	"cityCode": 3315,
+	"cityName": "\u708e\u65b9"
+}, {
+	"code": "1176369",
+	"name": "\u70df\u53f0",
+	"pinyin": "yantai",
+	"cityCode": 2419,
+	"cityName": "\u70df\u53f0"
+}, {
+	"code": "1176370",
+	"name": "\u70df\u6eaa",
+	"pinyin": "yanxi",
+	"cityCode": 1511,
+	"cityName": "\u70df\u6eaa"
+}, {
+	"code": "1176371",
+	"name": "\u70df\u7b52\u5c71",
+	"pinyin": "yantongshan",
+	"cityCode": 1808,
+	"cityName": "\u70df\u7b52\u5c71"
+}, {
+	"code": "1176372",
+	"name": "\u7109\u8006",
+	"pinyin": "yanqi",
+	"cityCode": 3114,
+	"cityName": "\u7109\u8006"
+}, {
+	"code": "1176374",
+	"name": "\u7126\u4f5c",
+	"pinyin": "jiaozuo",
+	"cityCode": 1206,
+	"cityName": "\u7126\u4f5c"
+}, {
+	"code": "1176375",
+	"name": "\u7164\u7530",
+	"pinyin": "meitian",
+	"cityCode": 2107,
+	"cityName": "\u7164\u7530"
+}, {
+	"code": "1176376",
+	"name": "\u7164\u7a91\u6c9f",
+	"pinyin": "meiyaogou",
+	"cityCode": 3118,
+	"cityName": "\u7164\u7a91\u6c9f"
+}, {
+	"code": "1176377",
+	"name": "\u7167\u4e1c",
+	"pinyin": "zhaodong",
+	"cityCode": 508,
+	"cityName": "\u7167\u4e1c"
+}, {
+	"code": "1176378",
+	"name": "\u718a\u5cb3\u57ce",
+	"pinyin": "xiongyuecheng",
+	"cityCode": 1915,
+	"cityName": "\u718a\u5cb3\u57ce"
+}, {
+	"code": "1176379",
+	"name": "\u71d5\u5c71",
+	"pinyin": "yanshan",
+	"cityCode": 200,
+	"cityName": "\u71d5\u5c71"
+}, {
+	"code": "1176380",
+	"name": "\u71d5\u5c97",
+	"pinyin": "yangang",
+	"cityCode": 2813,
+	"cityName": "\u71d5\u5c97"
+}, {
+	"code": "1176381",
+	"name": "\u71d5\u90ca",
+	"pinyin": "yanjiao",
+	"cityCode": 1010,
+	"cityName": "\u71d5\u90ca"
+}, {
+	"code": "1176382",
+	"name": "\u7259\u514b\u77f3",
+	"pinyin": "yakeshi",
+	"cityCode": 2107,
+	"cityName": "\u7259\u514b\u77f3"
+}, {
+	"code": "1176383",
+	"name": "\u7259\u5c6f\u5821",
+	"pinyin": "yatunpu",
+	"cityCode": 1506,
+	"cityName": "\u7259\u5c6f\u5821"
+}, {
+	"code": "1176384",
+	"name": "\u725b\u5bb6",
+	"pinyin": "niujia",
+	"cityCode": 1102,
+	"cityName": "\u725b\u5bb6"
+}, {
+	"code": "1176385",
+	"name": "\u725b\u5e84",
+	"pinyin": "niuzhuang",
+	"cityCode": 1903,
+	"cityName": "\u725b\u5e84"
+}, {
+	"code": "1176387",
+	"name": "\u725b\u6676\u576a",
+	"pinyin": "niujingping",
+	"cityCode": 2612,
+	"cityName": "\u725b\u6676\u576a"
+}, {
+	"code": "1176388",
+	"name": "\u7261\u4e39\u6c5f",
+	"pinyin": "mudanjiang",
+	"cityCode": 1110,
+	"cityName": "\u7261\u4e39\u6c5f"
+}, {
+	"code": "1176389",
+	"name": "\u7267\u539f",
+	"pinyin": "muyuan",
+	"cityCode": 2107,
+	"cityName": "\u7267\u539f"
+}, {
+	"code": "1176390",
+	"name": "\u7280\u6d66",
+	"pinyin": "xipu",
+	"cityCode": 2802,
+	"cityName": "\u7280\u6d66"
+}, {
+	"code": "1176391",
+	"name": "\u72ec\u5c71",
+	"pinyin": "dushan",
+	"cityCode": 805,
+	"cityName": "\u72ec\u5c71"
+}, {
+	"code": "1176392",
+	"name": "\u72ec\u674e\u6751",
+	"pinyin": "dulicun",
+	"cityCode": 2710,
+	"cityName": "\u72ec\u674e\u6751"
+}, {
+	"code": "1176393",
+	"name": "\u72ec\u7acb\u5c6f",
+	"pinyin": "dulitun",
+	"cityCode": 1104,
+	"cityName": "\u72ec\u7acb\u5c6f"
+}, {
+	"code": "1176394",
+	"name": "\u731b\u9e6b\u5c71",
+	"pinyin": "mengjiushan",
+	"cityCode": 2112,
+	"cityName": "\u731b\u9e6b\u5c71"
+}, {
+	"code": "1176395",
+	"name": "\u7389\u5c4f",
+	"pinyin": "yuping",
+	"cityCode": 808,
+	"cityName": "\u7389\u5c4f"
+}, {
+	"code": "1176396",
+	"name": "\u7389\u5c71",
+	"pinyin": "yushan",
+	"cityCode": 1711,
+	"cityName": "\u7389\u5c71"
+}, {
+	"code": "1176397",
+	"name": "\u7389\u6797",
+	"pinyin": "yulin",
+	"cityCode": 712,
+	"cityName": "\u7389\u6797"
+}, {
+	"code": "1176398",
+	"name": "\u7389\u6cc9",
+	"pinyin": "yuquan",
+	"cityCode": 1102,
+	"cityName": "\u7389\u6cc9"
+}, {
+	"code": "1176399",
+	"name": "\u7389\u7530\u53bf",
+	"pinyin": "yutianxian",
+	"cityCode": 1013,
+	"cityName": "\u7389\u7530\u53bf"
+}, {
+	"code": "1176400",
+	"name": "\u7389\u95e8",
+	"pinyin": "yumen",
+	"cityCode": 508,
+	"cityName": "\u7389\u95e8"
+}, {
+	"code": "1176402",
+	"name": "\u738b\u5146\u5c6f",
+	"pinyin": "wangzhaotun",
+	"cityCode": 1102,
+	"cityName": "\u738b\u5146\u5c6f"
+}, {
+	"code": "1176403",
+	"name": "\u738b\u5802",
+	"pinyin": "wangtang",
+	"cityCode": 1211,
+	"cityName": "\u738b\u5802"
+}, {
+	"code": "1176404",
+	"name": "\u738b\u5c97",
+	"pinyin": "wanggang",
+	"cityCode": 1102,
+	"cityName": "\u738b\u5c97"
+}, {
+	"code": "1176405",
+	"name": "\u738b\u5e9c",
+	"pinyin": "wangfu",
+	"cityCode": 1810,
+	"cityName": "\u738b\u5e9c"
+}, {
+	"code": "1176407",
+	"name": "\u739b\u7eb3\u65af",
+	"pinyin": "manasi",
+	"cityCode": 3107,
+	"cityName": "\u739b\u7eb3\u65af"
+}, {
+	"code": "1176408",
+	"name": "\u73e0\u65af\u82b1",
+	"pinyin": "zhusihua",
+	"cityCode": 2110,
+	"cityName": "\u73e0\u65af\u82b1"
+}, {
+	"code": "1176409",
+	"name": "\u73e0\u6d77\u5317",
+	"pinyin": "zhuhaibei",
+	"cityCode": 628,
+	"cityName": "\u73e0\u6d77\u5317"
+}, {
+	"code": "1176410",
+	"name": "\u73e0\u6d77",
+	"pinyin": "zhuhai",
+	"cityCode": 628,
+	"cityName": "\u73e0\u6d77"
+}, {
+	"code": "1176411",
+	"name": "\u743c\u6d77",
+	"pinyin": "qionghai",
+	"cityCode": 905,
+	"cityName": "\u743c\u6d77"
+}, {
+	"code": "1176412",
+	"name": "\u745e\u5b89",
+	"pinyin": "ruian",
+	"cityCode": 3426,
+	"cityName": "\u745e\u5b89"
+}, {
+	"code": "1176413",
+	"name": "\u745e\u660c",
+	"pinyin": "ruichang",
+	"cityCode": 1708,
+	"cityName": "\u745e\u660c"
+}, {
+	"code": "1176414",
+	"name": "\u745e\u91d1",
+	"pinyin": "ruijin",
+	"cityCode": 1704,
+	"cityName": "\u745e\u91d1"
+}, {
+	"code": "1176415",
+	"name": "\u74dc\u5dde",
+	"pinyin": "guazhou",
+	"cityCode": 508,
+	"cityName": "\u74dc\u5dde"
+}, {
+	"code": "1176416",
+	"name": "\u74e2\u513f\u5c6f",
+	"pinyin": "piaoertun",
+	"cityCode": 1908,
+	"cityName": "\u74e2\u513f\u5c6f"
+}, {
+	"code": "1176417",
+	"name": "\u74e6\u623f\u5e97",
+	"pinyin": "wafangdian",
+	"cityCode": 1906,
+	"cityName": "\u74e6\u623f\u5e97"
+}, {
+	"code": "1176418",
+	"name": "\u74e6\u623f\u5e97\u897f",
+	"pinyin": "wafangdianxi",
+	"cityCode": 1906,
+	"cityName": "\u74e6\u623f\u5e97\u897f"
+}, {
+	"code": "1176419",
+	"name": "\u7518\u65d7\u5361",
+	"pinyin": "ganqika",
+	"cityCode": 2110,
+	"cityName": "\u7518\u65d7\u5361"
+}, {
+	"code": "1176420",
+	"name": "\u7518\u68e0",
+	"pinyin": "gantang",
+	"cityCode": 1706,
+	"cityName": "\u7518\u68e0"
+}, {
+	"code": "1176421",
+	"name": "\u7518\u6cb3\u5b50",
+	"pinyin": "ganhezi",
+	"cityCode": 3117,
+	"cityName": "\u7518\u6cb3\u5b50"
+}, {
+	"code": "1176422",
+	"name": "\u7518\u6cc9\u5317",
+	"pinyin": "ganquanbei",
+	"cityCode": 2711,
+	"cityName": "\u7518\u6cc9\u5317"
+}, {
+	"code": "1176423",
+	"name": "\u7518\u6d1b",
+	"pinyin": "ganluo",
+	"cityCode": 2823,
+	"cityName": "\u7518\u6d1b"
+}, {
+	"code": "1176424",
+	"name": "\u7518\u8c37",
+	"pinyin": "gangu",
+	"cityCode": 511,
+	"cityName": "\u7518\u8c37"
+}, {
+	"code": "1176425",
+	"name": "\u7530\u4e1c",
+	"pinyin": "tiandong",
+	"cityCode": 703,
+	"cityName": "\u7530\u4e1c"
+}, {
+	"code": "1176426",
+	"name": "\u7532\u5821",
+	"pinyin": "jiabao",
+	"cityCode": 805,
+	"cityName": "\u7532\u5821"
+}, {
+	"code": "1176427",
+	"name": "\u7532\u5c71",
+	"pinyin": "jiashan",
+	"cityCode": 1006,
+	"cityName": "\u7532\u5c71"
+}, {
+	"code": "1176428",
+	"name": "\u7532\u8def",
+	"pinyin": "jialu",
+	"cityCode": 121,
+	"cityName": "\u7532\u8def"
+}, {
+	"code": "1176429",
+	"name": "\u7533\u5bb6\u5e97",
+	"pinyin": "shenjiadian",
+	"cityCode": 1108,
+	"cityName": "\u7533\u5bb6\u5e97"
+}, {
+	"code": "1176430",
+	"name": "\u7538\u5fc3",
+	"pinyin": "dianxin",
+	"cityCode": 3305,
+	"cityName": "\u7538\u5fc3"
+}, {
+	"code": "1176431",
+	"name": "\u753b\u6865",
+	"pinyin": "huaqiao",
+	"cityCode": 1714,
+	"cityName": "\u753b\u6865"
+}, {
+	"code": "1176432",
+	"name": "\u7559\u5e84",
+	"pinyin": "liuzhuang",
+	"cityCode": 1210,
+	"cityName": "\u7559\u5e84"
+}, {
+	"code": "1176433",
+	"name": "\u7565\u9633",
+	"pinyin": "lueyang",
+	"cityCode": 2705,
+	"cityName": "\u7565\u9633"
+}, {
+	"code": "1176434",
+	"name": "\u758f\u52d2\u6cb3",
+	"pinyin": "shulehe",
+	"cityCode": 508,
+	"cityName": "\u758f\u52d2\u6cb3"
+}, {
+	"code": "1176435",
+	"name": "\u758f\u52d2",
+	"pinyin": "shule",
+	"cityCode": 3111,
+	"cityName": "\u758f\u52d2"
+}, {
+	"code": "1176436",
+	"name": "\u767d\u5408",
+	"pinyin": "baihe",
+	"cityCode": 1210,
+	"cityName": "\u767d\u5408"
+}, {
+	"code": "1176437",
+	"name": "\u767d\u57ce",
+	"pinyin": "baicheng",
+	"cityCode": 1803,
+	"cityName": "\u767d\u57ce"
+}, {
+	"code": "1176438",
+	"name": "\u767d\u594e\u5821",
+	"pinyin": "baikuipu",
+	"cityCode": 1102,
+	"cityName": "\u767d\u594e\u5821"
+}, {
+	"code": "1176439",
+	"name": "\u767d\u5c71\u5e02",
+	"pinyin": "baishanshi",
+	"cityCode": 1804,
+	"cityName": "\u767d\u5c71\u5e02"
+}, {
+	"code": "1176440",
+	"name": "\u767d\u6cb3\u53bf",
+	"pinyin": "baihexian",
+	"cityCode": 2703,
+	"cityName": "\u767d\u6cb3\u53bf"
+}, {
+	"code": "1176441",
+	"name": "\u767d\u6cb3",
+	"pinyin": "baihe",
+	"cityCode": 1812,
+	"cityName": "\u767d\u6cb3"
+}, {
+	"code": "1176442",
+	"name": "\u767d\u6cc9",
+	"pinyin": "baiquan",
+	"cityCode": 1806,
+	"cityName": "\u767d\u6cc9"
+}, {
+	"code": "1176443",
+	"name": "\u767d\u6da7",
+	"pinyin": "baijian",
+	"cityCode": 1003,
+	"cityName": "\u767d\u6da7"
+}, {
+	"code": "1176444",
+	"name": "\u767d\u72fc",
+	"pinyin": "bailang",
+	"cityCode": 2112,
+	"cityName": "\u767d\u72fc"
+}, {
+	"code": "1176445",
+	"name": "\u767d\u77f3\u5c71",
+	"pinyin": "baishishan",
+	"cityCode": 1808,
+	"cityName": "\u767d\u77f3\u5c71"
+}, {
+	"code": "1176446",
+	"name": "\u767d\u94f6\u897f",
+	"pinyin": "baiyinxi",
+	"cityCode": 503,
+	"cityName": "\u767d\u94f6\u897f"
+}, {
+	"code": "1176447",
+	"name": "\u767d\u97f3\u80e1\u7855",
+	"pinyin": "baiyinhushuo",
+	"cityCode": 2112,
+	"cityName": "\u767d\u97f3\u80e1\u7855"
+}, {
+	"code": "1176449",
+	"name": "\u767e\u8272",
+	"pinyin": "baise",
+	"cityCode": 703,
+	"cityName": "\u767e\u8272"
+}, {
+	"code": "1176450",
+	"name": "\u768b\u5170",
+	"pinyin": "gaolan",
+	"cityCode": 502,
+	"cityName": "\u768b\u5170"
+}, {
+	"code": "1176452",
+	"name": "\u76ae\u5c71",
+	"pinyin": "pishan",
+	"cityCode": 3110,
+	"cityName": "\u76ae\u5c71"
+}, {
+	"code": "1176453",
+	"name": "\u76ca\u9633",
+	"pinyin": "yiyang",
+	"cityCode": 1511,
+	"cityName": "\u76ca\u9633"
+}, {
+	"code": "1176454",
+	"name": "\u76d0\u57ce",
+	"pinyin": "yancheng",
+	"cityCode": 1621,
+	"cityName": "\u76d0\u57ce"
+}, {
+	"code": "1176456",
+	"name": "\u76d0\u6d25",
+	"pinyin": "yanjin",
+	"cityCode": 3321,
+	"cityName": "\u76d0\u6d25"
+}, {
+	"code": "1176457",
+	"name": "\u76d6\u5dde",
+	"pinyin": "gaizhou",
+	"cityCode": 1915,
+	"cityName": "\u76d6\u5dde"
+}, {
+	"code": "1176458",
+	"name": "\u76d6\u5dde\u897f",
+	"pinyin": "gaizhouxi",
+	"cityCode": 1915,
+	"cityName": "\u76d6\u5dde\u897f"
+}, {
+	"code": "1176459",
+	"name": "\u76d8\u5173",
+	"pinyin": "panguan",
+	"cityCode": 807,
+	"cityName": "\u76d8\u5173"
+}, {
+	"code": "1176460",
+	"name": "\u76d8\u53e4",
+	"pinyin": "pangu",
+	"cityCode": 1105,
+	"cityName": "\u76d8\u53e4"
+}, {
+	"code": "1176461",
+	"name": "\u76d8\u811a\u8425",
+	"pinyin": "panjiaoying",
+	"cityCode": 802,
+	"cityName": "\u76d8\u811a\u8425"
+}, {
+	"code": "1176462",
+	"name": "\u76d8\u9526\u5317",
+	"pinyin": "panjinbei",
+	"cityCode": 1913,
+	"cityName": "\u76d8\u9526\u5317"
+}, {
+	"code": "1176463",
+	"name": "\u76d8\u9526",
+	"pinyin": "panjin",
+	"cityCode": 1913,
+	"cityName": "\u76d8\u9526"
+}, {
+	"code": "1176464",
+	"name": "\u7709\u5c71",
+	"pinyin": "meishan",
+	"cityCode": 2817,
+	"cityName": "\u7709\u5c71"
+}, {
+	"code": "1176465",
+	"name": "\u77f3\u4eba\u57ce",
+	"pinyin": "shirencheng",
+	"cityCode": 1102,
+	"cityName": "\u77f3\u4eba\u57ce"
+}, {
+	"code": "1176466",
+	"name": "\u77f3\u5634\u5c71",
+	"pinyin": "shizuishan",
+	"cityCode": 2204,
+	"cityName": "\u77f3\u5634\u5c71"
+}, {
+	"code": "1176467",
+	"name": "\u77f3\u5858\u8def",
+	"pinyin": "shitanglu",
+	"cityCode": 200,
+	"cityName": "\u77f3\u5858\u8def"
+}, {
+	"code": "1176469",
+	"name": "\u77f3\u5bb6\u5e84\u5317",
+	"pinyin": "shijiazhuangbei",
+	"cityCode": 1002,
+	"cityName": "\u77f3\u5bb6\u5e84\u5317"
+}, {
+	"code": "1176470",
+	"name": "\u77f3\u5bb6\u5e84",
+	"pinyin": "shijiazhuang",
+	"cityCode": 1002,
+	"cityName": "\u77f3\u5bb6\u5e84"
+}, {
+	"code": "1176473",
+	"name": "\u77f3\u5ce1\u5b50",
+	"pinyin": "shixiazi",
+	"cityCode": 513,
+	"cityName": "\u77f3\u5ce1\u5b50"
+}, {
+	"code": "1176475",
+	"name": "\u77f3\u677f\u6ee9",
+	"pinyin": "shibantan",
+	"cityCode": 2802,
+	"cityName": "\u77f3\u677f\u6ee9"
+}, {
+	"code": "1176476",
+	"name": "\u77f3\u6797",
+	"pinyin": "shilin",
+	"cityCode": 3302,
+	"cityName": "\u77f3\u6797"
+}, {
+	"code": "1176477",
+	"name": "\u77f3\u67f1\u69fd",
+	"pinyin": "shizhucao",
+	"cityCode": 2804,
+	"cityName": "\u77f3\u67f1\u69fd"
+}, {
+	"code": "1176478",
+	"name": "\u77f3\u6865\u5b50",
+	"pinyin": "shiqiaozi",
+	"cityCode": 1904,
+	"cityName": "\u77f3\u6865\u5b50"
+}, {
+	"code": "1176479",
+	"name": "\u77f3\u6cb3\u5b50",
+	"pinyin": "shihezi",
+	"cityCode": 3116,
+	"cityName": "\u77f3\u6cb3\u5b50"
+}, {
+	"code": "1176480",
+	"name": "\u77f3\u6cc9\u53bf",
+	"pinyin": "shiquanxian",
+	"cityCode": 2703,
+	"cityName": "\u77f3\u6cc9\u53bf"
+}, {
+	"code": "1176481",
+	"name": "\u77f3\u6ee9",
+	"pinyin": "shitan",
+	"cityCode": 602,
+	"cityName": "\u77f3\u6ee9"
+}, {
+	"code": "1176482",
+	"name": "\u77f3\u7070\u7a91",
+	"pinyin": "shihuiyao",
+	"cityCode": 2112,
+	"cityName": "\u77f3\u7070\u7a91"
+}, {
+	"code": "1176483",
+	"name": "\u77f3\u8111",
+	"pinyin": "shinao",
+	"cityCode": 1905,
+	"cityName": "\u77f3\u8111"
+}, {
+	"code": "1176486",
+	"name": "\u7800\u5c71",
+	"pinyin": "dangshan",
+	"cityCode": 117,
+	"cityName": "\u7800\u5c71"
+}, {
+	"code": "1176487",
+	"name": "\u7855\u653e",
+	"pinyin": "shuofang",
+	"cityCode": 1619,
+	"cityName": "\u7855\u653e"
+}, {
+	"code": "1176488",
+	"name": "\u786e\u5c71",
+	"pinyin": "queshan",
+	"cityCode": 1220,
+	"cityName": "\u786e\u5c71"
+}, {
+	"code": "1176489",
+	"name": "\u78a7\u5dde",
+	"pinyin": "bizhou",
+	"cityCode": 1105,
+	"cityName": "\u78a7\u5dde"
+}, {
+	"code": "1176491",
+	"name": "\u78be\u5b50\u5c71",
+	"pinyin": "nianzishan",
+	"cityCode": 1111,
+	"cityName": "\u78be\u5b50\u5c71"
+}, {
+	"code": "1176492",
+	"name": "\u78c1\u53bf",
+	"pinyin": "cixian",
+	"cityCode": 1008,
+	"cityName": "\u78c1\u53bf"
+}, {
+	"code": "1176493",
+	"name": "\u78c1\u5c71",
+	"pinyin": "cishan",
+	"cityCode": 1008,
+	"cityName": "\u78c1\u5c71"
+}, {
+	"code": "1176494",
+	"name": "\u78c1\u7a91",
+	"pinyin": "ciyao",
+	"cityCode": 2416,
+	"cityName": "\u78c1\u7a91"
+}, {
+	"code": "1176495",
+	"name": "\u78d0\u77f3",
+	"pinyin": "panshi",
+	"cityCode": 1808,
+	"cityName": "\u78d0\u77f3"
+}, {
+	"code": "1176496",
+	"name": "\u78e8\u5fc3\u5761",
+	"pinyin": "moxinpo",
+	"cityCode": 300,
+	"cityName": "\u78e8\u5fc3\u5761"
+}, {
+	"code": "1176498",
+	"name": "\u7941\u4e1c",
+	"pinyin": "qidong",
+	"cityCode": 1505,
+	"cityName": "\u7941\u4e1c"
+}, {
+	"code": "1176499",
+	"name": "\u7941\u53bf",
+	"pinyin": "qixian",
+	"cityCode": 2612,
+	"cityName": "\u7941\u53bf"
+}, {
+	"code": "1176500",
+	"name": "\u7941\u5bb6\u5821",
+	"pinyin": "qijiapu",
+	"cityCode": 1904,
+	"cityName": "\u7941\u5bb6\u5821"
+}, {
+	"code": "1176501",
+	"name": "\u7941\u95e8",
+	"pinyin": "qimen",
+	"cityCode": 113,
+	"cityName": "\u7941\u95e8"
+}, {
+	"code": "1176502",
+	"name": "\u7941\u9633",
+	"pinyin": "qiyang",
+	"cityCode": 1513,
+	"cityName": "\u7941\u9633"
+}, {
+	"code": "1176503",
+	"name": "\u795e\u5934",
+	"pinyin": "shentou",
+	"cityCode": 2605,
+	"cityName": "\u795e\u5934"
+}, {
+	"code": "1176504",
+	"name": "\u795e\u6728",
+	"pinyin": "shenmu",
+	"cityCode": 2712,
+	"cityName": "\u795e\u6728"
+}, {
+	"code": "1176505",
+	"name": "\u795e\u6811",
+	"pinyin": "shenshu",
+	"cityCode": 1115,
+	"cityName": "\u795e\u6811"
+}, {
+	"code": "1176506",
+	"name": "\u7984\u5e02",
+	"pinyin": "lushi",
+	"cityCode": 2809,
+	"cityName": "\u7984\u5e02"
+}, {
+	"code": "1176507",
+	"name": "\u798f\u5229\u5c6f",
+	"pinyin": "fulitun",
+	"cityCode": 1113,
+	"cityName": "\u798f\u5229\u5c6f"
+}, {
+	"code": "1176508",
+	"name": "\u798f\u5b89",
+	"pinyin": "fuan",
+	"cityCode": 406,
+	"cityName": "\u798f\u5b89"
+}, {
+	"code": "1176510",
+	"name": "\u798f\u5dde\u5357",
+	"pinyin": "fuzhounan",
+	"cityCode": 402,
+	"cityName": "\u798f\u5dde\u5357"
+}, {
+	"code": "1176511",
+	"name": "\u798f\u5dde",
+	"pinyin": "fuzhou",
+	"cityCode": 402,
+	"cityName": "\u798f\u5dde"
+}, {
+	"code": "1176512",
+	"name": "\u798f\u6cc9",
+	"pinyin": "fuquan",
+	"cityCode": 805,
+	"cityName": "\u798f\u6cc9"
+}, {
+	"code": "1176513",
+	"name": "\u798f\u6d77",
+	"pinyin": "fuhai",
+	"cityCode": 3104,
+	"cityName": "\u798f\u6d77"
+}, {
+	"code": "1176514",
+	"name": "\u798f\u6e05",
+	"pinyin": "fuqing",
+	"cityCode": 402,
+	"cityName": "\u798f\u6e05"
+}, {
+	"code": "1176515",
+	"name": "\u798f\u91d1",
+	"pinyin": "fujin",
+	"cityCode": 1904,
+	"cityName": "\u798f\u91d1"
+}, {
+	"code": "1176516",
+	"name": "\u798f\u9f0e",
+	"pinyin": "fuding",
+	"cityCode": 406,
+	"cityName": "\u798f\u9f0e"
+}, {
+	"code": "1176517",
+	"name": "\u79b9\u57ce",
+	"pinyin": "yucheng",
+	"cityCode": 2405,
+	"cityName": "\u79b9\u57ce"
+}, {
+	"code": "1176518",
+	"name": "\u79c0\u5c71",
+	"pinyin": "xiushan",
+	"cityCode": 300,
+	"cityName": "\u79c0\u5c71"
+}, {
+	"code": "1176519",
+	"name": "\u79cb\u6728\u5e84",
+	"pinyin": "qiumuzhuang",
+	"cityCode": 1907,
+	"cityName": "\u79cb\u6728\u5e84"
+}, {
+	"code": "1176521",
+	"name": "\u79e6\u5bb6",
+	"pinyin": "qinjia",
+	"cityCode": 1114,
+	"cityName": "\u79e6\u5bb6"
+}, {
+	"code": "1176522",
+	"name": "\u79e6\u7687\u5c9b",
+	"pinyin": "qinhuangdao",
+	"cityCode": 1012,
+	"cityName": "\u79e6\u7687\u5c9b"
+}, {
+	"code": "1176523",
+	"name": "\u7a0b\u6751",
+	"pinyin": "chengcun",
+	"cityCode": 709,
+	"cityName": "\u7a0b\u6751"
+}, {
+	"code": "1176524",
+	"name": "\u7a37\u5c71",
+	"pinyin": "jishan",
+	"cityCode": 2613,
+	"cityName": "\u7a37\u5c71"
+}, {
+	"code": "1176525",
+	"name": "\u7a46\u68f1",
+	"pinyin": "muling",
+	"cityCode": 1110,
+	"cityName": "\u7a46\u68f1"
+}, {
+	"code": "1176526",
+	"name": "\u7aa6\u5e97",
+	"pinyin": "doudian",
+	"cityCode": 200,
+	"cityName": "\u7aa6\u5e97"
+}, {
+	"code": "1176527",
+	"name": "\u7acb\u5fd7",
+	"pinyin": "lizhi",
+	"cityCode": 1104,
+	"cityName": "\u7acb\u5fd7"
+}, {
+	"code": "1176528",
+	"name": "\u7ae0\u4e18",
+	"pinyin": "zhangqiu",
+	"cityCode": 2402,
+	"cityName": "\u7ae0\u4e18"
+}, {
+	"code": "1176529",
+	"name": "\u7ae0\u515a",
+	"pinyin": "zhangdang",
+	"cityCode": 1908,
+	"cityName": "\u7ae0\u515a"
+}, {
+	"code": "1176530",
+	"name": "\u7af9\u56ed\u575d",
+	"pinyin": "zhuyuanba",
+	"cityCode": 2810,
+	"cityName": "\u7af9\u56ed\u575d"
+}, {
+	"code": "1176531",
+	"name": "\u7b14\u67b6\u5c71",
+	"pinyin": "bijiashan",
+	"cityCode": 1113,
+	"cityName": "\u7b14\u67b6\u5c71"
+}, {
+	"code": "1176532",
+	"name": "\u7b80\u9633",
+	"pinyin": "jianyang",
+	"cityCode": 2827,
+	"cityName": "\u7b80\u9633"
+}, {
+	"code": "1176533",
+	"name": "\u7b97\u738b\u5e84",
+	"pinyin": "suanwangzhuang",
+	"cityCode": 2407,
+	"cityName": "\u7b97\u738b\u5e84"
+}, {
+	"code": "1176534",
+	"name": "\u7c73\u6613",
+	"pinyin": "miyi",
+	"cityCode": 2820,
+	"cityName": "\u7c73\u6613"
+}, {
+	"code": "1176535",
+	"name": "\u7c73\u6c99\u5b50",
+	"pinyin": "mishazi",
+	"cityCode": 1802,
+	"cityName": "\u7c73\u6c99\u5b50"
+}, {
+	"code": "1176536",
+	"name": "\u7c73\u8102",
+	"pinyin": "mizhi",
+	"cityCode": 2712,
+	"cityName": "\u7c73\u8102"
+}, {
+	"code": "1176537",
+	"name": "\u7cbe\u6cb3\u5357",
+	"pinyin": "jinghenan",
+	"cityCode": 3106,
+	"cityName": "\u7cbe\u6cb3\u5357"
+}, {
+	"code": "1176538",
+	"name": "\u7cbe\u6cb3",
+	"pinyin": "jinghe",
+	"cityCode": 3106,
+	"cityName": "\u7cbe\u6cb3"
+}, {
+	"code": "1176539",
+	"name": "\u7d2b\u6c9f",
+	"pinyin": "zigou",
+	"cityCode": 2107,
+	"cityName": "\u7d2b\u6c9f"
+}, {
+	"code": "1176541",
+	"name": "\u7d2b\u9633",
+	"pinyin": "ziyang",
+	"cityCode": 2703,
+	"cityName": "\u7d2b\u9633"
+}, {
+	"code": "1176542",
+	"name": "\u7da6\u6c5f",
+	"pinyin": "qijiang",
+	"cityCode": 300,
+	"cityName": "\u7da6\u6c5f"
+}, {
+	"code": "1176543",
+	"name": "\u7e41\u5cd9",
+	"pinyin": "fanshi",
+	"cityCode": 2610,
+	"cityName": "\u7e41\u5cd9"
+}, {
+	"code": "1176544",
+	"name": "\u7e41\u660c\u5317",
+	"pinyin": "fanchangbei",
+	"cityCode": 120,
+	"cityName": "\u7e41\u660c\u5317"
+}, {
+	"code": "1176545",
+	"name": "\u7ea2\u5149\u9547",
+	"pinyin": "hongguangzhen",
+	"cityCode": 2802,
+	"cityName": "\u7ea2\u5149\u9547"
+}, {
+	"code": "1176546",
+	"name": "\u7ea2\u5174\u9686",
+	"pinyin": "hongxinglong",
+	"cityCode": 1113,
+	"cityName": "\u7ea2\u5174\u9686"
+}, {
+	"code": "1176548",
+	"name": "\u7ea2\u5f66",
+	"pinyin": "hongyan",
+	"cityCode": 2107,
+	"cityName": "\u7ea2\u5f66"
+}, {
+	"code": "1176549",
+	"name": "\u7ea2\u623f\u5b50",
+	"pinyin": "hongfangzi",
+	"cityCode": 1110,
+	"cityName": "\u7ea2\u623f\u5b50"
+}, {
+	"code": "1176550",
+	"name": "\u7ea2\u65d7\u8425",
+	"pinyin": "hongqiying",
+	"cityCode": 1111,
+	"cityName": "\u7ea2\u65d7\u8425"
+}, {
+	"code": "1176551",
+	"name": "\u7ea2\u679c",
+	"pinyin": "hongguo",
+	"cityCode": 807,
+	"cityName": "\u7ea2\u679c"
+}, {
+	"code": "1176552",
+	"name": "\u7ea2\u67f3\u6cb3",
+	"pinyin": "hongliuhe",
+	"cityCode": 508,
+	"cityName": "\u7ea2\u67f3\u6cb3"
+}, {
+	"code": "1176553",
+	"name": "\u7ea2\u6c5f",
+	"pinyin": "hongjiang",
+	"cityCode": 3305,
+	"cityName": "\u7ea2\u6c5f"
+}, {
+	"code": "1176554",
+	"name": "\u7ea2\u82b1\u6c9f",
+	"pinyin": "honghuagou",
+	"cityCode": 2105,
+	"cityName": "\u7ea2\u82b1\u6c9f"
+}, {
+	"code": "1176555",
+	"name": "\u7eaa\u5bb6\u6c9f",
+	"pinyin": "jijiagou",
+	"cityCode": 1006,
+	"cityName": "\u7eaa\u5bb6\u6c9f"
+}, {
+	"code": "1176556",
+	"name": "\u7ec5\u574a",
+	"pinyin": "shenfang",
+	"cityCode": 3426,
+	"cityName": "\u7ec5\u574a"
+}, {
+	"code": "1176557",
+	"name": "\u7ecd\u5174",
+	"pinyin": "shaoxing",
+	"cityCode": 3422,
+	"cityName": "\u7ecd\u5174"
+}, {
+	"code": "1176558",
+	"name": "\u7ecf\u68da",
+	"pinyin": "jingpeng",
+	"cityCode": 2105,
+	"cityName": "\u7ecf\u68da"
+}, {
+	"code": "1176559",
+	"name": "\u7edf\u519b\u5e84",
+	"pinyin": "tongjunzhuang",
+	"cityCode": 200,
+	"cityName": "\u7edf\u519b\u5e84"
+}, {
+	"code": "1176560",
+	"name": "\u7ee5\u4e2d\u5317",
+	"pinyin": "suizhongbei",
+	"cityCode": 1910,
+	"cityName": "\u7ee5\u4e2d\u5317"
+}, {
+	"code": "1176561",
+	"name": "\u7ee5\u4e2d",
+	"pinyin": "suizhong",
+	"cityCode": 1910,
+	"cityName": "\u7ee5\u4e2d"
+}, {
+	"code": "1176562",
+	"name": "\u7ee5\u5316",
+	"pinyin": "suihua",
+	"cityCode": 1114,
+	"cityName": "\u7ee5\u5316"
+}, {
+	"code": "1176563",
+	"name": "\u7ee5\u5fb7",
+	"pinyin": "suide",
+	"cityCode": 2712,
+	"cityName": "\u7ee5\u5fb7"
+}, {
+	"code": "1176564",
+	"name": "\u7ee5\u68f1",
+	"pinyin": "suiling",
+	"cityCode": 1114,
+	"cityName": "\u7ee5\u68f1"
+}, {
+	"code": "1176565",
+	"name": "\u7ee5\u82ac\u6cb3",
+	"pinyin": "suifenhe",
+	"cityCode": 1110,
+	"cityName": "\u7ee5\u82ac\u6cb3"
+}, {
+	"code": "1176566",
+	"name": "\u7ee5\u9633",
+	"pinyin": "suiyang",
+	"cityCode": 1110,
+	"cityName": "\u7ee5\u9633"
+}, {
+	"code": "1176567",
+	"name": "\u7ee9\u6eaa\u53bf",
+	"pinyin": "jixixian",
+	"cityCode": 121,
+	"cityName": "\u7ee9\u6eaa\u53bf"
+}, {
+	"code": "1176568",
+	"name": "\u7ef5\u9633",
+	"pinyin": "mianyang",
+	"cityCode": 2816,
+	"cityName": "\u7ef5\u9633"
+}, {
+	"code": "1176570",
+	"name": "\u7eff\u6f6d",
+	"pinyin": "lvtan",
+	"cityCode": 1115,
+	"cityName": "\u7eff\u6f6d"
+}, {
+	"code": "1176571",
+	"name": "\u7f19\u4e91",
+	"pinyin": "jinyun",
+	"cityCode": 3414,
+	"cityName": "\u7f19\u4e91"
+}, {
+	"code": "1176572",
+	"name": "\u7f57\u5999\u771f",
+	"pinyin": "luomiaozhen",
+	"cityCode": 2810,
+	"cityName": "\u7f57\u5999\u771f"
+}, {
+	"code": "1176573",
+	"name": "\u7f57\u5bb6",
+	"pinyin": "luojia",
+	"cityCode": 1902,
+	"cityName": "\u7f57\u5bb6"
+}, {
+	"code": "1176574",
+	"name": "\u7f57\u5c71",
+	"pinyin": "luoshan",
+	"cityCode": 1217,
+	"cityName": "\u7f57\u5c71"
+}, {
+	"code": "1176575",
+	"name": "\u7f57\u5e73",
+	"pinyin": "luoping",
+	"cityCode": 3315,
+	"cityName": "\u7f57\u5e73"
+}, {
+	"code": "1176576",
+	"name": "\u7f57\u6587\u7682",
+	"pinyin": "luowenzao",
+	"cityCode": 2604,
+	"cityName": "\u7f57\u6587\u7682"
+}, {
+	"code": "1176577",
+	"name": "\u7f57\u6c5f",
+	"pinyin": "luojiang",
+	"cityCode": 2805,
+	"cityName": "\u7f57\u6c5f"
+}, {
+	"code": "1176578",
+	"name": "\u7f57\u6e90",
+	"pinyin": "luoyuan",
+	"cityCode": 402,
+	"cityName": "\u7f57\u6e90"
+}, {
+	"code": "1176579",
+	"name": "\u7f57\u76d8\u5730",
+	"pinyin": "luopandi",
+	"cityCode": 804,
+	"cityName": "\u7f57\u76d8\u5730"
+}, {
+	"code": "1176580",
+	"name": "\u7f72\u5b57\u4e95",
+	"pinyin": "shuzijing",
+	"cityCode": 1810,
+	"cityName": "\u7f72\u5b57\u4e95"
+}, {
+	"code": "1176581",
+	"name": "\u7f8a\u8349",
+	"pinyin": "yangcao",
+	"cityCode": 1114,
+	"cityName": "\u7f8a\u8349"
+}, {
+	"code": "1176582",
+	"name": "\u7f8e\u5170",
+	"pinyin": "meilan",
+	"cityCode": 902,
+	"cityName": "\u7f8e\u5170"
+}, {
+	"code": "1176583",
+	"name": "\u7f8e\u5cb1\u53ec",
+	"pinyin": "meidaizhao",
+	"cityCode": 2104,
+	"cityName": "\u7f8e\u5cb1\u53ec"
+}, {
+	"code": "1176584",
+	"name": "\u7f8e\u6eaa",
+	"pinyin": "meixi",
+	"cityCode": 1115,
+	"cityName": "\u7f8e\u6eaa"
+}, {
+	"code": "1176585",
+	"name": "\u7fe0\u5c97",
+	"pinyin": "cuigang",
+	"cityCode": 1105,
+	"cityName": "\u7fe0\u5c97"
+}, {
+	"code": "1176586",
+	"name": "\u8001\u5821",
+	"pinyin": "laobao",
+	"cityCode": 709,
+	"cityName": "\u8001\u5821"
+}, {
+	"code": "1176587",
+	"name": "\u8001\u5e9c",
+	"pinyin": "laofu",
+	"cityCode": 2105,
+	"cityName": "\u8001\u5e9c"
+}, {
+	"code": "1176588",
+	"name": "\u8001\u7f8a\u58d5",
+	"pinyin": "laoyanghao",
+	"cityCode": 2104,
+	"cityName": "\u8001\u7f8a\u58d5"
+}, {
+	"code": "1176589",
+	"name": "\u8001\u83b1",
+	"pinyin": "laolai",
+	"cityCode": 1111,
+	"cityName": "\u8001\u83b1"
+}, {
+	"code": "1176590",
+	"name": "\u8012\u9633",
+	"pinyin": "leiyang",
+	"cityCode": 1505,
+	"cityName": "\u8012\u9633"
+}, {
+	"code": "1176591",
+	"name": "\u8012\u9633\u897f",
+	"pinyin": "leiyangxi",
+	"cityCode": 1505,
+	"cityName": "\u8012\u9633\u897f"
+}, {
+	"code": "1176592",
+	"name": "\u804a\u57ce",
+	"pinyin": "liaocheng",
+	"cityCode": 2410,
+	"cityName": "\u804a\u57ce"
+}, {
+	"code": "1176593",
+	"name": "\u8083\u5b81",
+	"pinyin": "suning",
+	"cityCode": 1005,
+	"cityName": "\u8083\u5b81"
+}, {
+	"code": "1176594",
+	"name": "\u8087\u4e1c",
+	"pinyin": "zhaodong",
+	"cityCode": 1114,
+	"cityName": "\u8087\u4e1c"
+}, {
+	"code": "1176595",
+	"name": "\u8087\u5e86",
+	"pinyin": "zhaoqing",
+	"cityCode": 626,
+	"cityName": "\u8087\u5e86"
+}, {
+	"code": "1176596",
+	"name": "\u80a5\u4e1c",
+	"pinyin": "feidong",
+	"cityCode": 102,
+	"cityName": "\u80a5\u4e1c"
+}, {
+	"code": "1176597",
+	"name": "\u80a5\u897f",
+	"pinyin": "feixi",
+	"cityCode": 102,
+	"cityName": "\u80a5\u897f"
+}, {
+	"code": "1176598",
+	"name": "\u80cc\u836b\u6cb3",
+	"pinyin": "beiyinhe",
+	"cityCode": 1102,
+	"cityName": "\u80cc\u836b\u6cb3"
+}, {
+	"code": "1176599",
+	"name": "\u80e1\u4e50",
+	"pinyin": "hule",
+	"cityCode": 121,
+	"cityName": "\u80e1\u4e50"
+}, {
+	"code": "1176600",
+	"name": "\u80f6\u5dde\u5317",
+	"pinyin": "jiaozhoubei",
+	"cityCode": 2413,
+	"cityName": "\u80f6\u5dde\u5317"
+}, {
+	"code": "1176601",
+	"name": "\u80f6\u5dde",
+	"pinyin": "jiaozhou",
+	"cityCode": 2413,
+	"cityName": "\u80f6\u5dde"
+}, {
+	"code": "1176602",
+	"name": "\u80fd\u5bb6",
+	"pinyin": "nengjia",
+	"cityCode": 1905,
+	"cityName": "\u80fd\u5bb6"
+}, {
+	"code": "1176603",
+	"name": "\u81ea\u8d21",
+	"pinyin": "zigong",
+	"cityCode": 2826,
+	"cityName": "\u81ea\u8d21"
+}, {
+	"code": "1176604",
+	"name": "\u8212\u5170",
+	"pinyin": "shulan",
+	"cityCode": 1808,
+	"cityName": "\u8212\u5170"
+}, {
+	"code": "1176605",
+	"name": "\u8212\u57ce",
+	"pinyin": "shucheng",
+	"cityCode": 115,
+	"cityName": "\u8212\u57ce"
+}, {
+	"code": "1176606",
+	"name": "\u829c\u6e56",
+	"pinyin": "wuhu",
+	"cityCode": 120,
+	"cityName": "\u829c\u6e56"
+}, {
+	"code": "1176607",
+	"name": "\u82a6\u53f0",
+	"pinyin": "lutai",
+	"cityCode": 3000,
+	"cityName": "\u82a6\u53f0"
+}, {
+	"code": "1176608",
+	"name": "\u82a6\u6eaa",
+	"pinyin": "luxi",
+	"cityCode": 1710,
+	"cityName": "\u82a6\u6eaa"
+}, {
+	"code": "1176610",
+	"name": "\u82a8\u5cad",
+	"pinyin": "jiling",
+	"cityCode": 507,
+	"cityName": "\u82a8\u5cad"
+}, {
+	"code": "1176611",
+	"name": "\u82b1\u56ed",
+	"pinyin": "huayuan",
+	"cityCode": 1417,
+	"cityName": "\u82b1\u56ed"
+}, {
+	"code": "1176612",
+	"name": "\u82b1\u679c",
+	"pinyin": "huaguo",
+	"cityCode": 1410,
+	"cityName": "\u82b1\u679c"
+}, {
+	"code": "1176615",
+	"name": "\u82cd\u5357",
+	"pinyin": "cangnan",
+	"cityCode": 3426,
+	"cityName": "\u82cd\u5357"
+}, {
+	"code": "1176616",
+	"name": "\u82cf\u5bb6\u5c6f",
+	"pinyin": "sujiatun",
+	"cityCode": 1902,
+	"cityName": "\u82cf\u5bb6\u5c6f"
+}, {
+	"code": "1176617",
+	"name": "\u82cf\u5dde\u5317",
+	"pinyin": "suzhoubei",
+	"cityCode": 1615,
+	"cityName": "\u82cf\u5dde\u5317"
+}, {
+	"code": "1176618",
+	"name": "\u82cf\u5dde\u56ed\u533a",
+	"pinyin": "suzhouyuanqu",
+	"cityCode": 1615,
+	"cityName": "\u82cf\u5dde\u56ed\u533a"
+}, {
+	"code": "1176619",
+	"name": "\u82cf\u5dde\u65b0\u533a",
+	"pinyin": "suzhouxinqu",
+	"cityCode": 1615,
+	"cityName": "\u82cf\u5dde\u65b0\u533a"
+}, {
+	"code": "1176620",
+	"name": "\u82cf\u5dde",
+	"pinyin": "suzhou",
+	"cityCode": 1615,
+	"cityName": "\u82cf\u5dde"
+}, {
+	"code": "1176621",
+	"name": "\u82d4\u9752",
+	"pinyin": "taiqing",
+	"cityCode": 1115,
+	"cityName": "\u82d4\u9752"
+}, {
+	"code": "1176622",
+	"name": "\u82f1\u5409\u6c99",
+	"pinyin": "yingjisha",
+	"cityCode": 3111,
+	"cityName": "\u82f1\u5409\u6c99"
+}, {
+	"code": "1176623",
+	"name": "\u82f1\u5fb7",
+	"pinyin": "yingde",
+	"cityCode": 615,
+	"cityName": "\u82f1\u5fb7"
+}, {
+	"code": "1176624",
+	"name": "\u82f1\u5fb7\u897f",
+	"pinyin": "yingdexi",
+	"cityCode": 615,
+	"cityName": "\u82f1\u5fb7\u897f"
+}, {
+	"code": "1176625",
+	"name": "\u82f1\u989d\u95e8",
+	"pinyin": "yingemen",
+	"cityCode": 1908,
+	"cityName": "\u82f1\u989d\u95e8"
+}, {
+	"code": "1176626",
+	"name": "\u8302\u540d\u4e1c",
+	"pinyin": "mao ming dong huo che zhan",
+	"cityCode": 613,
+	"cityName": "\u8302\u540d\u4e1c"
+}, {
+	"code": "1176627",
+	"name": "\u8302\u540d",
+	"pinyin": "maoming",
+	"cityCode": 613,
+	"cityName": "\u8302\u540d"
+}, {
+	"code": "1176628",
+	"name": "\u8303\u5bb6\u5c6f",
+	"pinyin": "fanjiatun",
+	"cityCode": 1809,
+	"cityName": "\u8303\u5bb6\u5c6f"
+}, {
+	"code": "1176629",
+	"name": "\u8303\u9547",
+	"pinyin": "fanzhen",
+	"cityCode": 2416,
+	"cityName": "\u8303\u9547"
+}, {
+	"code": "1176630",
+	"name": "\u8328\u51b2",
+	"pinyin": "cichong",
+	"cityCode": 807,
+	"cityName": "\u8328\u51b2"
+}, {
+	"code": "1176633",
+	"name": "\u8346\u5dde",
+	"pinyin": "jingzhou",
+	"cityCode": 1408,
+	"cityName": "\u8346\u5dde"
+}, {
+	"code": "1176634",
+	"name": "\u8346\u95e8",
+	"pinyin": "jingmen",
+	"cityCode": 1419,
+	"cityName": "\u8346\u95e8"
+}, {
+	"code": "1176635",
+	"name": "\u8349\u6cb3\u53e3",
+	"pinyin": "caohekou",
+	"cityCode": 1904,
+	"cityName": "\u8349\u6cb3\u53e3"
+}, {
+	"code": "1176636",
+	"name": "\u8349\u6d77",
+	"pinyin": "caohai",
+	"cityCode": 804,
+	"cityName": "\u8349\u6d77"
+}, {
+	"code": "1176637",
+	"name": "\u8352\u5c71",
+	"pinyin": "huangshan",
+	"cityCode": 1808,
+	"cityName": "\u8352\u5c71"
+}, {
+	"code": "1176638",
+	"name": "\u8363\u660c",
+	"pinyin": "rongchang",
+	"cityCode": 300,
+	"cityName": "\u8363\u660c"
+}, {
+	"code": "1176639",
+	"name": "\u8386\u7530",
+	"pinyin": "putian",
+	"cityCode": 407,
+	"cityName": "\u8386\u7530"
+}, {
+	"code": "1176640",
+	"name": "\u8392\u5357",
+	"pinyin": "junan",
+	"cityCode": 2411,
+	"cityName": "\u8392\u5357"
+}, {
+	"code": "1176642",
+	"name": "\u83b1\u829c\u4e1c",
+	"pinyin": "laiwudong",
+	"cityCode": 2409,
+	"cityName": "\u83b1\u829c\u4e1c"
+}, {
+	"code": "1176643",
+	"name": "\u83b1\u897f",
+	"pinyin": "laixi",
+	"cityCode": 2413,
+	"cityName": "\u83b1\u897f"
+}, {
+	"code": "1176646",
+	"name": "\u83b2\u5858",
+	"pinyin": "liantang",
+	"cityCode": 1702,
+	"cityName": "\u83b2\u5858"
+}, {
+	"code": "1176647",
+	"name": "\u83b2\u6c5f\u53e3",
+	"pinyin": "lianjiangkou",
+	"cityCode": 1108,
+	"cityName": "\u83b2\u6c5f\u53e3"
+}, {
+	"code": "1176648",
+	"name": "\u83b7\u5609",
+	"pinyin": "huojia",
+	"cityCode": 1216,
+	"cityName": "\u83b7\u5609"
+}, {
+	"code": "1176649",
+	"name": "\u83cf\u6cfd",
+	"pinyin": "heze",
+	"cityCode": 2407,
+	"cityName": "\u83cf\u6cfd"
+}, {
+	"code": "1176650",
+	"name": "\u840d\u4e61",
+	"pinyin": "pingxiang",
+	"cityCode": 1710,
+	"cityName": "\u840d\u4e61"
+}, {
+	"code": "1176651",
+	"name": "\u8425\u53e3\u4e1c",
+	"pinyin": "yingkoudong",
+	"cityCode": 1915,
+	"cityName": "\u8425\u53e3\u4e1c"
+}, {
+	"code": "1176652",
+	"name": "\u8425\u53e3",
+	"pinyin": "yingkou",
+	"cityCode": 1915,
+	"cityName": "\u8425\u53e3"
+}, {
+	"code": "1176653",
+	"name": "\u8425\u57ce",
+	"pinyin": "yingcheng",
+	"cityCode": 1802,
+	"cityName": "\u8425\u57ce"
+}, {
+	"code": "1176654",
+	"name": "\u8425\u5c71",
+	"pinyin": "yingshan",
+	"cityCode": 2818,
+	"cityName": "\u8425\u5c71"
+}, {
+	"code": "1176656",
+	"name": "\u8425\u76d8",
+	"pinyin": "yingpan",
+	"cityCode": 1908,
+	"cityName": "\u8425\u76d8"
+}, {
+	"code": "1176658",
+	"name": "\u8428\u62c9\u9f50",
+	"pinyin": "salaqi",
+	"cityCode": 2104,
+	"cityName": "\u8428\u62c9\u9f50"
+}, {
+	"code": "1176659",
+	"name": "\u846b\u82a6\u5c9b\u5317",
+	"pinyin": "huludaobei",
+	"cityCode": 1910,
+	"cityName": "\u846b\u82a6\u5c9b\u5317"
+}, {
+	"code": "1176660",
+	"name": "\u846b\u82a6\u5c9b",
+	"pinyin": "huludao",
+	"cityCode": 1910,
+	"cityName": "\u846b\u82a6\u5c9b"
+}, {
+	"code": "1176661",
+	"name": "\u846b\u82a6",
+	"pinyin": "hulu",
+	"cityCode": 2108,
+	"cityName": "\u846b\u82a6"
+}, {
+	"code": "1176662",
+	"name": "\u848b\u6751",
+	"pinyin": "jiangcun",
+	"cityCode": 2610,
+	"cityName": "\u848b\u6751"
+}, {
+	"code": "1176663",
+	"name": "\u84b2\u57ce\u4e1c",
+	"pinyin": "puchengdong",
+	"cityCode": 2706,
+	"cityName": "\u84b2\u57ce\u4e1c"
+}, {
+	"code": "1176664",
+	"name": "\u84dd\u6751",
+	"pinyin": "lancun",
+	"cityCode": 2413,
+	"cityName": "\u84dd\u6751"
+}, {
+	"code": "1176665",
+	"name": "\u84df\u53bf\u5357",
+	"pinyin": "jixiannan",
+	"cityCode": 3000,
+	"cityName": "\u84df\u53bf\u5357"
+}, {
+	"code": "1176668",
+	"name": "\u84ec\u83b1",
+	"pinyin": "penglai",
+	"cityCode": 802,
+	"cityName": "\u84ec\u83b1"
+}, {
+	"code": "1176669",
+	"name": "\u8521\u5bb6\u5761",
+	"pinyin": "caijiapo",
+	"cityCode": 2704,
+	"cityName": "\u8521\u5bb6\u5761"
+}, {
+	"code": "1176670",
+	"name": "\u8521\u5bb6\u6c9f",
+	"pinyin": "caijiagou",
+	"cityCode": 1810,
+	"cityName": "\u8521\u5bb6\u6c9f"
+}, {
+	"code": "1176671",
+	"name": "\u853a\u5bb6\u697c",
+	"pinyin": "linjialou",
+	"cityCode": 2409,
+	"cityName": "\u853a\u5bb6\u697c"
+}, {
+	"code": "1176672",
+	"name": "\u8572\u6625",
+	"pinyin": "qichun",
+	"cityCode": 1405,
+	"cityName": "\u8572\u6625"
+}, {
+	"code": "1176673",
+	"name": "\u85c1\u57ce",
+	"pinyin": "gaocheng",
+	"cityCode": 1002,
+	"cityName": "\u85c1\u57ce"
+}, {
+	"code": "1176674",
+	"name": "\u864e\u5c14\u864e\u62c9",
+	"pinyin": "huerhula",
+	"cityCode": 1111,
+	"cityName": "\u864e\u5c14\u864e\u62c9"
+}, {
+	"code": "1176675",
+	"name": "\u864e\u6797",
+	"pinyin": "hulin",
+	"cityCode": 1109,
+	"cityName": "\u864e\u6797"
+}, {
+	"code": "1176676",
+	"name": "\u864e\u95e8",
+	"pinyin": "humen",
+	"cityCode": 606,
+	"cityName": "\u864e\u95e8"
+}, {
+	"code": "1176677",
+	"name": "\u865e\u57ce\u53bf",
+	"pinyin": "yuchengxian",
+	"cityCode": 1215,
+	"cityName": "\u865e\u57ce\u53bf"
+}, {
+	"code": "1176678",
+	"name": "\u868c\u57e0\u5357",
+	"pinyin": "bengbunan",
+	"cityCode": 104,
+	"cityName": "\u868c\u57e0\u5357"
+}, {
+	"code": "1176679",
+	"name": "\u868c\u57e0",
+	"pinyin": "bengbu",
+	"cityCode": 104,
+	"cityName": "\u868c\u57e0"
+}, {
+	"code": "1176680",
+	"name": "\u86df\u6cb3",
+	"pinyin": "jiaohe",
+	"cityCode": 1808,
+	"cityName": "\u86df\u6cb3"
+}, {
+	"code": "1176681",
+	"name": "\u878d\u5b89",
+	"pinyin": "rongan",
+	"cityCode": 709,
+	"cityName": "\u878d\u5b89"
+}, {
+	"code": "1176682",
+	"name": "\u878d\u6c34",
+	"pinyin": "rongshui",
+	"cityCode": 709,
+	"cityName": "\u878d\u6c34"
+}, {
+	"code": "1176683",
+	"name": "\u8861\u5c71",
+	"pinyin": "hengshan",
+	"cityCode": 1505,
+	"cityName": "\u8861\u5c71"
+}, {
+	"code": "1176684",
+	"name": "\u8861\u6c34",
+	"pinyin": "hengshui",
+	"cityCode": 1009,
+	"cityName": "\u8861\u6c34"
+}, {
+	"code": "1176685",
+	"name": "\u8861\u9633\u4e1c",
+	"pinyin": "hengyangdong",
+	"cityCode": 1505,
+	"cityName": "\u8861\u9633\u4e1c"
+}, {
+	"code": "1176686",
+	"name": "\u8861\u9633",
+	"pinyin": "hengyang",
+	"cityCode": 1505,
+	"cityName": "\u8861\u9633"
+}, {
+	"code": "1176687",
+	"name": "\u8862\u5dde",
+	"pinyin": "quzhou",
+	"cityCode": 3419,
+	"cityName": "\u8862\u5dde"
+}, {
+	"code": "1176688",
+	"name": "\u8865\u9686\u6dd6",
+	"pinyin": "bulongnao",
+	"cityCode": 2109,
+	"cityName": "\u8865\u9686\u6dd6"
+}, {
+	"code": "1176689",
+	"name": "\u8881\u5bb6\u5821",
+	"pinyin": "yuanjiabao",
+	"cityCode": 1907,
+	"cityName": "\u8881\u5bb6\u5821"
+}, {
+	"code": "1176690",
+	"name": "\u88f4\u5fb7",
+	"pinyin": "peide",
+	"cityCode": 1109,
+	"cityName": "\u88f4\u5fb7"
+}, {
+	"code": "1176691",
+	"name": "\u8944\u6a0a\u5317",
+	"pinyin": "xiangfanbei",
+	"cityCode": 1416,
+	"cityName": "\u8944\u6a0a\u5317"
+}, {
+	"code": "1176692",
+	"name": "\u8944\u6a0a",
+	"pinyin": "xiangfan",
+	"cityCode": 1416,
+	"cityName": "\u8944\u6a0a"
+}, {
+	"code": "1176693",
+	"name": "\u8944\u6c7e",
+	"pinyin": "xiangfen",
+	"cityCode": 2608,
+	"cityName": "\u8944\u6c7e"
+}, {
+	"code": "1176694",
+	"name": "\u8944\u6cb3",
+	"pinyin": "xianghe",
+	"cityCode": 1107,
+	"cityName": "\u8944\u6cb3"
+}, {
+	"code": "1176695",
+	"name": "\u8944\u9633\u4e1c",
+	"pinyin": "xiangyangdong",
+	"cityCode": 1416,
+	"cityName": "\u8944\u9633\u4e1c"
+}, {
+	"code": "1176696",
+	"name": "\u8944\u9633",
+	"pinyin": "xiangyang",
+	"cityCode": 1416,
+	"cityName": "\u8944\u9633"
+}, {
+	"code": "1176697",
+	"name": "\u897f\u4e61",
+	"pinyin": "xixiang",
+	"cityCode": 2705,
+	"cityName": "\u897f\u4e61"
+}, {
+	"code": "1176698",
+	"name": "\u897f\u5927\u6ee9",
+	"pinyin": "xidatan",
+	"cityCode": 2204,
+	"cityName": "\u897f\u5927\u6ee9"
+}, {
+	"code": "1176700",
+	"name": "\u897f\u5b81\u897f",
+	"pinyin": "xiningxi",
+	"cityCode": 2302,
+	"cityName": "\u897f\u5b81\u897f"
+}, {
+	"code": "1176701",
+	"name": "\u897f\u5b89\u4e1c",
+	"pinyin": "xiandong",
+	"cityCode": 2702,
+	"cityName": "\u897f\u5b89\u4e1c"
+}, {
+	"code": "1176702",
+	"name": "\u897f\u5b89\u5317",
+	"pinyin": "xianbei",
+	"cityCode": 2702,
+	"cityName": "\u897f\u5b89\u5317"
+}, {
+	"code": "1176703",
+	"name": "\u897f\u5b89\u5357",
+	"pinyin": "xiannan",
+	"cityCode": 2702,
+	"cityName": "\u897f\u5b89\u5357"
+}, {
+	"code": "1176704",
+	"name": "\u897f\u5b89",
+	"pinyin": "xian",
+	"cityCode": 2702,
+	"cityName": "\u897f\u5b89"
+}, {
+	"code": "1176705",
+	"name": "\u897f\u5cad\u53e3",
+	"pinyin": "xilingkou",
+	"cityCode": 2107,
+	"cityName": "\u897f\u5cad\u53e3"
+}, {
+	"code": "1176706",
+	"name": "\u897f\u5ce1",
+	"pinyin": "xixia",
+	"cityCode": 1211,
+	"cityName": "\u897f\u5ce1"
+}, {
+	"code": "1176707",
+	"name": "\u897f\u5ddd",
+	"pinyin": "xichuan",
+	"cityCode": 1804,
+	"cityName": "\u897f\u5ddd"
+}, {
+	"code": "1176708",
+	"name": "\u897f\u5e73",
+	"pinyin": "xiping",
+	"cityCode": 1220,
+	"cityName": "\u897f\u5e73"
+}, {
+	"code": "1176709",
+	"name": "\u897f\u6597\u94fa",
+	"pinyin": "xidoupu",
+	"cityCode": 2104,
+	"cityName": "\u897f\u6597\u94fa"
+}, {
+	"code": "1176710",
+	"name": "\u897f\u660c\u5317",
+	"pinyin": "xichangbei",
+	"cityCode": 2823,
+	"cityName": "\u897f\u660c\u5317"
+}, {
+	"code": "1176711",
+	"name": "\u897f\u660c\u5357",
+	"pinyin": "xichangnan",
+	"cityCode": 2823,
+	"cityName": "\u897f\u660c\u5357"
+}, {
+	"code": "1176712",
+	"name": "\u897f\u660c",
+	"pinyin": "xichang",
+	"cityCode": 2823,
+	"cityName": "\u897f\u660c"
+}, {
+	"code": "1176713",
+	"name": "\u897f\u6797",
+	"pinyin": "xilin",
+	"cityCode": 1115,
+	"cityName": "\u897f\u6797"
+}, {
+	"code": "1176714",
+	"name": "\u897f\u67f3",
+	"pinyin": "xiliu",
+	"cityCode": 1903,
+	"cityName": "\u897f\u67f3"
+}, {
+	"code": "1176715",
+	"name": "\u897f\u6b66\u5320",
+	"pinyin": "xiwujiang",
+	"cityCode": 2606,
+	"cityName": "\u897f\u6b66\u5320"
+}, {
+	"code": "1176716",
+	"name": "\u897f\u6e7e\u5821",
+	"pinyin": "xiwanbao",
+	"cityCode": 1016,
+	"cityName": "\u897f\u6e7e\u5821"
+}, {
+	"code": "1176717",
+	"name": "\u897f\u91cc",
+	"pinyin": "xili",
+	"cityCode": 2113,
+	"cityName": "\u897f\u91cc"
+}, {
+	"code": "1176718",
+	"name": "\u897f\u9633\u6751",
+	"pinyin": "xiyangcun",
+	"cityCode": 2606,
+	"cityName": "\u897f\u9633\u6751"
+}, {
+	"code": "1176719",
+	"name": "\u897f\u9ebb\u5c71",
+	"pinyin": "ximashan",
+	"cityCode": 1109,
+	"cityName": "\u897f\u9ebb\u5c71"
+}, {
+	"code": "1176720",
+	"name": "\u89d2\u7f8e",
+	"pinyin": "jiaomei",
+	"cityCode": 415,
+	"cityName": "\u89d2\u7f8e"
+}, {
+	"code": "1176721",
+	"name": "\u8ba9\u6e56\u8def",
+	"pinyin": "ranghulu",
+	"cityCode": 1104,
+	"cityName": "\u8ba9\u6e56\u8def"
+}, {
+	"code": "1176722",
+	"name": "\u8bb7\u6cb3",
+	"pinyin": "nehe",
+	"cityCode": 1111,
+	"cityName": "\u8bb7\u6cb3"
+}, {
+	"code": "1176723",
+	"name": "\u8bb8\u660c\u4e1c",
+	"pinyin": "xuchangdong",
+	"cityCode": 1218,
+	"cityName": "\u8bb8\u660c\u4e1c"
+}, {
+	"code": "1176724",
+	"name": "\u8bb8\u660c",
+	"pinyin": "xuchang",
+	"cityCode": 1218,
+	"cityName": "\u8bb8\u660c"
+}, {
+	"code": "1176725",
+	"name": "\u8bf8\u57ce",
+	"pinyin": "zhucheng",
+	"cityCode": 2417,
+	"cityName": "\u8bf8\u57ce"
+}, {
+	"code": "1176726",
+	"name": "\u8bf8\u66a8",
+	"pinyin": "zhuji",
+	"cityCode": 3422,
+	"cityName": "\u8bf8\u66a8"
+}, {
+	"code": "1176728",
+	"name": "\u8c37\u57ce",
+	"pinyin": "gucheng",
+	"cityCode": 1416,
+	"cityName": "\u8c37\u57ce"
+}, {
+	"code": "1176729",
+	"name": "\u8c46\u5f20\u5e84",
+	"pinyin": "douzhangzhuang",
+	"cityCode": 3000,
+	"cityName": "\u8c46\u5f20\u5e84"
+}, {
+	"code": "1176730",
+	"name": "\u8c6a\u95e8",
+	"pinyin": "haomen",
+	"cityCode": 2107,
+	"cityName": "\u8c6a\u95e8"
+}, {
+	"code": "1176731",
+	"name": "\u8d32\u7ea2",
+	"pinyin": "benhong",
+	"cityCode": 2108,
+	"cityName": "\u8d32\u7ea2"
+}, {
+	"code": "1176732",
+	"name": "\u8d35\u5b9a",
+	"pinyin": "guiding",
+	"cityCode": 805,
+	"cityName": "\u8d35\u5b9a"
+}, {
+	"code": "1176733",
+	"name": "\u8d35\u6e2f",
+	"pinyin": "guigang",
+	"cityCode": 713,
+	"cityName": "\u8d35\u6e2f"
+}, {
+	"code": "1176734",
+	"name": "\u8d35\u6eaa",
+	"pinyin": "guixi",
+	"cityCode": 1714,
+	"cityName": "\u8d35\u6eaa"
+}, {
+	"code": "1176736",
+	"name": "\u8d35\u9633",
+	"pinyin": "guiyang",
+	"cityCode": 802,
+	"cityName": "\u8d35\u9633"
+}, {
+	"code": "1176737",
+	"name": "\u8d35\u9633\u897f",
+	"pinyin": "guiyangxi",
+	"cityCode": 802,
+	"cityName": "\u8d35\u9633\u897f"
+}, {
+	"code": "1176738",
+	"name": "\u8d39\u53bf",
+	"pinyin": "feixian",
+	"cityCode": 2411,
+	"cityName": "\u8d39\u53bf"
+}, {
+	"code": "1176739",
+	"name": "\u8d3a\u5dde",
+	"pinyin": "hezhou",
+	"cityCode": 708,
+	"cityName": "\u8d3a\u5dde"
+}, {
+	"code": "1176740",
+	"name": "\u8d44\u4e2d",
+	"pinyin": "zizhong",
+	"cityCode": 2819,
+	"cityName": "\u8d44\u4e2d"
+}, {
+	"code": "1176741",
+	"name": "\u8d44\u6eaa",
+	"pinyin": "zixi",
+	"cityCode": 1703,
+	"cityName": "\u8d44\u6eaa"
+}, {
+	"code": "1176742",
+	"name": "\u8d44\u9633",
+	"pinyin": "ziyang",
+	"cityCode": 2827,
+	"cityName": "\u8d44\u9633"
+}, {
+	"code": "1176743",
+	"name": "\u8d63\u5dde\u4e1c",
+	"pinyin": "ganzhoudong",
+	"cityCode": 1704,
+	"cityName": "\u8d63\u5dde\u4e1c"
+}, {
+	"code": "1176744",
+	"name": "\u8d63\u5dde",
+	"pinyin": "ganzhou",
+	"cityCode": 1704,
+	"cityName": "\u8d63\u5dde"
+}, {
+	"code": "1176745",
+	"name": "\u8d64\u58c1\u5317",
+	"pinyin": "chibibei",
+	"cityCode": 1414,
+	"cityName": "\u8d64\u58c1\u5317"
+}, {
+	"code": "1176746",
+	"name": "\u8d64\u58c1",
+	"pinyin": "chibi",
+	"cityCode": 1414,
+	"cityName": "\u8d64\u58c1"
+}, {
+	"code": "1176747",
+	"name": "\u8d64\u5cf0",
+	"pinyin": "chifeng",
+	"cityCode": 2105,
+	"cityName": "\u8d64\u5cf0"
+}, {
+	"code": "1176748",
+	"name": "\u8d70\u9a6c\u5cad",
+	"pinyin": "zoumaling",
+	"cityCode": 2810,
+	"cityName": "\u8d70\u9a6c\u5cad"
+}, {
+	"code": "1176749",
+	"name": "\u8d75\u5149",
+	"pinyin": "zhaoguang",
+	"cityCode": 1107,
+	"cityName": "\u8d75\u5149"
+}, {
+	"code": "1176750",
+	"name": "\u8d75\u5e84",
+	"pinyin": "zhaozhuang",
+	"cityCode": 2606,
+	"cityName": "\u8d75\u5e84"
+}, {
+	"code": "1176751",
+	"name": "\u8d76\u6c34",
+	"pinyin": "ganshui",
+	"cityCode": 300,
+	"cityName": "\u8d76\u6c34"
+}, {
+	"code": "1176752",
+	"name": "\u8d8a\u897f",
+	"pinyin": "yuexi",
+	"cityCode": 2823,
+	"cityName": "\u8d8a\u897f"
+}, {
+	"code": "1176753",
+	"name": "\u8f66\u58a9",
+	"pinyin": "chedun",
+	"cityCode": 2500,
+	"cityName": "\u8f66\u58a9"
+}, {
+	"code": "1176754",
+	"name": "\u8f69\u5c97",
+	"pinyin": "xuangang",
+	"cityCode": 2610,
+	"cityName": "\u8f69\u5c97"
+}, {
+	"code": "1176755",
+	"name": "\u8f9b\u5e84\u5b50",
+	"pinyin": "xinzhuangzi",
+	"cityCode": 1016,
+	"cityName": "\u8f9b\u5e84\u5b50"
+}, {
+	"code": "1176756",
+	"name": "\u8f9b\u96c6",
+	"pinyin": "xinji",
+	"cityCode": 1002,
+	"cityName": "\u8f9b\u96c6"
+}, {
+	"code": "1176757",
+	"name": "\u8fb0\u6eaa",
+	"pinyin": "chenxi",
+	"cityCode": 1506,
+	"cityName": "\u8fb0\u6eaa"
+}, {
+	"code": "1176758",
+	"name": "\u8fbd\u4e2d",
+	"pinyin": "liaozhong",
+	"cityCode": 1902,
+	"cityName": "\u8fbd\u4e2d"
+}, {
+	"code": "1176759",
+	"name": "\u8fbd\u6e90",
+	"pinyin": "liaoyuan",
+	"cityCode": 1806,
+	"cityName": "\u8fbd\u6e90"
+}, {
+	"code": "1176760",
+	"name": "\u8fbd\u9633",
+	"pinyin": "liaoyang",
+	"cityCode": 1912,
+	"cityName": "\u8fbd\u9633"
+}, {
+	"code": "1176761",
+	"name": "\u8fbe\u5dde\u4e1c",
+	"pinyin": "dazhoudong",
+	"cityCode": 2804,
+	"cityName": "\u8fbe\u5dde\u4e1c"
+}, {
+	"code": "1176762",
+	"name": "\u8fbe\u5dde",
+	"pinyin": "dazhou",
+	"cityCode": 2804,
+	"cityName": "\u8fbe\u5dde"
+}, {
+	"code": "1176763",
+	"name": "\u8fbe\u62c9\u6ee8",
+	"pinyin": "dalabin",
+	"cityCode": 2107,
+	"cityName": "\u8fbe\u62c9\u6ee8"
+}, {
+	"code": "1176765",
+	"name": "\u8fc1\u5b89",
+	"pinyin": "qianan",
+	"cityCode": 1013,
+	"cityName": "\u8fc1\u5b89"
+}, {
+	"code": "1176766",
+	"name": "\u8fce\u6625",
+	"pinyin": "yingchun",
+	"cityCode": 1109,
+	"cityName": "\u8fce\u6625"
+}, {
+	"code": "1176767",
+	"name": "\u8fd0\u57ce",
+	"pinyin": "yuncheng",
+	"cityCode": 2613,
+	"cityName": "\u8fd0\u57ce"
+}, {
+	"code": "1176768",
+	"name": "\u8fdb\u8d24",
+	"pinyin": "jinxian",
+	"cityCode": 1702,
+	"cityName": "\u8fdb\u8d24"
+}, {
+	"code": "1176769",
+	"name": "\u8fde\u4e91\u6e2f\u4e1c",
+	"pinyin": "lianyungangdong",
+	"cityCode": 1610,
+	"cityName": "\u8fde\u4e91\u6e2f\u4e1c"
+}, {
+	"code": "1176770",
+	"name": "\u8fde\u4e91\u6e2f",
+	"pinyin": "lianyungang",
+	"cityCode": 1610,
+	"cityName": "\u8fde\u4e91\u6e2f"
+}, {
+	"code": "1176771",
+	"name": "\u8fde\u5c71\u5173",
+	"pinyin": "lianshanguan",
+	"cityCode": 1904,
+	"cityName": "\u8fde\u5c71\u5173"
+}, {
+	"code": "1176772",
+	"name": "\u8fde\u6c5f",
+	"pinyin": "lianjiang",
+	"cityCode": 402,
+	"cityName": "\u8fde\u6c5f"
+}, {
+	"code": "1176773",
+	"name": "\u8fe4\u8d44",
+	"pinyin": "yizi",
+	"cityCode": 2820,
+	"cityName": "\u8fe4\u8d44"
+}, {
+	"code": "1176774",
+	"name": "\u901a\u5316",
+	"pinyin": "tonghua",
+	"cityCode": 1811,
+	"cityName": "\u901a\u5316"
+}, {
+	"code": "1176775",
+	"name": "\u901a\u5317",
+	"pinyin": "tongbei",
+	"cityCode": 1107,
+	"cityName": "\u901a\u5317"
+}, {
+	"code": "1176776",
+	"name": "\u901a\u5b89\u9a7f",
+	"pinyin": "tonganyi",
+	"cityCode": 504,
+	"cityName": "\u901a\u5b89\u9a7f"
+}, {
+	"code": "1176777",
+	"name": "\u901a\u5dde\u897f",
+	"pinyin": "tongzhouxi",
+	"cityCode": 200,
+	"cityName": "\u901a\u5dde\u897f"
+}, {
+	"code": "1176778",
+	"name": "\u901a\u8fbd\u5317",
+	"pinyin": "tongliaobei",
+	"cityCode": 2110,
+	"cityName": "\u901a\u8fbd\u5317"
+}, {
+	"code": "1176779",
+	"name": "\u901a\u8fbd",
+	"pinyin": "tongliao",
+	"cityCode": 2110,
+	"cityName": "\u901a\u8fbd"
+}, {
+	"code": "1176780",
+	"name": "\u901a\u8fdc\u5821",
+	"pinyin": "tongyuanpu",
+	"cityCode": 1907,
+	"cityName": "\u901a\u8fdc\u5821"
+}, {
+	"code": "1176781",
+	"name": "\u901a\u9014",
+	"pinyin": "tongtu",
+	"cityCode": 1810,
+	"cityName": "\u901a\u9014"
+}, {
+	"code": "1176782",
+	"name": "\u901a\u9053",
+	"pinyin": "tongdao",
+	"cityCode": 1506,
+	"cityName": "\u901a\u9053"
+}, {
+	"code": "1176783",
+	"name": "\u9042\u5b81",
+	"pinyin": "suining",
+	"cityCode": 2821,
+	"cityName": "\u9042\u5b81"
+}, {
+	"code": "1176784",
+	"name": "\u9042\u5e73",
+	"pinyin": "suiping",
+	"cityCode": 1220,
+	"cityName": "\u9042\u5e73"
+}, {
+	"code": "1176785",
+	"name": "\u9042\u6eaa",
+	"pinyin": "suixi",
+	"cityCode": 625,
+	"cityName": "\u9042\u6eaa"
+}, {
+	"code": "1176786",
+	"name": "\u9053\u5dde",
+	"pinyin": "daozhou",
+	"cityCode": 1513,
+	"cityName": "\u9053\u5dde"
+}, {
+	"code": "1176787",
+	"name": "\u9075\u4e49\u5317",
+	"pinyin": "zunyibei",
+	"cityCode": 811,
+	"cityName": "\u9075\u4e49\u5317"
+}, {
+	"code": "1176788",
+	"name": "\u9075\u4e49",
+	"pinyin": "zunyi",
+	"cityCode": 811,
+	"cityName": "\u9075\u4e49"
+}, {
+	"code": "1176789",
+	"name": "\u9093\u5dde",
+	"pinyin": "dengzhou",
+	"cityCode": 1211,
+	"cityName": "\u9093\u5dde"
+}, {
+	"code": "1176790",
+	"name": "\u90a2\u53f0\u4e1c",
+	"pinyin": "xingtaidong",
+	"cityCode": 1015,
+	"cityName": "\u90a2\u53f0\u4e1c"
+}, {
+	"code": "1176791",
+	"name": "\u90a2\u53f0",
+	"pinyin": "xingtai",
+	"cityCode": 1015,
+	"cityName": "\u90a2\u53f0"
+}, {
+	"code": "1176792",
+	"name": "\u90a3\u66f2",
+	"pinyin": "naqu",
+	"cityCode": 3206,
+	"cityName": "\u90a3\u66f2"
+}, {
+	"code": "1176793",
+	"name": "\u90a3\u6797\u6843\u4ea5",
+	"pinyin": "nalintaohai",
+	"cityCode": 2106,
+	"cityName": "\u90a3\u6797\u6843\u4ea5"
+}, {
+	"code": "1176794",
+	"name": "\u90a3\u7389",
+	"pinyin": "nayu",
+	"cityCode": 807,
+	"cityName": "\u90a3\u7389"
+}, {
+	"code": "1176795",
+	"name": "\u90af\u90f8\u4e1c",
+	"pinyin": "handandong",
+	"cityCode": 1008,
+	"cityName": "\u90af\u90f8\u4e1c"
+}, {
+	"code": "1176796",
+	"name": "\u90af\u90f8",
+	"pinyin": "handan",
+	"cityCode": 1008,
+	"cityName": "\u90af\u90f8"
+}, {
+	"code": "1176797",
+	"name": "\u90b3\u5dde",
+	"pinyin": "pizhou",
+	"cityCode": 1620,
+	"cityName": "\u90b3\u5dde"
+}, {
+	"code": "1176798",
+	"name": "\u90b5\u4e1c",
+	"pinyin": "shaodong",
+	"cityCode": 1509,
+	"cityName": "\u90b5\u4e1c"
+}, {
+	"code": "1176799",
+	"name": "\u90b5\u5bb6\u5802",
+	"pinyin": "shaojiatang",
+	"cityCode": 502,
+	"cityName": "\u90b5\u5bb6\u5802"
+}, {
+	"code": "1176800",
+	"name": "\u90b5\u6b66",
+	"pinyin": "shaowu",
+	"cityCode": 405,
+	"cityName": "\u90b5\u6b66"
+}, {
+	"code": "1176801",
+	"name": "\u90b5\u9633",
+	"pinyin": "shaoyang",
+	"cityCode": 1509,
+	"cityName": "\u90b5\u9633"
+}, {
+	"code": "1176802",
+	"name": "\u90b9\u57ce",
+	"pinyin": "zoucheng",
+	"cityCode": 2408,
+	"cityName": "\u90b9\u57ce"
+}, {
+	"code": "1176803",
+	"name": "\u90d1\u5bb6\u5821",
+	"pinyin": "zhengjiabao",
+	"cityCode": 1811,
+	"cityName": "\u90d1\u5bb6\u5821"
+}, {
+	"code": "1176804",
+	"name": "\u90d1\u5bb6\u5c6f",
+	"pinyin": "zhengjiatun",
+	"cityCode": 1809,
+	"cityName": "\u90d1\u5bb6\u5c6f"
+}, {
+	"code": "1176805",
+	"name": "\u90d1\u5dde\u4e1c",
+	"pinyin": "zhengzhoudong",
+	"cityCode": 1202,
+	"cityName": "\u90d1\u5dde\u4e1c"
+}, {
+	"code": "1176806",
+	"name": "\u90d1\u5dde",
+	"pinyin": "zhengzhou",
+	"cityCode": 1202,
+	"cityName": "\u90d1\u5dde"
+}, {
+	"code": "1176808",
+	"name": "\u90eb\u53bf\u897f",
+	"pinyin": "pixianxi",
+	"cityCode": 2802,
+	"cityName": "\u90eb\u53bf\u897f"
+}, {
+	"code": "1176809",
+	"name": "\u90ed\u5bb6\u5e97",
+	"pinyin": "guojiadian",
+	"cityCode": 1809,
+	"cityName": "\u90ed\u5bb6\u5e97"
+}, {
+	"code": "1176810",
+	"name": "\u90ed\u5c14\u5954\u6556\u5305",
+	"pinyin": "guoerbenaobao",
+	"cityCode": 2113,
+	"cityName": "\u90ed\u5c14\u5954\u6556\u5305"
+}, {
+	"code": "1176811",
+	"name": "\u90ef\u57ce",
+	"pinyin": "tancheng",
+	"cityCode": 2411,
+	"cityName": "\u90ef\u57ce"
+}, {
+	"code": "1176812",
+	"name": "\u90f4\u5dde",
+	"pinyin": "chenzhou",
+	"cityCode": 1504,
+	"cityName": "\u90f4\u5dde"
+}, {
+	"code": "1176813",
+	"name": "\u90f4\u5dde\u897f",
+	"pinyin": "chenzhouxi",
+	"cityCode": 1504,
+	"cityName": "\u90f4\u5dde\u897f"
+}, {
+	"code": "1176814",
+	"name": "\u90fd\u5300",
+	"pinyin": "duyun",
+	"cityCode": 805,
+	"cityName": "\u90fd\u5300"
+}, {
+	"code": "1176815",
+	"name": "\u90fd\u62c9\u8425",
+	"pinyin": "doulaying",
+	"cityCode": 802,
+	"cityName": "\u90fd\u62c9\u8425"
+}, {
+	"code": "1176816",
+	"name": "\u90fd\u6c5f\u5830",
+	"pinyin": "dujiangyan",
+	"cityCode": 2802,
+	"cityName": "\u90fd\u6c5f\u5830"
+}, {
+	"code": "1176817",
+	"name": "\u9102\u5dde",
+	"pinyin": "ezhou",
+	"cityCode": 1404,
+	"cityName": "\u9102\u5dde"
+}, {
+	"code": "1176818",
+	"name": "\u9104\u57ce",
+	"pinyin": "juancheng",
+	"cityCode": 2407,
+	"cityName": "\u9104\u57ce"
+}, {
+	"code": "1176819",
+	"name": "\u912f\u5584",
+	"pinyin": "shanshan",
+	"cityCode": 3118,
+	"cityName": "\u912f\u5584"
+}, {
+	"code": "1176820",
+	"name": "\u9149\u9633",
+	"pinyin": "youyang",
+	"cityCode": 300,
+	"cityName": "\u9149\u9633"
+}, {
+	"code": "1176821",
+	"name": "\u9152\u6cc9",
+	"pinyin": "jiuquan",
+	"cityCode": 508,
+	"cityName": "\u9152\u6cc9"
+}, {
+	"code": "1176823",
+	"name": "\u91cc\u814a",
+	"pinyin": "lila",
+	"cityCode": 3315,
+	"cityName": "\u91cc\u814a"
+}, {
+	"code": "1176824",
+	"name": "\u91cd\u5e86\u4e1c",
+	"pinyin": "zhongqingdong",
+	"cityCode": 300,
+	"cityName": "\u91cd\u5e86\u4e1c"
+}, {
+	"code": "1176825",
+	"name": "\u91cd\u5e86\u5317",
+	"pinyin": "chongqingbei",
+	"cityCode": 300,
+	"cityName": "\u91cd\u5e86\u5317"
+}, {
+	"code": "1176826",
+	"name": "\u91cd\u5e86\u5357",
+	"pinyin": "chongqingnan",
+	"cityCode": 300,
+	"cityName": "\u91cd\u5e86\u5357"
+}, {
+	"code": "1176827",
+	"name": "\u91cd\u5e86",
+	"pinyin": "chongqing",
+	"cityCode": 300,
+	"cityName": "\u91cd\u5e86"
+}, {
+	"code": "1176828",
+	"name": "\u91cd\u5e86\u897f",
+	"pinyin": "zhongqingxi",
+	"cityCode": 300,
+	"cityName": "\u91cd\u5e86\u897f"
+}, {
+	"code": "1176830",
+	"name": "\u91d1\u521a\u6cb1",
+	"pinyin": "jingangtuo",
+	"cityCode": 300,
+	"cityName": "\u91d1\u521a\u6cb1"
+}, {
+	"code": "1176832",
+	"name": "\u91d1\u534e\u897f",
+	"pinyin": "jinhuaxi",
+	"cityCode": 3411,
+	"cityName": "\u91d1\u534e\u897f"
+}, {
+	"code": "1176833",
+	"name": "\u91d1\u57ce\u6c5f",
+	"pinyin": "jinchengjiang",
+	"cityCode": 707,
+	"cityName": "\u91d1\u57ce\u6c5f"
+}, {
+	"code": "1176834",
+	"name": "\u91d1\u5be8",
+	"pinyin": "jinzhai",
+	"cityCode": 115,
+	"cityName": "\u91d1\u5be8"
+}, {
+	"code": "1176835",
+	"name": "\u91d1\u5c71\u5317",
+	"pinyin": "jinshanbei",
+	"cityCode": 2500,
+	"cityName": "\u91d1\u5c71\u5317"
+}, {
+	"code": "1176836",
+	"name": "\u91d1\u5c71\u536b",
+	"pinyin": "jinshanwei",
+	"cityCode": 2500,
+	"cityName": "\u91d1\u5c71\u536b"
+}, {
+	"code": "1176837",
+	"name": "\u91d1\u5c71\u56ed\u533a",
+	"pinyin": "jinshanyuanqu",
+	"cityCode": 2500,
+	"cityName": "\u91d1\u5c71\u56ed\u533a"
+}, {
+	"code": "1176838",
+	"name": "\u91d1\u5c71\u5c6f",
+	"pinyin": "jinshantun",
+	"cityCode": 1115,
+	"cityName": "\u91d1\u5c71\u5c6f"
+}, {
+	"code": "1176839",
+	"name": "\u91d1\u5c71\u6e7e",
+	"pinyin": "jinshanwan",
+	"cityCode": 1907,
+	"cityName": "\u91d1\u5c71\u6e7e"
+}, {
+	"code": "1176840",
+	"name": "\u91d1\u5c71",
+	"pinyin": "jinshan",
+	"cityCode": 1810,
+	"cityName": "\u91d1\u5c71"
+}, {
+	"code": "1176841",
+	"name": "\u91d1\u5c71\u94fa",
+	"pinyin": "jinshanpu",
+	"cityCode": 2610,
+	"cityName": "\u91d1\u5c71\u94fa"
+}, {
+	"code": "1176842",
+	"name": "\u91d1\u5cad\u9547",
+	"pinyin": "jinlingzhen",
+	"cityCode": 2421,
+	"cityName": "\u91d1\u5cad\u9547"
+}, {
+	"code": "1176843",
+	"name": "\u91d1\u5dde",
+	"pinyin": "jinzhou",
+	"cityCode": 1906,
+	"cityName": "\u91d1\u5dde"
+}, {
+	"code": "1176844",
+	"name": "\u91d1\u660c",
+	"pinyin": "jinchang",
+	"cityCode": 507,
+	"cityName": "\u91d1\u660c"
+}, {
+	"code": "1176845",
+	"name": "\u91d1\u6797",
+	"pinyin": "jinlin",
+	"cityCode": 2107,
+	"cityName": "\u91d1\u6797"
+}, {
+	"code": "1176846",
+	"name": "\u91d1\u6c99\u6e7e",
+	"pinyin": "jinshawan",
+	"cityCode": 2825,
+	"cityName": "\u91d1\u6c99\u6e7e"
+}, {
+	"code": "1176848",
+	"name": "\u91d1\u9e21\u6751",
+	"pinyin": "jinjicun",
+	"cityCode": 702,
+	"cityName": "\u91d1\u9e21\u6751"
+}, {
+	"code": "1176850",
+	"name": "\u949f\u7965",
+	"pinyin": "zhongxiang",
+	"cityCode": 1419,
+	"cityName": "\u949f\u7965"
+}, {
+	"code": "1176852",
+	"name": "\u94c1\u4f5b\u5bfa",
+	"pinyin": "tiebisi",
+	"cityCode": 1907,
+	"cityName": "\u94c1\u4f5b\u5bfa"
+}, {
+	"code": "1176853",
+	"name": "\u94c1\u529b",
+	"pinyin": "tieli",
+	"cityCode": 1115,
+	"cityName": "\u94c1\u529b"
+}, {
+	"code": "1176855",
+	"name": "\u94c1\u5cad",
+	"pinyin": "tieling",
+	"cityCode": 1914,
+	"cityName": "\u94c1\u5cad"
+}, {
+	"code": "1176856",
+	"name": "\u94c1\u5cad\u897f",
+	"pinyin": "tielingxi",
+	"cityCode": 1914,
+	"cityName": "\u94c1\u5cad\u897f"
+}, {
+	"code": "1176857",
+	"name": "\u94dc\u4ec1",
+	"pinyin": "tongren",
+	"cityCode": 808,
+	"cityName": "\u94dc\u4ec1"
+}, {
+	"code": "1176858",
+	"name": "\u94dc\u4f5b\u5bfa",
+	"pinyin": "tongbisi",
+	"cityCode": 1812,
+	"cityName": "\u94dc\u4f5b\u5bfa"
+}, {
+	"code": "1176859",
+	"name": "\u94dc\u9675\u4e1c",
+	"pinyin": "tonglingdong",
+	"cityCode": 118,
+	"cityName": "\u94dc\u9675\u4e1c"
+}, {
+	"code": "1176860",
+	"name": "\u94dc\u9675",
+	"pinyin": "tongling",
+	"cityCode": 118,
+	"cityName": "\u94dc\u9675"
+}, {
+	"code": "1176861",
+	"name": "\u94f6\u5ddd",
+	"pinyin": "yinchuan",
+	"cityCode": 2202,
+	"cityName": "\u94f6\u5ddd"
+}, {
+	"code": "1176862",
+	"name": "\u94f6\u6d6a",
+	"pinyin": "yinlang",
+	"cityCode": 1104,
+	"cityName": "\u94f6\u6d6a"
+}, {
+	"code": "1176863",
+	"name": "\u9526\u53bf",
+	"pinyin": "jinxian",
+	"cityCode": 1911,
+	"cityName": "\u9526\u53bf"
+}, {
+	"code": "1176864",
+	"name": "\u9526\u5dde\u5357",
+	"pinyin": "jinzhounan",
+	"cityCode": 1911,
+	"cityName": "\u9526\u5dde\u5357"
+}, {
+	"code": "1176865",
+	"name": "\u9526\u5dde",
+	"pinyin": "jinzhou",
+	"cityCode": 1911,
+	"cityName": "\u9526\u5dde"
+}, {
+	"code": "1176866",
+	"name": "\u9526\u6cb3",
+	"pinyin": "jinhe",
+	"cityCode": 1107,
+	"cityName": "\u9526\u6cb3"
+}, {
+	"code": "1176867",
+	"name": "\u9547\u57ce\u5e95",
+	"pinyin": "zhenchengdi",
+	"cityCode": 2602,
+	"cityName": "\u9547\u57ce\u5e95"
+}, {
+	"code": "1176868",
+	"name": "\u9547\u5b89",
+	"pinyin": "zhenan",
+	"cityCode": 2707,
+	"cityName": "\u9547\u5b89"
+}, {
+	"code": "1176869",
+	"name": "\u9547\u5e73",
+	"pinyin": "zhenping",
+	"cityCode": 1211,
+	"cityName": "\u9547\u5e73"
+}, {
+	"code": "1176870",
+	"name": "\u9547\u6c5f\u5357",
+	"pinyin": "zhenjiangnan",
+	"cityCode": 1626,
+	"cityName": "\u9547\u6c5f\u5357"
+}, {
+	"code": "1176871",
+	"name": "\u9547\u6c5f",
+	"pinyin": "zhenjiang",
+	"cityCode": 1626,
+	"cityName": "\u9547\u6c5f"
+}, {
+	"code": "1176872",
+	"name": "\u9547\u8d49",
+	"pinyin": "zhenlai",
+	"cityCode": 1803,
+	"cityName": "\u9547\u8d49"
+}, {
+	"code": "1176873",
+	"name": "\u9547\u8fdc",
+	"pinyin": "zhenyuan",
+	"cityCode": 806,
+	"cityName": "\u9547\u8fdc"
+}, {
+	"code": "1176874",
+	"name": "\u957f\u5174\u5357",
+	"pinyin": "changxingnan",
+	"cityCode": 3409,
+	"cityName": "\u957f\u5174\u5357"
+}, {
+	"code": "1176875",
+	"name": "\u957f\u53d1\u5c6f",
+	"pinyin": "zhangfatun",
+	"cityCode": 1108,
+	"cityName": "\u957f\u53d1\u5c6f"
+}, {
+	"code": "1176876",
+	"name": "\u957f\u57a3",
+	"pinyin": "changyuan",
+	"cityCode": 1216,
+	"cityName": "\u957f\u57a3"
+}, {
+	"code": "1176877",
+	"name": "\u957f\u5bff",
+	"pinyin": "changshou",
+	"cityCode": 300,
+	"cityName": "\u957f\u5bff"
+}, {
+	"code": "1176878",
+	"name": "\u957f\u5c71\u5821",
+	"pinyin": "zhangshanbao",
+	"cityCode": 1908,
+	"cityName": "\u957f\u5c71\u5821"
+}, {
+	"code": "1176879",
+	"name": "\u957f\u5c71\u5c6f",
+	"pinyin": "changshantun",
+	"cityCode": 1810,
+	"cityName": "\u957f\u5c71\u5c6f"
+}, {
+	"code": "1176880",
+	"name": "\u957f\u5c97",
+	"pinyin": "zhanggang",
+	"cityCode": 1808,
+	"cityName": "\u957f\u5c97"
+}, {
+	"code": "1176881",
+	"name": "\u957f\u6625\u5357",
+	"pinyin": "changchunnan",
+	"cityCode": 1802,
+	"cityName": "\u957f\u6625\u5357"
+}, {
+	"code": "1176882",
+	"name": "\u957f\u6625",
+	"pinyin": "changchun",
+	"cityCode": 1802,
+	"cityName": "\u957f\u6625"
+}, {
+	"code": "1176883",
+	"name": "\u957f\u6625\u897f",
+	"pinyin": "changchunxi",
+	"cityCode": 1802,
+	"cityName": "\u957f\u6625\u897f"
+}, {
+	"code": "1176884",
+	"name": "\u957f\u6c40",
+	"pinyin": "changting",
+	"cityCode": 404,
+	"cityName": "\u957f\u6c40"
+}, {
+	"code": "1176885",
+	"name": "\u957f\u6c5f\u57e0",
+	"pinyin": "zhangjiangbu",
+	"cityCode": 1417,
+	"cityName": "\u957f\u6c5f\u57e0"
+}, {
+	"code": "1176886",
+	"name": "\u957f\u6c99\u5357",
+	"pinyin": "changshanan",
+	"cityCode": 1502,
+	"cityName": "\u957f\u6c99\u5357"
+}, {
+	"code": "1176887",
+	"name": "\u957f\u6c99\u575d",
+	"pinyin": "zhangshaba",
+	"cityCode": 2703,
+	"cityName": "\u957f\u6c99\u575d"
+}, {
+	"code": "1176888",
+	"name": "\u957f\u6c99",
+	"pinyin": "changsha",
+	"cityCode": 1502,
+	"cityName": "\u957f\u6c99"
+}, {
+	"code": "1176889",
+	"name": "\u957f\u6cbb\u5317",
+	"pinyin": "changzhibei",
+	"cityCode": 2603,
+	"cityName": "\u957f\u6cbb\u5317"
+}, {
+	"code": "1176890",
+	"name": "\u957f\u6cbb",
+	"pinyin": "changzhi",
+	"cityCode": 2603,
+	"cityName": "\u957f\u6cbb"
+}, {
+	"code": "1176891",
+	"name": "\u957f\u7538",
+	"pinyin": "changdian",
+	"cityCode": 1907,
+	"cityName": "\u957f\u7538"
+}, {
+	"code": "1176892",
+	"name": "\u957f\u80dc",
+	"pinyin": "zhangsheng",
+	"cityCode": 1811,
+	"cityName": "\u957f\u80dc"
+}, {
+	"code": "1176893",
+	"name": "\u957f\u845b",
+	"pinyin": "changge",
+	"cityCode": 1218,
+	"cityName": "\u957f\u845b"
+}, {
+	"code": "1176894",
+	"name": "\u957f\u8f9b\u5e97",
+	"pinyin": "zhangxindian",
+	"cityCode": 200,
+	"cityName": "\u957f\u8f9b\u5e97"
+}, {
+	"code": "1176896",
+	"name": "\u95fb\u559c",
+	"pinyin": "wenxi",
+	"cityCode": 2613,
+	"cityName": "\u95fb\u559c"
+}, {
+	"code": "1176897",
+	"name": "\u95fb\u5e84",
+	"pinyin": "wenzhuang",
+	"cityCode": 1211,
+	"cityName": "\u95fb\u5e84"
+}, {
+	"code": "1176898",
+	"name": "\u95fd\u6e05",
+	"pinyin": "minqing",
+	"cityCode": 402,
+	"cityName": "\u95fd\u6e05"
+}, {
+	"code": "1176899",
+	"name": "\u9601\u8001\u575d",
+	"pinyin": "gelaoba",
+	"cityCode": 811,
+	"cityName": "\u9601\u8001\u575d"
+}, {
+	"code": "1176900",
+	"name": "\u961c\u5357",
+	"pinyin": "funan",
+	"cityCode": 108,
+	"cityName": "\u961c\u5357"
+}, {
+	"code": "1176901",
+	"name": "\u961c\u5b81",
+	"pinyin": "funing",
+	"cityCode": 1621,
+	"cityName": "\u961c\u5b81"
+}, {
+	"code": "1176902",
+	"name": "\u961c\u65b0\u5357",
+	"pinyin": "fuxinnan",
+	"cityCode": 1909,
+	"cityName": "\u961c\u65b0\u5357"
+}, {
+	"code": "1176903",
+	"name": "\u961c\u9633",
+	"pinyin": "fuyang",
+	"cityCode": 108,
+	"cityName": "\u961c\u9633"
+}, {
+	"code": "1176904",
+	"name": "\u9633\u5e73\u5173",
+	"pinyin": "yangpingguan",
+	"cityCode": 2705,
+	"cityName": "\u9633\u5e73\u5173"
+}, {
+	"code": "1176905",
+	"name": "\u9633\u65b0",
+	"pinyin": "yangxin",
+	"cityCode": 1406,
+	"cityName": "\u9633\u65b0"
+}, {
+	"code": "1176906",
+	"name": "\u9633\u6625",
+	"pinyin": "yangchun",
+	"cityCode": 621,
+	"cityName": "\u9633\u6625"
+}, {
+	"code": "1176907",
+	"name": "\u9633\u66f2",
+	"pinyin": "yangqu",
+	"cityCode": 2602,
+	"cityName": "\u9633\u66f2"
+}, {
+	"code": "1176908",
+	"name": "\u9633\u6717",
+	"pinyin": "yanglang",
+	"cityCode": 802,
+	"cityName": "\u9633\u6717"
+}, {
+	"code": "1176909",
+	"name": "\u9633\u6cc9\u5317",
+	"pinyin": "yangquanbei",
+	"cityCode": 2611,
+	"cityName": "\u9633\u6cc9\u5317"
+}, {
+	"code": "1176910",
+	"name": "\u9633\u6cc9",
+	"pinyin": "yangquan",
+	"cityCode": 2611,
+	"cityName": "\u9633\u6cc9"
+}, {
+	"code": "1176911",
+	"name": "\u9633\u6f84\u6e56",
+	"pinyin": "yangchenghu",
+	"cityCode": 1615,
+	"cityName": "\u9633\u6f84\u6e56"
+}, {
+	"code": "1176912",
+	"name": "\u9633\u9091",
+	"pinyin": "yangyi",
+	"cityCode": 1008,
+	"cityName": "\u9633\u9091"
+}, {
+	"code": "1176913",
+	"name": "\u9633\u9ad8",
+	"pinyin": "yanggao",
+	"cityCode": 2604,
+	"cityName": "\u9633\u9ad8"
+}, {
+	"code": "1176914",
+	"name": "\u963f\u514b\u82cf",
+	"pinyin": "akesu",
+	"cityCode": 3103,
+	"cityName": "\u963f\u514b\u82cf"
+}, {
+	"code": "1176915",
+	"name": "\u963f\u5357\u5e84",
+	"pinyin": "ananzhuang",
+	"cityCode": 3305,
+	"cityName": "\u963f\u5357\u5e84"
+}, {
+	"code": "1176916",
+	"name": "\u963f\u57ce",
+	"pinyin": "acheng",
+	"cityCode": 1102,
+	"cityName": "\u963f\u57ce"
+}, {
+	"code": "1176917",
+	"name": "\u963f\u5c14\u5c71",
+	"pinyin": "aershan",
+	"cityCode": 2112,
+	"cityName": "\u963f\u5c14\u5c71"
+}, {
+	"code": "1176918",
+	"name": "\u963f\u62c9\u5c71\u53e3",
+	"pinyin": "alashankou",
+	"cityCode": 3106,
+	"cityName": "\u963f\u62c9\u5c71\u53e3"
+}, {
+	"code": "1176919",
+	"name": "\u963f\u62c9\u6c9f",
+	"pinyin": "alagou",
+	"cityCode": 3114,
+	"cityName": "\u963f\u62c9\u6c9f"
+}, {
+	"code": "1176920",
+	"name": "\u963f\u91d1",
+	"pinyin": "ajin",
+	"cityCode": 1909,
+	"cityName": "\u963f\u91d1"
+}, {
+	"code": "1176921",
+	"name": "\u9646\u5ddd",
+	"pinyin": "luchuan",
+	"cityCode": 712,
+	"cityName": "\u9646\u5ddd"
+}, {
+	"code": "1176922",
+	"name": "\u9647\u53bf",
+	"pinyin": "longxian",
+	"cityCode": 2704,
+	"cityName": "\u9647\u53bf"
+}, {
+	"code": "1176923",
+	"name": "\u9647\u897f",
+	"pinyin": "longxi",
+	"cityCode": 504,
+	"cityName": "\u9647\u897f"
+}, {
+	"code": "1176924",
+	"name": "\u9648\u76f8\u5c6f",
+	"pinyin": "chenxiangtun",
+	"cityCode": 1902,
+	"cityName": "\u9648\u76f8\u5c6f"
+}, {
+	"code": "1176925",
+	"name": "\u9675\u4e18",
+	"pinyin": "lingqiu",
+	"cityCode": 2107,
+	"cityName": "\u9675\u4e18"
+}, {
+	"code": "1176926",
+	"name": "\u9675\u6c34",
+	"pinyin": "lingshui",
+	"cityCode": 784380,
+	"cityName": "\u9675\u6c34"
+}, {
+	"code": "1176927",
+	"name": "\u9676\u5bb6\u5c6f",
+	"pinyin": "taojiatun",
+	"cityCode": 1809,
+	"cityName": "\u9676\u5bb6\u5c6f"
+}, {
+	"code": "1176928",
+	"name": "\u9676\u8f9b",
+	"pinyin": "taoxin",
+	"cityCode": 120,
+	"cityName": "\u9676\u8f9b"
+}, {
+	"code": "1176929",
+	"name": "\u9686\u5316",
+	"pinyin": "longhua",
+	"cityCode": 1006,
+	"cityName": "\u9686\u5316"
+}, {
+	"code": "1176930",
+	"name": "\u9686\u660c",
+	"pinyin": "longchang",
+	"cityCode": 2819,
+	"cityName": "\u9686\u660c"
+}, {
+	"code": "1176931",
+	"name": "\u968f\u5dde",
+	"pinyin": "suizhou",
+	"cityCode": 1411,
+	"cityName": "\u968f\u5dde"
+}, {
+	"code": "1176932",
+	"name": "\u96c1\u7fc5",
+	"pinyin": "yanchi",
+	"cityCode": 200,
+	"cityName": "\u96c1\u7fc5"
+}, {
+	"code": "1176933",
+	"name": "\u96c1\u8361\u5c71",
+	"pinyin": "yandangshan",
+	"cityCode": 3426,
+	"cityName": "\u96c1\u8361\u5c71"
+}, {
+	"code": "1176934",
+	"name": "\u96c5\u5b50\u6cc9",
+	"pinyin": "yaziquan",
+	"cityCode": 3109,
+	"cityName": "\u96c5\u5b50\u6cc9"
+}, {
+	"code": "1176935",
+	"name": "\u96c5\u9c81",
+	"pinyin": "yalu",
+	"cityCode": 2107,
+	"cityName": "\u96c5\u9c81"
+}, {
+	"code": "1176936",
+	"name": "\u96c6\u4e49\u5e84",
+	"pinyin": "jiyizhuang",
+	"cityCode": 2610,
+	"cityName": "\u96c6\u4e49\u5e84"
+}, {
+	"code": "1176937",
+	"name": "\u96c6\u5b81\u5357",
+	"pinyin": "jiningnan",
+	"cityCode": 2108,
+	"cityName": "\u96c6\u5b81\u5357"
+}, {
+	"code": "1176938",
+	"name": "\u96f6\u9675",
+	"pinyin": "lingling",
+	"cityCode": 1513,
+	"cityName": "\u96f6\u9675"
+}, {
+	"code": "1176939",
+	"name": "\u970d\u5dde",
+	"pinyin": "huozhou",
+	"cityCode": 2608,
+	"cityName": "\u970d\u5dde"
+}, {
+	"code": "1176940",
+	"name": "\u971e\u6d66",
+	"pinyin": "xiapu",
+	"cityCode": 406,
+	"cityName": "\u971e\u6d66"
+}, {
+	"code": "1176941",
+	"name": "\u9732\u6c34\u6cb3",
+	"pinyin": "lushuihe",
+	"cityCode": 1804,
+	"cityName": "\u9732\u6c34\u6cb3"
+}, {
+	"code": "1176943",
+	"name": "\u9752\u53bf",
+	"pinyin": "qingxian",
+	"cityCode": 1005,
+	"cityName": "\u9752\u53bf"
+}, {
+	"code": "1176944",
+	"name": "\u9752\u57ce\u5c71",
+	"pinyin": "qingchengshan",
+	"cityCode": 2802,
+	"cityName": "\u9752\u57ce\u5c71"
+}, {
+	"code": "1176945",
+	"name": "\u9752\u5806\u5b50",
+	"pinyin": "qingduizi",
+	"cityCode": 1911,
+	"cityName": "\u9752\u5806\u5b50"
+}, {
+	"code": "1176946",
+	"name": "\u9752\u5c71",
+	"pinyin": "qingshan",
+	"cityCode": 1110,
+	"cityName": "\u9752\u5c71"
+}, {
+	"code": "1176947",
+	"name": "\u9752\u5c9b",
+	"pinyin": "qingdao",
+	"cityCode": 2413,
+	"cityName": "\u9752\u5c9b"
+}, {
+	"code": "1176948",
+	"name": "\u9752\u5c9b\u897f",
+	"pinyin": "qingdaoxi",
+	"cityCode": 2413,
+	"cityName": "\u9752\u5c9b\u897f"
+}, {
+	"code": "1176949",
+	"name": "\u9752\u5cad\u5b50",
+	"pinyin": "qinglingzi",
+	"cityCode": 1110,
+	"cityName": "\u9752\u5cad\u5b50"
+}, {
+	"code": "1176950",
+	"name": "\u9752\u5dde\u5e02",
+	"pinyin": "qingzhoushi",
+	"cityCode": 2417,
+	"cityName": "\u9752\u5dde\u5e02"
+}, {
+	"code": "1176951",
+	"name": "\u9752\u7530",
+	"pinyin": "qingtian",
+	"cityCode": 3414,
+	"cityName": "\u9752\u7530"
+}, {
+	"code": "1176952",
+	"name": "\u9752\u767d\u6c5f",
+	"pinyin": "qingbaijiang",
+	"cityCode": 2802,
+	"cityName": "\u9752\u767d\u6c5f"
+}, {
+	"code": "1176953",
+	"name": "\u9752\u94dc\u5ce1",
+	"pinyin": "qingtongxia",
+	"cityCode": 2205,
+	"cityName": "\u9752\u94dc\u5ce1"
+}, {
+	"code": "1176954",
+	"name": "\u9752\u9f99\u5c71",
+	"pinyin": "qinglongshan",
+	"cityCode": 110,
+	"cityName": "\u9752\u9f99\u5c71"
+}, {
+	"code": "1176955",
+	"name": "\u9752\u9f99\u6865",
+	"pinyin": "qinglongqiao",
+	"cityCode": 200,
+	"cityName": "\u9752\u9f99\u6865"
+}, {
+	"code": "1176956",
+	"name": "\u9756\u5dde",
+	"pinyin": "jingzhou",
+	"cityCode": 1506,
+	"cityName": "\u9756\u5dde"
+}, {
+	"code": "1176957",
+	"name": "\u9756\u8fb9",
+	"pinyin": "jingbian",
+	"cityCode": 2712,
+	"cityName": "\u9756\u8fb9"
+}, {
+	"code": "1176958",
+	"name": "\u9756\u8fdc",
+	"pinyin": "jingyuan",
+	"cityCode": 503,
+	"cityName": "\u9756\u8fdc"
+}, {
+	"code": "1176959",
+	"name": "\u9759\u6d77",
+	"pinyin": "jinghai",
+	"cityCode": 3000,
+	"cityName": "\u9759\u6d77"
+}, {
+	"code": "1176960",
+	"name": "\u978d\u5c71",
+	"pinyin": "anshan",
+	"cityCode": 1903,
+	"cityName": "\u978d\u5c71"
+}, {
+	"code": "1176961",
+	"name": "\u978d\u5c71\u897f",
+	"pinyin": "anshanxi",
+	"cityCode": 1903,
+	"cityName": "\u978d\u5c71\u897f"
+}, {
+	"code": "1176962",
+	"name": "\u97e9\u57ce",
+	"pinyin": "hancheng",
+	"cityCode": 2706,
+	"cityName": "\u97e9\u57ce"
+}, {
+	"code": "1176963",
+	"name": "\u97f6\u5173\u4e1c",
+	"pinyin": "shaoguandong",
+	"cityCode": 618,
+	"cityName": "\u97f6\u5173\u4e1c"
+}, {
+	"code": "1176964",
+	"name": "\u97f6\u5173",
+	"pinyin": "shaoguan",
+	"cityCode": 618,
+	"cityName": "\u97f6\u5173"
+}, {
+	"code": "1176965",
+	"name": "\u987a\u4e49",
+	"pinyin": "shunyi",
+	"cityCode": 200,
+	"cityName": "\u987a\u4e49"
+}, {
+	"code": "1176967",
+	"name": "\u987a\u660c",
+	"pinyin": "shunchang",
+	"cityCode": 405,
+	"cityName": "\u987a\u660c"
+}, {
+	"code": "1176968",
+	"name": "\u988d\u4e0a",
+	"pinyin": "yingshang",
+	"cityCode": 108,
+	"cityName": "\u988d\u4e0a"
+}, {
+	"code": "1176969",
+	"name": "\u98ce\u9675\u6e21",
+	"pinyin": "fenglingdu",
+	"cityCode": 2613,
+	"cityName": "\u98ce\u9675\u6e21"
+}, {
+	"code": "1176970",
+	"name": "\u9976\u9633",
+	"pinyin": "raoyang",
+	"cityCode": 1009,
+	"cityName": "\u9976\u9633"
+}, {
+	"code": "1176971",
+	"name": "\u9999\u5170",
+	"pinyin": "xianglan",
+	"cityCode": 1108,
+	"cityName": "\u9999\u5170"
+}, {
+	"code": "1176972",
+	"name": "\u9999\u574a",
+	"pinyin": "xiangfang",
+	"cityCode": 1102,
+	"cityName": "\u9999\u574a"
+}, {
+	"code": "1176973",
+	"name": "\u9a6c\u4e09\u5bb6",
+	"pinyin": "masanjia",
+	"cityCode": 1902,
+	"cityName": "\u9a6c\u4e09\u5bb6"
+}, {
+	"code": "1176975",
+	"name": "\u9a6c\u68da",
+	"pinyin": "mapeng",
+	"cityCode": 1416,
+	"cityName": "\u9a6c\u68da"
+}, {
+	"code": "1176976",
+	"name": "\u9a6c\u76d6\u56fe",
+	"pinyin": "magaitu",
+	"cityCode": 2108,
+	"cityName": "\u9a6c\u76d6\u56fe"
+}, {
+	"code": "1176977",
+	"name": "\u9a6c\u83b2\u6cb3",
+	"pinyin": "malianhe",
+	"cityCode": 1110,
+	"cityName": "\u9a6c\u83b2\u6cb3"
+}, {
+	"code": "1176978",
+	"name": "\u9a6c\u978d\u5c71",
+	"pinyin": "maanshan",
+	"cityCode": 116,
+	"cityName": "\u9a6c\u978d\u5c71"
+}, {
+	"code": "1176979",
+	"name": "\u9a7b\u9a6c\u5e97",
+	"pinyin": "zhumadian",
+	"cityCode": 1220,
+	"cityName": "\u9a7b\u9a6c\u5e97"
+}, {
+	"code": "1176980",
+	"name": "\u9a7b\u9a6c\u5e97\u897f",
+	"pinyin": "zhumadianxi",
+	"cityCode": 1220,
+	"cityName": "\u9a7b\u9a6c\u5e97\u897f"
+}, {
+	"code": "1176981",
+	"name": "\u9ad8\u53f0",
+	"pinyin": "gaotai",
+	"cityCode": 515,
+	"cityName": "\u9ad8\u53f0"
+}, {
+	"code": "1176982",
+	"name": "\u9ad8\u5404\u5e84",
+	"pinyin": "gaogezhuang",
+	"cityCode": 200,
+	"cityName": "\u9ad8\u5404\u5e84"
+}, {
+	"code": "1176983",
+	"name": "\u9ad8\u5934",
+	"pinyin": "gaotou",
+	"cityCode": 1111,
+	"cityName": "\u9ad8\u5934"
+}, {
+	"code": "1176984",
+	"name": "\u9ad8\u5bb6\u5c81",
+	"pinyin": "gaojiasui",
+	"cityCode": 1904,
+	"cityName": "\u9ad8\u5bb6\u5c81"
+}, {
+	"code": "1176985",
+	"name": "\u9ad8\u5bb6\u6751",
+	"pinyin": "gaojiacun",
+	"cityCode": 2109,
+	"cityName": "\u9ad8\u5bb6\u6751"
+}, {
+	"code": "1176986",
+	"name": "\u9ad8\u5bc6",
+	"pinyin": "gaomi",
+	"cityCode": 2417,
+	"cityName": "\u9ad8\u5bc6"
+}, {
+	"code": "1176988",
+	"name": "\u9ad8\u5dde",
+	"pinyin": "gaozhou",
+	"cityCode": 613,
+	"cityName": "\u9ad8\u5dde"
+}, {
+	"code": "1176989",
+	"name": "\u9ad8\u5e73",
+	"pinyin": "gaoping",
+	"cityCode": 2606,
+	"cityName": "\u9ad8\u5e73"
+}, {
+	"code": "1176991",
+	"name": "\u9ad8\u6881\u94fa",
+	"pinyin": "gaoliangpu",
+	"cityCode": 2703,
+	"cityName": "\u9ad8\u6881\u94fa"
+}, {
+	"code": "1176992",
+	"name": "\u9ad8\u7891\u5e97",
+	"pinyin": "gaobeidian",
+	"cityCode": 1003,
+	"cityName": "\u9ad8\u7891\u5e97"
+}, {
+	"code": "1176993",
+	"name": "\u9ad8\u9091",
+	"pinyin": "gaoyi",
+	"cityCode": 1002,
+	"cityName": "\u9ad8\u9091"
+}, {
+	"code": "1176994",
+	"name": "\u9ad8\u9091\u897f",
+	"pinyin": "gaoyixi",
+	"cityCode": 1002,
+	"cityName": "\u9ad8\u9091\u897f"
+}, {
+	"code": "1176995",
+	"name": "\u9b4f\u5584\u5e84",
+	"pinyin": "weishanzhuang",
+	"cityCode": 200,
+	"cityName": "\u9b4f\u5584\u5e84"
+}, {
+	"code": "1176996",
+	"name": "\u9c81\u5c71",
+	"pinyin": "lushan",
+	"cityCode": 1212,
+	"cityName": "\u9c81\u5c71"
+}, {
+	"code": "1176997",
+	"name": "\u9c81\u6cb3",
+	"pinyin": "luhe",
+	"cityCode": 1111,
+	"cityName": "\u9c81\u6cb3"
+}, {
+	"code": "1176998",
+	"name": "\u9c85\u9c7c\u5708",
+	"pinyin": "bayuquan",
+	"cityCode": 1915,
+	"cityName": "\u9c85\u9c7c\u5708"
+}, {
+	"code": "1176999",
+	"name": "\u9c9c\u6ee9",
+	"pinyin": "xiantan",
+	"cityCode": 2817,
+	"cityName": "\u9c9c\u6ee9"
+}, {
+	"code": "1177000",
+	"name": "\u9ccc\u6c5f",
+	"pinyin": "aojiang",
+	"cityCode": 3426,
+	"cityName": "\u9ccc\u6c5f"
+}, {
+	"code": "1177001",
+	"name": "\u9e21\u4e1c",
+	"pinyin": "jidong",
+	"cityCode": 1109,
+	"cityName": "\u9e21\u4e1c"
+}, {
+	"code": "1177002",
+	"name": "\u9e21\u897f",
+	"pinyin": "jixi",
+	"cityCode": 1109,
+	"cityName": "\u9e21\u897f"
+}, {
+	"code": "1177003",
+	"name": "\u9e64\u5317",
+	"pinyin": "hebei",
+	"cityCode": 1106,
+	"cityName": "\u9e64\u5317"
+}, {
+	"code": "1177004",
+	"name": "\u9e64\u58c1\u4e1c",
+	"pinyin": "hebidong",
+	"cityCode": 1204,
+	"cityName": "\u9e64\u58c1\u4e1c"
+}, {
+	"code": "1177005",
+	"name": "\u9e64\u58c1",
+	"pinyin": "hebi",
+	"cityCode": 1204,
+	"cityName": "\u9e64\u58c1"
+}, {
+	"code": "1177006",
+	"name": "\u9e64\u5c71",
+	"pinyin": "heshan",
+	"cityCode": 1107,
+	"cityName": "\u9e64\u5c71"
+}, {
+	"code": "1177007",
+	"name": "\u9e64\u5c97",
+	"pinyin": "hegang",
+	"cityCode": 1106,
+	"cityName": "\u9e64\u5c97"
+}, {
+	"code": "1177008",
+	"name": "\u9e64\u5e86",
+	"pinyin": "heqing",
+	"cityCode": 3306,
+	"cityName": "\u9e64\u5e86"
+}, {
+	"code": "1177009",
+	"name": "\u9e64\u7acb",
+	"pinyin": "heli",
+	"cityCode": 1108,
+	"cityName": "\u9e64\u7acb"
+}, {
+	"code": "1177010",
+	"name": "\u9e70\u624b\u8425\u5b50",
+	"pinyin": "yingshouyingzi",
+	"cityCode": 1006,
+	"cityName": "\u9e70\u624b\u8425\u5b50"
+}, {
+	"code": "1177011",
+	"name": "\u9e70\u6f6d",
+	"pinyin": "yingtan",
+	"cityCode": 1714,
+	"cityName": "\u9e70\u6f6d"
+}, {
+	"code": "1177012",
+	"name": "\u9e7f\u5be8",
+	"pinyin": "luzhai",
+	"cityCode": 709,
+	"cityName": "\u9e7f\u5be8"
+}, {
+	"code": "1177014",
+	"name": "\u9ebb\u57ce\u5317",
+	"pinyin": "machengbei",
+	"cityCode": 1405,
+	"cityName": "\u9ebb\u57ce\u5317"
+}, {
+	"code": "1177015",
+	"name": "\u9ebb\u57ce",
+	"pinyin": "macheng",
+	"cityCode": 1405,
+	"cityName": "\u9ebb\u57ce"
+}, {
+	"code": "1177016",
+	"name": "\u9ebb\u5c3e",
+	"pinyin": "mawei",
+	"cityCode": 805,
+	"cityName": "\u9ebb\u5c3e"
+}, {
+	"code": "1177017",
+	"name": "\u9ebb\u5c71",
+	"pinyin": "mashan",
+	"cityCode": 1109,
+	"cityName": "\u9ebb\u5c71"
+}, {
+	"code": "1177018",
+	"name": "\u9ebb\u6c5f",
+	"pinyin": "majiang",
+	"cityCode": 806,
+	"cityName": "\u9ebb\u6c5f"
+}, {
+	"code": "1177019",
+	"name": "\u9ebb\u829d\u94fa",
+	"pinyin": "mazhipu",
+	"cityCode": 805,
+	"cityName": "\u9ebb\u829d\u94fa"
+}, {
+	"code": "1177020",
+	"name": "\u9ebb\u864e",
+	"pinyin": "mahu",
+	"cityCode": 2703,
+	"cityName": "\u9ebb\u864e"
+}, {
+	"code": "1177021",
+	"name": "\u9ebb\u9633",
+	"pinyin": "mayang",
+	"cityCode": 1506,
+	"cityName": "\u9ebb\u9633"
+}, {
+	"code": "1177022",
+	"name": "\u9ec4\u4e1d",
+	"pinyin": "huangsi",
+	"cityCode": 805,
+	"cityName": "\u9ec4\u4e1d"
+}, {
+	"code": "1177023",
+	"name": "\u9ec4\u53e3",
+	"pinyin": "huangkou",
+	"cityCode": 117,
+	"cityName": "\u9ec4\u53e3"
+}, {
+	"code": "1177024",
+	"name": "\u9ec4\u5c71",
+	"pinyin": "huangshan",
+	"cityCode": 113,
+	"cityName": "\u9ec4\u5c71"
+}, {
+	"code": "1177025",
+	"name": "\u9ec4\u5dde",
+	"pinyin": "huangzhou",
+	"cityCode": 1405,
+	"cityName": "\u9ec4\u5dde"
+}, {
+	"code": "1177026",
+	"name": "\u9ec4\u6751",
+	"pinyin": "huangcun",
+	"cityCode": 200,
+	"cityName": "\u9ec4\u6751"
+}, {
+	"code": "1177027",
+	"name": "\u9ec4\u677e\u7538",
+	"pinyin": "huangsongdian",
+	"cityCode": 1808,
+	"cityName": "\u9ec4\u677e\u7538"
+}, {
+	"code": "1177029",
+	"name": "\u9ec4\u6885",
+	"pinyin": "huangmei",
+	"cityCode": 1405,
+	"cityName": "\u9ec4\u6885"
+}, {
+	"code": "1177030",
+	"name": "\u9ec4\u6ce5\u6cb3",
+	"pinyin": "huangnihe",
+	"cityCode": 1812,
+	"cityName": "\u9ec4\u6ce5\u6cb3"
+}, {
+	"code": "1177031",
+	"name": "\u9ec4\u74dc\u56ed",
+	"pinyin": "huangguayuan",
+	"cityCode": 3305,
+	"cityName": "\u9ec4\u74dc\u56ed"
+}, {
+	"code": "1177032",
+	"name": "\u9ec4\u7532\u5c6f",
+	"pinyin": "huangjiatun",
+	"cityCode": 1910,
+	"cityName": "\u9ec4\u7532\u5c6f"
+}, {
+	"code": "1177033",
+	"name": "\u9ec4\u77f3",
+	"pinyin": "huangshi",
+	"cityCode": 1406,
+	"cityName": "\u9ec4\u77f3"
+}, {
+	"code": "1177034",
+	"name": "\u9ec4\u78cf",
+	"pinyin": "huanglian",
+	"cityCode": 300,
+	"cityName": "\u9ec4\u78cf"
+}, {
+	"code": "1177035",
+	"name": "\u9ec4\u8054\u5173",
+	"pinyin": "huanglianguan",
+	"cityCode": 2823,
+	"cityName": "\u9ec4\u8054\u5173"
+}, {
+	"code": "1177036",
+	"name": "\u9ec4\u82b1\u7b52",
+	"pinyin": "huanghuatong",
+	"cityCode": 2110,
+	"cityName": "\u9ec4\u82b1\u7b52"
+}, {
+	"code": "1177037",
+	"name": "\u9ec4\u9642",
+	"pinyin": "huangbei",
+	"cityCode": 1402,
+	"cityName": "\u9ec4\u9642"
+}, {
+	"code": "1177038",
+	"name": "\u9ec4\u96c6",
+	"pinyin": "huangji",
+	"cityCode": 1620,
+	"cityName": "\u9ec4\u96c6"
+}, {
+	"code": "1177039",
+	"name": "\u9ece\u5858",
+	"pinyin": "litang",
+	"cityCode": 702,
+	"cityName": "\u9ece\u5858"
+}, {
+	"code": "1177040",
+	"name": "\u9ed1\u51b2\u6ee9",
+	"pinyin": "heichongtan",
+	"cityCode": 513,
+	"cityName": "\u9ed1\u51b2\u6ee9"
+}, {
+	"code": "1177041",
+	"name": "\u9ed1\u6c34",
+	"pinyin": "heishui",
+	"cityCode": 1803,
+	"cityName": "\u9ed1\u6c34"
+}, {
+	"code": "1177042",
+	"name": "\u9ed1\u6cb3",
+	"pinyin": "heihe",
+	"cityCode": 1107,
+	"cityName": "\u9ed1\u6cb3"
+}, {
+	"code": "1177043",
+	"name": "\u9ed1\u8001\u6e7e",
+	"pinyin": "heilaowan",
+	"cityCode": 3315,
+	"cityName": "\u9ed1\u8001\u6e7e"
+}, {
+	"code": "1177044",
+	"name": "\u9ed4\u6c5f",
+	"pinyin": "qianjiang",
+	"cityCode": 300,
+	"cityName": "\u9ed4\u6c5f"
+}, {
+	"code": "1177045",
+	"name": "\u9edf\u53bf",
+	"pinyin": "yixian",
+	"cityCode": 113,
+	"cityName": "\u9edf\u53bf"
+}, {
+	"code": "1177046",
+	"name": "\u9f50\u9f50\u54c8\u5c14",
+	"pinyin": "qiqihaer",
+	"cityCode": 1111,
+	"cityName": "\u9f50\u9f50\u54c8\u5c14"
+}, {
+	"code": "1177047",
+	"name": "\u9f99\u4f2f\u5c6f",
+	"pinyin": "longbotun",
+	"cityCode": 715,
+	"cityName": "\u9f99\u4f2f\u5c6f"
+}, {
+	"code": "1177048",
+	"name": "\u9f99\u51e4\u573a",
+	"pinyin": "longfengchang",
+	"cityCode": 2816,
+	"cityName": "\u9f99\u51e4\u573a"
+}, {
+	"code": "1177049",
+	"name": "\u9f99\u534e",
+	"pinyin": "longhua",
+	"cityCode": 1009,
+	"cityName": "\u9f99\u534e"
+}, {
+	"code": "1177050",
+	"name": "\u9f99\u5357",
+	"pinyin": "longnan",
+	"cityCode": 1704,
+	"cityName": "\u9f99\u5357"
+}, {
+	"code": "1177051",
+	"name": "\u9f99\u5609",
+	"pinyin": "longjia",
+	"cityCode": 1802,
+	"cityName": "\u9f99\u5609"
+}, {
+	"code": "1177052",
+	"name": "\u9f99\u5bb6\u8425",
+	"pinyin": "longjiaying",
+	"cityCode": 1012,
+	"cityName": "\u9f99\u5bb6\u8425"
+}, {
+	"code": "1177053",
+	"name": "\u9f99\u5ca9",
+	"pinyin": "longyan",
+	"cityCode": 404,
+	"cityName": "\u9f99\u5ca9"
+}, {
+	"code": "1177054",
+	"name": "\u9f99\u5ddd",
+	"pinyin": "longchuan",
+	"cityCode": 608,
+	"cityName": "\u9f99\u5ddd"
+}, {
+	"code": "1177055",
+	"name": "\u9f99\u6c5f",
+	"pinyin": "longjiang",
+	"cityCode": 1111,
+	"cityName": "\u9f99\u6c5f"
+}, {
+	"code": "1177056",
+	"name": "\u9f99\u6c9f",
+	"pinyin": "longgou",
+	"cityCode": 513,
+	"cityName": "\u9f99\u6c9f"
+}, {
+	"code": "1177057",
+	"name": "\u9f99\u6e38",
+	"pinyin": "longyou",
+	"cityCode": 3419,
+	"cityName": "\u9f99\u6e38"
+}, {
+	"code": "1177058",
+	"name": "\u9f99\u6f6d",
+	"pinyin": "longtan",
+	"cityCode": 1602,
+	"cityName": "\u9f99\u6f6d"
+}, {
+	"code": "1177059",
+	"name": "\u9f99\u7530",
+	"pinyin": "longtian",
+	"cityCode": 805,
+	"cityName": "\u9f99\u7530"
+}, {
+	"code": "1177060",
+	"name": "\u9f99\u9547",
+	"pinyin": "longzhen",
+	"cityCode": 1107,
+	"cityName": "\u9f99\u9547"
+}, {
+	"code": "1177061",
+	"name": "\u7984\u4e30\u5357",
+	"pinyin": "lufengnan",
+	"cityCode": 3305,
+	"cityName": "\u7984\u4e30\u5357"
+}, {
+	"code": "1177062",
+	"name": "\u6842\u5e73",
+	"pinyin": "guiping",
+	"cityCode": 713,
+	"cityName": "\u6842\u5e73"
+}, {
+	"code": "1177063",
+	"name": "\u8bcf\u5b89",
+	"pinyin": "zhaoan",
+	"cityCode": 415,
+	"cityName": "\u8bcf\u5b89"
+}, {
+	"code": "1177064",
+	"name": "\u6f33\u6d66",
+	"pinyin": "zhangpu",
+	"cityCode": 415,
+	"cityName": "\u6f33\u6d66"
+}, {
+	"code": "1177065",
+	"name": "\u6f6e\u9633",
+	"pinyin": "chaoyang",
+	"cityCode": 616,
+	"cityName": "\u6f6e\u9633"
+}, {
+	"code": "1177066",
+	"name": "\u4e91\u9704",
+	"pinyin": "yunxiao",
+	"cityCode": 415,
+	"cityName": "\u4e91\u9704"
+}, {
+	"code": "1177067",
+	"name": "\u4e30\u90fd",
+	"pinyin": "fengdu",
+	"cityCode": 300,
+	"cityName": "\u4e30\u90fd"
+}, {
+	"code": "1177068",
+	"name": "\u957f\u5bff\u5317",
+	"pinyin": "changshoubei",
+	"cityCode": 300,
+	"cityName": "\u957f\u5bff\u5317"
+}, {
+	"code": "1177069",
+	"name": "\u6daa\u9675\u5317",
+	"pinyin": "fulingbei",
+	"cityCode": 300,
+	"cityName": "\u6daa\u9675\u5317"
+}, {
+	"code": "1177070",
+	"name": "\u5168\u5dde\u5357",
+	"pinyin": "quanzhounan",
+	"cityCode": 705,
+	"cityName": "\u5168\u5dde\u5357"
+}, {
+	"code": "1177071",
+	"name": "\u4e1c\u5b89\u4e1c",
+	"pinyin": "dongandong",
+	"cityCode": 1513,
+	"cityName": "\u4e1c\u5b89\u4e1c"
+}, {
+	"code": "1177072",
+	"name": "\u6c38\u798f\u5357",
+	"pinyin": "yongfunan",
+	"cityCode": 705,
+	"cityName": "\u6c38\u798f\u5357"
+}, {
+	"code": "1177073",
+	"name": "\u5982\u4e1c",
+	"pinyin": "rudong",
+	"cityCode": 1611,
+	"cityName": "\u5982\u4e1c"
+}, {
+	"code": "1177074",
+	"name": "\u681f\u8336",
+	"pinyin": "bencha",
+	"cityCode": 1611,
+	"cityName": "\u681f\u8336"
+}, {
+	"code": "1177075",
+	"name": "\u65e5\u5580\u5219",
+	"pinyin": "rikaze",
+	"cityCode": 3207,
+	"cityName": "\u65e5\u5580\u5219"
+}, {
+	"code": "1177076",
+	"name": "\u4ec1\u5e03",
+	"pinyin": "renbu",
+	"cityCode": 3207,
+	"cityName": "\u4ec1\u5e03"
+}, {
+	"code": "1177077",
+	"name": "\u754c\u9996\u5e02",
+	"pinyin": "jieshoushi",
+	"cityCode": 108,
+	"cityName": "\u754c\u9996\u5e02"
+}, {
+	"code": "1177078",
+	"name": "\u5408\u6d66",
+	"pinyin": "hepu",
+	"cityCode": 704,
+	"cityName": "\u5408\u6d66"
+}, {
+	"code": "1177079",
+	"name": "\u9ad8\u5b89",
+	"pinyin": "gaoan",
+	"cityCode": 1713,
+	"cityName": "\u9ad8\u5b89"
+}, {
+	"code": "1177080",
+	"name": "\u5357\u96c4",
+	"pinyin": "nanxiong",
+	"cityCode": 618,
+	"cityName": "\u5357\u96c4"
+}, {
+	"code": "1177081",
+	"name": "\u6538\u53bf\u5357",
+	"pinyin": "youxiannan",
+	"cityCode": 1515,
+	"cityName": "\u6538\u53bf\u5357"
+}, {
+	"code": "1177082",
+	"name": "\u91b4\u9675\u4e1c",
+	"pinyin": "lilingdong",
+	"cityCode": 1515,
+	"cityName": "\u91b4\u9675\u4e1c"
+}, {
+	"code": "1177083",
+	"name": "\u7f57\u57ce",
+	"pinyin": "luocheng",
+	"cityCode": 707,
+	"cityName": "\u7f57\u57ce"
+}, {
+	"code": "1177084",
+	"name": "\u59cb\u5174",
+	"pinyin": "shixing",
+	"cityCode": 618,
+	"cityName": "\u59cb\u5174"
+}, {
+	"code": "1177085",
+	"name": "\u53cc\u8fbd",
+	"pinyin": "shuangliao",
+	"cityCode": 1809,
+	"cityName": "\u53cc\u8fbd"
+}, {
+	"code": "1177086",
+	"name": "\u5f6d\u5dde",
+	"pinyin": "pengzhou",
+	"cityCode": 2802,
+	"cityName": "\u5f6d\u5dde"
+}, {
+	"code": "1177087",
+	"name": "\u85e4\u53bf",
+	"pinyin": "tengxian",
+	"cityCode": 711,
+	"cityName": "\u85e4\u53bf"
+}, {
+	"code": "1177088",
+	"name": "\u970d\u90b1",
+	"pinyin": "huoqiu",
+	"cityCode": 115,
+	"cityName": "\u970d\u90b1"
+}, {
+	"code": "1177089",
+	"name": "\u708e\u9675",
+	"pinyin": "yanling",
+	"cityCode": 1515,
+	"cityName": "\u708e\u9675"
+}, {
+	"code": "1177090",
+	"name": "\u6c88\u4e18",
+	"pinyin": "shenqiu",
+	"cityCode": 1219,
+	"cityName": "\u6c88\u4e18"
+}, {
+	"code": "1177091",
+	"name": "\u9879\u57ce",
+	"pinyin": "xiangcheng",
+	"cityCode": 1219,
+	"cityName": "\u9879\u57ce"
+}, {
+	"code": "1177092",
+	"name": "\u8336\u9675\u5357",
+	"pinyin": "chalingnan",
+	"cityCode": 1515,
+	"cityName": "\u8336\u9675\u5357"
+}, {
+	"code": "1177093",
+	"name": "\u5b89\u4ec1",
+	"pinyin": "anren",
+	"cityCode": 1504,
+	"cityName": "\u5b89\u4ec1"
+}, {
+	"code": "1177094",
+	"name": "\u5341\u516b\u53f0",
+	"pinyin": "shibatai",
+	"cityCode": 2108,
+	"cityName": "\u5341\u516b\u53f0"
+}, {
+	"code": "1177095",
+	"name": "\u987a\u5fb7\u5b66\u9662",
+	"pinyin": "shundexueyuan",
+	"cityCode": 607,
+	"cityName": "\u987a\u5fb7\u5b66\u9662"
+}, {
+	"code": "1177096",
+	"name": "\u5353\u8d44\u4e1c",
+	"pinyin": "zhuozidong",
+	"cityCode": 2108,
+	"cityName": "\u5353\u8d44\u4e1c"
+}, {
+	"code": "1177097",
+	"name": "\u9c98\u95e8",
+	"pinyin": "houmen",
+	"cityCode": 617,
+	"cityName": "\u9c98\u95e8"
+}, {
+	"code": "1177098",
+	"name": "\u9646\u4e30",
+	"pinyin": "lufeng",
+	"cityCode": 617,
+	"cityName": "\u9646\u4e30"
+}, {
+	"code": "1177099",
+	"name": "\u6c55\u5c3e",
+	"pinyin": "shanwei",
+	"cityCode": 617,
+	"cityName": "\u6c55\u5c3e"
+}, {
+	"code": "1177100",
+	"name": "\u8475\u6f6d",
+	"pinyin": "kuitan",
+	"cityCode": 611,
+	"cityName": "\u8475\u6f6d"
+}, {
+	"code": "1177101",
+	"name": "\u666e\u5b81",
+	"pinyin": "puning",
+	"cityCode": 611,
+	"cityName": "\u666e\u5b81"
+}, {
+	"code": "1177102",
+	"name": "\u6ee8\u6d77",
+	"pinyin": "binhai",
+	"cityCode": 3000,
+	"cityName": "\u6ee8\u6d77"
+}, {
+	"code": "1177103",
+	"name": "\u6ee8\u6d77\u5317",
+	"pinyin": "binhaibei",
+	"cityCode": 3000,
+	"cityName": "\u6ee8\u6d77\u5317"
+}, {
+	"code": "1177104",
+	"name": "\u4e1c\u80dc\u897f",
+	"pinyin": "dongshengxi",
+	"cityCode": 2106,
+	"cityName": "\u4e1c\u80dc\u897f"
+}, {
+	"code": "1177105",
+	"name": "\u674e\u5b50\u6c9f",
+	"pinyin": "lizigou",
+	"cityCode": 804,
+	"cityName": "\u674e\u5b50\u6c9f"
+}, {
+	"code": "1177106",
+	"name": "\u82b1\u571f\u5761",
+	"pinyin": "huatupo",
+	"cityCode": 804,
+	"cityName": "\u82b1\u571f\u5761"
+}, {
+	"code": "1177107",
+	"name": "\u8fe4\u90a3",
+	"pinyin": "yina",
+	"cityCode": 804,
+	"cityName": "\u8fe4\u90a3"
+}, {
+	"code": "1177108",
+	"name": "\u91d1\u949f",
+	"pinyin": "jinzhong",
+	"cityCode": 804,
+	"cityName": "\u91d1\u949f"
+}, {
+	"code": "1177109",
+	"name": "\u79bb\u5806\u516c\u56ed",
+	"pinyin": "liduigongyuan",
+	"cityCode": 2802,
+	"cityName": "\u79bb\u5806\u516c\u56ed"
+}, {
+	"code": "1177110",
+	"name": "\u8fce\u5bbe\u8def",
+	"pinyin": "yingbinlu",
+	"cityCode": 2802,
+	"cityName": "\u8fce\u5bbe\u8def"
+}, {
+	"code": "1177111",
+	"name": "\u8499\u81ea\u5317",
+	"pinyin": "mengzibei",
+	"cityCode": 3308,
+	"cityName": "\u8499\u81ea\u5317"
+}, {
+	"code": "1177112",
+	"name": "\u901a\u6d77",
+	"pinyin": "tonghai",
+	"cityCode": 3319,
+	"cityName": "\u901a\u6d77"
+}, {
+	"code": "1177113",
+	"name": "\u53e5\u5bb9\u897f",
+	"pinyin": "jurongxi",
+	"cityCode": 1626,
+	"cityName": "\u53e5\u5bb9\u897f"
+}, {
+	"code": "1177114",
+	"name": "\u5efa\u6c34",
+	"pinyin": "jianshui",
+	"cityCode": 3308,
+	"cityName": "\u5efa\u6c34"
+}, {
+	"code": "1177115",
+	"name": "\u7ecd\u5174\u4e1c",
+	"pinyin": "shaoxingdong",
+	"cityCode": 3422,
+	"cityName": "\u7ecd\u5174\u4e1c"
+}, {
+	"code": "1177116",
+	"name": "\u6ea7\u9633",
+	"pinyin": "liyang",
+	"cityCode": 1604,
+	"cityName": "\u6ea7\u9633"
+}, {
+	"code": "1177117",
+	"name": "\u5b9c\u5174",
+	"pinyin": "yixing",
+	"cityCode": 1619,
+	"cityName": "\u5b9c\u5174"
+}, {
+	"code": "1177118",
+	"name": "\u4f59\u59da\u5317",
+	"pinyin": "yuyaobei",
+	"cityCode": 3415,
+	"cityName": "\u4f59\u59da\u5317"
+}, {
+	"code": "1177119",
+	"name": "\u90eb\u53bf",
+	"pinyin": "pixian",
+	"cityCode": 2802,
+	"cityName": "\u90eb\u53bf"
+}, {
+	"code": "1177120",
+	"name": "\u68a7\u5dde\u5357",
+	"pinyin": "wuzhounan",
+	"cityCode": 711,
+	"cityName": "\u68a7\u5dde\u5357"
+}, {
+	"code": "1177121",
+	"name": "\u5bcc\u5ddd",
+	"pinyin": "fuchuan",
+	"cityCode": 708,
+	"cityName": "\u5bcc\u5ddd"
+}, {
+	"code": "1177122",
+	"name": "\u82b1\u6865",
+	"pinyin": "huaqiao",
+	"cityCode": 1615,
+	"cityName": "\u82b1\u6865"
+}, {
+	"code": "1177123",
+	"name": "\u5c3c\u52d2\u514b",
+	"pinyin": "nileke",
+	"cityCode": 3119,
+	"cityName": "\u5c3c\u52d2\u514b"
+}, {
+	"code": "1177124",
+	"name": "\u5e03\u5217\u5f00",
+	"pinyin": "buliekai",
+	"cityCode": 3119,
+	"cityName": "\u5e03\u5217\u5f00"
+}, {
+	"code": "1177125",
+	"name": "\u4f0a\u5b81\u4e1c",
+	"pinyin": "yiningdong",
+	"cityCode": 3119,
+	"cityName": "\u4f0a\u5b81\u4e1c"
+}, {
+	"code": "1177126",
+	"name": "\u82cd\u576a",
+	"pinyin": "cangping",
+	"cityCode": 3321,
+	"cityName": "\u82cd\u576a"
+}, {
+	"code": "1177127",
+	"name": "\u8c46\u6c99\u5173",
+	"pinyin": "doushaguan",
+	"cityCode": 3321,
+	"cityName": "\u8c46\u6c99\u5173"
+}, {
+	"code": "1177128",
+	"name": "\u4e4c\u6d77\u5317",
+	"pinyin": "wuhaibei",
+	"cityCode": 2111,
+	"cityName": "\u4e4c\u6d77\u5317"
+}, {
+	"code": "1177129",
+	"name": "\u548c\u4ec0\u6258\u6d1b\u76d6",
+	"pinyin": "heshituoluogai",
+	"cityCode": 3117,
+	"cityName": "\u548c\u4ec0\u6258\u6d1b\u76d6"
+}, {
+	"code": "1177130",
+	"name": "\u5e93\u4f26",
+	"pinyin": "kulun",
+	"cityCode": 2110,
+	"cityName": "\u5e93\u4f26"
+}, {
+	"code": "1177131",
+	"name": "\u53e4\u9547",
+	"pinyin": "guzhen",
+	"cityCode": 627,
+	"cityName": "\u53e4\u9547"
+}, {
+	"code": "1177132",
+	"name": "\u987a\u5fb7",
+	"pinyin": "shunde",
+	"cityCode": 607,
+	"cityName": "\u987a\u5fb7"
+}, {
+	"code": "1177133",
+	"name": "\u5357\u6717",
+	"pinyin": "nanlang",
+	"cityCode": 627,
+	"cityName": "\u5357\u6717"
+}, {
+	"code": "1177134",
+	"name": "\u5c0f\u6984",
+	"pinyin": "xiaolan",
+	"cityCode": 627,
+	"cityName": "\u5c0f\u6984"
+}, {
+	"code": "1177135",
+	"name": "\u6c7e\u9633",
+	"pinyin": "fenyang",
+	"cityCode": 2607,
+	"cityName": "\u6c7e\u9633"
+}, {
+	"code": "1177136",
+	"name": "\u6069\u65bd",
+	"pinyin": "enshi",
+	"cityCode": 1403,
+	"cityName": "\u6069\u65bd"
+}, {
+	"code": "1177137",
+	"name": "\u4ea4\u57ce",
+	"pinyin": "jiaocheng",
+	"cityCode": 2607,
+	"cityName": "\u4ea4\u57ce"
+}, {
+	"code": "1177138",
+	"name": "\u518c\u4ea8",
+	"pinyin": "ceheng",
+	"cityCode": 809,
+	"cityName": "\u518c\u4ea8"
+}, {
+	"code": "1177139",
+	"name": "\u5b89\u9f99",
+	"pinyin": "anlong",
+	"cityCode": 809,
+	"cityName": "\u5b89\u9f99"
+}, {
+	"code": "1177140",
+	"name": "\u4e34\u6c5f\u573a",
+	"pinyin": "linjiangchang",
+	"cityCode": 300,
+	"cityName": "\u4e34\u6c5f\u573a"
+}, {
+	"code": "1177141",
+	"name": "\u524d\u5c71",
+	"pinyin": "qianshan",
+	"cityCode": 628,
+	"cityName": "\u524d\u5c71"
+}, {
+	"code": "1177142",
+	"name": "\u660e\u73e0",
+	"pinyin": "mingzhu",
+	"cityCode": 628,
+	"cityName": "\u660e\u73e0"
+}, {
+	"code": "1177143",
+	"name": "\u5b89\u591a",
+	"pinyin": "anduo",
+	"cityCode": 3206,
+	"cityName": "\u5b89\u591a"
+}, {
+	"code": "1177144",
+	"name": "\u5f53\u96c4",
+	"pinyin": "dangxiong",
+	"cityCode": 3202,
+	"cityName": "\u5f53\u96c4"
+}, {
+	"code": "1177145",
+	"name": "\u66f2\u6c34\u53bf",
+	"pinyin": "qushuixian",
+	"cityCode": 3202,
+	"cityName": "\u66f2\u6c34\u53bf"
+}, {
+	"code": "1177146",
+	"name": "\u534f\u8363",
+	"pinyin": "xierong",
+	"cityCode": 3202,
+	"cityName": "\u534f\u8363"
+}, {
+	"code": "1177147",
+	"name": "\u5c3c\u6728",
+	"pinyin": "nimu",
+	"cityCode": 3202,
+	"cityName": "\u5c3c\u6728"
+}, {
+	"code": "1177148",
+	"name": "\u674e\u5bb6\u576a",
+	"pinyin": "lijiaping",
+	"cityCode": 502,
+	"cityName": "\u674e\u5bb6\u576a"
+}, {
+	"code": "1177149",
+	"name": "\u5a18\u5a18\u5e99",
+	"pinyin": "niangniangmiao",
+	"cityCode": 2704,
+	"cityName": "\u5a18\u5a18\u5e99"
+}, {
+	"code": "1177150",
+	"name": "\u51af\u5bb6\u5c71",
+	"pinyin": "fengjiashan",
+	"cityCode": 2704,
+	"cityName": "\u51af\u5bb6\u5c71"
+}, {
+	"code": "1177151",
+	"name": "\u53f2\u5bb6\u94fa",
+	"pinyin": "shijiapu",
+	"cityCode": 2704,
+	"cityName": "\u53f2\u5bb6\u94fa"
+}, {
+	"code": "1177152",
+	"name": "\u5b9d\u9e21\u5357",
+	"pinyin": "baojinan",
+	"cityCode": 2704,
+	"cityName": "\u5b9d\u9e21\u5357"
+}, {
+	"code": "1177153",
+	"name": "\u5343\u6cb3",
+	"pinyin": "qianhe",
+	"cityCode": 2704,
+	"cityName": "\u5343\u6cb3"
+}, {
+	"code": "1177154",
+	"name": "\u51e4\u7fd4",
+	"pinyin": "fengxiang",
+	"cityCode": 2704,
+	"cityName": "\u51e4\u7fd4"
+}, {
+	"code": "1177155",
+	"name": "\u6c34\u6c9f",
+	"pinyin": "shuigou",
+	"cityCode": 2704,
+	"cityName": "\u6c34\u6c9f"
+}, {
+	"code": "1177156",
+	"name": "\u79e6\u5cad",
+	"pinyin": "qinling",
+	"cityCode": 2704,
+	"cityName": "\u79e6\u5cad"
+}, {
+	"code": "1177157",
+	"name": "\u53f6\u96c6",
+	"pinyin": "yeji",
+	"cityCode": 115,
+	"cityName": "\u53f6\u96c6"
+}, {
+	"code": "1177158",
+	"name": "\u843d\u5761\u5cad",
+	"pinyin": "luopoling",
+	"cityCode": 200,
+	"cityName": "\u843d\u5761\u5cad"
+}, {
+	"code": "1177159",
+	"name": "\u4e1c\u4e8c\u9053\u6cb3",
+	"pinyin": "dongerdaohe",
+	"cityCode": 1808,
+	"cityName": "\u4e1c\u4e8c\u9053\u6cb3"
+}, {
+	"code": "1177160",
+	"name": "\u5e99\u5bab",
+	"pinyin": "miaogong",
+	"cityCode": 1006,
+	"cityName": "\u5e99\u5bab"
+}, {
+	"code": "1177161",
+	"name": "\u5bc6\u4e91\u5317",
+	"pinyin": "miyunbei",
+	"cityCode": 200,
+	"cityName": "\u5bc6\u4e91\u5317"
+}, {
+	"code": "1177162",
+	"name": "\u73e0\u7a9d",
+	"pinyin": "zhuwo",
+	"cityCode": 200,
+	"cityName": "\u73e0\u7a9d"
+}, {
+	"code": "1177163",
+	"name": "\u659c\u6cb3\u6da7",
+	"pinyin": "xiehejian",
+	"cityCode": 200,
+	"cityName": "\u659c\u6cb3\u6da7"
+}, {
+	"code": "1177164",
+	"name": "\u6cbf\u6cb3\u57ce",
+	"pinyin": "yanhecheng",
+	"cityCode": 200,
+	"cityName": "\u6cbf\u6cb3\u57ce"
+}, {
+	"code": "1177165",
+	"name": "\u5b89\u5b9a",
+	"pinyin": "anding",
+	"cityCode": 200,
+	"cityName": "\u5b89\u5b9a"
+}, {
+	"code": "1177166",
+	"name": "\u9ad8\u7891\u5e97\u4e1c",
+	"pinyin": "gaobeidiandong",
+	"cityCode": 1003,
+	"cityName": "\u9ad8\u7891\u5e97\u4e1c"
+}, {
+	"code": "1177167",
+	"name": "\u6797\u6d77",
+	"pinyin": "linhai",
+	"cityCode": 1105,
+	"cityName": "\u6797\u6d77"
+}, {
+	"code": "1177168",
+	"name": "\u76d8\u53e4\u5bfa",
+	"pinyin": "pangusi",
+	"cityCode": 1207,
+	"cityName": "\u76d8\u53e4\u5bfa"
+}, {
+	"code": "1177169",
+	"name": "\u5b5f\u6d25",
+	"pinyin": "mengjin",
+	"cityCode": 1210,
+	"cityName": "\u5b5f\u6d25"
+}, {
+	"code": "1177170",
+	"name": "\u738b\u5e84",
+	"pinyin": "wangzhuang",
+	"cityCode": 1210,
+	"cityName": "\u738b\u5e84"
+}, {
+	"code": "1177171",
+	"name": "\u960e\u826f",
+	"pinyin": "yanliang",
+	"cityCode": 2702,
+	"cityName": "\u960e\u826f"
+}, {
+	"code": "1177172",
+	"name": "\u9a86\u9a7c\u5df7",
+	"pinyin": "luotuoxiang",
+	"cityCode": 502,
+	"cityName": "\u9a86\u9a7c\u5df7"
+}, {
+	"code": "1177173",
+	"name": "\u6731\u5bb6\u7a91",
+	"pinyin": "zhujiayao",
+	"cityCode": 502,
+	"cityName": "\u6731\u5bb6\u7a91"
+}, {
+	"code": "1177174",
+	"name": "\u7518\u8349\u5e97",
+	"pinyin": "gancaodian",
+	"cityCode": 502,
+	"cityName": "\u7518\u8349\u5e97"
+}, {
+	"code": "1177175",
+	"name": "\u8bb8\u5bb6\u53f0",
+	"pinyin": "xujiatai",
+	"cityCode": 502,
+	"cityName": "\u8bb8\u5bb6\u53f0"
+}, {
+	"code": "1177176",
+	"name": "\u590f\u5b98\u8425",
+	"pinyin": "xiaguanying",
+	"cityCode": 502,
+	"cityName": "\u590f\u5b98\u8425"
+}, {
+	"code": "1177177",
+	"name": "\u6cb3\u53e3\u5357",
+	"pinyin": "hekounan",
+	"cityCode": 502,
+	"cityName": "\u6cb3\u53e3\u5357"
+}, {
+	"code": "1177178",
+	"name": "\u6c34\u6e90",
+	"pinyin": "shuiyuan",
+	"cityCode": 502,
+	"cityName": "\u6c34\u6e90"
+}, {
+	"code": "1177179",
+	"name": "\u9648\u5b98\u8425",
+	"pinyin": "chenguanying",
+	"cityCode": 502,
+	"cityName": "\u9648\u5b98\u8425"
+}, {
+	"code": "1177180",
+	"name": "\u897f\u56fa\u57ce",
+	"pinyin": "xigucheng",
+	"cityCode": 502,
+	"cityName": "\u897f\u56fa\u57ce"
+}, {
+	"code": "1177181",
+	"name": "\u9f99\u6cc9\u5bfa",
+	"pinyin": "longquansi",
+	"cityCode": 502,
+	"cityName": "\u9f99\u6cc9\u5bfa"
+}, {
+	"code": "1177182",
+	"name": "\u6851\u56ed\u5b50",
+	"pinyin": "sangyuanzi",
+	"cityCode": 502,
+	"cityName": "\u6851\u56ed\u5b50"
+}, {
+	"code": "1177183",
+	"name": "\u5761\u5e95\u4e0b",
+	"pinyin": "podixia",
+	"cityCode": 502,
+	"cityName": "\u5761\u5e95\u4e0b"
+}, {
+	"code": "1177184",
+	"name": "\u5de2\u6e56",
+	"pinyin": "chaohu",
+	"cityCode": 102,
+	"cityName": "\u5de2\u6e56"
+}, {
+	"code": "1177186",
+	"name": "\u5408\u80a5\u5357",
+	"pinyin": "hefeinan",
+	"cityCode": 102,
+	"cityName": "\u5408\u80a5\u5357"
+}, {
+	"code": "1177187",
+	"name": "\u5341\u5bb6\u5b50",
+	"pinyin": "shijiazi",
+	"cityCode": 1909,
+	"cityName": "\u5341\u5bb6\u5b50"
+}, {
+	"code": "1177188",
+	"name": "\u5927\u5df4",
+	"pinyin": "daba",
+	"cityCode": 1909,
+	"cityName": "\u5927\u5df4"
+}, {
+	"code": "1177189",
+	"name": "\u7ae0\u53e4\u53f0",
+	"pinyin": "zhanggutai",
+	"cityCode": 1909,
+	"cityName": "\u7ae0\u53e4\u53f0"
+}, {
+	"code": "1177190",
+	"name": "\u7ed5\u9633\u6cb3",
+	"pinyin": "raoyanghe",
+	"cityCode": 1911,
+	"cityName": "\u7ed5\u9633\u6cb3"
+}, {
+	"code": "1177191",
+	"name": "\u516b\u89d2\u53f0",
+	"pinyin": "bajiaotai",
+	"cityCode": 1911,
+	"cityName": "\u516b\u89d2\u53f0"
+}, {
+	"code": "1177192",
+	"name": "\u4e03\u91cc\u6cb3",
+	"pinyin": "qilihe",
+	"cityCode": 1911,
+	"cityName": "\u4e03\u91cc\u6cb3"
+}, {
+	"code": "1177193",
+	"name": "\u5c0f\u4e1c",
+	"pinyin": "xiaodong",
+	"cityCode": 1911,
+	"cityName": "\u5c0f\u4e1c"
+}, {
+	"code": "1177194",
+	"name": "\u5468\u5bb6\u5c6f",
+	"pinyin": "zhoujiatun",
+	"cityCode": 1911,
+	"cityName": "\u5468\u5bb6\u5c6f"
+}, {
+	"code": "1177195",
+	"name": "\u9ad8\u5c71\u5b50",
+	"pinyin": "gaoshanzi",
+	"cityCode": 1911,
+	"cityName": "\u9ad8\u5c71\u5b50"
+}, {
+	"code": "1177196",
+	"name": "\u5927\u7ea2\u65d7",
+	"pinyin": "dahongqi",
+	"cityCode": 1902,
+	"cityName": "\u5927\u7ea2\u65d7"
+}, {
+	"code": "1177197",
+	"name": "\u6ce5\u6cb3\u5b50",
+	"pinyin": "nihezi",
+	"cityCode": 1911,
+	"cityName": "\u6ce5\u6cb3\u5b50"
+}, {
+	"code": "1177198",
+	"name": "\u8861\u5c71\u897f",
+	"pinyin": "hengshanxi",
+	"cityCode": 1505,
+	"cityName": "\u8861\u5c71\u897f"
+}, {
+	"code": "1177199",
+	"name": "\u6538\u53bf",
+	"pinyin": "youxian",
+	"cityCode": 1515,
+	"cityName": "\u6538\u53bf"
+}, {
+	"code": "1177200",
+	"name": "\u91b4\u9675",
+	"pinyin": "liling",
+	"cityCode": 1515,
+	"cityName": "\u91b4\u9675"
+}, {
+	"code": "1177201",
+	"name": "\u97f6\u5c71",
+	"pinyin": "shaoshan",
+	"cityCode": 1510,
+	"cityName": "\u97f6\u5c71"
+}, {
+	"code": "1177202",
+	"name": "\u8336\u9675",
+	"pinyin": "chaling",
+	"cityCode": 1515,
+	"cityName": "\u8336\u9675"
+}, {
+	"code": "1177203",
+	"name": "\u5927\u6d0b\u6d32",
+	"pinyin": "dayangzhou",
+	"cityCode": 1705,
+	"cityName": "\u5927\u6d0b\u6d32"
+}, {
+	"code": "1177204",
+	"name": "\u90d3\u57ce",
+	"pinyin": "yuncheng",
+	"cityCode": 2407,
+	"cityName": "\u90d3\u57ce"
+}, {
+	"code": "1177205",
+	"name": "\u71d5\u5bb6\u5e84",
+	"pinyin": "yanjiazhuang",
+	"cityCode": 2416,
+	"cityName": "\u71d5\u5bb6\u5e84"
+}, {
+	"code": "1177206",
+	"name": "\u4e0a\u9ad8\u9547",
+	"pinyin": "shanggaozhen",
+	"cityCode": 2416,
+	"cityName": "\u4e0a\u9ad8\u9547"
+}, {
+	"code": "1177207",
+	"name": "\u629a\u987a\u5317",
+	"pinyin": "fushunbei",
+	"cityCode": 1908,
+	"cityName": "\u629a\u987a\u5317"
+}, {
+	"code": "1177208",
+	"name": "\u4e39\u5f92",
+	"pinyin": "dantu",
+	"cityCode": 1626,
+	"cityName": "\u4e39\u5f92"
+}, {
+	"code": "1177209",
+	"name": "\u5b9d\u534e\u5c71",
+	"pinyin": "baohuashan",
+	"cityCode": 1626,
+	"cityName": "\u5b9d\u534e\u5c71"
+}, {
+	"code": "1177210",
+	"name": "\u6ea7\u6c34",
+	"pinyin": "lishui",
+	"cityCode": 1602,
+	"cityName": "\u6ea7\u6c34"
+}, {
+	"code": "1177211",
+	"name": "\u6c5f\u5b81",
+	"pinyin": "jiangning",
+	"cityCode": 1602,
+	"cityName": "\u6c5f\u5b81"
+}, {
+	"code": "1177212",
+	"name": "\u660e\u5149",
+	"pinyin": "mingguang",
+	"cityCode": 107,
+	"cityName": "\u660e\u5149"
+}, {
+	"code": "1177213",
+	"name": "\u51b7\u6c34\u6c5f\u4e1c",
+	"pinyin": "lengshuijiangdong",
+	"cityCode": 1508,
+	"cityName": "\u51b7\u6c34\u6c5f\u4e1c"
+}, {
+	"code": "1177214",
+	"name": "\u5b89\u5316",
+	"pinyin": "anhua",
+	"cityCode": 1511,
+	"cityName": "\u5b89\u5316"
+}, {
+	"code": "1177215",
+	"name": "\u9526\u548c",
+	"pinyin": "jinhe",
+	"cityCode": 1506,
+	"cityName": "\u9526\u548c"
+}, {
+	"code": "1177216",
+	"name": "\u4f4e\u5e84",
+	"pinyin": "dizhuang",
+	"cityCode": 1506,
+	"cityName": "\u4f4e\u5e84"
+}, {
+	"code": "1177217",
+	"name": "\u78a7\u6c5f",
+	"pinyin": "bijiang",
+	"cityCode": 607,
+	"cityName": "\u78a7\u6c5f"
+}, {
+	"code": "1177218",
+	"name": "\u6843\u6620",
+	"pinyin": "taoying",
+	"cityCode": 808,
+	"cityName": "\u6843\u6620"
+}, {
+	"code": "1177219",
+	"name": "\u51c9\u6c34\u4e95",
+	"pinyin": "liangshuijing",
+	"cityCode": 808,
+	"cityName": "\u51c9\u6c34\u4e95"
+}, {
+	"code": "1177220",
+	"name": "\u6e56\u6f6e",
+	"pinyin": "huchao",
+	"cityCode": 802,
+	"cityName": "\u6e56\u6f6e"
+}, {
+	"code": "1177221",
+	"name": "\u9ad8\u5cf0",
+	"pinyin": "gaofeng",
+	"cityCode": 803,
+	"cityName": "\u9ad8\u5cf0"
+}, {
+	"code": "1177222",
+	"name": "\u77f3\u677f\u54e8",
+	"pinyin": "shibanshao",
+	"cityCode": 802,
+	"cityName": "\u77f3\u677f\u54e8"
+}, {
+	"code": "1177223",
+	"name": "\u65b0\u5e73\u575d",
+	"pinyin": "xinpingba",
+	"cityCode": 803,
+	"cityName": "\u65b0\u5e73\u575d"
+}, {
+	"code": "1177224",
+	"name": "\u9a6c\u573a",
+	"pinyin": "machang",
+	"cityCode": 803,
+	"cityName": "\u9a6c\u573a"
+}, {
+	"code": "1177225",
+	"name": "\u5170\u6eaa",
+	"pinyin": "lanxi",
+	"cityCode": 3411,
+	"cityName": "\u5170\u6eaa"
+}, {
+	"code": "1177226",
+	"name": "\u91d1\u534e",
+	"pinyin": "jinhua",
+	"cityCode": 3411,
+	"cityName": "\u91d1\u534e"
+}, {
+	"code": "1177227",
+	"name": "\u7ecd\u5174\u5317",
+	"pinyin": "shaoxingbei",
+	"cityCode": 3422,
+	"cityName": "\u7ecd\u5174\u5317"
+}, {
+	"code": "1177228",
+	"name": "\u5f0b\u9633",
+	"pinyin": "yiyang",
+	"cityCode": 1711,
+	"cityName": "\u5f0b\u9633"
+}, {
+	"code": "1177229",
+	"name": "\u65b0\u4f59\u5317",
+	"pinyin": "xinyubei",
+	"cityCode": 1712,
+	"cityName": "\u65b0\u4f59\u5317"
+}, {
+	"code": "1177230",
+	"name": "\u786c\u77f3\u5cad",
+	"pinyin": "yingshiling",
+	"cityCode": 1714,
+	"cityName": "\u786c\u77f3\u5cad"
+}, {
+	"code": "1177231",
+	"name": "\u4e1c\u4e61",
+	"pinyin": "dongxiang",
+	"cityCode": 1703,
+	"cityName": "\u4e1c\u4e61"
+}, {
+	"code": "1177232",
+	"name": "\u4f59\u6c5f",
+	"pinyin": "yujiang",
+	"cityCode": 1714,
+	"cityName": "\u4f59\u6c5f"
+}, {
+	"code": "1177233",
+	"name": "\u840d\u4e61\u5317",
+	"pinyin": "pingxiangbei",
+	"cityCode": 1710,
+	"cityName": "\u840d\u4e61\u5317"
+}, {
+	"code": "1177234",
+	"name": "\u6cc9\u6c5f",
+	"pinyin": "quanjiang",
+	"cityCode": 1710,
+	"cityName": "\u6cc9\u6c5f"
+}, {
+	"code": "1177235",
+	"name": "\u5357\u7fd4\u5317",
+	"pinyin": "nanxiangbei",
+	"cityCode": 2500,
+	"cityName": "\u5357\u7fd4\u5317"
+}, {
+	"code": "1177236",
+	"name": "\u901a\u5929\u5c6f",
+	"pinyin": "tongtiantun",
+	"cityCode": 1112,
+	"cityName": "\u901a\u5929\u5c6f"
+}, {
+	"code": "1177237",
+	"name": "\u864e\u5c71",
+	"pinyin": "hushan",
+	"cityCode": 1110,
+	"cityName": "\u864e\u5c71"
+}, {
+	"code": "1177238",
+	"name": "\u4e8c\u9f99",
+	"pinyin": "erlong",
+	"cityCode": 1107,
+	"cityName": "\u4e8c\u9f99"
+}, {
+	"code": "1177239",
+	"name": "\u4e92\u52a9",
+	"pinyin": "huzhu",
+	"cityCode": 1112,
+	"cityName": "\u4e92\u52a9"
+}, {
+	"code": "1177240",
+	"name": "\u5927\u897f",
+	"pinyin": "daxi",
+	"cityCode": 1112,
+	"cityName": "\u5927\u897f"
+}, {
+	"code": "1177241",
+	"name": "\u535a\u5174",
+	"pinyin": "boxing",
+	"cityCode": 2403,
+	"cityName": "\u535a\u5174"
+}, {
+	"code": "1177242",
+	"name": "\u4e1c\u660e\u53bf",
+	"pinyin": "dongmingxian",
+	"cityCode": 2407,
+	"cityName": "\u4e1c\u660e\u53bf"
+}, {
+	"code": "1177243",
+	"name": "\u9676\u8d56\u662d",
+	"pinyin": "taolaizhao",
+	"cityCode": 1810,
+	"cityName": "\u9676\u8d56\u662d"
+}, {
+	"code": "1177244",
+	"name": "\u5b98\u5b57\u4e95",
+	"pinyin": "guanzijing",
+	"cityCode": 1810,
+	"cityName": "\u5b98\u5b57\u4e95"
+}, {
+	"code": "1177245",
+	"name": "\u5e86\u4e30",
+	"pinyin": "qingfeng",
+	"cityCode": 1810,
+	"cityName": "\u5e86\u4e30"
+}, {
+	"code": "1177246",
+	"name": "\u5de8\u5b9d",
+	"pinyin": "jubao",
+	"cityCode": 1803,
+	"cityName": "\u5de8\u5b9d"
+}, {
+	"code": "1177249",
+	"name": "\u51cc\u6e90",
+	"pinyin": "lingyuan",
+	"cityCode": 1905,
+	"cityName": "\u51cc\u6e90"
+}, {
+	"code": "1177251",
+	"name": "\u5357\u6d3c",
+	"pinyin": "nanwa",
+	"cityCode": 2105,
+	"cityName": "\u5357\u6d3c"
+}, {
+	"code": "1177253",
+	"name": "\u4e09\u5341\u5bb6",
+	"pinyin": "sanshijia",
+	"cityCode": 1905,
+	"cityName": "\u4e09\u5341\u5bb6"
+}, {
+	"code": "1177254",
+	"name": "\u671d\u9633",
+	"pinyin": "chaoyang",
+	"cityCode": 1905,
+	"cityName": "\u671d\u9633"
+}, {
+	"code": "1177259",
+	"name": "\u91d1\u5751",
+	"pinyin": "jinkeng",
+	"cityCode": 1904,
+	"cityName": "\u91d1\u5751"
+}, {
+	"code": "1177260",
+	"name": "\u6865\u5317",
+	"pinyin": "qiaobei",
+	"cityCode": 1904,
+	"cityName": "\u6865\u5317"
+}, {
+	"code": "1177261",
+	"name": "\u4e0b\u9a6c\u5858",
+	"pinyin": "xiamatang",
+	"cityCode": 1904,
+	"cityName": "\u4e0b\u9a6c\u5858"
+}, {
+	"code": "1177262",
+	"name": "\u67a3\u5b50\u6797",
+	"pinyin": "zaozilin",
+	"cityCode": 2820,
+	"cityName": "\u67a3\u5b50\u6797"
+}, {
+	"code": "1177263",
+	"name": "\u725b\u576a\u5b50",
+	"pinyin": "niupingzi",
+	"cityCode": 2820,
+	"cityName": "\u725b\u576a\u5b50"
+}, {
+	"code": "1177264",
+	"name": "\u5f2f\u5775",
+	"pinyin": "wanqiu",
+	"cityCode": 2820,
+	"cityName": "\u5f2f\u5775"
+}, {
+	"code": "1177265",
+	"name": "\u82b1\u68da\u5b50",
+	"pinyin": "huapengzi",
+	"cityCode": 2820,
+	"cityName": "\u82b1\u68da\u5b50"
+}, {
+	"code": "1177266",
+	"name": "\u6c99\u575d",
+	"pinyin": "shaba",
+	"cityCode": 2820,
+	"cityName": "\u6c99\u575d"
+}, {
+	"code": "1177267",
+	"name": "\u9e21\u51a0\u5c71",
+	"pinyin": "jiguanshan",
+	"cityCode": 1907,
+	"cityName": "\u9e21\u51a0\u5c71"
+}, {
+	"code": "1177268",
+	"name": "\u77f3\u57ce",
+	"pinyin": "shicheng",
+	"cityCode": 1704,
+	"cityName": "\u77f3\u57ce"
+}, {
+	"code": "1177269",
+	"name": "\u5929\u6865",
+	"pinyin": "tianqiao",
+	"cityCode": 1907,
+	"cityName": "\u5929\u6865"
+}, {
+	"code": "1177270",
+	"name": "\u86e4\u87c6\u5858",
+	"pinyin": "hamatang",
+	"cityCode": 1907,
+	"cityName": "\u86e4\u87c6\u5858"
+}, {
+	"code": "1177271",
+	"name": "\u4f5f\u5bb6",
+	"pinyin": "tongjia",
+	"cityCode": 1907,
+	"cityName": "\u4f5f\u5bb6"
+}, {
+	"code": "1177272",
+	"name": "\u5927\u5821",
+	"pinyin": "dapu",
+	"cityCode": 1907,
+	"cityName": "\u5927\u5821"
+}, {
+	"code": "1177273",
+	"name": "\u5bbd\u7538",
+	"pinyin": "kuandian",
+	"cityCode": 1907,
+	"cityName": "\u5bbd\u7538"
+}, {
+	"code": "1177274",
+	"name": "\u8fb9\u6c9f",
+	"pinyin": "biangou",
+	"cityCode": 1907,
+	"cityName": "\u8fb9\u6c9f"
+}, {
+	"code": "1177275",
+	"name": "\u4e2d\u5174",
+	"pinyin": "zhongxing",
+	"cityCode": 1907,
+	"cityName": "\u4e2d\u5174"
+}, {
+	"code": "1177276",
+	"name": "\u957f\u8679",
+	"pinyin": "zhanghong",
+	"cityCode": 1907,
+	"cityName": "\u957f\u8679"
+}, {
+	"code": "1177277",
+	"name": "\u6797\u5bb6\u53f0",
+	"pinyin": "linjiatai",
+	"cityCode": 1907,
+	"cityName": "\u6797\u5bb6\u53f0"
+}, {
+	"code": "1177278",
+	"name": "\u9f99\u722a\u6c9f",
+	"pinyin": "longzhuagou",
+	"cityCode": 1907,
+	"cityName": "\u9f99\u722a\u6c9f"
+}, {
+	"code": "1177279",
+	"name": "\u5317\u6d77",
+	"pinyin": "beihai",
+	"cityCode": 704,
+	"cityName": "\u5317\u6d77"
+}, {
+	"code": "1177280",
+	"name": "\u4e8c\u4e95",
+	"pinyin": "erjing",
+	"cityCode": 1107,
+	"cityName": "\u4e8c\u4e95"
+}, {
+	"code": "1177281",
+	"name": "\u6f6e\u6c34",
+	"pinyin": "chaoshui",
+	"cityCode": 1107,
+	"cityName": "\u6f6e\u6c34"
+}, {
+	"code": "1177282",
+	"name": "\u9f99\u95e8\u6cb3",
+	"pinyin": "longmenhe",
+	"cityCode": 1107,
+	"cityName": "\u9f99\u95e8\u6cb3"
+}, {
+	"code": "1177283",
+	"name": "\u897f\u5c97\u5b50",
+	"pinyin": "xigangzi",
+	"cityCode": 1107,
+	"cityName": "\u897f\u5c97\u5b50"
+}, {
+	"code": "1177284",
+	"name": "\u65b0\u5f66",
+	"pinyin": "xinyan",
+	"cityCode": 1107,
+	"cityName": "\u65b0\u5f66"
+}, {
+	"code": "1177285",
+	"name": "\u5f2f\u9053",
+	"pinyin": "wandao",
+	"cityCode": 1107,
+	"cityName": "\u5f2f\u9053"
+}, {
+	"code": "1177286",
+	"name": "\u8fb0\u6e05",
+	"pinyin": "chenqing",
+	"cityCode": 1107,
+	"cityName": "\u8fb0\u6e05"
+}, {
+	"code": "1177287",
+	"name": "\u4e5d\u4e09",
+	"pinyin": "jiusan",
+	"cityCode": 1107,
+	"cityName": "\u4e5d\u4e09"
+}, {
+	"code": "1177288",
+	"name": "\u4e8c\u9f99\u5c71\u5c6f",
+	"pinyin": "erlongshantun",
+	"cityCode": 1107,
+	"cityName": "\u4e8c\u9f99\u5c71\u5c6f"
+}, {
+	"code": "1177289",
+	"name": "\u65b0\u9ad8\u5cf0",
+	"pinyin": "xingaofeng",
+	"cityCode": 1107,
+	"cityName": "\u65b0\u9ad8\u5cf0"
+}, {
+	"code": "1177290",
+	"name": "\u82cd\u77f3",
+	"pinyin": "cangshi",
+	"cityCode": 1908,
+	"cityName": "\u82cd\u77f3"
+}, {
+	"code": "1177291",
+	"name": "\u5357\u53e3\u524d",
+	"pinyin": "nankouqian",
+	"cityCode": 1908,
+	"cityName": "\u5357\u53e3\u524d"
+}, {
+	"code": "1177292",
+	"name": "\u8349\u5e02",
+	"pinyin": "caoshi",
+	"cityCode": 1908,
+	"cityName": "\u8349\u5e02"
+}, {
+	"code": "1177293",
+	"name": "\u524d\u82c7\u5858",
+	"pinyin": "qianweitang",
+	"cityCode": 1006,
+	"cityName": "\u524d\u82c7\u5858"
+}, {
+	"code": "1177294",
+	"name": "\u91d1\u6c9f\u5c6f",
+	"pinyin": "jingoutun",
+	"cityCode": 1006,
+	"cityName": "\u91d1\u6c9f\u5c6f"
+}, {
+	"code": "1177295",
+	"name": "\u6768\u6811\u5cad",
+	"pinyin": "yangshuling",
+	"cityCode": 1006,
+	"cityName": "\u6768\u6811\u5cad"
+}, {
+	"code": "1177296",
+	"name": "\u4e8c\u9053\u6c9f\u95e8",
+	"pinyin": "erdaogoumen",
+	"cityCode": 1006,
+	"cityName": "\u4e8c\u9053\u6c9f\u95e8"
+}, {
+	"code": "1177297",
+	"name": "\u4e94\u9053\u6cb3",
+	"pinyin": "wudaohe",
+	"cityCode": 1006,
+	"cityName": "\u4e94\u9053\u6cb3"
+}, {
+	"code": "1177298",
+	"name": "\u97e9\u9ebb\u8425",
+	"pinyin": "hanmaying",
+	"cityCode": 1006,
+	"cityName": "\u97e9\u9ebb\u8425"
+}, {
+	"code": "1177299",
+	"name": "\u8d85\u6881\u6c9f",
+	"pinyin": "chaolianggou",
+	"cityCode": 1006,
+	"cityName": "\u8d85\u6881\u6c9f"
+}, {
+	"code": "1177300",
+	"name": "\u4e1c\u5927\u575d",
+	"pinyin": "dongdaba",
+	"cityCode": 1006,
+	"cityName": "\u4e1c\u5927\u575d"
+}, {
+	"code": "1177301",
+	"name": "\u516d\u9053\u6cb3\u5b50",
+	"pinyin": "liudaohezi",
+	"cityCode": 1006,
+	"cityName": "\u516d\u9053\u6cb3\u5b50"
+}, {
+	"code": "1177302",
+	"name": "\u897f\u5927\u5e99",
+	"pinyin": "xidamiao",
+	"cityCode": 1006,
+	"cityName": "\u897f\u5927\u5e99"
+}, {
+	"code": "1177303",
+	"name": "\u7334\u5c71",
+	"pinyin": "houshan",
+	"cityCode": 1006,
+	"cityName": "\u7334\u5c71"
+}, {
+	"code": "1177304",
+	"name": "\u5317\u7968\u5357",
+	"pinyin": "beipiaonan",
+	"cityCode": 1905,
+	"cityName": "\u5317\u7968\u5357"
+}, {
+	"code": "1177305",
+	"name": "\u9ec4\u5bb6\u5e97",
+	"pinyin": "huangjiadian",
+	"cityCode": 1006,
+	"cityName": "\u9ec4\u5bb6\u5e97"
+}, {
+	"code": "1177306",
+	"name": "\u5927\u6756\u5b50",
+	"pinyin": "dazhangzi",
+	"cityCode": 1006,
+	"cityName": "\u5927\u6756\u5b50"
+}, {
+	"code": "1177307",
+	"name": "\u6881\u5e95\u4e0b",
+	"pinyin": "liangdixia",
+	"cityCode": 1006,
+	"cityName": "\u6881\u5e95\u4e0b"
+}, {
+	"code": "1177308",
+	"name": "\u65b0\u6756\u5b50",
+	"pinyin": "xinzhangzi",
+	"cityCode": 1006,
+	"cityName": "\u65b0\u6756\u5b50"
+}, {
+	"code": "1177309",
+	"name": "\u671d\u9633\u5730",
+	"pinyin": "chaoyangdi",
+	"cityCode": 1006,
+	"cityName": "\u671d\u9633\u5730"
+}, {
+	"code": "1177310",
+	"name": "\u6cb3\u6d1b\u8425",
+	"pinyin": "heluoying",
+	"cityCode": 1006,
+	"cityName": "\u6cb3\u6d1b\u8425"
+}, {
+	"code": "1177311",
+	"name": "\u94f6\u9547",
+	"pinyin": "yinzhen",
+	"cityCode": 1006,
+	"cityName": "\u94f6\u9547"
+}, {
+	"code": "1177312",
+	"name": "\u8170\u6808",
+	"pinyin": "yaozhan",
+	"cityCode": 1006,
+	"cityName": "\u8170\u6808"
+}, {
+	"code": "1177313",
+	"name": "\u5317\u9a6c\u5708\u5b50",
+	"pinyin": "beimaquanzi",
+	"cityCode": 1006,
+	"cityName": "\u5317\u9a6c\u5708\u5b50"
+}, {
+	"code": "1177314",
+	"name": "\u95f9\u6d77\u8425",
+	"pinyin": "naohaiying",
+	"cityCode": 1006,
+	"cityName": "\u95f9\u6d77\u8425"
+}, {
+	"code": "1177315",
+	"name": "\u5357\u6e7e\u5b50",
+	"pinyin": "nanwanzi",
+	"cityCode": 1006,
+	"cityName": "\u5357\u6e7e\u5b50"
+}, {
+	"code": "1177316",
+	"name": "\u5e7f\u5fb7\u53f7",
+	"pinyin": "guangdehao",
+	"cityCode": 1006,
+	"cityName": "\u5e7f\u5fb7\u53f7"
+}, {
+	"code": "1177317",
+	"name": "\u7a91\u4e0a",
+	"pinyin": "yaoshang",
+	"cityCode": 1006,
+	"cityName": "\u7a91\u4e0a"
+}, {
+	"code": "1177318",
+	"name": "\u8f78\u6eaa",
+	"pinyin": "zhenxi",
+	"cityCode": 2813,
+	"cityName": "\u8f78\u6eaa"
+}, {
+	"code": "1177319",
+	"name": "\u67cf\u6751",
+	"pinyin": "baicun",
+	"cityCode": 2813,
+	"cityName": "\u67cf\u6751"
+}, {
+	"code": "1177321",
+	"name": "\u4e5d\u91cc",
+	"pinyin": "jiuli",
+	"cityCode": 2813,
+	"cityName": "\u4e5d\u91cc"
+}, {
+	"code": "1177322",
+	"name": "\u5218\u6c9f",
+	"pinyin": "liugou",
+	"cityCode": 2813,
+	"cityName": "\u5218\u6c9f"
+}, {
+	"code": "1177323",
+	"name": "\u6c99\u6e7e",
+	"pinyin": "shawan",
+	"cityCode": 2813,
+	"cityName": "\u6c99\u6e7e"
+}, {
+	"code": "1177324",
+	"name": "\u4e50\u5c71\u5317",
+	"pinyin": "leshanbei",
+	"cityCode": 2813,
+	"cityName": "\u4e50\u5c71\u5317"
+}, {
+	"code": "1177325",
+	"name": "\u53cc\u798f",
+	"pinyin": "shuangfu",
+	"cityCode": 2813,
+	"cityName": "\u53cc\u798f"
+}, {
+	"code": "1177326",
+	"name": "\u5434\u573a",
+	"pinyin": "wuchang",
+	"cityCode": 2813,
+	"cityName": "\u5434\u573a"
+}, {
+	"code": "1177327",
+	"name": "\u9a6c\u6751",
+	"pinyin": "macun",
+	"cityCode": 2813,
+	"cityName": "\u9a6c\u6751"
+}, {
+	"code": "1177328",
+	"name": "\u91d1\u53e3\u6cb3",
+	"pinyin": "jinkouhe",
+	"cityCode": 2813,
+	"cityName": "\u91d1\u53e3\u6cb3"
+}, {
+	"code": "1177329",
+	"name": "\u52b2\u677e",
+	"pinyin": "jinsong",
+	"cityCode": 1105,
+	"cityName": "\u52b2\u677e"
+}, {
+	"code": "1177330",
+	"name": "\u74e6\u62c9\u5e72",
+	"pinyin": "walagan",
+	"cityCode": 1105,
+	"cityName": "\u74e6\u62c9\u5e72"
+}, {
+	"code": "1177331",
+	"name": "\u7ee3\u5cf0",
+	"pinyin": "xiufeng",
+	"cityCode": 1105,
+	"cityName": "\u7ee3\u5cf0"
+}, {
+	"code": "1177332",
+	"name": "\u767d\u6866\u6392",
+	"pinyin": "baihuapai",
+	"cityCode": 1105,
+	"cityName": "\u767d\u6866\u6392"
+}, {
+	"code": "1177333",
+	"name": "\u963f\u6728\u5c14",
+	"pinyin": "amuer",
+	"cityCode": 1105,
+	"cityName": "\u963f\u6728\u5c14"
+}, {
+	"code": "1177334",
+	"name": "\u5821\u5b50\u6e7e",
+	"pinyin": "baoziwan",
+	"cityCode": 2604,
+	"cityName": "\u5821\u5b50\u6e7e"
+}, {
+	"code": "1177335",
+	"name": "\u5b64\u5c71",
+	"pinyin": "gushan",
+	"cityCode": 2604,
+	"cityName": "\u5b64\u5c71"
+}, {
+	"code": "1177336",
+	"name": "\u5927\u540c",
+	"pinyin": "datong",
+	"cityCode": 2604,
+	"cityName": "\u5927\u540c"
+}, {
+	"code": "1177337",
+	"name": "\u5c0f\u767d",
+	"pinyin": "xiaobai",
+	"cityCode": 1115,
+	"cityName": "\u5c0f\u767d"
+}, {
+	"code": "1177338",
+	"name": "\u7ea2\u661f",
+	"pinyin": "hongxing",
+	"cityCode": 1115,
+	"cityName": "\u7ea2\u661f"
+}, {
+	"code": "1177339",
+	"name": "\u738b\u6768",
+	"pinyin": "wangyang",
+	"cityCode": 1115,
+	"cityName": "\u738b\u6768"
+}, {
+	"code": "1177340",
+	"name": "\u677e\u9752",
+	"pinyin": "songqing",
+	"cityCode": 1115,
+	"cityName": "\u677e\u9752"
+}, {
+	"code": "1177341",
+	"name": "\u65b0\u9752",
+	"pinyin": "xinqing",
+	"cityCode": 1115,
+	"cityName": "\u65b0\u9752"
+}, {
+	"code": "1177342",
+	"name": "\u77f3\u957f",
+	"pinyin": "shizhang",
+	"cityCode": 1115,
+	"cityName": "\u77f3\u957f"
+}, {
+	"code": "1177343",
+	"name": "\u5723\u6d6a",
+	"pinyin": "shenglang",
+	"cityCode": 1115,
+	"cityName": "\u5723\u6d6a"
+}, {
+	"code": "1177344",
+	"name": "\u4e4c\u4f0a\u5cad",
+	"pinyin": "wuyiling",
+	"cityCode": 1115,
+	"cityName": "\u4e4c\u4f0a\u5cad"
+}, {
+	"code": "1177345",
+	"name": "\u67f3\u6811",
+	"pinyin": "liushu",
+	"cityCode": 1115,
+	"cityName": "\u67f3\u6811"
+}, {
+	"code": "1177346",
+	"name": "\u754c\u5c71",
+	"pinyin": "jieshan",
+	"cityCode": 1115,
+	"cityName": "\u754c\u5c71"
+}, {
+	"code": "1177347",
+	"name": "\u4e94\u8425",
+	"pinyin": "wuying",
+	"cityCode": 1115,
+	"cityName": "\u4e94\u8425"
+}, {
+	"code": "1177348",
+	"name": "\u6c64\u65fa\u6cb3",
+	"pinyin": "tangwanghe",
+	"cityCode": 1115,
+	"cityName": "\u6c64\u65fa\u6cb3"
+}, {
+	"code": "1177349",
+	"name": "\u53cc\u5b50\u6cb3",
+	"pinyin": "shuangzihe",
+	"cityCode": 1115,
+	"cityName": "\u53cc\u5b50\u6cb3"
+}, {
+	"code": "1177350",
+	"name": "\u6668\u660e",
+	"pinyin": "chenming",
+	"cityCode": 1115,
+	"cityName": "\u6668\u660e"
+}, {
+	"code": "1177351",
+	"name": "\u7ea2\u5c71",
+	"pinyin": "hongshan",
+	"cityCode": 1115,
+	"cityName": "\u7ea2\u5c71"
+}, {
+	"code": "1177352",
+	"name": "\u54b8\u5b81\u4e1c",
+	"pinyin": "xianningdong",
+	"cityCode": 1414,
+	"cityName": "\u54b8\u5b81\u4e1c"
+}, {
+	"code": "1177353",
+	"name": "\u54b8\u5b81\u5357",
+	"pinyin": "xianningnan",
+	"cityCode": 1414,
+	"cityName": "\u54b8\u5b81\u5357"
+}, {
+	"code": "1177354",
+	"name": "\u5cb3\u6c60",
+	"pinyin": "yuechi",
+	"cityCode": 2809,
+	"cityName": "\u5cb3\u6c60"
+}, {
+	"code": "1177355",
+	"name": "\u5e7f\u5b89\u5357",
+	"pinyin": "guangannan",
+	"cityCode": 2809,
+	"cityName": "\u5e7f\u5b89\u5357"
+}, {
+	"code": "1177356",
+	"name": "\u957f\u5174",
+	"pinyin": "changxing",
+	"cityCode": 3409,
+	"cityName": "\u957f\u5174"
+}, {
+	"code": "1177357",
+	"name": "\u5fb7\u6e05\u897f",
+	"pinyin": "deqingxi",
+	"cityCode": 3409,
+	"cityName": "\u5fb7\u6e05\u897f"
+}, {
+	"code": "1177358",
+	"name": "\u5fb7\u6e05",
+	"pinyin": "deqing",
+	"cityCode": 3409,
+	"cityName": "\u5fb7\u6e05"
+}, {
+	"code": "1177359",
+	"name": "\u6e56\u5dde",
+	"pinyin": "huzhou",
+	"cityCode": 3409,
+	"cityName": "\u6e56\u5dde"
+}, {
+	"code": "1177360",
+	"name": "\u6587\u5e84\u6751",
+	"pinyin": "wenzhuangcun",
+	"cityCode": 1216,
+	"cityName": "\u6587\u5e84\u6751"
+}, {
+	"code": "1177361",
+	"name": "\u5ef6\u6d25",
+	"pinyin": "yanjin",
+	"cityCode": 1216,
+	"cityName": "\u5ef6\u6d25"
+}, {
+	"code": "1177362",
+	"name": "\u5c01\u4e18",
+	"pinyin": "fengqiu",
+	"cityCode": 1216,
+	"cityName": "\u5c01\u4e18"
+}, {
+	"code": "1177363",
+	"name": "\u8944\u57a3",
+	"pinyin": "xiangyuan",
+	"cityCode": 2603,
+	"cityName": "\u8944\u57a3"
+}, {
+	"code": "1177364",
+	"name": "\u5c0f\u5b8b",
+	"pinyin": "xiaosong",
+	"cityCode": 2603,
+	"cityName": "\u5c0f\u5b8b"
+}, {
+	"code": "1177365",
+	"name": "\u6c99\u6e7e\u53bf",
+	"pinyin": "shawanxian",
+	"cityCode": 3117,
+	"cityName": "\u6c99\u6e7e\u53bf"
+}, {
+	"code": "1177366",
+	"name": "\u5e38\u5e84",
+	"pinyin": "changzhuang",
+	"cityCode": 2409,
+	"cityName": "\u5e38\u5e84"
+}, {
+	"code": "1177367",
+	"name": "\u83b1\u829c\u897f",
+	"pinyin": "laiwuxi",
+	"cityCode": 2409,
+	"cityName": "\u83b1\u829c\u897f"
+}, {
+	"code": "1177368",
+	"name": "\u53f8\u5bb6\u5cad",
+	"pinyin": "sijialing",
+	"cityCode": 2409,
+	"cityName": "\u53f8\u5bb6\u5cad"
+}, {
+	"code": "1177369",
+	"name": "\u957f\u6cb3\u575d",
+	"pinyin": "zhangheba",
+	"cityCode": 2824,
+	"cityName": "\u957f\u6cb3\u575d"
+}, {
+	"code": "1177370",
+	"name": "\u6d77\u9f99",
+	"pinyin": "hailong",
+	"cityCode": 1811,
+	"cityName": "\u6d77\u9f99"
+}, {
+	"code": "1177371",
+	"name": "\u5e72\u6c9f",
+	"pinyin": "gangou",
+	"cityCode": 1811,
+	"cityName": "\u5e72\u6c9f"
+}, {
+	"code": "1177372",
+	"name": "\u6c34\u6d1e",
+	"pinyin": "shuidong",
+	"cityCode": 1811,
+	"cityName": "\u6c34\u6d1e"
+}, {
+	"code": "1177373",
+	"name": "\u4e94\u9053\u6c9f",
+	"pinyin": "wudaogou",
+	"cityCode": 1811,
+	"cityName": "\u4e94\u9053\u6c9f"
+}, {
+	"code": "1177374",
+	"name": "\u83c7\u56ed",
+	"pinyin": "guyuan",
+	"cityCode": 1811,
+	"cityName": "\u83c7\u56ed"
+}, {
+	"code": "1177375",
+	"name": "\u901a\u6c9f",
+	"pinyin": "tonggou",
+	"cityCode": 1811,
+	"cityName": "\u901a\u6c9f"
+}, {
+	"code": "1177376",
+	"name": "\u671d\u9633\u9547",
+	"pinyin": "chaoyangzhen",
+	"cityCode": 1811,
+	"cityName": "\u671d\u9633\u9547"
+}, {
+	"code": "1177377",
+	"name": "\u9a7c\u8170\u5cad",
+	"pinyin": "tuoyaoling",
+	"cityCode": 1811,
+	"cityName": "\u9a7c\u8170\u5cad"
+}, {
+	"code": "1177378",
+	"name": "\u4e8c\u5c94",
+	"pinyin": "ercha",
+	"cityCode": 1811,
+	"cityName": "\u4e8c\u5c94"
+}, {
+	"code": "1177379",
+	"name": "\u9e2d\u56ed",
+	"pinyin": "yayuan",
+	"cityCode": 1811,
+	"cityName": "\u9e2d\u56ed"
+}, {
+	"code": "1177380",
+	"name": "\u7ec7\u91d1",
+	"pinyin": "zhijin",
+	"cityCode": 804,
+	"cityName": "\u7ec7\u91d1"
+}, {
+	"code": "1177381",
+	"name": "\u6e05\u6c34\u6c9f",
+	"pinyin": "qingshuigou",
+	"cityCode": 804,
+	"cityName": "\u6e05\u6c34\u6c9f"
+}, {
+	"code": "1177382",
+	"name": "\u6731\u560e",
+	"pinyin": "zhuga",
+	"cityCode": 804,
+	"cityName": "\u6731\u560e"
+}, {
+	"code": "1177383",
+	"name": "\u9676\u535c\u9f50",
+	"pinyin": "taoboqi",
+	"cityCode": 2102,
+	"cityName": "\u9676\u535c\u9f50"
+}, {
+	"code": "1177384",
+	"name": "\u9676\u601d\u6d69",
+	"pinyin": "taosihao",
+	"cityCode": 2102,
+	"cityName": "\u9676\u601d\u6d69"
+}, {
+	"code": "1177385",
+	"name": "\u6c11\u65cf",
+	"pinyin": "minzu",
+	"cityCode": 2102,
+	"cityName": "\u6c11\u65cf"
+}, {
+	"code": "1177386",
+	"name": "\u5c94\u6cb3",
+	"pinyin": "chahe",
+	"cityCode": 3321,
+	"cityName": "\u5c94\u6cb3"
+}, {
+	"code": "1177387",
+	"name": "\u7389\u6eaa",
+	"pinyin": "yuxi",
+	"cityCode": 3319,
+	"cityName": "\u7389\u6eaa"
+}, {
+	"code": "1177388",
+	"name": "\u65e7\u5e84\u7a9d",
+	"pinyin": "jiuzhuangwo",
+	"cityCode": 1016,
+	"cityName": "\u65e7\u5e84\u7a9d"
+}, {
+	"code": "1177389",
+	"name": "\u6c99\u5cad\u5b50",
+	"pinyin": "shalingzi",
+	"cityCode": 1016,
+	"cityName": "\u6c99\u5cad\u5b50"
+}, {
+	"code": "1177390",
+	"name": "\u74e6\u623f",
+	"pinyin": "wafang",
+	"cityCode": 2110,
+	"cityName": "\u74e6\u623f"
+}, {
+	"code": "1177391",
+	"name": "\u4e1c\u660e\u6751",
+	"pinyin": "dongmingcun",
+	"cityCode": 2110,
+	"cityName": "\u4e1c\u660e\u6751"
+}, {
+	"code": "1177392",
+	"name": "\u6cbb\u5b89",
+	"pinyin": "zhian",
+	"cityCode": 2110,
+	"cityName": "\u6cbb\u5b89"
+}, {
+	"code": "1177393",
+	"name": "\u54c8\u65e5\u52aa\u62c9",
+	"pinyin": "harinula",
+	"cityCode": 2112,
+	"cityName": "\u54c8\u65e5\u52aa\u62c9"
+}, {
+	"code": "1177394",
+	"name": "\u897f\u516d\u65b9",
+	"pinyin": "xiliufang",
+	"cityCode": 2110,
+	"cityName": "\u897f\u516d\u65b9"
+}, {
+	"code": "1177395",
+	"name": "\u5927\u7f55",
+	"pinyin": "dahan",
+	"cityCode": 2110,
+	"cityName": "\u5927\u7f55"
+}, {
+	"code": "1177396",
+	"name": "\u624e\u9c81\u7279",
+	"pinyin": "zhalute",
+	"cityCode": 2110,
+	"cityName": "\u624e\u9c81\u7279"
+}, {
+	"code": "1177397",
+	"name": "\u9ad8\u6797\u5c6f",
+	"pinyin": "gaolintun",
+	"cityCode": 2110,
+	"cityName": "\u9ad8\u6797\u5c6f"
+}, {
+	"code": "1177398",
+	"name": "\u6556\u6765",
+	"pinyin": "aolai",
+	"cityCode": 2110,
+	"cityName": "\u6556\u6765"
+}, {
+	"code": "1177399",
+	"name": "\u820d\u4f2f\u5410",
+	"pinyin": "shebotu",
+	"cityCode": 2110,
+	"cityName": "\u820d\u4f2f\u5410"
+}, {
+	"code": "1177400",
+	"name": "\u767d\u97f3\u4ed6\u62c9",
+	"pinyin": "baiyintala",
+	"cityCode": 2110,
+	"cityName": "\u767d\u97f3\u4ed6\u62c9"
+}, {
+	"code": "1177401",
+	"name": "\u91d1\u5b9d\u5c6f",
+	"pinyin": "jinbaotun",
+	"cityCode": 2110,
+	"cityName": "\u91d1\u5b9d\u5c6f"
+}, {
+	"code": "1177402",
+	"name": "\u970d\u6797\u90ed\u52d2",
+	"pinyin": "huolinguole",
+	"cityCode": 2110,
+	"cityName": "\u970d\u6797\u90ed\u52d2"
+}, {
+	"code": "1177403",
+	"name": "\u95e8\u8fbe",
+	"pinyin": "menda",
+	"cityCode": 2110,
+	"cityName": "\u95e8\u8fbe"
+}, {
+	"code": "1177404",
+	"name": "\u53cc\u6ce1\u5b50",
+	"pinyin": "shuangpaozi",
+	"cityCode": 2110,
+	"cityName": "\u53cc\u6ce1\u5b50"
+}, {
+	"code": "1177405",
+	"name": "\u560e\u4ec0\u7538\u5b50",
+	"pinyin": "gashidianzi",
+	"cityCode": 2110,
+	"cityName": "\u560e\u4ec0\u7538\u5b50"
+}, {
+	"code": "1177406",
+	"name": "\u820d\u529b\u864e",
+	"pinyin": "shelihu",
+	"cityCode": 2110,
+	"cityName": "\u820d\u529b\u864e"
+}, {
+	"code": "1177407",
+	"name": "\u6556\u529b\u5e03\u544a",
+	"pinyin": "aolibugao",
+	"cityCode": 2110,
+	"cityName": "\u6556\u529b\u5e03\u544a"
+}, {
+	"code": "1177408",
+	"name": "\u6606\u90fd\u5e99",
+	"pinyin": "kundoumiao",
+	"cityCode": 2110,
+	"cityName": "\u6606\u90fd\u5e99"
+}, {
+	"code": "1177409",
+	"name": "\u94b1\u5bb6\u5e97",
+	"pinyin": "qianjiadian",
+	"cityCode": 2110,
+	"cityName": "\u94b1\u5bb6\u5e97"
+}, {
+	"code": "1177410",
+	"name": "\u6b27\u91cc",
+	"pinyin": "ouli",
+	"cityCode": 2110,
+	"cityName": "\u6b27\u91cc"
+}, {
+	"code": "1177411",
+	"name": "\u4e4c\u65af\u571f",
+	"pinyin": "wusitu",
+	"cityCode": 2110,
+	"cityName": "\u4e4c\u65af\u571f"
+}, {
+	"code": "1177412",
+	"name": "\u767d\u5c71\u4e61",
+	"pinyin": "baishanxiang",
+	"cityCode": 1111,
+	"cityName": "\u767d\u5c71\u4e61"
+}, {
+	"code": "1177413",
+	"name": "\u53e4\u57ce",
+	"pinyin": "gucheng",
+	"cityCode": 1110,
+	"cityName": "\u53e4\u57ce"
+}, {
+	"code": "1177414",
+	"name": "\u5c0f\u6986\u6811",
+	"pinyin": "xiaoyushu",
+	"cityCode": 1111,
+	"cityName": "\u5c0f\u6986\u6811"
+}, {
+	"code": "1177415",
+	"name": "\u9ed1\u5c97",
+	"pinyin": "heigang",
+	"cityCode": 1111,
+	"cityName": "\u9ed1\u5c97"
+}, {
+	"code": "1177416",
+	"name": "\u9752\u6c34\u5c71",
+	"pinyin": "qingshuishan",
+	"cityCode": 1111,
+	"cityName": "\u9752\u6c34\u5c71"
+}, {
+	"code": "1177417",
+	"name": "\u5149\u660e",
+	"pinyin": "guangming",
+	"cityCode": 619,
+	"cityName": "\u5149\u660e"
+}, {
+	"code": "1177418",
+	"name": "\u5409\u65b0\u6cb3",
+	"pinyin": "jixinhe",
+	"cityCode": 1111,
+	"cityName": "\u5409\u65b0\u6cb3"
+}, {
+	"code": "1177419",
+	"name": "\u7fa4\u529b",
+	"pinyin": "qunli",
+	"cityCode": 1111,
+	"cityName": "\u7fa4\u529b"
+}, {
+	"code": "1177420",
+	"name": "\u5bcc\u6d77",
+	"pinyin": "fuhai",
+	"cityCode": 1111,
+	"cityName": "\u5bcc\u6d77"
+}, {
+	"code": "1177421",
+	"name": "\u516d\u5408\u9547",
+	"pinyin": "liuhezhen",
+	"cityCode": 1111,
+	"cityName": "\u516d\u5408\u9547"
+}, {
+	"code": "1177422",
+	"name": "\u6ed1\u53bf\u5357",
+	"pinyin": "huaxiannan",
+	"cityCode": 1203,
+	"cityName": "\u6ed1\u53bf\u5357"
+}, {
+	"code": "1177423",
+	"name": "\u611f\u5fb7",
+	"pinyin": "gande",
+	"cityCode": 408,
+	"cityName": "\u611f\u5fb7"
+}, {
+	"code": "1177424",
+	"name": "\u798f\u5fb7",
+	"pinyin": "fude",
+	"cityCode": 408,
+	"cityName": "\u798f\u5fb7"
+}, {
+	"code": "1177425",
+	"name": "\u5357\u5b89",
+	"pinyin": "nanan",
+	"cityCode": 408,
+	"cityName": "\u5357\u5b89"
+}, {
+	"code": "1177426",
+	"name": "\u5927\u6df1",
+	"pinyin": "dashen",
+	"cityCode": 404,
+	"cityName": "\u5927\u6df1"
+}, {
+	"code": "1177427",
+	"name": "\u6e56\u5934",
+	"pinyin": "hutou",
+	"cityCode": 408,
+	"cityName": "\u6e56\u5934"
+}, {
+	"code": "1177428",
+	"name": "\u6986\u6811\u5ddd",
+	"pinyin": "yushuchuan",
+	"cityCode": 1812,
+	"cityName": "\u6986\u6811\u5ddd"
+}, {
+	"code": "1177429",
+	"name": "\u5927\u5174\u6c9f",
+	"pinyin": "daxinggou",
+	"cityCode": 1812,
+	"cityName": "\u5927\u5174\u6c9f"
+}, {
+	"code": "1177430",
+	"name": "\u6795\u5934\u5cf0",
+	"pinyin": "zhentoufeng",
+	"cityCode": 1812,
+	"cityName": "\u6795\u5934\u5cf0"
+}, {
+	"code": "1177431",
+	"name": "\u5341\u91cc\u576a",
+	"pinyin": "shiliping",
+	"cityCode": 1812,
+	"cityName": "\u5341\u91cc\u576a"
+}, {
+	"code": "1177432",
+	"name": "\u6625\u9633",
+	"pinyin": "chunyang",
+	"cityCode": 1812,
+	"cityName": "\u6625\u9633"
+}, {
+	"code": "1177433",
+	"name": "\u706b\u70ac\u6c9f",
+	"pinyin": "huojugou",
+	"cityCode": 1812,
+	"cityName": "\u706b\u70ac\u6c9f"
+}, {
+	"code": "1177434",
+	"name": "\u5e99\u5cad",
+	"pinyin": "miaoling",
+	"cityCode": 1812,
+	"cityName": "\u5e99\u5cad"
+}, {
+	"code": "1177435",
+	"name": "\u9f99\u4e95",
+	"pinyin": "longjing",
+	"cityCode": 1812,
+	"cityName": "\u9f99\u4e95"
+}, {
+	"code": "1177436",
+	"name": "\u5929\u6865\u5cad",
+	"pinyin": "tianqiaoling",
+	"cityCode": 1812,
+	"cityName": "\u5929\u6865\u5cad"
+}, {
+	"code": "1177437",
+	"name": "\u8336\u6761\u6c9f",
+	"pinyin": "chatiaogou",
+	"cityCode": 1812,
+	"cityName": "\u8336\u6761\u6c9f"
+}, {
+	"code": "1177438",
+	"name": "\u8352\u6c9f\u897f",
+	"pinyin": "huanggouxi",
+	"cityCode": 1812,
+	"cityName": "\u8352\u6c9f\u897f"
+}, {
+	"code": "1177439",
+	"name": "\u677e\u6c5f\u9547",
+	"pinyin": "songjiangzhen",
+	"cityCode": 1812,
+	"cityName": "\u677e\u6c5f\u9547"
+}, {
+	"code": "1177440",
+	"name": "\u548c\u9f99",
+	"pinyin": "helong",
+	"cityCode": 1812,
+	"cityName": "\u548c\u9f99"
+}, {
+	"code": "1177441",
+	"name": "\u516b\u5bb6\u5b50",
+	"pinyin": "bajiazi",
+	"cityCode": 1812,
+	"cityName": "\u516b\u5bb6\u5b50"
+}, {
+	"code": "1177442",
+	"name": "\u4e1c\u5e84",
+	"pinyin": "dongzhuang",
+	"cityCode": 2610,
+	"cityName": "\u4e1c\u5e84"
+}, {
+	"code": "1177444",
+	"name": "\u4e0b\u793e",
+	"pinyin": "xiashe",
+	"cityCode": 2610,
+	"cityName": "\u4e0b\u793e"
+}, {
+	"code": "1177445",
+	"name": "\u8c46\u7f57",
+	"pinyin": "douluo",
+	"cityCode": 2610,
+	"cityName": "\u8c46\u7f57"
+}, {
+	"code": "1177446",
+	"name": "\u66f9\u5bb6\u8425\u5b50",
+	"pinyin": "caojiayingzi",
+	"cityCode": 2105,
+	"cityName": "\u66f9\u5bb6\u8425\u5b50"
+}, {
+	"code": "1177447",
+	"name": "\u4e09\u628a\u706b",
+	"pinyin": "sanbahuo",
+	"cityCode": 2105,
+	"cityName": "\u4e09\u628a\u706b"
+}, {
+	"code": "1177448",
+	"name": "\u83b2\u82b1\u5c71",
+	"pinyin": "lianhuashan",
+	"cityCode": 2105,
+	"cityName": "\u83b2\u82b1\u5c71"
+}, {
+	"code": "1177449",
+	"name": "\u6556\u6c49",
+	"pinyin": "aohan",
+	"cityCode": 2105,
+	"cityName": "\u6556\u6c49"
+}, {
+	"code": "1177450",
+	"name": "\u56db\u5408",
+	"pinyin": "sihe",
+	"cityCode": 2110,
+	"cityName": "\u56db\u5408"
+}, {
+	"code": "1177451",
+	"name": "\u6c34\u5730",
+	"pinyin": "shuidi",
+	"cityCode": 2105,
+	"cityName": "\u6c34\u5730"
+}, {
+	"code": "1177452",
+	"name": "\u9a6c\u6797",
+	"pinyin": "malin",
+	"cityCode": 2105,
+	"cityName": "\u9a6c\u6797"
+}, {
+	"code": "1177453",
+	"name": "\u4e2d\u53f0\u5b50",
+	"pinyin": "zhongtaizi",
+	"cityCode": 2105,
+	"cityName": "\u4e2d\u53f0\u5b50"
+}, {
+	"code": "1177454",
+	"name": "\u8d64\u5cf0\u897f",
+	"pinyin": "chifengxi",
+	"cityCode": 2105,
+	"cityName": "\u8d64\u5cf0\u897f"
+}, {
+	"code": "1177455",
+	"name": "\u5317\u53f0\u5b50",
+	"pinyin": "beitaizi",
+	"cityCode": 2105,
+	"cityName": "\u5317\u53f0\u5b50"
+}, {
+	"code": "1177456",
+	"name": "\u5b64\u5c71\u5b50",
+	"pinyin": "gushanzi",
+	"cityCode": 2105,
+	"cityName": "\u5b64\u5c71\u5b50"
+}, {
+	"code": "1177457",
+	"name": "\u7f8a\u573a",
+	"pinyin": "yangchang",
+	"cityCode": 2105,
+	"cityName": "\u7f8a\u573a"
+}, {
+	"code": "1177458",
+	"name": "\u6768\u5bb6\u8425",
+	"pinyin": "yangjiaying",
+	"cityCode": 2105,
+	"cityName": "\u6768\u5bb6\u8425"
+}, {
+	"code": "1177459",
+	"name": "\u5e73\u5e84\u5357",
+	"pinyin": "pingzhuangnan",
+	"cityCode": 2105,
+	"cityName": "\u5e73\u5e84\u5357"
+}, {
+	"code": "1177460",
+	"name": "\u98ce\u6c34\u6c9f",
+	"pinyin": "fengshuigou",
+	"cityCode": 2105,
+	"cityName": "\u98ce\u6c34\u6c9f"
+}, {
+	"code": "1177461",
+	"name": "\u725b\u5bb6\u8425\u5b50",
+	"pinyin": "niujiayingzi",
+	"cityCode": 2105,
+	"cityName": "\u725b\u5bb6\u8425\u5b50"
+}, {
+	"code": "1177462",
+	"name": "\u65b0\u7a9d\u94fa",
+	"pinyin": "xinwopu",
+	"cityCode": 2105,
+	"cityName": "\u65b0\u7a9d\u94fa"
+}, {
+	"code": "1177463",
+	"name": "\u6c50\u5b50",
+	"pinyin": "xizi",
+	"cityCode": 2105,
+	"cityName": "\u6c50\u5b50"
+}, {
+	"code": "1177464",
+	"name": "\u4e43\u6797",
+	"pinyin": "nailin",
+	"cityCode": 2105,
+	"cityName": "\u4e43\u6797"
+}, {
+	"code": "1177465",
+	"name": "\u594e\u5c6f",
+	"pinyin": "kuitun",
+	"cityCode": 3119,
+	"cityName": "\u594e\u5c6f"
+}, {
+	"code": "1177466",
+	"name": "\u5efa\u8bbe",
+	"pinyin": "jianshe",
+	"cityCode": 1803,
+	"cityName": "\u5efa\u8bbe"
+}, {
+	"code": "1177467",
+	"name": "\u6d77\u5768\u5b50",
+	"pinyin": "haituozi",
+	"cityCode": 1803,
+	"cityName": "\u6d77\u5768\u5b50"
+}, {
+	"code": "1177468",
+	"name": "\u5927\u5b89\u5317",
+	"pinyin": "daanbei",
+	"cityCode": 1803,
+	"cityName": "\u5927\u5b89\u5317"
+}, {
+	"code": "1177469",
+	"name": "\u56db\u65b9\u53f0",
+	"pinyin": "sifangtai",
+	"cityCode": 1113,
+	"cityName": "\u56db\u65b9\u53f0"
+}, {
+	"code": "1177470",
+	"name": "\u91cc\u6728\u5e97",
+	"pinyin": "limudian",
+	"cityCode": 1114,
+	"cityName": "\u91cc\u6728\u5e97"
+}, {
+	"code": "1177471",
+	"name": "\u5174\u798f",
+	"pinyin": "xingfu",
+	"cityCode": 1114,
+	"cityName": "\u5174\u798f"
+}, {
+	"code": "1177472",
+	"name": "\u4e1c\u6d25",
+	"pinyin": "dongjin",
+	"cityCode": 1114,
+	"cityName": "\u4e1c\u6d25"
+}, {
+	"code": "1177473",
+	"name": "\u9f99\u8239",
+	"pinyin": "longchuan",
+	"cityCode": 1114,
+	"cityName": "\u9f99\u8239"
+}, {
+	"code": "1177474",
+	"name": "\u5174\u9686\u9547",
+	"pinyin": "xinglongzhen",
+	"cityCode": 1102,
+	"cityName": "\u5174\u9686\u9547"
+}, {
+	"code": "1177475",
+	"name": "\u9e7f\u9053",
+	"pinyin": "ludao",
+	"cityCode": 1110,
+	"cityName": "\u9e7f\u9053"
+}, {
+	"code": "1177476",
+	"name": "\u7231\u6cb3",
+	"pinyin": "aihe",
+	"cityCode": 1110,
+	"cityName": "\u7231\u6cb3"
+}, {
+	"code": "1177477",
+	"name": "\u5927\u89c2\u5cad",
+	"pinyin": "daguanling",
+	"cityCode": 1110,
+	"cityName": "\u5927\u89c2\u5cad"
+}, {
+	"code": "1177478",
+	"name": "\u5317\u6797",
+	"pinyin": "beilin",
+	"cityCode": 1110,
+	"cityName": "\u5317\u6797"
+}, {
+	"code": "1177479",
+	"name": "\u592a\u5cad",
+	"pinyin": "tailing",
+	"cityCode": 1110,
+	"cityName": "\u592a\u5cad"
+}, {
+	"code": "1177480",
+	"name": "\u5411\u9633",
+	"pinyin": "xiangyang",
+	"cityCode": 1110,
+	"cityName": "\u5411\u9633"
+}, {
+	"code": "1177481",
+	"name": "\u78e8\u5200\u77f3",
+	"pinyin": "modaoshi",
+	"cityCode": 1110,
+	"cityName": "\u78e8\u5200\u77f3"
+}, {
+	"code": "1177482",
+	"name": "\u9a6c\u6865\u6cb3",
+	"pinyin": "maqiaohe",
+	"cityCode": 1110,
+	"cityName": "\u9a6c\u6865\u6cb3"
+}, {
+	"code": "1177483",
+	"name": "\u4ee3\u9a6c\u6c9f",
+	"pinyin": "daimagou",
+	"cityCode": 1110,
+	"cityName": "\u4ee3\u9a6c\u6c9f"
+}, {
+	"code": "1177484",
+	"name": "\u7ee5\u897f",
+	"pinyin": "suixi",
+	"cityCode": 1110,
+	"cityName": "\u7ee5\u897f"
+}, {
+	"code": "1177485",
+	"name": "\u4e9a\u6cb3",
+	"pinyin": "yahe",
+	"cityCode": 1110,
+	"cityName": "\u4e9a\u6cb3"
+}, {
+	"code": "1177486",
+	"name": "\u767d\u4e91\u9102\u535a",
+	"pinyin": "baiyunebo",
+	"cityCode": 2104,
+	"cityName": "\u767d\u4e91\u9102\u535a"
+}, {
+	"code": "1177487",
+	"name": "\u54c8\u4e1a\u80e1\u540c",
+	"pinyin": "hayehutong",
+	"cityCode": 2104,
+	"cityName": "\u54c8\u4e1a\u80e1\u540c"
+}, {
+	"code": "1177488",
+	"name": "\u4e1c\u5174",
+	"pinyin": "dongxing",
+	"cityCode": 2104,
+	"cityName": "\u4e1c\u5174"
+}, {
+	"code": "1177489",
+	"name": "\u74e6\u7a91\u575d",
+	"pinyin": "wayaoba",
+	"cityCode": 2104,
+	"cityName": "\u74e6\u7a91\u575d"
+}, {
+	"code": "1177490",
+	"name": "\u77f3\u95e8\u6751",
+	"pinyin": "shimencun",
+	"cityCode": 2104,
+	"cityName": "\u77f3\u95e8\u6751"
+}, {
+	"code": "1177491",
+	"name": "\u6606\u72ec\u4ed1\u53ec",
+	"pinyin": "kundulunzhao",
+	"cityCode": 2104,
+	"cityName": "\u6606\u72ec\u4ed1\u53ec"
+}, {
+	"code": "1177492",
+	"name": "\u827e\u4e0d\u76d6",
+	"pinyin": "aibugai",
+	"cityCode": 2104,
+	"cityName": "\u827e\u4e0d\u76d6"
+}, {
+	"code": "1177493",
+	"name": "\u516c\u79ef\u5742",
+	"pinyin": "gongjiban",
+	"cityCode": 2104,
+	"cityName": "\u516c\u79ef\u5742"
+}, {
+	"code": "1177494",
+	"name": "\u575d\u6881",
+	"pinyin": "baliang",
+	"cityCode": 2104,
+	"cityName": "\u575d\u6881"
+}, {
+	"code": "1177495",
+	"name": "\u5305\u5934\u5317",
+	"pinyin": "baotoubei",
+	"cityCode": 2104,
+	"cityName": "\u5305\u5934\u5317"
+}, {
+	"code": "1177496",
+	"name": "\u4e4c\u5170\u80e1\u540c",
+	"pinyin": "wulanhutong",
+	"cityCode": 2104,
+	"cityName": "\u4e4c\u5170\u80e1\u540c"
+}, {
+	"code": "1177497",
+	"name": "\u51c9\u7ea2",
+	"pinyin": "lianghong",
+	"cityCode": 2823,
+	"cityName": "\u51c9\u7ea2"
+}, {
+	"code": "1177498",
+	"name": "\u4e0a\u666e\u96c4",
+	"pinyin": "shangpuxiong",
+	"cityCode": 2823,
+	"cityName": "\u4e0a\u666e\u96c4"
+}, {
+	"code": "1177499",
+	"name": "\u74e6\u7956",
+	"pinyin": "wazu",
+	"cityCode": 2823,
+	"cityName": "\u74e6\u7956"
+}, {
+	"code": "1177500",
+	"name": "\u57c3\u5cb1",
+	"pinyin": "aidai",
+	"cityCode": 2823,
+	"cityName": "\u57c3\u5cb1"
+}, {
+	"code": "1177501",
+	"name": "\u82cf\u96c4",
+	"pinyin": "suxiong",
+	"cityCode": 2823,
+	"cityName": "\u82cf\u96c4"
+}, {
+	"code": "1177502",
+	"name": "\u6708\u534e",
+	"pinyin": "yuehua",
+	"cityCode": 2823,
+	"cityName": "\u6708\u534e"
+}, {
+	"code": "1177503",
+	"name": "\u6c99\u9a6c\u62c9\u8fbe",
+	"pinyin": "shamalada",
+	"cityCode": 2823,
+	"cityName": "\u6c99\u9a6c\u62c9\u8fbe"
+}, {
+	"code": "1177504",
+	"name": "\u62c9\u767d",
+	"pinyin": "labai",
+	"cityCode": 2823,
+	"cityName": "\u62c9\u767d"
+}, {
+	"code": "1177505",
+	"name": "\u9ec4\u5bb6\u575d",
+	"pinyin": "huangjiaba",
+	"cityCode": 2823,
+	"cityName": "\u9ec4\u5bb6\u575d"
+}, {
+	"code": "1177506",
+	"name": "\u9ec4\u6c34\u5858",
+	"pinyin": "huangshuitang",
+	"cityCode": 2823,
+	"cityName": "\u9ec4\u6c34\u5858"
+}, {
+	"code": "1177507",
+	"name": "\u5c0f\u9ad8",
+	"pinyin": "xiaogao",
+	"cityCode": 2823,
+	"cityName": "\u5c0f\u9ad8"
+}, {
+	"code": "1177508",
+	"name": "\u65b0\u94c1\u6751",
+	"pinyin": "xintiecun",
+	"cityCode": 2823,
+	"cityName": "\u65b0\u94c1\u6751"
+}, {
+	"code": "1177509",
+	"name": "\u767d\u679c",
+	"pinyin": "baiguo",
+	"cityCode": 2823,
+	"cityName": "\u767d\u679c"
+}, {
+	"code": "1177510",
+	"name": "\u9ebb\u6817",
+	"pinyin": "mali",
+	"cityCode": 2823,
+	"cityName": "\u9ebb\u6817"
+}, {
+	"code": "1177511",
+	"name": "\u4e50\u8dc3",
+	"pinyin": "leyue",
+	"cityCode": 2823,
+	"cityName": "\u4e50\u8dc3"
+}, {
+	"code": "1177512",
+	"name": "\u84b2\u575d",
+	"pinyin": "puba",
+	"cityCode": 2823,
+	"cityName": "\u84b2\u575d"
+}, {
+	"code": "1177513",
+	"name": "\u5173\u6751\u575d",
+	"pinyin": "guancunba",
+	"cityCode": 2813,
+	"cityName": "\u5173\u6751\u575d"
+}, {
+	"code": "1177514",
+	"name": "\u8054\u5408\u4e61",
+	"pinyin": "lianhexiang",
+	"cityCode": 2823,
+	"cityName": "\u8054\u5408\u4e61"
+}, {
+	"code": "1177515",
+	"name": "\u5c3c\u65e5",
+	"pinyin": "niri",
+	"cityCode": 2823,
+	"cityName": "\u5c3c\u65e5"
+}, {
+	"code": "1177516",
+	"name": "\u94c1\u53e3",
+	"pinyin": "tiekou",
+	"cityCode": 2823,
+	"cityName": "\u94c1\u53e3"
+}, {
+	"code": "1177517",
+	"name": "\u94c1\u897f",
+	"pinyin": "tiexi",
+	"cityCode": 2823,
+	"cityName": "\u94c1\u897f"
+}, {
+	"code": "1177518",
+	"name": "\u963f\u5be8",
+	"pinyin": "azhai",
+	"cityCode": 2823,
+	"cityName": "\u963f\u5be8"
+}, {
+	"code": "1177519",
+	"name": "\u7ea2\u5cf0",
+	"pinyin": "hongfeng",
+	"cityCode": 2823,
+	"cityName": "\u7ea2\u5cf0"
+}, {
+	"code": "1177520",
+	"name": "\u767d\u77f3\u5ca9",
+	"pinyin": "baishiyan",
+	"cityCode": 2823,
+	"cityName": "\u767d\u77f3\u5ca9"
+}, {
+	"code": "1177521",
+	"name": "\u4e50\u6b66",
+	"pinyin": "lewu",
+	"cityCode": 2823,
+	"cityName": "\u4e50\u6b66"
+}, {
+	"code": "1177522",
+	"name": "\u963f\u56fe\u4ec0",
+	"pinyin": "atushi",
+	"cityCode": 3105,
+	"cityName": "\u963f\u56fe\u4ec0"
+}, {
+	"code": "1177523",
+	"name": "\u5c39\u5730",
+	"pinyin": "yindi",
+	"cityCode": 3305,
+	"cityName": "\u5c39\u5730"
+}, {
+	"code": "1177524",
+	"name": "\u59da\u5b89",
+	"pinyin": "yaoan",
+	"cityCode": 3305,
+	"cityName": "\u59da\u5b89"
+}, {
+	"code": "1177525",
+	"name": "\u9ed1\u4e95",
+	"pinyin": "heijing",
+	"cityCode": 3305,
+	"cityName": "\u9ed1\u4e95"
+}, {
+	"code": "1177526",
+	"name": "\u5357\u534e",
+	"pinyin": "nanhua",
+	"cityCode": 3305,
+	"cityName": "\u5357\u534e"
+}, {
+	"code": "1177527",
+	"name": "\u7f8a\u81fc\u6cb3",
+	"pinyin": "yangjiuhe",
+	"cityCode": 3305,
+	"cityName": "\u7f8a\u81fc\u6cb3"
+}, {
+	"code": "1177528",
+	"name": "\u5927\u6e7e\u5b50",
+	"pinyin": "dawanzi",
+	"cityCode": 3305,
+	"cityName": "\u5927\u6e7e\u5b50"
+}, {
+	"code": "1177529",
+	"name": "\u9f99\u5858\u575d",
+	"pinyin": "longtangba",
+	"cityCode": 3305,
+	"cityName": "\u9f99\u5858\u575d"
+}, {
+	"code": "1177530",
+	"name": "\u5f25\u6e21",
+	"pinyin": "midu",
+	"cityCode": 3306,
+	"cityName": "\u5f25\u6e21"
+}, {
+	"code": "1177531",
+	"name": "\u5c0f\u6751",
+	"pinyin": "xiaocun",
+	"cityCode": 3305,
+	"cityName": "\u5c0f\u6751"
+}, {
+	"code": "1177532",
+	"name": "\u9f99\u9aa8\u7538",
+	"pinyin": "longgudian",
+	"cityCode": 3305,
+	"cityName": "\u9f99\u9aa8\u7538"
+}, {
+	"code": "1177533",
+	"name": "\u957f\u51b2",
+	"pinyin": "changchong",
+	"cityCode": 3306,
+	"cityName": "\u957f\u51b2"
+}, {
+	"code": "1177534",
+	"name": "\u5c0f\u6708\u65e7",
+	"pinyin": "xiaoyuejiu",
+	"cityCode": 3305,
+	"cityName": "\u5c0f\u6708\u65e7"
+}, {
+	"code": "1177535",
+	"name": "\u5e08\u5e84",
+	"pinyin": "shizhuang",
+	"cityCode": 3305,
+	"cityName": "\u5e08\u5e84"
+}, {
+	"code": "1177536",
+	"name": "\u5434\u5bb6\u5ddd",
+	"pinyin": "wujiachuan",
+	"cityCode": 503,
+	"cityName": "\u5434\u5bb6\u5ddd"
+}, {
+	"code": "1177537",
+	"name": "\u957f\u5f81",
+	"pinyin": "changzheng",
+	"cityCode": 503,
+	"cityName": "\u957f\u5f81"
+}, {
+	"code": "1177538",
+	"name": "\u4e1c\u6e7e",
+	"pinyin": "dongwan",
+	"cityCode": 503,
+	"cityName": "\u4e1c\u6e7e"
+}, {
+	"code": "1177539",
+	"name": "\u9756\u8fdc\u897f",
+	"pinyin": "jingyuanxi",
+	"cityCode": 503,
+	"cityName": "\u9756\u8fdc\u897f"
+}, {
+	"code": "1177540",
+	"name": "\u6986\u6811\u6c9f",
+	"pinyin": "yushugou",
+	"cityCode": 1006,
+	"cityName": "\u6986\u6811\u6c9f"
+}, {
+	"code": "1177541",
+	"name": "\u60e0\u519c",
+	"pinyin": "huinong",
+	"cityCode": 2204,
+	"cityName": "\u60e0\u519c"
+}, {
+	"code": "1177542",
+	"name": "\u6c5d\u7b95\u6c9f",
+	"pinyin": "rujigou",
+	"cityCode": 2204,
+	"cityName": "\u6c5d\u7b95\u6c9f"
+}, {
+	"code": "1177543",
+	"name": "\u5927\u78f4\u6c9f",
+	"pinyin": "dadenggou",
+	"cityCode": 2204,
+	"cityName": "\u5927\u78f4\u6c9f"
+}, {
+	"code": "1177544",
+	"name": "\u5e73\u7f57",
+	"pinyin": "pingluo",
+	"cityCode": 2204,
+	"cityName": "\u5e73\u7f57"
+}, {
+	"code": "1177545",
+	"name": "\u767d\u82a8\u6c9f",
+	"pinyin": "baijigou",
+	"cityCode": 2204,
+	"cityName": "\u767d\u82a8\u6c9f"
+}, {
+	"code": "1177546",
+	"name": "\u5927\u6b66\u53e3",
+	"pinyin": "dawukou",
+	"cityCode": 2204,
+	"cityName": "\u5927\u6b66\u53e3"
+}, {
+	"code": "1177547",
+	"name": "\u5e73\u5b89",
+	"pinyin": "pingan",
+	"cityCode": 1808,
+	"cityName": "\u5e73\u5b89"
+}, {
+	"code": "1177548",
+	"name": "\u5c0f\u59d1\u5bb6",
+	"pinyin": "xiaogujia",
+	"cityCode": 1808,
+	"cityName": "\u5c0f\u59d1\u5bb6"
+}, {
+	"code": "1177549",
+	"name": "\u5927\u53e3\u94a6",
+	"pinyin": "dakouqin",
+	"cityCode": 1808,
+	"cityName": "\u5927\u53e3\u94a6"
+}, {
+	"code": "1177550",
+	"name": "\u5409\u8212",
+	"pinyin": "jishu",
+	"cityCode": 1808,
+	"cityName": "\u5409\u8212"
+}, {
+	"code": "1177551",
+	"name": "\u516d\u9053\u6cb3",
+	"pinyin": "liudaohe",
+	"cityCode": 1808,
+	"cityName": "\u516d\u9053\u6cb3"
+}, {
+	"code": "1177552",
+	"name": "\u68cb\u76d8",
+	"pinyin": "qipan",
+	"cityCode": 1808,
+	"cityName": "\u68cb\u76d8"
+}, {
+	"code": "1177553",
+	"name": "\u8001\u7237\u5cad",
+	"pinyin": "laoyeling",
+	"cityCode": 1808,
+	"cityName": "\u8001\u7237\u5cad"
+}, {
+	"code": "1177554",
+	"name": "\u5409\u6797",
+	"pinyin": "jilin",
+	"cityCode": 1808,
+	"cityName": "\u5409\u6797"
+}, {
+	"code": "1177555",
+	"name": "\u4e30\u5e7f",
+	"pinyin": "fengguang",
+	"cityCode": 1808,
+	"cityName": "\u4e30\u5e7f"
+}, {
+	"code": "1177556",
+	"name": "\u53cc\u6cb3\u9547",
+	"pinyin": "shuanghezhen",
+	"cityCode": 1808,
+	"cityName": "\u53cc\u6cb3\u9547"
+}, {
+	"code": "1177557",
+	"name": "\u767d\u94f6\u5e02",
+	"pinyin": "baiyinshi",
+	"cityCode": 503,
+	"cityName": "\u767d\u94f6\u5e02"
+}, {
+	"code": "1177558",
+	"name": "\u767d\u6c99",
+	"pinyin": "baisha",
+	"cityCode": 300,
+	"cityName": "\u767d\u6c99"
+}, {
+	"code": "1177559",
+	"name": "\u5927\u4e1c",
+	"pinyin": "dadong",
+	"cityCode": 1804,
+	"cityName": "\u5927\u4e1c"
+}, {
+	"code": "1177560",
+	"name": "\u67f3\u6bdb\u6c9f",
+	"pinyin": "liumaogou",
+	"cityCode": 1804,
+	"cityName": "\u67f3\u6bdb\u6c9f"
+}, {
+	"code": "1177561",
+	"name": "\u5f71\u58c1\u5c71",
+	"pinyin": "yingbishan",
+	"cityCode": 1804,
+	"cityName": "\u5f71\u58c1\u5c71"
+}, {
+	"code": "1177562",
+	"name": "\u9ec4\u6ce5\u5d34\u5b50",
+	"pinyin": "huangniwaizi",
+	"cityCode": 1804,
+	"cityName": "\u9ec4\u6ce5\u5d34\u5b50"
+}, {
+	"code": "1177563",
+	"name": "\u9053\u6e05",
+	"pinyin": "daoqing",
+	"cityCode": 1804,
+	"cityName": "\u9053\u6e05"
+}, {
+	"code": "1177564",
+	"name": "\u5c0f\u5c71",
+	"pinyin": "xiaoshan",
+	"cityCode": 1804,
+	"cityName": "\u5c0f\u5c71"
+}, {
+	"code": "1177565",
+	"name": "\u677f\u77f3\u6cb3",
+	"pinyin": "banshihe",
+	"cityCode": 1804,
+	"cityName": "\u677f\u77f3\u6cb3"
+}, {
+	"code": "1177566",
+	"name": "\u677e\u6c5f\u6cb3",
+	"pinyin": "songjianghe",
+	"cityCode": 1804,
+	"cityName": "\u677e\u6c5f\u6cb3"
+}, {
+	"code": "1177567",
+	"name": "\u782c\u5b50\u6cb3",
+	"pinyin": "lazihe",
+	"cityCode": 1804,
+	"cityName": "\u782c\u5b50\u6cb3"
+}, {
+	"code": "1177568",
+	"name": "\u548b\u5b50",
+	"pinyin": "zhazi",
+	"cityCode": 1804,
+	"cityName": "\u548b\u5b50"
+}, {
+	"code": "1177569",
+	"name": "\u8001\u8425",
+	"pinyin": "laoying",
+	"cityCode": 1804,
+	"cityName": "\u8001\u8425"
+}, {
+	"code": "1177570",
+	"name": "\u9752\u6c9f\u5b50",
+	"pinyin": "qinggouzi",
+	"cityCode": 1812,
+	"cityName": "\u9752\u6c9f\u5b50"
+}, {
+	"code": "1177572",
+	"name": "\u6e2d\u6d25",
+	"pinyin": "weijin",
+	"cityCode": 1806,
+	"cityName": "\u6e2d\u6d25"
+}, {
+	"code": "1177573",
+	"name": "\u4e4c\u5170\u82b1",
+	"pinyin": "wulanhua",
+	"cityCode": 2113,
+	"cityName": "\u4e4c\u5170\u82b1"
+}, {
+	"code": "1177574",
+	"name": "\u9521\u6797\u547c\u90fd\u560e",
+	"pinyin": "xilinhudouga",
+	"cityCode": 2113,
+	"cityName": "\u9521\u6797\u547c\u90fd\u560e"
+}, {
+	"code": "1177575",
+	"name": "\u695a\u9c81\u56fe",
+	"pinyin": "chulutu",
+	"cityCode": 2113,
+	"cityName": "\u695a\u9c81\u56fe"
+}, {
+	"code": "1177576",
+	"name": "\u767d\u94f6\u54c8\u5c14",
+	"pinyin": "baiyinhaer",
+	"cityCode": 2113,
+	"cityName": "\u767d\u94f6\u54c8\u5c14"
+}, {
+	"code": "1177577",
+	"name": "\u9521\u6797\u6d69\u7279",
+	"pinyin": "xilinhaote",
+	"cityCode": 2113,
+	"cityName": "\u9521\u6797\u6d69\u7279"
+}, {
+	"code": "1177578",
+	"name": "\u5df4\u5f66\u90ed\u52d2",
+	"pinyin": "bayanguole",
+	"cityCode": 2113,
+	"cityName": "\u5df4\u5f66\u90ed\u52d2"
+}, {
+	"code": "1177579",
+	"name": "\u5fb7\u65e5\u65af\u56fe",
+	"pinyin": "derisitu",
+	"cityCode": 2113,
+	"cityName": "\u5fb7\u65e5\u65af\u56fe"
+}, {
+	"code": "1177580",
+	"name": "\u67e5\u5e72\u7279\u683c",
+	"pinyin": "chagantege",
+	"cityCode": 2113,
+	"cityName": "\u67e5\u5e72\u7279\u683c"
+}, {
+	"code": "1177581",
+	"name": "\u590f\u62c9\u54c8\u9a6c",
+	"pinyin": "xialahama",
+	"cityCode": 2113,
+	"cityName": "\u590f\u62c9\u54c8\u9a6c"
+}, {
+	"code": "1177582",
+	"name": "\u9738\u5dde",
+	"pinyin": "bazhou",
+	"cityCode": 1010,
+	"cityName": "\u9738\u5dde"
+}, {
+	"code": "1177583",
+	"name": "\u897f\u5c0f\u53ec",
+	"pinyin": "xixiaozhao",
+	"cityCode": 2109,
+	"cityName": "\u897f\u5c0f\u53ec"
+}, {
+	"code": "1177584",
+	"name": "\u660e\u5b89",
+	"pinyin": "mingan",
+	"cityCode": 2109,
+	"cityName": "\u660e\u5b89"
+}, {
+	"code": "1177585",
+	"name": "\u8425\u76d8\u6e7e",
+	"pinyin": "yingpanwan",
+	"cityCode": 2109,
+	"cityName": "\u8425\u76d8\u6e7e"
+}, {
+	"code": "1177586",
+	"name": "\u516c\u5e99\u5b50",
+	"pinyin": "gongmiaozi",
+	"cityCode": 2109,
+	"cityName": "\u516c\u5e99\u5b50"
+}, {
+	"code": "1177587",
+	"name": "\u767d\u5f66\u82b1",
+	"pinyin": "baiyanhua",
+	"cityCode": 2109,
+	"cityName": "\u767d\u5f66\u82b1"
+}, {
+	"code": "1177588",
+	"name": "\u4e4c\u62c9\u5c71",
+	"pinyin": "wulashan",
+	"cityCode": 2109,
+	"cityName": "\u4e4c\u62c9\u5c71"
+}, {
+	"code": "1177589",
+	"name": "\u52b3\u52a8\u5c6f",
+	"pinyin": "laodongtun",
+	"cityCode": 1104,
+	"cityName": "\u52b3\u52a8\u5c6f"
+}, {
+	"code": "1177590",
+	"name": "\u521b\u4e1a\u6751",
+	"pinyin": "chuangyecun",
+	"cityCode": 1104,
+	"cityName": "\u521b\u4e1a\u6751"
+}, {
+	"code": "1177591",
+	"name": "\u5174\u65e0",
+	"pinyin": "xingwu",
+	"cityCode": 1104,
+	"cityName": "\u5174\u65e0"
+}, {
+	"code": "1177592",
+	"name": "\u70df\u7b52\u5c6f",
+	"pinyin": "yantongtun",
+	"cityCode": 1104,
+	"cityName": "\u70df\u7b52\u5c6f"
+}, {
+	"code": "1177593",
+	"name": "\u9ad8\u5bb6",
+	"pinyin": "gaojia",
+	"cityCode": 1104,
+	"cityName": "\u9ad8\u5bb6"
+}, {
+	"code": "1177594",
+	"name": "\u516b\u6751",
+	"pinyin": "bacun",
+	"cityCode": 1104,
+	"cityName": "\u516b\u6751"
+}, {
+	"code": "1177595",
+	"name": "\u5411\u9633\u6751",
+	"pinyin": "xiangyangcun",
+	"cityCode": 1104,
+	"cityName": "\u5411\u9633\u6751"
+}, {
+	"code": "1177596",
+	"name": "\u6c38\u5b89\u4e61",
+	"pinyin": "yonganxiang",
+	"cityCode": 1109,
+	"cityName": "\u6c38\u5b89\u4e61"
+}, {
+	"code": "1177597",
+	"name": "\u5174\u83b2",
+	"pinyin": "xinglian",
+	"cityCode": 1108,
+	"cityName": "\u5174\u83b2"
+}, {
+	"code": "1177598",
+	"name": "\u6d2a\u6cb3",
+	"pinyin": "honghe",
+	"cityCode": 1108,
+	"cityName": "\u6d2a\u6cb3"
+}, {
+	"code": "1177599",
+	"name": "\u534a\u622a\u6cb3",
+	"pinyin": "banjiehe",
+	"cityCode": 1108,
+	"cityName": "\u534a\u622a\u6cb3"
+}, {
+	"code": "1177600",
+	"name": "\u516b\u864e\u529b",
+	"pinyin": "bahuli",
+	"cityCode": 1108,
+	"cityName": "\u516b\u864e\u529b"
+}, {
+	"code": "1177601",
+	"name": "\u524d\u950b",
+	"pinyin": "qianfeng",
+	"cityCode": 1108,
+	"cityName": "\u524d\u950b"
+}, {
+	"code": "1177602",
+	"name": "\u960e\u5bb6",
+	"pinyin": "yanjia",
+	"cityCode": 1108,
+	"cityName": "\u960e\u5bb6"
+}, {
+	"code": "1177603",
+	"name": "\u5bd2\u8471\u6c9f",
+	"pinyin": "hanconggou",
+	"cityCode": 1108,
+	"cityName": "\u5bd2\u8471\u6c9f"
+}, {
+	"code": "1177604",
+	"name": "\u6c38\u80dc",
+	"pinyin": "yongsheng",
+	"cityCode": 1108,
+	"cityName": "\u6c38\u80dc"
+}, {
+	"code": "1177605",
+	"name": "\u8f75\u57ce",
+	"pinyin": "zhicheng",
+	"cityCode": 1207,
+	"cityName": "\u8f75\u57ce"
+}, {
+	"code": "1177606",
+	"name": "\u83b2\u4e1c",
+	"pinyin": "liandong",
+	"cityCode": 1207,
+	"cityName": "\u83b2\u4e1c"
+}, {
+	"code": "1177607",
+	"name": "\u6c81\u6cb3\u5317",
+	"pinyin": "qinhebei",
+	"cityCode": 1207,
+	"cityName": "\u6c81\u6cb3\u5317"
+}, {
+	"code": "1177608",
+	"name": "\u656c\u6893\u573a",
+	"pinyin": "jingzichang",
+	"cityCode": 2825,
+	"cityName": "\u656c\u6893\u573a"
+}, {
+	"code": "1177609",
+	"name": "\u4e00\u6b65\u6ee9",
+	"pinyin": "yibutan",
+	"cityCode": 2825,
+	"cityName": "\u4e00\u6b65\u6ee9"
+}, {
+	"code": "1177610",
+	"name": "\u738b\u573a",
+	"pinyin": "wangchang",
+	"cityCode": 2825,
+	"cityName": "\u738b\u573a"
+}, {
+	"code": "1177611",
+	"name": "\u6cfd\u666e",
+	"pinyin": "zepu",
+	"cityCode": 3111,
+	"cityName": "\u6cfd\u666e"
+}, {
+	"code": "1177612",
+	"name": "\u963f\u514b\u9676",
+	"pinyin": "aketao",
+	"cityCode": 3105,
+	"cityName": "\u963f\u514b\u9676"
+}, {
+	"code": "1177613",
+	"name": "\u838e\u8f66",
+	"pinyin": "shache",
+	"cityCode": 3111,
+	"cityName": "\u838e\u8f66"
+}, {
+	"code": "1177614",
+	"name": "\u8944\u6c7e\u897f",
+	"pinyin": "xiangfenxi",
+	"cityCode": 2608,
+	"cityName": "\u8944\u6c7e\u897f"
+}, {
+	"code": "1177615",
+	"name": "\u6d2a\u6d1e\u897f",
+	"pinyin": "hongtongxi",
+	"cityCode": 2608,
+	"cityName": "\u6d2a\u6d1e\u897f"
+}, {
+	"code": "1177616",
+	"name": "\u8d75\u57ce",
+	"pinyin": "zhaocheng",
+	"cityCode": 2608,
+	"cityName": "\u8d75\u57ce"
+}, {
+	"code": "1177617",
+	"name": "\u4e34\u6c7e\u897f",
+	"pinyin": "linfenxi",
+	"cityCode": 2608,
+	"cityName": "\u4e34\u6c7e\u897f"
+}, {
+	"code": "1177618",
+	"name": "\u970d\u5dde\u4e1c",
+	"pinyin": "huozhoudong",
+	"cityCode": 2608,
+	"cityName": "\u970d\u5dde\u4e1c"
+}, {
+	"code": "1177619",
+	"name": "\u4e34\u6c7e",
+	"pinyin": "linfen",
+	"cityCode": 2608,
+	"cityName": "\u4e34\u6c7e"
+}, {
+	"code": "1177620",
+	"name": "\u4faf\u9a6c\u897f",
+	"pinyin": "houmaxi",
+	"cityCode": 2608,
+	"cityName": "\u4faf\u9a6c\u897f"
+}, {
+	"code": "1177621",
+	"name": "\u6c64\u9634",
+	"pinyin": "tangyin",
+	"cityCode": 1203,
+	"cityName": "\u6c64\u9634"
+}, {
+	"code": "1177622",
+	"name": "\u674e\u5bb6\u6cb3",
+	"pinyin": "lijiahe",
+	"cityCode": 512,
+	"cityName": "\u674e\u5bb6\u6cb3"
+}, {
+	"code": "1177623",
+	"name": "\u4e24\u5f53",
+	"pinyin": "liangdang",
+	"cityCode": 512,
+	"cityName": "\u4e24\u5f53"
+}, {
+	"code": "1177624",
+	"name": "\u5b8f\u5e86",
+	"pinyin": "hongqing",
+	"cityCode": 512,
+	"cityName": "\u5b8f\u5e86"
+}, {
+	"code": "1177625",
+	"name": "\u82a6\u5bb6\u5e84",
+	"pinyin": "lujiazhuang",
+	"cityCode": 2612,
+	"cityName": "\u82a6\u5bb6\u5e84"
+}, {
+	"code": "1177626",
+	"name": "\u7075\u77f3\u4e1c",
+	"pinyin": "lingshidong",
+	"cityCode": 2612,
+	"cityName": "\u7075\u77f3\u4e1c"
+}, {
+	"code": "1177627",
+	"name": "\u4ecb\u4f11\u4e1c",
+	"pinyin": "jiexiudong",
+	"cityCode": 2612,
+	"cityName": "\u4ecb\u4f11\u4e1c"
+}, {
+	"code": "1177628",
+	"name": "\u5bff\u9633",
+	"pinyin": "shouyang",
+	"cityCode": 2612,
+	"cityName": "\u5bff\u9633"
+}, {
+	"code": "1177629",
+	"name": "\u664b\u4e2d",
+	"pinyin": "jinzhong",
+	"cityCode": 2612,
+	"cityName": "\u664b\u4e2d"
+}, {
+	"code": "1177630",
+	"name": "\u592a\u8c37\u897f",
+	"pinyin": "taiguxi",
+	"cityCode": 2612,
+	"cityName": "\u592a\u8c37\u897f"
+}, {
+	"code": "1177631",
+	"name": "\u7941\u53bf\u4e1c",
+	"pinyin": "qixiandong",
+	"cityCode": 2612,
+	"cityName": "\u7941\u53bf\u4e1c"
+}, {
+	"code": "1177632",
+	"name": "\u547c\u9c81\u65af\u592a",
+	"pinyin": "hulusitai",
+	"cityCode": 2103,
+	"cityName": "\u547c\u9c81\u65af\u592a"
+}, {
+	"code": "1177633",
+	"name": "\u5c71\u9634",
+	"pinyin": "shanyin",
+	"cityCode": 2605,
+	"cityName": "\u5c71\u9634"
+}, {
+	"code": "1177634",
+	"name": "\u5e94\u53bf",
+	"pinyin": "yingxian",
+	"cityCode": 2605,
+	"cityName": "\u5e94\u53bf"
+}, {
+	"code": "1177635",
+	"name": "\u6000\u4ec1\u4e1c",
+	"pinyin": "huairendong",
+	"cityCode": 2605,
+	"cityName": "\u6000\u4ec1\u4e1c"
+}, {
+	"code": "1177636",
+	"name": "\u5cb1\u5cb3",
+	"pinyin": "daiyue",
+	"cityCode": 2605,
+	"cityName": "\u5cb1\u5cb3"
+}, {
+	"code": "1177637",
+	"name": "\u82b1\u5c71\u5357",
+	"pinyin": "huashannan",
+	"cityCode": 1402,
+	"cityName": "\u82b1\u5c71\u5357"
+}, {
+	"code": "1177638",
+	"name": "\u9633\u8c37",
+	"pinyin": "yanggu",
+	"cityCode": 2410,
+	"cityName": "\u9633\u8c37"
+}, {
+	"code": "1177639",
+	"name": "\u8def\u53e3\u94fa",
+	"pinyin": "lukoupu",
+	"cityCode": 1512,
+	"cityName": "\u8def\u53e3\u94fa"
+}, {
+	"code": "1177640",
+	"name": "\u4e34\u988d",
+	"pinyin": "linying",
+	"cityCode": 1209,
+	"cityName": "\u4e34\u988d"
+}, {
+	"code": "1177641",
+	"name": "\u592a\u548c",
+	"pinyin": "taihe",
+	"cityCode": 2817,
+	"cityName": "\u592a\u548c"
+}, {
+	"code": "1177643",
+	"name": "\u74e6\u5c4b\u5c71",
+	"pinyin": "wawushan",
+	"cityCode": 1604,
+	"cityName": "\u74e6\u5c4b\u5c71"
+}, {
+	"code": "1177644",
+	"name": "\u9752\u9f99\u573a",
+	"pinyin": "qinglongchang",
+	"cityCode": 2817,
+	"cityName": "\u9752\u9f99\u573a"
+}, {
+	"code": "1177645",
+	"name": "\u5b9a\u8fb9",
+	"pinyin": "dingbian",
+	"cityCode": 2712,
+	"cityName": "\u5b9a\u8fb9"
+}, {
+	"code": "1177646",
+	"name": "\u5434\u5821",
+	"pinyin": "wupu",
+	"cityCode": 2712,
+	"cityName": "\u5434\u5821"
+}, {
+	"code": "1177647",
+	"name": "\u781a\u5ddd",
+	"pinyin": "yanchuan",
+	"cityCode": 2707,
+	"cityName": "\u781a\u5ddd"
+}, {
+	"code": "1177648",
+	"name": "\u5c0f\u6cb3\u9547",
+	"pinyin": "xiaohezhen",
+	"cityCode": 2703,
+	"cityName": "\u5c0f\u6cb3\u9547"
+}, {
+	"code": "1177649",
+	"name": "\u634f\u638c",
+	"pinyin": "niezhang",
+	"cityCode": 1206,
+	"cityName": "\u634f\u638c"
+}, {
+	"code": "1177650",
+	"name": "\u4fee\u6b66",
+	"pinyin": "xiuwu",
+	"cityCode": 1206,
+	"cityName": "\u4fee\u6b66"
+}, {
+	"code": "1177651",
+	"name": "\u540e\u5be8",
+	"pinyin": "houzhai",
+	"cityCode": 1206,
+	"cityName": "\u540e\u5be8"
+}, {
+	"code": "1177652",
+	"name": "\u72ee\u5b50\u8425",
+	"pinyin": "shiziying",
+	"cityCode": 1216,
+	"cityName": "\u72ee\u5b50\u8425"
+}, {
+	"code": "1177653",
+	"name": "\u5f85\u738b",
+	"pinyin": "daiwang",
+	"cityCode": 1206,
+	"cityName": "\u5f85\u738b"
+}, {
+	"code": "1177654",
+	"name": "\u84ec\u6eaa",
+	"pinyin": "pengxi",
+	"cityCode": 2821,
+	"cityName": "\u84ec\u6eaa"
+}, {
+	"code": "1177655",
+	"name": "\u5927\u5c71\u94fa",
+	"pinyin": "dashanpu",
+	"cityCode": 2826,
+	"cityName": "\u5927\u5c71\u94fa"
+}, {
+	"code": "1177656",
+	"name": "\u5174\u51ef",
+	"pinyin": "xingkai",
+	"cityCode": 1109,
+	"cityName": "\u5174\u51ef"
+}, {
+	"code": "1177657",
+	"name": "\u8fde\u73e0\u5c71",
+	"pinyin": "lianzhushan",
+	"cityCode": 1109,
+	"cityName": "\u8fde\u73e0\u5c71"
+}, {
+	"code": "1177658",
+	"name": "\u5bc6\u5c71\u897f",
+	"pinyin": "mishanxi",
+	"cityCode": 1109,
+	"cityName": "\u5bc6\u5c71\u897f"
+}, {
+	"code": "1177659",
+	"name": "\u4e1c\u6d77",
+	"pinyin": "donghai",
+	"cityCode": 1109,
+	"cityName": "\u4e1c\u6d77"
+}, {
+	"code": "1177660",
+	"name": "\u77f3\u78f7",
+	"pinyin": "shilin",
+	"cityCode": 1109,
+	"cityName": "\u77f3\u78f7"
+}, {
+	"code": "1177661",
+	"name": "\u6ef4\u9053",
+	"pinyin": "didao",
+	"cityCode": 1109,
+	"cityName": "\u6ef4\u9053"
+}, {
+	"code": "1177662",
+	"name": "\u51ef\u5317",
+	"pinyin": "kaibei",
+	"cityCode": 1109,
+	"cityName": "\u51ef\u5317"
+}, {
+	"code": "1177663",
+	"name": "\u9752\u9f99",
+	"pinyin": "qinglong",
+	"cityCode": 1109,
+	"cityName": "\u9752\u9f99"
+}, {
+	"code": "1177664",
+	"name": "\u67f3\u6bdb",
+	"pinyin": "liumao",
+	"cityCode": 1109,
+	"cityName": "\u67f3\u6bdb"
+}, {
+	"code": "1177665",
+	"name": "\u9ed1\u53f0",
+	"pinyin": "heitai",
+	"cityCode": 1109,
+	"cityName": "\u9ed1\u53f0"
+}, {
+	"code": "1177666",
+	"name": "\u5c0f\u5173\u6eaa",
+	"pinyin": "xiaoguanxi",
+	"cityCode": 3321,
+	"cityName": "\u5c0f\u5173\u6eaa"
+}, {
+	"code": "1177667",
+	"name": "\u6ee9\u5934",
+	"pinyin": "tantou",
+	"cityCode": 1711,
+	"cityName": "\u6ee9\u5934"
+}, {
+	"code": "1177668",
+	"name": "\u9093\u5bb6\u6e7e",
+	"pinyin": "dengjiawan",
+	"cityCode": 3305,
+	"cityName": "\u9093\u5bb6\u6e7e"
+}, {
+	"code": "1177669",
+	"name": "\u66fe\u5bb6\u576a\u5b50",
+	"pinyin": "zengjiapingzi",
+	"cityCode": 3321,
+	"cityName": "\u66fe\u5bb6\u576a\u5b50"
+}, {
+	"code": "1177670",
+	"name": "\u7530\u6881\u5b50",
+	"pinyin": "tianliangzi",
+	"cityCode": 3321,
+	"cityName": "\u7530\u6881\u5b50"
+}, {
+	"code": "1177671",
+	"name": "\u8001\u9505\u5382",
+	"pinyin": "laoguochang",
+	"cityCode": 804,
+	"cityName": "\u8001\u9505\u5382"
+}, {
+	"code": "1177672",
+	"name": "\u5f5d\u826f\u5357",
+	"pinyin": "yiliangnan",
+	"cityCode": 3321,
+	"cityName": "\u5f5d\u826f\u5357"
+}, {
+	"code": "1177673",
+	"name": "\u6a2a\u6c5f",
+	"pinyin": "hengjiang",
+	"cityCode": 2825,
+	"cityName": "\u6a2a\u6c5f"
+}, {
+	"code": "1177674",
+	"name": "\u666e\u6d31\u6e21",
+	"pinyin": "puerdu",
+	"cityCode": 3321,
+	"cityName": "\u666e\u6d31\u6e21"
+}, {
+	"code": "1177675",
+	"name": "\u662d\u901a\u5357",
+	"pinyin": "zhaotongnan",
+	"cityCode": 3321,
+	"cityName": "\u662d\u901a\u5357"
+}, {
+	"code": "1177676",
+	"name": "\u76d0\u6d25\u5317",
+	"pinyin": "yanjinbei",
+	"cityCode": 3321,
+	"cityName": "\u76d0\u6d25\u5317"
+}, {
+	"code": "1177677",
+	"name": "\u94dc\u9f13\u6eaa",
+	"pinyin": "tongguxi",
+	"cityCode": 806,
+	"cityName": "\u94dc\u9f13\u6eaa"
+}, {
+	"code": "1177678",
+	"name": "\u4ed9\u6c34",
+	"pinyin": "xianshui",
+	"cityCode": 3321,
+	"cityName": "\u4ed9\u6c34"
+}, {
+	"code": "1177679",
+	"name": "\u4e8c\u9053\u6865",
+	"pinyin": "erdaoqiao",
+	"cityCode": 1111,
+	"cityName": "\u4e8c\u9053\u6865"
+}, {
+	"code": "1177680",
+	"name": "\u662d\u901a\u5317",
+	"pinyin": "zhaotongbei",
+	"cityCode": 3422,
+	"cityName": "\u662d\u901a\u5317"
+}, {
+	"code": "1177681",
+	"name": "\u5c0f\u513f\u576a",
+	"pinyin": "xiaoerping",
+	"cityCode": 3321,
+	"cityName": "\u5c0f\u513f\u576a"
+}, {
+	"code": "1177682",
+	"name": "\u53cc\u51e4\u9a7f",
+	"pinyin": "shuangfengyi",
+	"cityCode": 2819,
+	"cityName": "\u53cc\u51e4\u9a7f"
+}, {
+	"code": "1177683",
+	"name": "\u674e\u5e02\u9547",
+	"pinyin": "lishizhen",
+	"cityCode": 2819,
+	"cityName": "\u674e\u5e02\u9547"
+}, {
+	"code": "1177684",
+	"name": "\u8fce\u7965\u8857",
+	"pinyin": "yingxiangjie",
+	"cityCode": 2819,
+	"cityName": "\u8fce\u7965\u8857"
+}, {
+	"code": "1177685",
+	"name": "\u5185\u6c5f\u5357",
+	"pinyin": "neijiangnan",
+	"cityCode": 2819,
+	"cityName": "\u5185\u6c5f\u5357"
+}, {
+	"code": "1177686",
+	"name": "\u8fbe\u62c9\u7279\u897f",
+	"pinyin": "dalatexi",
+	"cityCode": 2106,
+	"cityName": "\u8fbe\u62c9\u7279\u897f"
+}, {
+	"code": "1177687",
+	"name": "\u78b1\u67dc",
+	"pinyin": "jiangui",
+	"cityCode": 2106,
+	"cityName": "\u78b1\u67dc"
+}, {
+	"code": "1177688",
+	"name": "\u676d\u9526\u65d7",
+	"pinyin": "hangjinqi",
+	"cityCode": 2106,
+	"cityName": "\u676d\u9526\u65d7"
+}, {
+	"code": "1177689",
+	"name": "\u6276\u7ee5",
+	"pinyin": "fusui",
+	"cityCode": 715,
+	"cityName": "\u6276\u7ee5"
+}, {
+	"code": "1177690",
+	"name": "\u5929\u897f",
+	"pinyin": "tianxi",
+	"cityCode": 715,
+	"cityName": "\u5929\u897f"
+}, {
+	"code": "1177691",
+	"name": "\u4ead\u4eae",
+	"pinyin": "tingliang",
+	"cityCode": 715,
+	"cityName": "\u4ead\u4eae"
+}, {
+	"code": "1177692",
+	"name": "\u6fd1\u6e4d",
+	"pinyin": "laituan",
+	"cityCode": 715,
+	"cityName": "\u6fd1\u6e4d"
+}, {
+	"code": "1177693",
+	"name": "\u590f\u77f3",
+	"pinyin": "xiashi",
+	"cityCode": 715,
+	"cityName": "\u590f\u77f3"
+}, {
+	"code": "1177694",
+	"name": "\u6e20\u65e7",
+	"pinyin": "qujiu",
+	"cityCode": 715,
+	"cityName": "\u6e20\u65e7"
+}, {
+	"code": "1177695",
+	"name": "\u6e20\u9ece",
+	"pinyin": "quli",
+	"cityCode": 715,
+	"cityName": "\u6e20\u9ece"
+}, {
+	"code": "1177696",
+	"name": "\u5b81\u660e",
+	"pinyin": "ningming",
+	"cityCode": 715,
+	"cityName": "\u5b81\u660e"
+}, {
+	"code": "1177697",
+	"name": "\u5357\u57ce",
+	"pinyin": "nancheng",
+	"cityCode": 1703,
+	"cityName": "\u5357\u57ce"
+}, {
+	"code": "1177698",
+	"name": "\u5357\u4e30",
+	"pinyin": "nanfeng",
+	"cityCode": 1703,
+	"cityName": "\u5357\u4e30"
+}, {
+	"code": "1177699",
+	"name": "\u629a\u5dde",
+	"pinyin": "fuzhou",
+	"cityCode": 1703,
+	"cityName": "\u629a\u5dde"
+}, {
+	"code": "1177700",
+	"name": "\u534e\u57ce",
+	"pinyin": "huacheng",
+	"cityCode": 614,
+	"cityName": "\u534e\u57ce"
+}, {
+	"code": "1177701",
+	"name": "\u6885\u6c5f",
+	"pinyin": "meijiang",
+	"cityCode": 300,
+	"cityName": "\u6885\u6c5f"
+}, {
+	"code": "1177702",
+	"name": "\u5927\u57d4",
+	"pinyin": "dapu",
+	"cityCode": 614,
+	"cityName": "\u5927\u57d4"
+}, {
+	"code": "1177703",
+	"name": "\u94a6\u5dde\u4e1c",
+	"pinyin": "qinzhoudong",
+	"cityCode": 710,
+	"cityName": "\u94a6\u5dde\u4e1c"
+}, {
+	"code": "1177704",
+	"name": "\u6c90\u6ec2",
+	"pinyin": "mupang",
+	"cityCode": 3306,
+	"cityName": "\u6c90\u6ec2"
+}, {
+	"code": "1177705",
+	"name": "\u7965\u4e91",
+	"pinyin": "xiangyun",
+	"cityCode": 3306,
+	"cityName": "\u7965\u4e91"
+}, {
+	"code": "1177706",
+	"name": "\u5927\u5173",
+	"pinyin": "daguan",
+	"cityCode": 3321,
+	"cityName": "\u5927\u5173"
+}, {
+	"code": "1177707",
+	"name": "\u6d77\u664f",
+	"pinyin": "haibei",
+	"cityCode": 2307,
+	"cityName": "\u6d77\u664f"
+}, {
+	"code": "1177708",
+	"name": "\u5347\u660c",
+	"pinyin": "shengchang",
+	"cityCode": 1113,
+	"cityName": "\u5347\u660c"
+}, {
+	"code": "1177709",
+	"name": "\u53cc\u67f3",
+	"pinyin": "shuangliu",
+	"cityCode": 1113,
+	"cityName": "\u53cc\u67f3"
+}, {
+	"code": "1177710",
+	"name": "\u5b9d\u6e05",
+	"pinyin": "baoqing",
+	"cityCode": 1113,
+	"cityName": "\u5b9d\u6e05"
+}, {
+	"code": "1177711",
+	"name": "\u65b0\u53cb\u8c0a",
+	"pinyin": "xinyouyi",
+	"cityCode": 1113,
+	"cityName": "\u65b0\u53cb\u8c0a"
+}, {
+	"code": "1177712",
+	"name": "\u4e1c\u5143\u5e86",
+	"pinyin": "dongyuanqing",
+	"cityCode": 2606,
+	"cityName": "\u4e1c\u5143\u5e86"
+}, {
+	"code": "1177713",
+	"name": "\u78e8\u6ee9",
+	"pinyin": "motan",
+	"cityCode": 2606,
+	"cityName": "\u78e8\u6ee9"
+}, {
+	"code": "1177714",
+	"name": "\u5b54\u5e84",
+	"pinyin": "kongzhuang",
+	"cityCode": 2606,
+	"cityName": "\u5b54\u5e84"
+}, {
+	"code": "1177715",
+	"name": "\u5609\u5cf0",
+	"pinyin": "jiafeng",
+	"cityCode": 2606,
+	"cityName": "\u5609\u5cf0"
+}, {
+	"code": "1177716",
+	"name": "\u9633\u57ce",
+	"pinyin": "yangcheng",
+	"cityCode": 2606,
+	"cityName": "\u9633\u57ce"
+}, {
+	"code": "1177717",
+	"name": "\u5357\u9648\u94fa",
+	"pinyin": "nanchenpu",
+	"cityCode": 2606,
+	"cityName": "\u5357\u9648\u94fa"
+}, {
+	"code": "1177718",
+	"name": "\u5171\u548c",
+	"pinyin": "gonghe",
+	"cityCode": 2305,
+	"cityName": "\u5171\u548c"
+}, {
+	"code": "1177719",
+	"name": "\u6587\u6c34",
+	"pinyin": "wenshui",
+	"cityCode": 2607,
+	"cityName": "\u6587\u6c34"
+}, {
+	"code": "1177720",
+	"name": "\u67f3\u6797\u5357",
+	"pinyin": "liulinnan",
+	"cityCode": 2607,
+	"cityName": "\u67f3\u6797\u5357"
+}, {
+	"code": "1177721",
+	"name": "\u9632\u57ce\u6e2f\u5317",
+	"pinyin": "fangchenggangbei",
+	"cityCode": 706,
+	"cityName": "\u9632\u57ce\u6e2f\u5317"
+}, {
+	"code": "1177722",
+	"name": "\u6c38\u6d4e\u5317",
+	"pinyin": "yongjibei",
+	"cityCode": 2613,
+	"cityName": "\u6c38\u6d4e\u5317"
+}, {
+	"code": "1177723",
+	"name": "\u95fb\u559c\u897f",
+	"pinyin": "wenxixi",
+	"cityCode": 2613,
+	"cityName": "\u95fb\u559c\u897f"
+}, {
+	"code": "1177724",
+	"name": "\u8fd0\u57ce\u5317",
+	"pinyin": "yunchengbei",
+	"cityCode": 2613,
+	"cityName": "\u8fd0\u57ce\u5317"
+}, {
+	"code": "1177725",
+	"name": "\u5e38\u5e73",
+	"pinyin": "changping",
+	"cityCode": 606,
+	"cityName": "\u5e38\u5e73"
+}, {
+	"code": "1177726",
+	"name": "\u7f2f\u6eaa\u6cb3",
+	"pinyin": "zengxihe",
+	"cityCode": 2703,
+	"cityName": "\u7f2f\u6eaa\u6cb3"
+}, {
+	"code": "1177727",
+	"name": "\u5927\u7af9\u56ed",
+	"pinyin": "dazhuyuan",
+	"cityCode": 2703,
+	"cityName": "\u5927\u7af9\u56ed"
+}, {
+	"code": "1177728",
+	"name": "\u6da7\u6c60\u94fa",
+	"pinyin": "jianchipu",
+	"cityCode": 2703,
+	"cityName": "\u6da7\u6c60\u94fa"
+}, {
+	"code": "1177729",
+	"name": "\u6bdb\u575d\u5173",
+	"pinyin": "maobaguan",
+	"cityCode": 2703,
+	"cityName": "\u6bdb\u575d\u5173"
+}, {
+	"code": "1177730",
+	"name": "\u767d\u6cb3\u4e1c",
+	"pinyin": "baihedong",
+	"cityCode": 2703,
+	"cityName": "\u767d\u6cb3\u4e1c"
+}, {
+	"code": "1177731",
+	"name": "\u9ebb\u67f3",
+	"pinyin": "maliu",
+	"cityCode": 2703,
+	"cityName": "\u9ebb\u67f3"
+}, {
+	"code": "1177732",
+	"name": "\u9ad8\u6ee9",
+	"pinyin": "gaotan",
+	"cityCode": 2703,
+	"cityName": "\u9ad8\u6ee9"
+}, {
+	"code": "1177733",
+	"name": "\u6c38\u6cf0",
+	"pinyin": "yongtai",
+	"cityCode": 402,
+	"cityName": "\u6c38\u6cf0"
+}, {
+	"code": "1177734",
+	"name": "\u5e99\u5c71",
+	"pinyin": "miaoshan",
+	"cityCode": 1402,
+	"cityName": "\u5e99\u5c71"
+}, {
+	"code": "1177735",
+	"name": "\u6a2a\u6c9f\u6865\u4e1c",
+	"pinyin": "henggouqiaodong",
+	"cityCode": 1414,
+	"cityName": "\u6a2a\u6c9f\u6865\u4e1c"
+}, {
+	"code": "1177736",
+	"name": "\u5357\u6e56\u4e1c",
+	"pinyin": "nanhudong",
+	"cityCode": 1402,
+	"cityName": "\u5357\u6e56\u4e1c"
+}, {
+	"code": "1177737",
+	"name": "\u6f5c\u6c5f",
+	"pinyin": "qianjiang",
+	"cityCode": 1409,
+	"cityName": "\u6f5c\u6c5f"
+}, {
+	"code": "1177738",
+	"name": "\u4ed9\u6843\u897f",
+	"pinyin": "xiantaoxi",
+	"cityCode": 1413,
+	"cityName": "\u4ed9\u6843\u897f"
+}, {
+	"code": "1177739",
+	"name": "\u7eb8\u574a\u4e1c",
+	"pinyin": "zhifangdong",
+	"cityCode": 1402,
+	"cityName": "\u7eb8\u574a\u4e1c"
+}, {
+	"code": "1177740",
+	"name": "\u6c64\u900a\u6e56",
+	"pinyin": "tangxunhu",
+	"cityCode": 1402,
+	"cityName": "\u6c64\u900a\u6e56"
+}, {
+	"code": "1177741",
+	"name": "\u8d3a\u80dc\u6865\u4e1c",
+	"pinyin": "heshengqiaodong",
+	"cityCode": 1414,
+	"cityName": "\u8d3a\u80dc\u6865\u4e1c"
+}, {
+	"code": "1177742",
+	"name": "\u666e\u5b89",
+	"pinyin": "puan",
+	"cityCode": 1402,
+	"cityName": "\u666e\u5b89"
+}, {
+	"code": "1177743",
+	"name": "\u5c71\u5761\u4e1c",
+	"pinyin": "shanpodong",
+	"cityCode": 1402,
+	"cityName": "\u5c71\u5761\u4e1c"
+}, {
+	"code": "1177744",
+	"name": "\u571f\u5730\u5802\u4e1c",
+	"pinyin": "tuditangdong",
+	"cityCode": 1402,
+	"cityName": "\u571f\u5730\u5802\u4e1c"
+}, {
+	"code": "1177745",
+	"name": "\u5929\u95e8\u5357",
+	"pinyin": "tianmennan",
+	"cityCode": 1407,
+	"cityName": "\u5929\u95e8\u5357"
+}, {
+	"code": "1177746",
+	"name": "\u5e7f\u6c34",
+	"pinyin": "guangshui",
+	"cityCode": 1411,
+	"cityName": "\u5e7f\u6c34"
+}, {
+	"code": "1177747",
+	"name": "\u6c49\u5ddd",
+	"pinyin": "hanchuan",
+	"cityCode": 1417,
+	"cityName": "\u6c49\u5ddd"
+}, {
+	"code": "1177748",
+	"name": "\u5bcc\u53bf\u4e1c",
+	"pinyin": "fuxiandong",
+	"cityCode": 2711,
+	"cityName": "\u5bcc\u53bf\u4e1c"
+}, {
+	"code": "1177749",
+	"name": "\u5bcc\u53bf",
+	"pinyin": "fuxian",
+	"cityCode": 2711,
+	"cityName": "\u5bcc\u53bf"
+}, {
+	"code": "1177750",
+	"name": "\u9ec4\u9675",
+	"pinyin": "huangling",
+	"cityCode": 2711,
+	"cityName": "\u9ec4\u9675"
+}, {
+	"code": "1177751",
+	"name": "\u7f8a\u5708\u5b50",
+	"pinyin": "yangquanzi",
+	"cityCode": 1913,
+	"cityName": "\u7f8a\u5708\u5b50"
+}, {
+	"code": "1177752",
+	"name": "\u65b0\u5f00",
+	"pinyin": "xinkai",
+	"cityCode": 1913,
+	"cityName": "\u65b0\u5f00"
+}, {
+	"code": "1177753",
+	"name": "\u8001\u8fb9",
+	"pinyin": "laobian",
+	"cityCode": 1915,
+	"cityName": "\u8001\u8fb9"
+}, {
+	"code": "1177754",
+	"name": "\u8bb8\u5bb6\u5c6f",
+	"pinyin": "xujiatun",
+	"cityCode": 1906,
+	"cityName": "\u8bb8\u5bb6\u5c6f"
+}, {
+	"code": "1177755",
+	"name": "\u677e\u6811",
+	"pinyin": "songshu",
+	"cityCode": 1906,
+	"cityName": "\u677e\u6811"
+}, {
+	"code": "1177756",
+	"name": "\u9752\u82b1",
+	"pinyin": "qinghua",
+	"cityCode": 2804,
+	"cityName": "\u9752\u82b1"
+}, {
+	"code": "1177757",
+	"name": "\u6bdb\u575d",
+	"pinyin": "maoba",
+	"cityCode": 2804,
+	"cityName": "\u6bdb\u575d"
+}, {
+	"code": "1177758",
+	"name": "\u4e34\u5df4\u6eaa",
+	"pinyin": "linbaxi",
+	"cityCode": 2804,
+	"cityName": "\u4e34\u5df4\u6eaa"
+}, {
+	"code": "1177759",
+	"name": "\u516c\u5174",
+	"pinyin": "gongxing",
+	"cityCode": 2802,
+	"cityName": "\u516c\u5174"
+}, {
+	"code": "1177760",
+	"name": "\u7280\u6d66\u4e1c",
+	"pinyin": "xipudong",
+	"cityCode": 2802,
+	"cityName": "\u7280\u6d66\u4e1c"
+}, {
+	"code": "1177761",
+	"name": "\u5b89\u5fb7",
+	"pinyin": "ande",
+	"cityCode": 2802,
+	"cityName": "\u5b89\u5fb7"
+}, {
+	"code": "1177762",
+	"name": "\u5e72\u6eaa\u6c9f",
+	"pinyin": "ganxigou",
+	"cityCode": 300,
+	"cityName": "\u5e72\u6eaa\u6c9f"
+}, {
+	"code": "1177763",
+	"name": "\u5b89\u5bcc\u9547",
+	"pinyin": "anfuzhen",
+	"cityCode": 300,
+	"cityName": "\u5b89\u5bcc\u9547"
+}, {
+	"code": "1177764",
+	"name": "\u8304\u5b50\u6eaa",
+	"pinyin": "qiezixi",
+	"cityCode": 300,
+	"cityName": "\u8304\u5b50\u6eaa"
+}, {
+	"code": "1177765",
+	"name": "\u680f\u6746\u6ee9",
+	"pinyin": "langantan",
+	"cityCode": 300,
+	"cityName": "\u680f\u6746\u6ee9"
+}, {
+	"code": "1177766",
+	"name": "\u9547\u7d2b\u8857",
+	"pinyin": "zhenzijie",
+	"cityCode": 300,
+	"cityName": "\u9547\u7d2b\u8857"
+}, {
+	"code": "1177767",
+	"name": "\u571f\u574e",
+	"pinyin": "tukan",
+	"cityCode": 300,
+	"cityName": "\u571f\u574e"
+}, {
+	"code": "1177768",
+	"name": "\u77f3\u573a",
+	"pinyin": "shichang",
+	"cityCode": 300,
+	"cityName": "\u77f3\u573a"
+}, {
+	"code": "1177769",
+	"name": "\u5c0f\u5357\u57ad",
+	"pinyin": "xiaonanya",
+	"cityCode": 300,
+	"cityName": "\u5c0f\u5357\u57ad"
+}, {
+	"code": "1177770",
+	"name": "\u9ad8\u8c37",
+	"pinyin": "gaogu",
+	"cityCode": 300,
+	"cityName": "\u9ad8\u8c37"
+}, {
+	"code": "1177771",
+	"name": "\u90c1\u5c71",
+	"pinyin": "yushan",
+	"cityCode": 300,
+	"cityName": "\u90c1\u5c71"
+}, {
+	"code": "1177772",
+	"name": "\u94dc\u7f50\u9a7f",
+	"pinyin": "tongguanyi",
+	"cityCode": 300,
+	"cityName": "\u94dc\u7f50\u9a7f"
+}, {
+	"code": "1177773",
+	"name": "\u73de\u749c",
+	"pinyin": "luohuang",
+	"cityCode": 300,
+	"cityName": "\u73de\u749c"
+}, {
+	"code": "1177774",
+	"name": "\u9c7c\u6cc9",
+	"pinyin": "yuquan",
+	"cityCode": 300,
+	"cityName": "\u9c7c\u6cc9"
+}, {
+	"code": "1177775",
+	"name": "\u5e7f\u987a\u573a",
+	"pinyin": "guangshunchang",
+	"cityCode": 300,
+	"cityName": "\u5e7f\u987a\u573a"
+}, {
+	"code": "1177776",
+	"name": "\u767d\u9a6c",
+	"pinyin": "baima",
+	"cityCode": 300,
+	"cityName": "\u767d\u9a6c"
+}, {
+	"code": "1177777",
+	"name": "\u78e8\u6eaa",
+	"pinyin": "moxi",
+	"cityCode": 300,
+	"cityName": "\u78e8\u6eaa"
+}, {
+	"code": "1177778",
+	"name": "\u767d\u6d9b",
+	"pinyin": "baitao",
+	"cityCode": 300,
+	"cityName": "\u767d\u6d9b"
+}, {
+	"code": "1177779",
+	"name": "\u8328\u575d",
+	"pinyin": "ciba",
+	"cityCode": 300,
+	"cityName": "\u8328\u575d"
+}, {
+	"code": "1177780",
+	"name": "\u6838\u6843\u56ed",
+	"pinyin": "hetaoyuan",
+	"cityCode": 300,
+	"cityName": "\u6838\u6843\u56ed"
+}, {
+	"code": "1177781",
+	"name": "\u957f\u6f6d\u6c9f",
+	"pinyin": "zhangtangou",
+	"cityCode": 300,
+	"cityName": "\u957f\u6f6d\u6c9f"
+}, {
+	"code": "1177782",
+	"name": "\u957f\u6cb3\u78a5",
+	"pinyin": "zhanghebian",
+	"cityCode": 300,
+	"cityName": "\u957f\u6cb3\u78a5"
+}, {
+	"code": "1177783",
+	"name": "\u9f99\u6c60",
+	"pinyin": "longchi",
+	"cityCode": 300,
+	"cityName": "\u9f99\u6c60"
+}, {
+	"code": "1177784",
+	"name": "\u53e4\u5bb6\u6cb1",
+	"pinyin": "gujiatuo",
+	"cityCode": 300,
+	"cityName": "\u53e4\u5bb6\u6cb1"
+}, {
+	"code": "1177785",
+	"name": "\u5cf0\u9ad8\u94fa",
+	"pinyin": "fenggaopu",
+	"cityCode": 300,
+	"cityName": "\u5cf0\u9ad8\u94fa"
+}, {
+	"code": "1177786",
+	"name": "\u9f99\u5e02",
+	"pinyin": "longshi",
+	"cityCode": 1705,
+	"cityName": "\u9f99\u5e02"
+}, {
+	"code": "1177787",
+	"name": "\u6c11\u798f\u5bfa",
+	"pinyin": "minfusi",
+	"cityCode": 300,
+	"cityName": "\u6c11\u798f\u5bfa"
+}, {
+	"code": "1177788",
+	"name": "\u9ebb\u65fa",
+	"pinyin": "mawang",
+	"cityCode": 300,
+	"cityName": "\u9ebb\u65fa"
+}, {
+	"code": "1177789",
+	"name": "\u4fdd\u5bb6\u697c",
+	"pinyin": "baojialou",
+	"cityCode": 300,
+	"cityName": "\u4fdd\u5bb6\u697c"
+}, {
+	"code": "1177790",
+	"name": "\u767d\u6c99\u6cb1",
+	"pinyin": "baishatuo",
+	"cityCode": 300,
+	"cityName": "\u767d\u6c99\u6cb1"
+}, {
+	"code": "1177791",
+	"name": "\u4e03\u9f99\u661f",
+	"pinyin": "qilongxing",
+	"cityCode": 300,
+	"cityName": "\u4e03\u9f99\u661f"
+}, {
+	"code": "1177792",
+	"name": "\u5e73\u7b49",
+	"pinyin": "pingdeng",
+	"cityCode": 300,
+	"cityName": "\u5e73\u7b49"
+}, {
+	"code": "1177793",
+	"name": "\u6cb9\u6eaa",
+	"pinyin": "youxi",
+	"cityCode": 300,
+	"cityName": "\u6cb9\u6eaa"
+}, {
+	"code": "1177794",
+	"name": "\u4e2d\u5634",
+	"pinyin": "zhongzui",
+	"cityCode": 300,
+	"cityName": "\u4e2d\u5634"
+}, {
+	"code": "1177795",
+	"name": "\u77f3\u95e8\u574e",
+	"pinyin": "shimenkan",
+	"cityCode": 300,
+	"cityName": "\u77f3\u95e8\u574e"
+}, {
+	"code": "1177796",
+	"name": "\u5c0f\u5357\u6d77",
+	"pinyin": "xiaonanhai",
+	"cityCode": 300,
+	"cityName": "\u5c0f\u5357\u6d77"
+}, {
+	"code": "1177797",
+	"name": "\u4e1c\u5347\u575d",
+	"pinyin": "dongshengba",
+	"cityCode": 300,
+	"cityName": "\u4e1c\u5347\u575d"
+}, {
+	"code": "1177798",
+	"name": "\u77f3\u5b50\u575d",
+	"pinyin": "shiziba",
+	"cityCode": 300,
+	"cityName": "\u77f3\u5b50\u575d"
+}, {
+	"code": "1177799",
+	"name": "\u6cd4\u6eaa",
+	"pinyin": "ganxi",
+	"cityCode": 300,
+	"cityName": "\u6cd4\u6eaa"
+}, {
+	"code": "1177800",
+	"name": "\u5b59\u9547",
+	"pinyin": "sunzhen",
+	"cityCode": 2706,
+	"cityName": "\u5b59\u9547"
+}, {
+	"code": "1177801",
+	"name": "\u6e2d\u5357",
+	"pinyin": "weinan",
+	"cityCode": 2706,
+	"cityName": "\u6e2d\u5357"
+}, {
+	"code": "1177802",
+	"name": "\u84b2\u57ce",
+	"pinyin": "pucheng",
+	"cityCode": 2706,
+	"cityName": "\u84b2\u57ce"
+}, {
+	"code": "1177803",
+	"name": "\u97e6\u5e84",
+	"pinyin": "weizhuang",
+	"cityCode": 2706,
+	"cityName": "\u97e6\u5e84"
+}, {
+	"code": "1177804",
+	"name": "\u6e2d\u5357\u5357",
+	"pinyin": "weinannan",
+	"cityCode": 2706,
+	"cityName": "\u6e2d\u5357\u5357"
+}, {
+	"code": "1177805",
+	"name": "\u5761\u5e95\u6751",
+	"pinyin": "podicun",
+	"cityCode": 2706,
+	"cityName": "\u5761\u5e95\u6751"
+}, {
+	"code": "1177806",
+	"name": "\u949f\u5bb6\u6751",
+	"pinyin": "zhongjiacun",
+	"cityCode": 2706,
+	"cityName": "\u949f\u5bb6\u6751"
+}, {
+	"code": "1177807",
+	"name": "\u5408\u9633",
+	"pinyin": "heyang",
+	"cityCode": 2706,
+	"cityName": "\u5408\u9633"
+}, {
+	"code": "1177808",
+	"name": "\u5927\u8354",
+	"pinyin": "dali",
+	"cityCode": 2706,
+	"cityName": "\u5927\u8354"
+}, {
+	"code": "1177809",
+	"name": "\u957f\u519c",
+	"pinyin": "changnong",
+	"cityCode": 2206,
+	"cityName": "\u957f\u519c"
+}, {
+	"code": "1177810",
+	"name": "\u5e72\u5858",
+	"pinyin": "gantang",
+	"cityCode": 2206,
+	"cityName": "\u5e72\u5858"
+}, {
+	"code": "1177811",
+	"name": "\u7ea2\u5bfa\u5821",
+	"pinyin": "hongsipu",
+	"cityCode": 2205,
+	"cityName": "\u7ea2\u5bfa\u5821"
+}, {
+	"code": "1177812",
+	"name": "\u9ec4\u7f8a\u6e7e",
+	"pinyin": "huangyangwan",
+	"cityCode": 2206,
+	"cityName": "\u9ec4\u7f8a\u6e7e"
+}, {
+	"code": "1177813",
+	"name": "\u5cb3\u5bb6\u4e95",
+	"pinyin": "yuejiajing",
+	"cityCode": 2103,
+	"cityName": "\u5cb3\u5bb6\u4e95"
+}, {
+	"code": "1177814",
+	"name": "\u4e2d\u5b81",
+	"pinyin": "zhongning",
+	"cityCode": 2206,
+	"cityName": "\u4e2d\u5b81"
+}, {
+	"code": "1177815",
+	"name": "\u77f3\u575d",
+	"pinyin": "shiba",
+	"cityCode": 2205,
+	"cityName": "\u77f3\u575d"
+}, {
+	"code": "1177816",
+	"name": "\u592a\u9633\u5c71",
+	"pinyin": "taiyangshan",
+	"cityCode": 2205,
+	"cityName": "\u592a\u9633\u5c71"
+}, {
+	"code": "1177817",
+	"name": "\u827e\u5bb6\u6751",
+	"pinyin": "aijiacun",
+	"cityCode": 2205,
+	"cityName": "\u827e\u5bb6\u6751"
+}, {
+	"code": "1177818",
+	"name": "\u5927\u575d",
+	"pinyin": "daba",
+	"cityCode": 2205,
+	"cityName": "\u5927\u575d"
+}, {
+	"code": "1177819",
+	"name": "\u5ba3\u548c",
+	"pinyin": "xuanhe",
+	"cityCode": 2206,
+	"cityName": "\u5ba3\u548c"
+}, {
+	"code": "1177820",
+	"name": "\u6c99\u5761\u5934",
+	"pinyin": "shapotou",
+	"cityCode": 2206,
+	"cityName": "\u6c99\u5761\u5934"
+}, {
+	"code": "1177821",
+	"name": "\u5927\u6218\u573a",
+	"pinyin": "dazhanchang",
+	"cityCode": 2206,
+	"cityName": "\u5927\u6218\u573a"
+}, {
+	"code": "1177822",
+	"name": "\u738b\u56e2\u5e84",
+	"pinyin": "wangtuanzhuang",
+	"cityCode": 2205,
+	"cityName": "\u738b\u56e2\u5e84"
+}, {
+	"code": "1177823",
+	"name": "\u891a\u5bb6\u6e7e",
+	"pinyin": "zhujiawan",
+	"cityCode": 2206,
+	"cityName": "\u891a\u5bb6\u6e7e"
+}, {
+	"code": "1177824",
+	"name": "\u4e2d\u5b81\u5357",
+	"pinyin": "zhongningnan",
+	"cityCode": 2206,
+	"cityName": "\u4e2d\u5b81\u5357"
+}, {
+	"code": "1177825",
+	"name": "\u5317\u6ed8",
+	"pinyin": "beijiao",
+	"cityCode": 607,
+	"cityName": "\u5317\u6ed8"
+}, {
+	"code": "1177826",
+	"name": "\u76d0\u6c60",
+	"pinyin": "yanchi",
+	"cityCode": 2205,
+	"cityName": "\u76d0\u6c60"
+}, {
+	"code": "1177827",
+	"name": "\u6696\u6cc9",
+	"pinyin": "nuanquan",
+	"cityCode": 2202,
+	"cityName": "\u6696\u6cc9"
+}, {
+	"code": "1177828",
+	"name": "\u9ec4\u7f8a\u6ee9",
+	"pinyin": "huangyangtan",
+	"cityCode": 2202,
+	"cityName": "\u9ec4\u7f8a\u6ee9"
+}, {
+	"code": "1177829",
+	"name": "\u795e\u5cea\u6cb3",
+	"pinyin": "shenyuhe",
+	"cityCode": 510,
+	"cityName": "\u795e\u5cea\u6cb3"
+}, {
+	"code": "1177830",
+	"name": "\u5d07\u4fe1",
+	"pinyin": "chongxin",
+	"cityCode": 510,
+	"cityName": "\u5d07\u4fe1"
+}, {
+	"code": "1177831",
+	"name": "\u5e99\u5e84",
+	"pinyin": "miaozhuang",
+	"cityCode": 510,
+	"cityName": "\u5e99\u5e84"
+}, {
+	"code": "1177832",
+	"name": "\u65b0\u674e",
+	"pinyin": "xinli",
+	"cityCode": 510,
+	"cityName": "\u65b0\u674e"
+}, {
+	"code": "1177833",
+	"name": "\u54b8\u9633\u79e6\u90fd",
+	"pinyin": "xianyangqindu",
+	"cityCode": 2710,
+	"cityName": "\u54b8\u9633\u79e6\u90fd"
+}, {
+	"code": "1177834",
+	"name": "\u4e03\u8425",
+	"pinyin": "qiying",
+	"cityCode": 2203,
+	"cityName": "\u4e03\u8425"
+}, {
+	"code": "1177835",
+	"name": "\u516d\u76d8\u5c71",
+	"pinyin": "liupanshan",
+	"cityCode": 2203,
+	"cityName": "\u516d\u76d8\u5c71"
+}, {
+	"code": "1177836",
+	"name": "\u4e09\u8425",
+	"pinyin": "sanying",
+	"cityCode": 2203,
+	"cityName": "\u4e09\u8425"
+}, {
+	"code": "1177837",
+	"name": "\u6c88\u5bb6\u6cb3",
+	"pinyin": "shenjiahe",
+	"cityCode": 2203,
+	"cityName": "\u6c88\u5bb6\u6cb3"
+}, {
+	"code": "1177838",
+	"name": "\u5f6d\u9633",
+	"pinyin": "pengyang",
+	"cityCode": 2203,
+	"cityName": "\u5f6d\u9633"
+}, {
+	"code": "1177839",
+	"name": "\u674e\u65fa",
+	"pinyin": "liwang",
+	"cityCode": 2206,
+	"cityName": "\u674e\u65fa"
+}, {
+	"code": "1177840",
+	"name": "\u4e09\u5173\u53e3",
+	"pinyin": "sanguankou",
+	"cityCode": 2203,
+	"cityName": "\u4e09\u5173\u53e3"
+}, {
+	"code": "1177841",
+	"name": "\u571f\u6865\u5b50",
+	"pinyin": "tuqiaozi",
+	"cityCode": 2206,
+	"cityName": "\u571f\u6865\u5b50"
+}, {
+	"code": "1177842",
+	"name": "\u97e9\u5e9c\u6e7e",
+	"pinyin": "hanfuwan",
+	"cityCode": 2206,
+	"cityName": "\u97e9\u5e9c\u6e7e"
+}, {
+	"code": "1177843",
+	"name": "\u4e8c\u8425",
+	"pinyin": "erying",
+	"cityCode": 2203,
+	"cityName": "\u4e8c\u8425"
+}, {
+	"code": "1177844",
+	"name": "\u843d\u57a1",
+	"pinyin": "luofa",
+	"cityCode": 1010,
+	"cityName": "\u843d\u57a1"
+}, {
+	"code": "1177846",
+	"name": "\u5e03\u6566\u5316",
+	"pinyin": "budunhua",
+	"cityCode": 2112,
+	"cityName": "\u5e03\u6566\u5316"
+}, {
+	"code": "1177847",
+	"name": "\u845b\u6839\u5e99",
+	"pinyin": "gegenmiao",
+	"cityCode": 2112,
+	"cityName": "\u845b\u6839\u5e99"
+}, {
+	"code": "1177848",
+	"name": "\u5927\u77f3\u5be8",
+	"pinyin": "dashizhai",
+	"cityCode": 2112,
+	"cityName": "\u5927\u77f3\u5be8"
+}, {
+	"code": "1177849",
+	"name": "\u5f52\u6d41\u6cb3",
+	"pinyin": "guiliuhe",
+	"cityCode": 2112,
+	"cityName": "\u5f52\u6d41\u6cb3"
+}, {
+	"code": "1177850",
+	"name": "\u897f\u54f2\u91cc\u6728",
+	"pinyin": "xizhelimu",
+	"cityCode": 2112,
+	"cityName": "\u897f\u54f2\u91cc\u6728"
+}, {
+	"code": "1177851",
+	"name": "\u5174\u5b89\u5317",
+	"pinyin": "xinganbei",
+	"cityCode": 2112,
+	"cityName": "\u5174\u5b89\u5317"
+}, {
+	"code": "1177852",
+	"name": "\u7d22\u4f26",
+	"pinyin": "suolun",
+	"cityCode": 2112,
+	"cityName": "\u7d22\u4f26"
+}, {
+	"code": "1177853",
+	"name": "\u4e94\u53c9\u6c9f",
+	"pinyin": "wuchagou",
+	"cityCode": 2112,
+	"cityName": "\u4e94\u53c9\u6c9f"
+}, {
+	"code": "1177854",
+	"name": "\u5410\u5217\u6bdb\u675c",
+	"pinyin": "tuliemaodu",
+	"cityCode": 2112,
+	"cityName": "\u5410\u5217\u6bdb\u675c"
+}, {
+	"code": "1177855",
+	"name": "\u4fe1\u5b9c",
+	"pinyin": "xinyi",
+	"cityCode": 613,
+	"cityName": "\u4fe1\u5b9c"
+}, {
+	"code": "1177856",
+	"name": "\u96f7\u5dde",
+	"pinyin": "leizhou",
+	"cityCode": 625,
+	"cityName": "\u96f7\u5dde"
+}, {
+	"code": "1177857",
+	"name": "\u4e34\u6d77",
+	"pinyin": "linhai",
+	"cityCode": 3424,
+	"cityName": "\u4e34\u6d77"
+}, {
+	"code": "1177858",
+	"name": "\u5e84\u6865",
+	"pinyin": "zhuangqiao",
+	"cityCode": 3415,
+	"cityName": "\u5e84\u6865"
+}, {
+	"code": "1177859",
+	"name": "\u5357\u5cea",
+	"pinyin": "nanyu",
+	"cityCode": 1002,
+	"cityName": "\u5357\u5cea"
+}, {
+	"code": "1177860",
+	"name": "\u897f\u5f20",
+	"pinyin": "xizhang",
+	"cityCode": 2602,
+	"cityName": "\u897f\u5f20"
+}, {
+	"code": "1177861",
+	"name": "\u53e4\u4e1c",
+	"pinyin": "gudong",
+	"cityCode": 2602,
+	"cityName": "\u53e4\u4e1c"
+}, {
+	"code": "1177862",
+	"name": "\u9ad8\u6751",
+	"pinyin": "gaocun",
+	"cityCode": 2602,
+	"cityName": "\u9ad8\u6751"
+}, {
+	"code": "1177863",
+	"name": "\u592a\u539f\u5357",
+	"pinyin": "taiyuannan",
+	"cityCode": 2602,
+	"cityName": "\u592a\u539f\u5357"
+}, {
+	"code": "1177864",
+	"name": "\u67f3\u6797\u6cb3",
+	"pinyin": "liulinhe",
+	"cityCode": 2602,
+	"cityName": "\u67f3\u6797\u6cb3"
+}, {
+	"code": "1177865",
+	"name": "\u731b\u6d1e\u6cb3",
+	"pinyin": "mengdonghe",
+	"cityCode": 1507,
+	"cityName": "\u731b\u6d1e\u6cb3"
+}, {
+	"code": "1177866",
+	"name": "\u5357\u5bab\u4e1c",
+	"pinyin": "nangongdong",
+	"cityCode": 1015,
+	"cityName": "\u5357\u5bab\u4e1c"
+}, {
+	"code": "1177867",
+	"name": "\u524d\u78e8\u5934",
+	"pinyin": "qianmotou",
+	"cityCode": 1009,
+	"cityName": "\u524d\u78e8\u5934"
+}, {
+	"code": "1177868",
+	"name": "\u77f3\u95e8\u53bf\u5317",
+	"pinyin": "shimenxianbei",
+	"cityCode": 1503,
+	"cityName": "\u77f3\u95e8\u53bf\u5317"
+}, {
+	"code": "1177869",
+	"name": "\u6c38\u548c",
+	"pinyin": "yonghe",
+	"cityCode": 1502,
+	"cityName": "\u6c38\u548c"
+}, {
+	"code": "1177870",
+	"name": "\u767d\u6c34\u9547",
+	"pinyin": "baishuizhen",
+	"cityCode": 3315,
+	"cityName": "\u767d\u6c34\u9547"
+}, {
+	"code": "1177871",
+	"name": "\u8f66\u8f6c\u6e7e",
+	"pinyin": "chezhuanwan",
+	"cityCode": 3315,
+	"cityName": "\u8f66\u8f6c\u6e7e"
+}, {
+	"code": "1177872",
+	"name": "\u7f8a\u5c3e\u54e8",
+	"pinyin": "yangweishao",
+	"cityCode": 3315,
+	"cityName": "\u7f8a\u5c3e\u54e8"
+}, {
+	"code": "1177873",
+	"name": "\u7f8a\u8005\u7a9d",
+	"pinyin": "yangzhewo",
+	"cityCode": 3315,
+	"cityName": "\u7f8a\u8005\u7a9d"
+}, {
+	"code": "1177874",
+	"name": "\u9a6c\u9f99",
+	"pinyin": "malong",
+	"cityCode": 3315,
+	"cityName": "\u9a6c\u9f99"
+}, {
+	"code": "1177875",
+	"name": "\u957f\u5761\u5cad",
+	"pinyin": "changpoling",
+	"cityCode": 3315,
+	"cityName": "\u957f\u5761\u5cad"
+}, {
+	"code": "1177876",
+	"name": "\u5c0f\u5f97\u6c5f",
+	"pinyin": "xiaodejiang",
+	"cityCode": 3315,
+	"cityName": "\u5c0f\u5f97\u6c5f"
+}, {
+	"code": "1177877",
+	"name": "\u5e73\u6cb3\u53e3",
+	"pinyin": "pinghekou",
+	"cityCode": 3315,
+	"cityName": "\u5e73\u6cb3\u53e3"
+}, {
+	"code": "1177878",
+	"name": "\u5927\u7530\u8fb9",
+	"pinyin": "datianbian",
+	"cityCode": 3315,
+	"cityName": "\u5927\u7530\u8fb9"
+}, {
+	"code": "1177879",
+	"name": "\u79e7\u8349\u5730",
+	"pinyin": "yangcaodi",
+	"cityCode": 3315,
+	"cityName": "\u79e7\u8349\u5730"
+}, {
+	"code": "1177880",
+	"name": "\u767d\u6c99\u5761",
+	"pinyin": "baishapo",
+	"cityCode": 3315,
+	"cityName": "\u767d\u6c99\u5761"
+}, {
+	"code": "1177881",
+	"name": "\u65b0\u5b89",
+	"pinyin": "xinan",
+	"cityCode": 3315,
+	"cityName": "\u65b0\u5b89"
+}, {
+	"code": "1177882",
+	"name": "\u9646\u826f",
+	"pinyin": "luliang",
+	"cityCode": 3315,
+	"cityName": "\u9646\u826f"
+}, {
+	"code": "1177883",
+	"name": "\u5434\u5b98\u7530",
+	"pinyin": "wuguantian",
+	"cityCode": 3315,
+	"cityName": "\u5434\u5b98\u7530"
+}, {
+	"code": "1177884",
+	"name": "\u7167\u798f\u94fa",
+	"pinyin": "zhaofupu",
+	"cityCode": 3315,
+	"cityName": "\u7167\u798f\u94fa"
+}, {
+	"code": "1177885",
+	"name": "\u5c94\u6c5f",
+	"pinyin": "chajiang",
+	"cityCode": 809,
+	"cityName": "\u5c94\u6c5f"
+}, {
+	"code": "1177886",
+	"name": "\u4e2d\u5be8",
+	"pinyin": "zhongzhai",
+	"cityCode": 3315,
+	"cityName": "\u4e2d\u5be8"
+}, {
+	"code": "1177887",
+	"name": "\u6c5f\u6240\u7530",
+	"pinyin": "jiangsuotian",
+	"cityCode": 3315,
+	"cityName": "\u6c5f\u6240\u7530"
+}, {
+	"code": "1177888",
+	"name": "\u82a6\u6c9f",
+	"pinyin": "lugou",
+	"cityCode": 3315,
+	"cityName": "\u82a6\u6c9f"
+}, {
+	"code": "1177889",
+	"name": "\u9769\u5c45",
+	"pinyin": "geju",
+	"cityCode": 809,
+	"cityName": "\u9769\u5c45"
+}, {
+	"code": "1177890",
+	"name": "\u7530\u6797",
+	"pinyin": "tianlin",
+	"cityCode": 703,
+	"cityName": "\u7530\u6797"
+}, {
+	"code": "1177891",
+	"name": "\u7530\u9633",
+	"pinyin": "tianyang",
+	"cityCode": 703,
+	"cityName": "\u7530\u9633"
+}, {
+	"code": "1177892",
+	"name": "\u6c5f\u897f\u6751",
+	"pinyin": "jiangxicun",
+	"cityCode": 702,
+	"cityName": "\u6c5f\u897f\u6751"
+}, {
+	"code": "1177893",
+	"name": "\u6765\u5bbe",
+	"pinyin": "laibin",
+	"cityCode": 714,
+	"cityName": "\u6765\u5bbe"
+}, {
+	"code": "1177894",
+	"name": "\u5f20\u5df7",
+	"pinyin": "zhangxiang",
+	"cityCode": 1713,
+	"cityName": "\u5f20\u5df7"
+}, {
+	"code": "1177895",
+	"name": "\u5357\u660c\u897f",
+	"pinyin": "nanchangxi",
+	"cityCode": 1702,
+	"cityName": "\u5357\u660c\u897f"
+}, {
+	"code": "1177896",
+	"name": "\u4e07\u53d1\u5c6f",
+	"pinyin": "wanfatun",
+	"cityCode": 1102,
+	"cityName": "\u4e07\u53d1\u5c6f"
+}, {
+	"code": "1177897",
+	"name": "\u4e9a\u6c9f",
+	"pinyin": "yagou",
+	"cityCode": 1102,
+	"cityName": "\u4e9a\u6c9f"
+}, {
+	"code": "1177898",
+	"name": "\u5c71\u6cb3\u5c6f",
+	"pinyin": "shanhetun",
+	"cityCode": 1102,
+	"cityName": "\u5c71\u6cb3\u5c6f"
+}, {
+	"code": "1177899",
+	"name": "\u5c1a\u5fd7",
+	"pinyin": "shangzhi",
+	"cityCode": 1102,
+	"cityName": "\u5c1a\u5fd7"
+}, {
+	"code": "1177900",
+	"name": "\u5c0f\u5cad",
+	"pinyin": "xiaoling",
+	"cityCode": 1102,
+	"cityName": "\u5c0f\u5cad"
+}, {
+	"code": "1177901",
+	"name": "\u82c7\u6cb3",
+	"pinyin": "weihe",
+	"cityCode": 1102,
+	"cityName": "\u82c7\u6cb3"
+}, {
+	"code": "1177902",
+	"name": "\u65b0\u677e\u6d66",
+	"pinyin": "xinsongpu",
+	"cityCode": 1102,
+	"cityName": "\u65b0\u677e\u6d66"
+}, {
+	"code": "1177903",
+	"name": "\u5927\u5c6f",
+	"pinyin": "datun",
+	"cityCode": 1802,
+	"cityName": "\u5927\u5c6f"
+}, {
+	"code": "1177904",
+	"name": "\u6c83\u76ae",
+	"pinyin": "wopi",
+	"cityCode": 1802,
+	"cityName": "\u6c83\u76ae"
+}, {
+	"code": "1177905",
+	"name": "\u571f\u4eec\u5cad",
+	"pinyin": "tumenling",
+	"cityCode": 1802,
+	"cityName": "\u571f\u4eec\u5cad"
+}, {
+	"code": "1177906",
+	"name": "\u4e94\u68f5\u6811",
+	"pinyin": "wukeshu",
+	"cityCode": 1802,
+	"cityName": "\u4e94\u68f5\u6811"
+}, {
+	"code": "1177907",
+	"name": "\u4e00\u95f4\u5821",
+	"pinyin": "yijianpu",
+	"cityCode": 1802,
+	"cityName": "\u4e00\u95f4\u5821"
+}, {
+	"code": "1177908",
+	"name": "\u59da\u5bb6",
+	"pinyin": "yaojia",
+	"cityCode": 1802,
+	"cityName": "\u59da\u5bb6"
+}, {
+	"code": "1177909",
+	"name": "\u8fbe\u5bb6\u6c9f",
+	"pinyin": "dajiagou",
+	"cityCode": 1802,
+	"cityName": "\u8fbe\u5bb6\u6c9f"
+}, {
+	"code": "1177910",
+	"name": "\u67f4\u5c97",
+	"pinyin": "chaigang",
+	"cityCode": 1802,
+	"cityName": "\u67f4\u5c97"
+}, {
+	"code": "1177911",
+	"name": "\u65b0\u7acb\u9547",
+	"pinyin": "xinlizhen",
+	"cityCode": 1802,
+	"cityName": "\u65b0\u7acb\u9547"
+}, {
+	"code": "1177912",
+	"name": "\u8c22\u5bb6\u9547",
+	"pinyin": "xiejiazhen",
+	"cityCode": 1802,
+	"cityName": "\u8c22\u5bb6\u9547"
+}, {
+	"code": "1177913",
+	"name": "\u5218\u5bb6\u5e97",
+	"pinyin": "liujiadian",
+	"cityCode": 1802,
+	"cityName": "\u5218\u5bb6\u5e97"
+}, {
+	"code": "1177914",
+	"name": "\u8302\u6797",
+	"pinyin": "maolin",
+	"cityCode": 1809,
+	"cityName": "\u8302\u6797"
+}, {
+	"code": "1177915",
+	"name": "\u77f3\u5cad",
+	"pinyin": "shiling",
+	"cityCode": 1809,
+	"cityName": "\u77f3\u5cad"
+}, {
+	"code": "1177916",
+	"name": "\u6cc9\u6c9f",
+	"pinyin": "quangou",
+	"cityCode": 1914,
+	"cityName": "\u6cc9\u6c9f"
+}, {
+	"code": "1177917",
+	"name": "\u5170\u5bb6\u5c6f",
+	"pinyin": "lanjiatun",
+	"cityCode": 1902,
+	"cityName": "\u5170\u5bb6\u5c6f"
+}, {
+	"code": "1177918",
+	"name": "\u674e\u77f3\u5be8",
+	"pinyin": "lishizhai",
+	"cityCode": 1908,
+	"cityName": "\u674e\u77f3\u5be8"
+}, {
+	"code": "1177919",
+	"name": "\u82cf\u5317",
+	"pinyin": "subei",
+	"cityCode": 1902,
+	"cityName": "\u82cf\u5317"
+}, {
+	"code": "1177920",
+	"name": "\u6df1\u4e95\u5b50",
+	"pinyin": "shenjingzi",
+	"cityCode": 1902,
+	"cityName": "\u6df1\u4e95\u5b50"
+}, {
+	"code": "1177921",
+	"name": "\u5174\u9686\u5e97",
+	"pinyin": "xinglongdian",
+	"cityCode": 1902,
+	"cityName": "\u5174\u9686\u5e97"
+}, {
+	"code": "1177922",
+	"name": "\u5927\u5b98\u5c6f",
+	"pinyin": "daguantun",
+	"cityCode": 1908,
+	"cityName": "\u5927\u5b98\u5c6f"
+}, {
+	"code": "1177923",
+	"name": "\u5b9c\u826f\u5317",
+	"pinyin": "yiliangbei",
+	"cityCode": 3302,
+	"cityName": "\u5b9c\u826f\u5317"
+}, {
+	"code": "1177924",
+	"name": "\u4e50\u5584\u6751",
+	"pinyin": "leshancun",
+	"cityCode": 3302,
+	"cityName": "\u4e50\u5584\u6751"
+}, {
+	"code": "1177925",
+	"name": "\u65bd\u5bb6\u5634",
+	"pinyin": "shijiazui",
+	"cityCode": 3302,
+	"cityName": "\u65bd\u5bb6\u5634"
+}, {
+	"code": "1177926",
+	"name": "\u5927\u82f4",
+	"pinyin": "daju",
+	"cityCode": 3305,
+	"cityName": "\u5927\u82f4"
+}, {
+	"code": "1177927",
+	"name": "\u738b\u5bb6\u8425\u897f",
+	"pinyin": "wangjiayingxi",
+	"cityCode": 3302,
+	"cityName": "\u738b\u5bb6\u8425\u897f"
+}, {
+	"code": "1177928",
+	"name": "\u6768\u6797",
+	"pinyin": "yanglin",
+	"cityCode": 3302,
+	"cityName": "\u6768\u6797"
+}, {
+	"code": "1177929",
+	"name": "\u5e7f\u5357\u536b",
+	"pinyin": "guangnanwei",
+	"cityCode": 3302,
+	"cityName": "\u5e7f\u5357\u536b"
+}, {
+	"code": "1177930",
+	"name": "\u8302\u820d\u7956",
+	"pinyin": "maoshezu",
+	"cityCode": 3302,
+	"cityName": "\u8302\u820d\u7956"
+}, {
+	"code": "1177931",
+	"name": "\u91d1\u9a6c\u6751",
+	"pinyin": "jinmacun",
+	"cityCode": 3302,
+	"cityName": "\u91d1\u9a6c\u6751"
+}, {
+	"code": "1177932",
+	"name": "\u7f8a\u5821",
+	"pinyin": "yangpu",
+	"cityCode": 3302,
+	"cityName": "\u7f8a\u5821"
+}, {
+	"code": "1177933",
+	"name": "\u897f\u8857\u53e3",
+	"pinyin": "xijiekou",
+	"cityCode": 3302,
+	"cityName": "\u897f\u8857\u53e3"
+}, {
+	"code": "1177934",
+	"name": "\u6c38\u4e30\u8425",
+	"pinyin": "yongfengying",
+	"cityCode": 3302,
+	"cityName": "\u6c38\u4e30\u8425"
+}, {
+	"code": "1177935",
+	"name": "\u5b9c\u8010",
+	"pinyin": "yinai",
+	"cityCode": 3302,
+	"cityName": "\u5b9c\u8010"
+}, {
+	"code": "1177936",
+	"name": "\u5c0f\u54e8",
+	"pinyin": "xiaoshao",
+	"cityCode": 3302,
+	"cityName": "\u5c0f\u54e8"
+}, {
+	"code": "1177937",
+	"name": "\u5c0f\u65b0\u8857",
+	"pinyin": "xiaoxinjie",
+	"cityCode": 3302,
+	"cityName": "\u5c0f\u65b0\u8857"
+}, {
+	"code": "1177938",
+	"name": "\u73ed\u732b\u7b90",
+	"pinyin": "banmaoqing",
+	"cityCode": 3302,
+	"cityName": "\u73ed\u732b\u7b90"
+}, {
+	"code": "1177939",
+	"name": "\u77f3\u6797\u5357",
+	"pinyin": "shilinnan",
+	"cityCode": 3302,
+	"cityName": "\u77f3\u6797\u5357"
+}, {
+	"code": "1177940",
+	"name": "\u897f\u4e30",
+	"pinyin": "xifeng",
+	"cityCode": 1914,
+	"cityName": "\u897f\u4e30"
+}, {
+	"code": "1177941",
+	"name": "\u9ec4\u7f8a\u9547",
+	"pinyin": "huangyangzhen",
+	"cityCode": 513,
+	"cityName": "\u9ec4\u7f8a\u9547"
+}, {
+	"code": "1177942",
+	"name": "\u6253\u67f4\u6c9f",
+	"pinyin": "dachaigou",
+	"cityCode": 513,
+	"cityName": "\u6253\u67f4\u6c9f"
+}, {
+	"code": "1177943",
+	"name": "\u4e0a\u8170\u58a9",
+	"pinyin": "shangyaodun",
+	"cityCode": 513,
+	"cityName": "\u4e0a\u8170\u58a9"
+}, {
+	"code": "1177944",
+	"name": "\u56ed\u58a9",
+	"pinyin": "yuandun",
+	"cityCode": 513,
+	"cityName": "\u56ed\u58a9"
+}, {
+	"code": "1177945",
+	"name": "\u5929\u795d",
+	"pinyin": "tianzhu",
+	"cityCode": 513,
+	"cityName": "\u5929\u795d"
+}, {
+	"code": "1177946",
+	"name": "\u8c2d\u5bb6\u4e95",
+	"pinyin": "tanjiajing",
+	"cityCode": 513,
+	"cityName": "\u8c2d\u5bb6\u4e95"
+}, {
+	"code": "1177947",
+	"name": "\u7389\u77f3",
+	"pinyin": "yushi",
+	"cityCode": 507,
+	"cityName": "\u7389\u77f3"
+}, {
+	"code": "1177948",
+	"name": "\u8bb8\u4e09\u6e7e",
+	"pinyin": "xusanwan",
+	"cityCode": 515,
+	"cityName": "\u8bb8\u4e09\u6e7e"
+}, {
+	"code": "1177949",
+	"name": "\u5e73\u539f\u5821",
+	"pinyin": "pingyuanpu",
+	"cityCode": 515,
+	"cityName": "\u5e73\u539f\u5821"
+}, {
+	"code": "1177950",
+	"name": "\u6566\u714c",
+	"pinyin": "dunhuang",
+	"cityCode": 508,
+	"cityName": "\u6566\u714c"
+}, {
+	"code": "1177951",
+	"name": "\u54c8\u5bc6\u5357",
+	"pinyin": "haminan",
+	"cityCode": 3109,
+	"cityName": "\u54c8\u5bc6\u5357"
+}, {
+	"code": "1177952",
+	"name": "\u67f3\u6811\u6cc9",
+	"pinyin": "liushuquan",
+	"cityCode": 3109,
+	"cityName": "\u67f3\u6811\u6cc9"
+}, {
+	"code": "1177953",
+	"name": "\u4e86\u58a9",
+	"pinyin": "ledun",
+	"cityCode": 3109,
+	"cityName": "\u4e86\u58a9"
+}, {
+	"code": "1177954",
+	"name": "\u4e03\u6cc9\u6e56",
+	"pinyin": "qiquanhu",
+	"cityCode": 3118,
+	"cityName": "\u4e03\u6cc9\u6e56"
+}, {
+	"code": "1177955",
+	"name": "\u9c7c\u513f\u6c9f",
+	"pinyin": "yuergou",
+	"cityCode": 3102,
+	"cityName": "\u9c7c\u513f\u6c9f"
+}, {
+	"code": "1177956",
+	"name": "\u4e4c\u9c81\u6728\u9f50\u5357",
+	"pinyin": "wulumuqinan",
+	"cityCode": 3102,
+	"cityName": "\u4e4c\u9c81\u6728\u9f50\u5357"
+}, {
+	"code": "1177957",
+	"name": "\u5c06\u4e50",
+	"pinyin": "jiangle",
+	"cityCode": 409,
+	"cityName": "\u5c06\u4e50"
+}, {
+	"code": "1177958",
+	"name": "\u6cf0\u5b81",
+	"pinyin": "taining",
+	"cityCode": 409,
+	"cityName": "\u6cf0\u5b81"
+}, {
+	"code": "1177959",
+	"name": "\u4e09\u660e\u5317",
+	"pinyin": "sanmingbei",
+	"cityCode": 409,
+	"cityName": "\u4e09\u660e\u5317"
+}, {
+	"code": "1177960",
+	"name": "\u5c24\u6eaa",
+	"pinyin": "youxi",
+	"cityCode": 409,
+	"cityName": "\u5c24\u6eaa"
+}, {
+	"code": "1177961",
+	"name": "\u5efa\u5b81\u53bf\u5317",
+	"pinyin": "jianningxianbei",
+	"cityCode": 409,
+	"cityName": "\u5efa\u5b81\u53bf\u5317"
+}, {
+	"code": "1177962",
+	"name": "\u82cf\u5742",
+	"pinyin": "suban",
+	"cityCode": 404,
+	"cityName": "\u82cf\u5742"
+}, {
+	"code": "1177963",
+	"name": "\u96c1\u77f3",
+	"pinyin": "yanshi",
+	"cityCode": 404,
+	"cityName": "\u96c1\u77f3"
+}, {
+	"code": "1177964",
+	"name": "\u9f99\u5c71\u9547",
+	"pinyin": "longshanzhen",
+	"cityCode": 415,
+	"cityName": "\u9f99\u5c71\u9547"
+}, {
+	"code": "1177965",
+	"name": "\u5357\u9756",
+	"pinyin": "nanjing",
+	"cityCode": 415,
+	"cityName": "\u5357\u9756"
+}, {
+	"code": "1177966",
+	"name": "\u5854\u524d",
+	"pinyin": "taqian",
+	"cityCode": 1706,
+	"cityName": "\u5854\u524d"
+}, {
+	"code": "1177967",
+	"name": "\u9c87\u9c7c\u5c71",
+	"pinyin": "nianyushan",
+	"cityCode": 1706,
+	"cityName": "\u9c87\u9c7c\u5c71"
+}, {
+	"code": "1177968",
+	"name": "\u5173\u5be8",
+	"pinyin": "guanzhai",
+	"cityCode": 807,
+	"cityName": "\u5173\u5be8"
+}, {
+	"code": "1177969",
+	"name": "\u5e73\u5173",
+	"pinyin": "pingguan",
+	"cityCode": 807,
+	"cityName": "\u5e73\u5173"
+}, {
+	"code": "1177970",
+	"name": "\u4e8c\u9053\u5ca9",
+	"pinyin": "erdaoyan",
+	"cityCode": 807,
+	"cityName": "\u4e8c\u9053\u5ca9"
+}, {
+	"code": "1177971",
+	"name": "\u7389\u820d",
+	"pinyin": "yushe",
+	"cityCode": 807,
+	"cityName": "\u7389\u820d"
+}, {
+	"code": "1177972",
+	"name": "\u8305\u8349\u576a",
+	"pinyin": "maocaoping",
+	"cityCode": 807,
+	"cityName": "\u8305\u8349\u576a"
+}, {
+	"code": "1177973",
+	"name": "\u8461\u8404\u83c1",
+	"pinyin": "putaojing",
+	"cityCode": 804,
+	"cityName": "\u8461\u8404\u83c1"
+}, {
+	"code": "1177974",
+	"name": "\u82b1\u5bb6\u5e84",
+	"pinyin": "huajiazhuang",
+	"cityCode": 807,
+	"cityName": "\u82b1\u5bb6\u5e84"
+}, {
+	"code": "1177975",
+	"name": "\u677e\u6cb3",
+	"pinyin": "songhe",
+	"cityCode": 807,
+	"cityName": "\u677e\u6cb3"
+}, {
+	"code": "1177976",
+	"name": "\u90fd\u683c",
+	"pinyin": "duge",
+	"cityCode": 807,
+	"cityName": "\u90fd\u683c"
+}, {
+	"code": "1177977",
+	"name": "\u6ee5\u575d",
+	"pinyin": "lanba",
+	"cityCode": 807,
+	"cityName": "\u6ee5\u575d"
+}, {
+	"code": "1177978",
+	"name": "\u8425\u8857",
+	"pinyin": "yingjie",
+	"cityCode": 807,
+	"cityName": "\u8425\u8857"
+}, {
+	"code": "1177979",
+	"name": "\u96e8\u683c",
+	"pinyin": "yuge",
+	"cityCode": 807,
+	"cityName": "\u96e8\u683c"
+}, {
+	"code": "1177980",
+	"name": "\u65b0\u576a\u7530",
+	"pinyin": "xinpingtian",
+	"cityCode": 807,
+	"cityName": "\u65b0\u576a\u7530"
+}, {
+	"code": "1177981",
+	"name": "\u4e09\u5bb6\u5be8",
+	"pinyin": "sanjiazhai",
+	"cityCode": 807,
+	"cityName": "\u4e09\u5bb6\u5be8"
+}, {
+	"code": "1177982",
+	"name": "\u77f3\u4e2b\u53e3",
+	"pinyin": "shiyakou",
+	"cityCode": 807,
+	"cityName": "\u77f3\u4e2b\u53e3"
+}, {
+	"code": "1177983",
+	"name": "\u74e6\u7a91\u7530",
+	"pinyin": "wayaotian",
+	"cityCode": 807,
+	"cityName": "\u74e6\u7a91\u7530"
+}, {
+	"code": "1177984",
+	"name": "\u9c81\u756a",
+	"pinyin": "lufan",
+	"cityCode": 807,
+	"cityName": "\u9c81\u756a"
+}, {
+	"code": "1177985",
+	"name": "\u6708\u4eae\u7530",
+	"pinyin": "yueliangtian",
+	"cityCode": 807,
+	"cityName": "\u6708\u4eae\u7530"
+}, {
+	"code": "1177986",
+	"name": "\u4e0a\u897f\u94fa",
+	"pinyin": "shangxipu",
+	"cityCode": 807,
+	"cityName": "\u4e0a\u897f\u94fa"
+}, {
+	"code": "1177987",
+	"name": "\u767d\u9e21\u5761",
+	"pinyin": "baijipo",
+	"cityCode": 807,
+	"cityName": "\u767d\u9e21\u5761"
+}, {
+	"code": "1177988",
+	"name": "\u6c99\u6cb1",
+	"pinyin": "shatuo",
+	"cityCode": 807,
+	"cityName": "\u6c99\u6cb1"
+}, {
+	"code": "1177989",
+	"name": "\u9ec4\u6876",
+	"pinyin": "huangtong",
+	"cityCode": 803,
+	"cityName": "\u9ec4\u6876"
+}, {
+	"code": "1177990",
+	"name": "\u4e5d\u9f99",
+	"pinyin": "jiulong",
+	"cityCode": 1300,
+	"cityName": "\u4e5d\u9f99"
+}, {
+	"code": "1177991",
+	"name": "\u5ca9\u4f1a",
+	"pinyin": "yanhui",
+	"cityCode": 2611,
+	"cityName": "\u5ca9\u4f1a"
+}, {
+	"code": "1177992",
+	"name": "\u5a18\u5b50\u5173",
+	"pinyin": "niangziguan",
+	"cityCode": 2611,
+	"cityName": "\u5a18\u5b50\u5173"
+}, {
+	"code": "1177993",
+	"name": "\u67ef\u576a",
+	"pinyin": "keping",
+	"cityCode": 3103,
+	"cityName": "\u67ef\u576a"
+}, {
+	"code": "1177994",
+	"name": "\u91d1\u94f6\u5ddd",
+	"pinyin": "jinyinchuan",
+	"cityCode": 3103,
+	"cityName": "\u91d1\u94f6\u5ddd"
+}, {
+	"code": "1177995",
+	"name": "\u82cf\u96c6",
+	"pinyin": "suji",
+	"cityCode": 2108,
+	"cityName": "\u82cf\u96c6"
+}, {
+	"code": "1177996",
+	"name": "\u798f\u751f\u5e84",
+	"pinyin": "fushengzhuang",
+	"cityCode": 2108,
+	"cityName": "\u798f\u751f\u5e84"
+}, {
+	"code": "1177997",
+	"name": "\u5b9d\u62c9\u683c",
+	"pinyin": "baolage",
+	"cityCode": 2108,
+	"cityName": "\u5b9d\u62c9\u683c"
+}, {
+	"code": "1177998",
+	"name": "\u4e4c\u5170\u54c8\u8fbe",
+	"pinyin": "wulanhada",
+	"cityCode": 2108,
+	"cityName": "\u4e4c\u5170\u54c8\u8fbe"
+}, {
+	"code": "1177999",
+	"name": "\u4e09\u9053\u8425",
+	"pinyin": "sandaoying",
+	"cityCode": 2108,
+	"cityName": "\u4e09\u9053\u8425"
+}, {
+	"code": "1178000",
+	"name": "\u82a6\u5bb6\u6751",
+	"pinyin": "lujiacun",
+	"cityCode": 2108,
+	"cityName": "\u82a6\u5bb6\u6751"
+}, {
+	"code": "1178001",
+	"name": "\u5174\u548c\u897f",
+	"pinyin": "xinghexi",
+	"cityCode": 2108,
+	"cityName": "\u5174\u548c\u897f"
+}, {
+	"code": "1178002",
+	"name": "\u767d\u97f3\u5bdf\u5e72",
+	"pinyin": "baiyinchagan",
+	"cityCode": 2108,
+	"cityName": "\u767d\u97f3\u5bdf\u5e72"
+}, {
+	"code": "1178003",
+	"name": "\u963f\u8d35\u56fe",
+	"pinyin": "aguitu",
+	"cityCode": 2108,
+	"cityName": "\u963f\u8d35\u56fe"
+}, {
+	"code": "1178004",
+	"name": "\u5927\u9646\u53f7",
+	"pinyin": "daluhao",
+	"cityCode": 2108,
+	"cityName": "\u5927\u9646\u53f7"
+}, {
+	"code": "1178005",
+	"name": "\u4e03\u82cf\u6728",
+	"pinyin": "qisumu",
+	"cityCode": 2108,
+	"cityName": "\u4e03\u82cf\u6728"
+}, {
+	"code": "1178006",
+	"name": "\u7ea2\u7802\u575d",
+	"pinyin": "hongshaba",
+	"cityCode": 2108,
+	"cityName": "\u7ea2\u7802\u575d"
+}, {
+	"code": "1178007",
+	"name": "\u65b0\u5b89\u5e84",
+	"pinyin": "xinanzhuang",
+	"cityCode": 2108,
+	"cityName": "\u65b0\u5b89\u5e84"
+}, {
+	"code": "1178008",
+	"name": "\u514b\u4e00\u6cb3",
+	"pinyin": "keyihe",
+	"cityCode": 2107,
+	"cityName": "\u514b\u4e00\u6cb3"
+}, {
+	"code": "1178009",
+	"name": "\u80ea\u6ee8",
+	"pinyin": "lubin",
+	"cityCode": 2107,
+	"cityName": "\u80ea\u6ee8"
+}, {
+	"code": "1178010",
+	"name": "\u5357\u6728",
+	"pinyin": "nanmu",
+	"cityCode": 2107,
+	"cityName": "\u5357\u6728"
+}, {
+	"code": "1178011",
+	"name": "\u5587\u561b\u5c71",
+	"pinyin": "lamashan",
+	"cityCode": 2107,
+	"cityName": "\u5587\u561b\u5c71"
+}, {
+	"code": "1178012",
+	"name": "\u8bb7\u5c14\u514b\u6c14",
+	"pinyin": "neerkeqi",
+	"cityCode": 2107,
+	"cityName": "\u8bb7\u5c14\u514b\u6c14"
+}, {
+	"code": "1178013",
+	"name": "\u4e4c\u5974\u8033",
+	"pinyin": "wunuer",
+	"cityCode": 2107,
+	"cityName": "\u4e4c\u5974\u8033"
+}, {
+	"code": "1178014",
+	"name": "\u677e\u6811\u6797",
+	"pinyin": "songshulin",
+	"cityCode": 1105,
+	"cityName": "\u677e\u6811\u6797"
+}, {
+	"code": "1178015",
+	"name": "\u5927\u96c1",
+	"pinyin": "dayan",
+	"cityCode": 2107,
+	"cityName": "\u5927\u96c1"
+}, {
+	"code": "1178016",
+	"name": "\u6625\u4ead\u9601",
+	"pinyin": "chuntingge",
+	"cityCode": 2107,
+	"cityName": "\u6625\u4ead\u9601"
+}, {
+	"code": "1178017",
+	"name": "\u7d22\u56fe\u7f55",
+	"pinyin": "suotuhan",
+	"cityCode": 2107,
+	"cityName": "\u7d22\u56fe\u7f55"
+}, {
+	"code": "1178018",
+	"name": "\u5927\u5176\u62c9\u54c8",
+	"pinyin": "daqilaha",
+	"cityCode": 2107,
+	"cityName": "\u5927\u5176\u62c9\u54c8"
+}, {
+	"code": "1178019",
+	"name": "\u624e\u8d49\u8bfa\u5c14\u897f",
+	"pinyin": "zhalainuoerxi",
+	"cityCode": 2107,
+	"cityName": "\u624e\u8d49\u8bfa\u5c14\u897f"
+}, {
+	"code": "1178020",
+	"name": "\u7fe0\u5cf0",
+	"pinyin": "cuifeng",
+	"cityCode": 2107,
+	"cityName": "\u7fe0\u5cf0"
+}, {
+	"code": "1178021",
+	"name": "\u53e4\u6e90",
+	"pinyin": "guyuan",
+	"cityCode": 2107,
+	"cityName": "\u53e4\u6e90"
+}, {
+	"code": "1178022",
+	"name": "\u9ad8\u53f0\u5b50",
+	"pinyin": "gaotaizi",
+	"cityCode": 2107,
+	"cityName": "\u9ad8\u53f0\u5b50"
+}, {
+	"code": "1178023",
+	"name": "\u5367\u725b\u6cb3",
+	"pinyin": "woniuhe",
+	"cityCode": 2107,
+	"cityName": "\u5367\u725b\u6cb3"
+}, {
+	"code": "1178024",
+	"name": "\u671d\u9633\u6751",
+	"pinyin": "chaoyangcun",
+	"cityCode": 2107,
+	"cityName": "\u671d\u9633\u6751"
+}, {
+	"code": "1178025",
+	"name": "\u7518\u6cb3",
+	"pinyin": "ganhe",
+	"cityCode": 2107,
+	"cityName": "\u7518\u6cb3"
+}, {
+	"code": "1178026",
+	"name": "\u54c8\u529b\u56fe",
+	"pinyin": "halitu",
+	"cityCode": 2107,
+	"cityName": "\u54c8\u529b\u56fe"
+}, {
+	"code": "1178027",
+	"name": "\u963f\u91cc\u6cb3",
+	"pinyin": "alihe",
+	"cityCode": 2107,
+	"cityName": "\u963f\u91cc\u6cb3"
+}, {
+	"code": "1178028",
+	"name": "\u5927\u6768\u6811\u4e1c",
+	"pinyin": "dayangshudong",
+	"cityCode": 2107,
+	"cityName": "\u5927\u6768\u6811\u4e1c"
+}, {
+	"code": "1178029",
+	"name": "\u5927\u626c\u6c14",
+	"pinyin": "dayangqi",
+	"cityCode": 2107,
+	"cityName": "\u5927\u626c\u6c14"
+}, {
+	"code": "1178030",
+	"name": "\u52a0\u5357",
+	"pinyin": "jianan",
+	"cityCode": 1105,
+	"cityName": "\u52a0\u5357"
+}, {
+	"code": "1178031",
+	"name": "\u65b0\u5929\u9547",
+	"pinyin": "xintian",
+	"cityCode": 2107,
+	"cityName": "\u65b0\u5929\u9547"
+}, {
+	"code": "1178032",
+	"name": "\u535a\u4e50",
+	"pinyin": "bole",
+	"cityCode": 3106,
+	"cityName": "\u535a\u4e50"
+}, {
+	"code": "1178033",
+	"name": "\u9ec4\u77f3\u5317",
+	"pinyin": "huangshibei",
+	"cityCode": 1406,
+	"cityName": "\u9ec4\u77f3\u5317"
+}, {
+	"code": "1178034",
+	"name": "\u9102\u5dde\u4e1c",
+	"pinyin": "ezhoudong",
+	"cityCode": 1404,
+	"cityName": "\u9102\u5dde\u4e1c"
+}, {
+	"code": "1178035",
+	"name": "\u4e34\u6c5f\u6eaa",
+	"pinyin": "linjiangxi",
+	"cityCode": 1418,
+	"cityName": "\u4e34\u6c5f\u6eaa"
+}, {
+	"code": "1178036",
+	"name": "\u957f\u9633",
+	"pinyin": "changyang",
+	"cityCode": 1418,
+	"cityName": "\u957f\u9633"
+}, {
+	"code": "1178037",
+	"name": "\u679d\u6c5f\u5317",
+	"pinyin": "zhijiangbei",
+	"cityCode": 1418,
+	"cityName": "\u679d\u6c5f\u5317"
+}, {
+	"code": "1178038",
+	"name": "\u9ec4\u5188\u897f",
+	"pinyin": "huanggangxi",
+	"cityCode": 1405,
+	"cityName": "\u9ec4\u5188\u897f"
+}, {
+	"code": "1178039",
+	"name": "\u9ec4\u5188\u4e1c",
+	"pinyin": "huanggangdong",
+	"cityCode": 1405,
+	"cityName": "\u9ec4\u5188\u4e1c"
+}, {
+	"code": "1178040",
+	"name": "\u7ea2\u5b89\u897f",
+	"pinyin": "honganxi",
+	"cityCode": 1405,
+	"cityName": "\u7ea2\u5b89\u897f"
+}, {
+	"code": "1178041",
+	"name": "\u9ec4\u5188",
+	"pinyin": "huanggang",
+	"cityCode": 1405,
+	"cityName": "\u9ec4\u5188"
+}, {
+	"code": "1178042",
+	"name": "\u660e\u6e2f\u4e1c",
+	"pinyin": "minggangdong",
+	"cityCode": 1217,
+	"cityName": "\u660e\u6e2f\u4e1c"
+}, {
+	"code": "1178044",
+	"name": "\u534e\u5bb9\u5357",
+	"pinyin": "huarongnan",
+	"cityCode": 1404,
+	"cityName": "\u534e\u5bb9\u5357"
+}, {
+	"code": "1178045",
+	"name": "\u534e\u5bb9\u4e1c",
+	"pinyin": "huarongdong",
+	"cityCode": 1512,
+	"cityName": "\u534e\u5bb9\u4e1c"
+}, {
+	"code": "1178046",
+	"name": "\u9752\u5c9b\u5317",
+	"pinyin": "qingdaobei",
+	"cityCode": 2413,
+	"cityName": "\u9752\u5c9b\u5317"
+}, {
+	"code": "1178047",
+	"name": "\u8392\u53bf",
+	"pinyin": "juxian",
+	"cityCode": 2415,
+	"cityName": "\u8392\u53bf"
+}, {
+	"code": "1178048",
+	"name": "\u5357\u535a\u5c71",
+	"pinyin": "nanboshan",
+	"cityCode": 2421,
+	"cityName": "\u5357\u535a\u5c71"
+}, {
+	"code": "1178049",
+	"name": "\u5357\u4ec7",
+	"pinyin": "nanqiu",
+	"cityCode": 2421,
+	"cityName": "\u5357\u4ec7"
+}, {
+	"code": "1178050",
+	"name": "\u9ed1\u65fa",
+	"pinyin": "heiwang",
+	"cityCode": 2421,
+	"cityName": "\u9ed1\u65fa"
+}, {
+	"code": "1178051",
+	"name": "\u6e90\u8fc1",
+	"pinyin": "yuanqian",
+	"cityCode": 2421,
+	"cityName": "\u6e90\u8fc1"
+}, {
+	"code": "1178052",
+	"name": "\u5189\u5bb6\u6cb3",
+	"pinyin": "ranjiahe",
+	"cityCode": 2810,
+	"cityName": "\u5189\u5bb6\u6cb3"
+}, {
+	"code": "1178053",
+	"name": "\u65fa\u82cd",
+	"pinyin": "wangcang",
+	"cityCode": 2810,
+	"cityName": "\u65fa\u82cd"
+}, {
+	"code": "1178054",
+	"name": "\u671d\u5929",
+	"pinyin": "chaotian",
+	"cityCode": 2810,
+	"cityName": "\u671d\u5929"
+}, {
+	"code": "1178055",
+	"name": "\u664f\u5bb6\u575d",
+	"pinyin": "yanjiaba",
+	"cityCode": 2705,
+	"cityName": "\u664f\u5bb6\u575d"
+}, {
+	"code": "1178056",
+	"name": "\u7ea2\u536b\u575d",
+	"pinyin": "hongweiba",
+	"cityCode": 2705,
+	"cityName": "\u7ea2\u536b\u575d"
+}, {
+	"code": "1178057",
+	"name": "\u9ad8\u6f6d\u5b50",
+	"pinyin": "gaotanzi",
+	"cityCode": 2705,
+	"cityName": "\u9ad8\u6f6d\u5b50"
+}, {
+	"code": "1178058",
+	"name": "\u5f90\u5bb6\u576a",
+	"pinyin": "xujiaping",
+	"cityCode": 2705,
+	"cityName": "\u5f90\u5bb6\u576a"
+}, {
+	"code": "1178059",
+	"name": "\u6a2a\u73b0\u6cb3",
+	"pinyin": "hengxianhe",
+	"cityCode": 2705,
+	"cityName": "\u6a2a\u73b0\u6cb3"
+}, {
+	"code": "1178060",
+	"name": "\u5de8\u4ead",
+	"pinyin": "juting",
+	"cityCode": 2705,
+	"cityName": "\u5de8\u4ead"
+}, {
+	"code": "1178061",
+	"name": "\u8336\u9547",
+	"pinyin": "chazhen",
+	"cityCode": 2705,
+	"cityName": "\u8336\u9547"
+}, {
+	"code": "1178062",
+	"name": "\u9a6c\u8e44\u6e7e",
+	"pinyin": "matiwan",
+	"cityCode": 2705,
+	"cityName": "\u9a6c\u8e44\u6e7e"
+}, {
+	"code": "1178063",
+	"name": "\u71d5\u5b50\u782d",
+	"pinyin": "yanzibian",
+	"cityCode": 2705,
+	"cityName": "\u71d5\u5b50\u782d"
+}, {
+	"code": "1178064",
+	"name": "\u767d\u6c34\u6c5f",
+	"pinyin": "baishuijiang",
+	"cityCode": 2705,
+	"cityName": "\u767d\u6c34\u6c5f"
+}, {
+	"code": "1178065",
+	"name": "\u6c47\u5858\u6cb3",
+	"pinyin": "huitanghe",
+	"cityCode": 811,
+	"cityName": "\u6c47\u5858\u6cb3"
+}, {
+	"code": "1178066",
+	"name": "\u5a04\u5c71\u5173",
+	"pinyin": "loushanguan",
+	"cityCode": 811,
+	"cityName": "\u5a04\u5c71\u5173"
+}, {
+	"code": "1178067",
+	"name": "\u5927\u6cb3\u575d",
+	"pinyin": "daheba",
+	"cityCode": 811,
+	"cityName": "\u5927\u6cb3\u575d"
+}, {
+	"code": "1178068",
+	"name": "\u4e5d\u9f99\u5858",
+	"pinyin": "jiulongtang",
+	"cityCode": 811,
+	"cityName": "\u4e5d\u9f99\u5858"
+}, {
+	"code": "1178069",
+	"name": "\u8499\u6e21",
+	"pinyin": "mengdu",
+	"cityCode": 811,
+	"cityName": "\u8499\u6e21"
+}, {
+	"code": "1178070",
+	"name": "\u4e09\u5143\u575d",
+	"pinyin": "sanyuanba",
+	"cityCode": 811,
+	"cityName": "\u4e09\u5143\u575d"
+}, {
+	"code": "1178071",
+	"name": "\u677e\u574e",
+	"pinyin": "songkan",
+	"cityCode": 811,
+	"cityName": "\u677e\u574e"
+}, {
+	"code": "1178072",
+	"name": "\u7ea2\u82b1\u56ed",
+	"pinyin": "honghuayuan",
+	"cityCode": 811,
+	"cityName": "\u7ea2\u82b1\u56ed"
+}, {
+	"code": "1178073",
+	"name": "\u677e\u575d",
+	"pinyin": "songba",
+	"cityCode": 811,
+	"cityName": "\u677e\u575d"
+}, {
+	"code": "1178074",
+	"name": "\u674e\u5bb6\u6e7e",
+	"pinyin": "lijiawan",
+	"cityCode": 811,
+	"cityName": "\u674e\u5bb6\u6e7e"
+}, {
+	"code": "1178075",
+	"name": "\u9ad8\u7089\u5b50",
+	"pinyin": "gaoluzi",
+	"cityCode": 811,
+	"cityName": "\u9ad8\u7089\u5b50"
+}, {
+	"code": "1178076",
+	"name": "\u9f99\u91cc",
+	"pinyin": "longli",
+	"cityCode": 805,
+	"cityName": "\u9f99\u91cc"
+}, {
+	"code": "1178077",
+	"name": "\u8d35\u5b9a\u5357",
+	"pinyin": "guidingnan",
+	"cityCode": 805,
+	"cityName": "\u8d35\u5b9a\u5357"
+}, {
+	"code": "1178078",
+	"name": "\u60e0\u4e1c",
+	"pinyin": "huidong",
+	"cityCode": 609,
+	"cityName": "\u60e0\u4e1c"
+}, {
+	"code": "1178079",
+	"name": "\u60e0\u5dde\u897f",
+	"pinyin": "huizhouxi",
+	"cityCode": 609,
+	"cityName": "\u60e0\u5dde\u897f"
+}, {
+	"code": "1178080",
+	"name": "\u60e0\u5dde\u5357",
+	"pinyin": "huizhounan",
+	"cityCode": 609,
+	"cityName": "\u60e0\u5dde\u5357"
+}, {
+	"code": "1178081",
+	"name": "\u548c\u5e73",
+	"pinyin": "heping",
+	"cityCode": 608,
+	"cityName": "\u548c\u5e73"
+}, {
+	"code": "1178082",
+	"name": "\u5357\u5858\u9547",
+	"pinyin": "nantangzhen",
+	"cityCode": 1704,
+	"cityName": "\u5357\u5858\u9547"
+}, {
+	"code": "1178083",
+	"name": "\u9f99\u53e3",
+	"pinyin": "longkou",
+	"cityCode": 1704,
+	"cityName": "\u9f99\u53e3"
+}, {
+	"code": "1178084",
+	"name": "\u4f1a\u660c\u5317",
+	"pinyin": "huichangbei",
+	"cityCode": 1704,
+	"cityName": "\u4f1a\u660c\u5317"
+}, {
+	"code": "1178085",
+	"name": "\u9ad8\u5174\u9547",
+	"pinyin": "gaoxingzhen",
+	"cityCode": 1704,
+	"cityName": "\u9ad8\u5174\u9547"
+}, {
+	"code": "1178086",
+	"name": "\u91aa\u6865",
+	"pinyin": "laoqiao",
+	"cityCode": 1705,
+	"cityName": "\u91aa\u6865"
+}, {
+	"code": "1178087",
+	"name": "\u5409\u5b89\u5357",
+	"pinyin": "jiannan",
+	"cityCode": 1705,
+	"cityName": "\u5409\u5b89\u5357"
+}, {
+	"code": "1178088",
+	"name": "\u51a0\u671d",
+	"pinyin": "guanchao",
+	"cityCode": 1705,
+	"cityName": "\u51a0\u671d"
+}, {
+	"code": "1178089",
+	"name": "\u6c99\u6751",
+	"pinyin": "shacun",
+	"cityCode": 1705,
+	"cityName": "\u6c99\u6751"
+}, {
+	"code": "1178090",
+	"name": "\u5409\u6c34",
+	"pinyin": "jishui",
+	"cityCode": 1705,
+	"cityName": "\u5409\u6c34"
+}, {
+	"code": "1178091",
+	"name": "\u5e7f\u901a\u5317",
+	"pinyin": "guangtongbei",
+	"cityCode": 3305,
+	"cityName": "\u5e7f\u901a\u5317"
+}, {
+	"code": "1178092",
+	"name": "\u5929\u6865\u6c9f",
+	"pinyin": "tianqiaogou",
+	"cityCode": 1907,
+	"cityName": "\u5929\u6865\u6c9f"
+}, {
+	"code": "1178093",
+	"name": "\u96c5\u6cb3",
+	"pinyin": "yahe",
+	"cityCode": 1907,
+	"cityName": "\u96c5\u6cb3"
+}, {
+	"code": "1178094",
+	"name": "\u5927\u96c5\u6cb3",
+	"pinyin": "dayahe",
+	"cityCode": 1904,
+	"cityName": "\u5927\u96c5\u6cb3"
+}, {
+	"code": "1178095",
+	"name": "\u6853\u9f99\u6e56",
+	"pinyin": "huanlonghu",
+	"cityCode": 1904,
+	"cityName": "\u6853\u9f99\u6e56"
+}, {
+	"code": "1178096",
+	"name": "\u53e4\u57ce\u5b50",
+	"pinyin": "guchengzi",
+	"cityCode": 1904,
+	"cityName": "\u53e4\u57ce\u5b50"
+}, {
+	"code": "1178097",
+	"name": "\u795e\u5dde",
+	"pinyin": "shenzhou",
+	"cityCode": 908,
+	"cityName": "\u795e\u5dde"
+}, {
+	"code": "1178098",
+	"name": "\u7406\u5bb6\u576a",
+	"pinyin": "lijiaping",
+	"cityCode": 1513,
+	"cityName": "\u7406\u5bb6\u576a"
+}, {
+	"code": "1178099",
+	"name": "\u4e1c\u6234\u6cb3",
+	"pinyin": "dongdaihe",
+	"cityCode": 1910,
+	"cityName": "\u4e1c\u6234\u6cb3"
+}, {
+	"code": "1178100",
+	"name": "\u725b\u6c7e\u53f0",
+	"pinyin": "niufentai",
+	"cityCode": 2112,
+	"cityName": "\u725b\u6c7e\u53f0"
+}, {
+	"code": "1178101",
+	"name": "\u5317\u5c97",
+	"pinyin": "beigang",
+	"cityCode": 1804,
+	"cityName": "\u5317\u5c97"
+}, {
+	"code": "1178102",
+	"name": "\u77f3\u67f1\u53bf",
+	"pinyin": "shizhuxian",
+	"cityCode": 300,
+	"cityName": "\u77f3\u67f1\u53bf"
+}, {
+	"code": "1178103",
+	"name": "\u6768\u9675\u5357",
+	"pinyin": "yanglingnan",
+	"cityCode": 2710,
+	"cityName": "\u6768\u9675\u5357"
+}, {
+	"code": "1178104",
+	"name": "\u6768\u9675",
+	"pinyin": "yangling",
+	"cityCode": 2710,
+	"cityName": "\u6768\u9675"
+}, {
+	"code": "1178105",
+	"name": "\u5c90\u5c71",
+	"pinyin": "qishan",
+	"cityCode": 2704,
+	"cityName": "\u5c90\u5c71"
+}, {
+	"code": "1178106",
+	"name": "\u4e4c\u9f99\u6cc9\u5357",
+	"pinyin": "wulongquannan",
+	"cityCode": 1402,
+	"cityName": "\u4e4c\u9f99\u6cc9\u5357"
+}, {
+	"code": "1178107",
+	"name": "\u6606\u9633",
+	"pinyin": "kunyang",
+	"cityCode": 3302,
+	"cityName": "\u6606\u9633"
+}, {
+	"code": "1178108",
+	"name": "\u6765\u5bbe\u5317",
+	"pinyin": "laibinbei",
+	"cityCode": 714,
+	"cityName": "\u6765\u5bbe\u5317"
+}, {
+	"code": "1178109",
+	"name": "\u4e39\u971e\u5c71",
+	"pinyin": "danxiashan",
+	"cityCode": 618,
+	"cityName": "\u4e39\u971e\u5c71"
+}, {
+	"code": "1178110",
+	"name": "\u5e73\u5357\u5357",
+	"pinyin": "pingnannan",
+	"cityCode": 713,
+	"cityName": "\u5e73\u5357\u5357"
+}, {
+	"code": "1178111",
+	"name": "\u845b\u5e97\u5357",
+	"pinyin": "gediannan",
+	"cityCode": 1404,
+	"cityName": "\u845b\u5e97\u5357"
+}, {
+	"code": "1178112",
+	"name": "\u82b1\u6e56",
+	"pinyin": "huahu",
+	"cityCode": 1406,
+	"cityName": "\u82b1\u6e56"
+}, {
+	"code": "1178113",
+	"name": "\u5927\u51b6\u5317",
+	"pinyin": "dayebei",
+	"cityCode": 1406,
+	"cityName": "\u5927\u51b6\u5317"
+}, {
+	"code": "1178114",
+	"name": "\u5e73\u9065\u53e4\u57ce",
+	"pinyin": "pingyaogucheng",
+	"cityCode": 2612,
+	"cityName": "\u5e73\u9065\u53e4\u57ce"
+}, {
+	"code": "1178115",
+	"name": "\u8425\u76d8\u4e0a",
+	"pinyin": "yingpanshang",
+	"cityCode": 1704,
+	"cityName": "\u8425\u76d8\u4e0a"
+}, {
+	"code": "1178116",
+	"name": "\u5de6\u5cad",
+	"pinyin": "zuoling",
+	"cityCode": 1402,
+	"cityName": "\u5de6\u5cad"
+}, {
+	"code": "1178117",
+	"name": "\u5357\u5934",
+	"pinyin": "nantou",
+	"cityCode": 627,
+	"cityName": "\u5357\u5934"
+}, {
+	"code": "1178118",
+	"name": "\u6df1\u5733\u576a\u5c71",
+	"pinyin": "shenzhenpingshan",
+	"cityCode": 619,
+	"cityName": "\u6df1\u5733\u576a\u5c71"
+}, {
+	"code": "1178119",
+	"name": "\u6f6e\u6c55",
+	"pinyin": "chaoshan",
+	"cityCode": 604,
+	"cityName": "\u6f6e\u6c55"
+}, {
+	"code": "1178120",
+	"name": "\u9976\u5e73",
+	"pinyin": "raoping",
+	"cityCode": 604,
+	"cityName": "\u9976\u5e73"
+}, {
+	"code": "1178121",
+	"name": "\u970d\u5c14\u679c\u65af",
+	"pinyin": "huoerguosi",
+	"cityCode": 3119,
+	"cityName": "\u970d\u5c14\u679c\u65af"
+}, {
+	"code": "1178122",
+	"name": "\u6ee6\u6cb3",
+	"pinyin": "luanhe",
+	"cityCode": 1013,
+	"cityName": "\u6ee6\u6cb3"
+}, {
+	"code": "1178123",
+	"name": "\u519b\u7cae\u57ce\u5317",
+	"pinyin": "junliangchengbei",
+	"cityCode": 3000,
+	"cityName": "\u519b\u7cae\u57ce\u5317"
+}, {
+	"code": "1178124",
+	"name": "\u4e5d\u53f0\u5357",
+	"pinyin": "jiutainan",
+	"cityCode": 1802,
+	"cityName": "\u4e5d\u53f0\u5357"
+}, {
+	"code": "1178125",
+	"name": "\u5927\u5e86\u897f",
+	"pinyin": "daqingxi",
+	"cityCode": 1104,
+	"cityName": "\u5927\u5e86\u897f"
+}, {
+	"code": "1178126",
+	"name": "\u4e94\u5973\u5c71",
+	"pinyin": "wunvshan",
+	"cityCode": 1904,
+	"cityName": "\u4e94\u5973\u5c71"
+}, {
+	"code": "1178127",
+	"name": "\u5b89\u4ead\u5317",
+	"pinyin": "antingbei",
+	"cityCode": 2500,
+	"cityName": "\u5b89\u4ead\u5317"
+}, {
+	"code": "1178128",
+	"name": "\u9633\u660e\u5821",
+	"pinyin": "yangmingbu",
+	"cityCode": 2610,
+	"cityName": "\u9633\u660e\u5821"
+}, {
+	"code": "1178129",
+	"name": "\u5927\u9752\u6c9f",
+	"pinyin": "daqinggou",
+	"cityCode": 2110,
+	"cityName": "\u5927\u9752\u6c9f"
+}, {
+	"code": "1178130",
+	"name": "\u67f3\u5bb6\u5e84",
+	"pinyin": "liujiazhuang",
+	"cityCode": 2206,
+	"cityName": "\u67f3\u5bb6\u5e84"
+}, {
+	"code": "1178131",
+	"name": "\u4e1c\u7530\u826f",
+	"pinyin": "dongtianliang",
+	"cityCode": 2603,
+	"cityName": "\u4e1c\u7530\u826f"
+}, {
+	"code": "1178132",
+	"name": "\u957f\u5b50",
+	"pinyin": "zhangzi",
+	"cityCode": 2603,
+	"cityName": "\u957f\u5b50"
+}, {
+	"code": "1178133",
+	"name": "\u5927\u8f9b\u5e84",
+	"pinyin": "daxinzhuang",
+	"cityCode": 2603,
+	"cityName": "\u5927\u8f9b\u5e84"
+}, {
+	"code": "1178134",
+	"name": "\u524d\u7a91",
+	"pinyin": "qianyao",
+	"cityCode": 1808,
+	"cityName": "\u524d\u7a91"
+}, {
+	"code": "1178135",
+	"name": "\u989d\u6d4e\u7eb3",
+	"pinyin": "ejina",
+	"cityCode": 2103,
+	"cityName": "\u989d\u6d4e\u7eb3"
+}, {
+	"code": "1178136",
+	"name": "\u5e86\u9633\u5c71",
+	"pinyin": "qingyangshan",
+	"cityCode": 2103,
+	"cityName": "\u5e86\u9633\u5c71"
+}, {
+	"code": "1178137",
+	"name": "\u70ed\u6c34",
+	"pinyin": "reshui",
+	"cityCode": 2105,
+	"cityName": "\u70ed\u6c34"
+}, {
+	"code": "1178138",
+	"name": "\u660e\u6c34\u6cb3",
+	"pinyin": "mingshuihe",
+	"cityCode": 2112,
+	"cityName": "\u660e\u6c34\u6cb3"
+}, {
+	"code": "1178139",
+	"name": "\u8d5b\u4e4c\u82cf",
+	"pinyin": "saiwusu",
+	"cityCode": 2113,
+	"cityName": "\u8d5b\u4e4c\u82cf"
+}, {
+	"code": "1178140",
+	"name": "\u9f50\u54c8\u65e5\u683c\u56fe",
+	"pinyin": "qiharigetu",
+	"cityCode": 2113,
+	"cityName": "\u9f50\u54c8\u65e5\u683c\u56fe"
+}, {
+	"code": "1178141",
+	"name": "\u8d5b\u6c57\u5854\u62c9",
+	"pinyin": "saihantala",
+	"cityCode": 2113,
+	"cityName": "\u8d5b\u6c57\u5854\u62c9"
+}, {
+	"code": "1178142",
+	"name": "\u767d\u65d7",
+	"pinyin": "baiqi",
+	"cityCode": 1006,
+	"cityName": "\u767d\u65d7"
+}, {
+	"code": "1178143",
+	"name": "\u9e70\u6f6d\u5317",
+	"pinyin": "yingtanbei",
+	"cityCode": 1714,
+	"cityName": "\u9e70\u6f6d\u5317"
+}, {
+	"code": "1178144",
+	"name": "\u5ce8\u7709\u5c71",
+	"pinyin": "emeishan",
+	"cityCode": 2813,
+	"cityName": "\u5ce8\u7709\u5c71"
+}, {
+	"code": "1178145",
+	"name": "\u7f57\u6c5f\u4e1c",
+	"pinyin": "luojiangdong",
+	"cityCode": 2805,
+	"cityName": "\u7f57\u6c5f\u4e1c"
+}, {
+	"code": "1178146",
+	"name": "\u6000\u5316\u5357",
+	"pinyin": "huaihuanan",
+	"cityCode": 1506,
+	"cityName": "\u6000\u5316\u5357"
+}, {
+	"code": "1178147",
+	"name": "\u677e\u539f\u5317",
+	"pinyin": "songyuanbei",
+	"cityCode": 1810,
+	"cityName": "\u677e\u539f\u5317"
+}, {
+	"code": "1178148",
+	"name": "\u4e07\u5e84",
+	"pinyin": "wanzhuang",
+	"cityCode": 1010,
+	"cityName": "\u4e07\u5e84"
+}, {
+	"code": "1178149",
+	"name": "\u6210\u90fd\u5357",
+	"pinyin": "chengdunan",
+	"cityCode": 2802,
+	"cityName": "\u6210\u90fd\u5357"
+}, {
+	"code": "1178150",
+	"name": "\u53a6\u95e8",
+	"pinyin": "xiamen",
+	"cityCode": 414,
+	"cityName": "\u53a6\u95e8"
+}, {
+	"code": "1178151",
+	"name": "\u9752\u83b2",
+	"pinyin": "qinglian",
+	"cityCode": 2816,
+	"cityName": "\u9752\u83b2"
+}, {
+	"code": "1178152",
+	"name": "\u72fc\u7a9d\u94fa",
+	"pinyin": "langwopu",
+	"cityCode": 1013,
+	"cityName": "\u72fc\u7a9d\u94fa"
+}, {
+	"code": "1178153",
+	"name": "\u5f20\u5170",
+	"pinyin": "zhanglan",
+	"cityCode": 2612,
+	"cityName": "\u5f20\u5170"
+}, {
+	"code": "1178154",
+	"name": "\u5510\u5b98\u5c6f",
+	"pinyin": "tangguantun",
+	"cityCode": 3000,
+	"cityName": "\u5510\u5b98\u5c6f"
+}, {
+	"code": "1178155",
+	"name": "\u6842\u6797\u5317",
+	"pinyin": "guilinbei",
+	"cityCode": 705,
+	"cityName": "\u6842\u6797\u5317"
+}, {
+	"code": "1178156",
+	"name": "\u7389\u5c71\u5357",
+	"pinyin": "yushannan",
+	"cityCode": 1711,
+	"cityName": "\u7389\u5c71\u5357"
+}, {
+	"code": "1178157",
+	"name": "\u606f\u53bf",
+	"pinyin": "xixian",
+	"cityCode": 1217,
+	"cityName": "\u606f\u53bf"
+}, {
+	"code": "1178158",
+	"name": "\u84ec\u5b89",
+	"pinyin": "pengan",
+	"cityCode": 2818,
+	"cityName": "\u84ec\u5b89"
+}, {
+	"code": "1178159",
+	"name": "\u82c7\u5b50\u6c9f",
+	"pinyin": "weizigou",
+	"cityCode": 1802,
+	"cityName": "\u82c7\u5b50\u6c9f"
+}, {
+	"code": "1178160",
+	"name": "\u90b5\u9633\u5317",
+	"pinyin": "shaoyangbei",
+	"cityCode": 1509,
+	"cityName": "\u90b5\u9633\u5317"
+}, {
+	"code": "1178161",
+	"name": "\u54c8\u62c9\u6d77",
+	"pinyin": "halahai",
+	"cityCode": 1802,
+	"cityName": "\u54c8\u62c9\u6d77"
+}, {
+	"code": "1178162",
+	"name": "\u65b0\u90fd\u4e1c",
+	"pinyin": "xindudong",
+	"cityCode": 2802,
+	"cityName": "\u65b0\u90fd\u4e1c"
+}, {
+	"code": "1178163",
+	"name": "\u8336\u6dc0",
+	"pinyin": "chadian",
+	"cityCode": 3000,
+	"cityName": "\u8336\u6dc0"
+}, {
+	"code": "1178164",
+	"name": "\u6d0b\u6cb3",
+	"pinyin": "yanghe",
+	"cityCode": 1614,
+	"cityName": "\u6d0b\u6cb3"
+}, {
+	"code": "1178165",
+	"name": "\u6cb3\u53e3\u5317",
+	"pinyin": "hekoubei",
+	"cityCode": 3308,
+	"cityName": "\u6cb3\u53e3\u5317"
+}, {
+	"code": "1178166",
+	"name": "\u5587\u561b\u7538",
+	"pinyin": "lamadian",
+	"cityCode": 1104,
+	"cityName": "\u5587\u561b\u7538"
+}, {
+	"code": "1178167",
+	"name": "\u6728\u91cc\u56fe",
+	"pinyin": "mulitu",
+	"cityCode": 2110,
+	"cityName": "\u6728\u91cc\u56fe"
+}, {
+	"code": "1178168",
+	"name": "\u6866\u76ae\u5382",
+	"pinyin": "huapichang",
+	"cityCode": 1808,
+	"cityName": "\u6866\u76ae\u5382"
+}, {
+	"code": "1178169",
+	"name": "\u8499\u81ea",
+	"pinyin": "mengzi",
+	"cityCode": 3308,
+	"cityName": "\u8499\u81ea"
+}, {
+	"code": "1178170",
+	"name": "\u629a\u5dde\u4e1c",
+	"pinyin": "fuzhoudong",
+	"cityCode": 1703,
+	"cityName": "\u629a\u5dde\u4e1c"
+}, {
+	"code": "1178171",
+	"name": "\u5e7f\u6c49\u5317",
+	"pinyin": "guanghanbei",
+	"cityCode": 2805,
+	"cityName": "\u5e7f\u6c49\u5317"
+}, {
+	"code": "1178172",
+	"name": "\u5b64\u5bb6\u5b50",
+	"pinyin": "gujiazi",
+	"cityCode": 1902,
+	"cityName": "\u5b64\u5bb6\u5b50"
+}, {
+	"code": "1178173",
+	"name": "\u4e50\u5c71",
+	"pinyin": "leshan",
+	"cityCode": 2813,
+	"cityName": "\u4e50\u5c71"
+}, {
+	"code": "1178174",
+	"name": "\u5a04\u5e95\u5357",
+	"pinyin": "loudinan",
+	"cityCode": 1508,
+	"cityName": "\u5a04\u5e95\u5357"
+}, {
+	"code": "1178175",
+	"name": "\u6e58\u6f6d\u5317",
+	"pinyin": "xiangtanbei",
+	"cityCode": 1510,
+	"cityName": "\u6e58\u6f6d\u5317"
+}, {
+	"code": "1178176",
+	"name": "\u5410\u9c81\u756a\u5317",
+	"pinyin": "tulufanbei",
+	"cityCode": 3118,
+	"cityName": "\u5410\u9c81\u756a\u5317"
+}, {
+	"code": "1178177",
+	"name": "\u6cd7\u53bf",
+	"pinyin": "sixian",
+	"cityCode": 117,
+	"cityName": "\u6cd7\u53bf"
+}, {
+	"code": "1178178",
+	"name": "\u5f13\u68da\u5b50",
+	"pinyin": "gongpengzi",
+	"cityCode": 1810,
+	"cityName": "\u5f13\u68da\u5b50"
+}, {
+	"code": "1178179",
+	"name": "\u6cd7\u9633",
+	"pinyin": "siyang",
+	"cityCode": 1614,
+	"cityName": "\u6cd7\u9633"
+}, {
+	"code": "1178180",
+	"name": "\u8fdb\u8d24\u5357",
+	"pinyin": "jinxiannan",
+	"cityCode": 1702,
+	"cityName": "\u8fdb\u8d24\u5357"
+}, {
+	"code": "1178181",
+	"name": "\u7530\u5e84",
+	"pinyin": "tianzhuang",
+	"cityCode": 1013,
+	"cityName": "\u7530\u5e84"
+}, {
+	"code": "1178182",
+	"name": "\u5317\u4eac\u4e1c",
+	"pinyin": "beijingdong",
+	"cityCode": 200,
+	"cityName": "\u5317\u4eac\u4e1c"
+}, {
+	"code": "1178183",
+	"name": "\u5929\u6d25\u5317",
+	"pinyin": "tianjinbei",
+	"cityCode": 3000,
+	"cityName": "\u5929\u6d25\u5317"
+}, {
+	"code": "1178184",
+	"name": "\u5e7f\u5dde\u897f",
+	"pinyin": "guangzhouxi",
+	"cityCode": 602,
+	"cityName": "\u5e7f\u5dde\u897f"
+}, {
+	"code": "1178185",
+	"name": "\u676d\u5dde\u5357",
+	"pinyin": "hangzhounan",
+	"cityCode": 3402,
+	"cityName": "\u676d\u5dde\u5357"
+}, {
+	"code": "1178186",
+	"name": "\u5170\u5dde\u897f",
+	"pinyin": "lanzhouxi",
+	"cityCode": 502,
+	"cityName": "\u5170\u5dde\u897f"
+}, {
+	"code": "1178187",
+	"name": "\u6c88\u9633\u4e1c",
+	"pinyin": "shenyangdong",
+	"cityCode": 1902,
+	"cityName": "\u6c88\u9633\u4e1c"
+}, {
+	"code": "1178188",
+	"name": "\u897f\u5b81",
+	"pinyin": "xining",
+	"cityCode": 2302,
+	"cityName": "\u897f\u5b81"
+}, {
+	"code": "1178189",
+	"name": "\u9ec4\u77f3\u4e1c",
+	"pinyin": "huangshidong",
+	"cityCode": 1406,
+	"cityName": "\u9ec4\u77f3\u4e1c"
+}, {
+	"code": "1178190",
+	"name": "\u91d1\u534e\u5357",
+	"pinyin": "jinhuanan",
+	"cityCode": 3411,
+	"cityName": "\u91d1\u534e\u5357"
+}, {
+	"code": "1178191",
+	"name": "\u84df\u53bf",
+	"pinyin": "jixian",
+	"cityCode": 3000,
+	"cityName": "\u84df\u53bf"
+}, {
+	"code": "1178192",
+	"name": "\u5b81\u6ce2\u4e1c",
+	"pinyin": "ningbodong",
+	"cityCode": 3415,
+	"cityName": "\u5b81\u6ce2\u4e1c"
+}, {
+	"code": "1178193",
+	"name": "\u5510\u5c71\u5317",
+	"pinyin": "tangshanbei",
+	"cityCode": 1013,
+	"cityName": "\u5510\u5c71\u5317"
+}, {
+	"code": "1178194",
+	"name": "\u5b9c\u660c",
+	"pinyin": "yichang",
+	"cityCode": 1418,
+	"cityName": "\u5b9c\u660c"
+}, {
+	"code": "1178195",
+	"name": "\u5ef6\u5e86",
+	"pinyin": "yanqing",
+	"cityCode": 200,
+	"cityName": "\u5ef6\u5e86"
+}, {
+	"code": "1178196",
+	"name": "\u5f20\u5bb6\u53e3",
+	"pinyin": "zhangjiakou",
+	"cityCode": 1016,
+	"cityName": "\u5f20\u5bb6\u53e3"
+}, {
+	"code": "1178197",
+	"name": "\u5b9d\u577b",
+	"pinyin": "baodi",
+	"cityCode": 3000,
+	"cityName": "\u5b9d\u577b"
+}, {
+	"code": "1178198",
+	"name": "\u5742\u7530",
+	"pinyin": "bantian",
+	"cityCode": 619,
+	"cityName": "\u5742\u7530"
+}, {
+	"code": "1178199",
+	"name": "\u4e1c\u65b9",
+	"pinyin": "dongfang",
+	"cityCode": 911,
+	"cityName": "\u4e1c\u65b9"
+}, {
+	"code": "1178200",
+	"name": "\u8fbe\u62c9\u7279\u65d7",
+	"pinyin": "dalateqi",
+	"cityCode": 2106,
+	"cityName": "\u8fbe\u62c9\u7279\u65d7"
+}, {
+	"code": "1178201",
+	"name": "\u5927\u5e86\u4e1c",
+	"pinyin": "daqingdong",
+	"cityCode": 1104,
+	"cityName": "\u5927\u5e86\u4e1c"
+}, {
+	"code": "1178203",
+	"name": "\u629a\u5dde\u5317",
+	"pinyin": "fuzhoubei",
+	"cityCode": 1703,
+	"cityName": "\u629a\u5dde\u5317"
+}, {
+	"code": "1178204",
+	"name": "\u5b98\u5385\u897f",
+	"pinyin": "guantingxi",
+	"cityCode": 1016,
+	"cityName": "\u5b98\u5385\u897f"
+}, {
+	"code": "1178205",
+	"name": "\u6dee\u5b89\u5357",
+	"pinyin": "huaiannan",
+	"cityCode": 1606,
+	"cityName": "\u6dee\u5b89\u5357"
+}, {
+	"code": "1178206",
+	"name": "\u7126\u4f5c\u4e1c",
+	"pinyin": "jiaozuodong",
+	"cityCode": 1206,
+	"cityName": "\u7126\u4f5c\u4e1c"
+}, {
+	"code": "1178207",
+	"name": "\u94a6\u5dde",
+	"pinyin": "qinzhou",
+	"cityCode": 710,
+	"cityName": "\u94a6\u5dde"
+}, {
+	"code": "1178208",
+	"name": "\u77f3\u95e8\u53bf",
+	"pinyin": "shimenxian",
+	"cityCode": 1503,
+	"cityName": "\u77f3\u95e8\u53bf"
+}, {
+	"code": "1178211",
+	"name": "\u65b0\u5174\u53bf",
+	"pinyin": "xinxingxian",
+	"cityCode": 623,
+	"cityName": "\u65b0\u5174\u53bf"
+}, {
+	"code": "1178213",
+	"name": "\u8d35\u5b9a\u53bf",
+	"pinyin": "guidingxian",
+	"cityCode": 805,
+	"cityName": "\u8d35\u5b9a\u53bf"
+}, {
+	"code": "1178214",
+	"name": "\u8d35\u9633\u5317",
+	"pinyin": "guiyangbei",
+	"cityCode": 802,
+	"cityName": "\u8d35\u9633\u5317"
+}, {
+	"code": "1178215",
+	"name": "\u8d3e\u9c81\u6cb3",
+	"pinyin": "jialuhe",
+	"cityCode": 1202,
+	"cityName": "\u8d3e\u9c81\u6cb3"
+}, {
+	"code": "1178216",
+	"name": "\u9152\u6cc9\u5357",
+	"pinyin": "jiuquannan",
+	"cityCode": 508,
+	"cityName": "\u9152\u6cc9\u5357"
+}, {
+	"code": "1178217",
+	"name": "\u5609\u5cea\u5173\u5357",
+	"pinyin": "jiayuguannan",
+	"cityCode": 516,
+	"cityName": "\u5609\u5cea\u5173\u5357"
+}, {
+	"code": "1178218",
+	"name": "\u7eff\u535a\u56ed",
+	"pinyin": "lvboyuan",
+	"cityCode": 1202,
+	"cityName": "\u7eff\u535a\u56ed"
+}, {
+	"code": "1178219",
+	"name": "\u9a6c\u5170",
+	"pinyin": "malan",
+	"cityCode": 3114,
+	"cityName": "\u9a6c\u5170"
+}, {
+	"code": "1178220",
+	"name": "\u725f\u5e73",
+	"pinyin": "muping",
+	"cityCode": 2419,
+	"cityName": "\u725f\u5e73"
+}, {
+	"code": "1178221",
+	"name": "\u7709\u5c71\u4e1c",
+	"pinyin": "meishandong",
+	"cityCode": 2817,
+	"cityName": "\u7709\u5c71\u4e1c"
+}, {
+	"code": "1178222",
+	"name": "\u5357\u5b81\u4e1c",
+	"pinyin": "nanningdong",
+	"cityCode": 702,
+	"cityName": "\u5357\u5b81\u4e1c"
+}, {
+	"code": "1178225",
+	"name": "\u5b8b\u57ce\u8def",
+	"pinyin": "songchenglu",
+	"cityCode": 1208,
+	"cityName": "\u5b8b\u57ce\u8def"
+}, {
+	"code": "1178226",
+	"name": "\u901a\u5316\u53bf",
+	"pinyin": "tonghuaxian",
+	"cityCode": 1811,
+	"cityName": "\u901a\u5316\u53bf"
+}, {
+	"code": "1178227",
+	"name": "\u6587\u767b\u4e1c",
+	"pinyin": "wendengdong",
+	"cityCode": 2418,
+	"cityName": "\u6587\u767b\u4e1c"
+}, {
+	"code": "1178228",
+	"name": "\u5a01\u6d77\u5317",
+	"pinyin": "weihaibei",
+	"cityCode": 2418,
+	"cityName": "\u5a01\u6d77\u5317"
+}, {
+	"code": "1178229",
+	"name": "\u8fd0\u7cae\u6cb3",
+	"pinyin": "yunlianghe",
+	"cityCode": 1208,
+	"cityName": "\u8fd0\u7cae\u6cb3"
+}, {
+	"code": "1178230",
+	"name": "\u70df\u53f0\u5357",
+	"pinyin": "yantainan",
+	"cityCode": 2419,
+	"cityName": "\u70df\u53f0\u5357"
+}, {
+	"code": "1178231",
+	"name": "\u8087\u5e86\u4e1c",
+	"pinyin": "zhaoqingdong",
+	"cityCode": 626,
+	"cityName": "\u8087\u5e86\u4e1c"
+}, {
+	"code": "1178232",
+	"name": "\u5f20\u6396\u897f",
+	"pinyin": "zhangyexi",
+	"cityCode": 515,
+	"cityName": "\u5f20\u6396\u897f"
+}, {
+	"code": "1178233",
+	"name": "\u5b89\u5e73",
+	"pinyin": "anping",
+	"cityCode": 1009,
+	"cityName": "\u5b89\u5e73"
+}, {
+	"code": "1178234",
+	"name": "\u5317\u53f0",
+	"pinyin": "beitai",
+	"cityCode": 1904,
+	"cityName": "\u5317\u53f0"
+}, {
+	"code": "1178235",
+	"name": "\u5d07\u4ec1",
+	"pinyin": "chongren",
+	"cityCode": 1703,
+	"cityName": "\u5d07\u4ec1"
+}, {
+	"code": "1178236",
+	"name": "\u957f\u6c40\u9547",
+	"pinyin": "changtingzhen",
+	"cityCode": 1110,
+	"cityName": "\u957f\u6c40\u9547"
+}, {
+	"code": "1178237",
+	"name": "\u5927\u6da7",
+	"pinyin": "dajian",
+	"cityCode": 2604,
+	"cityName": "\u5927\u6da7"
+}, {
+	"code": "1178238",
+	"name": "\u4e1c\u80dc",
+	"pinyin": "dongsheng",
+	"cityCode": 2106,
+	"cityName": "\u4e1c\u80dc"
+}, {
+	"code": "1178239",
+	"name": "\u53e4\u83b2",
+	"pinyin": "gulian",
+	"cityCode": 1105,
+	"cityName": "\u53e4\u83b2"
+}, {
+	"code": "1178240",
+	"name": "\u6cb3\u8fb9",
+	"pinyin": "hebian",
+	"cityCode": 2610,
+	"cityName": "\u6cb3\u8fb9"
+}, {
+	"code": "1178241",
+	"name": "\u7687\u59d1\u5c6f",
+	"pinyin": "huanggutun",
+	"cityCode": 1902,
+	"cityName": "\u7687\u59d1\u5c6f"
+}, {
+	"code": "1178242",
+	"name": "\u96c6\u5b89",
+	"pinyin": "jian",
+	"cityCode": 1811,
+	"cityName": "\u96c6\u5b89"
+}, {
+	"code": "1178243",
+	"name": "\u6c5f\u8fb9\u6751",
+	"pinyin": "jiangbiancun",
+	"cityCode": 1703,
+	"cityName": "\u6c5f\u8fb9\u6751"
+}, {
+	"code": "1178244",
+	"name": "\u955c\u94c1\u5c71",
+	"pinyin": "jingtieshan",
+	"cityCode": 515,
+	"cityName": "\u955c\u94c1\u5c71"
+}, {
+	"code": "1178245",
+	"name": "\u5ca2\u5c9a",
+	"pinyin": "kelan",
+	"cityCode": 2610,
+	"cityName": "\u5ca2\u5c9a"
+}, {
+	"code": "1178246",
+	"name": "\u82a6\u6f6e\u6e2f",
+	"pinyin": "luchaogang",
+	"cityCode": 2500,
+	"cityName": "\u82a6\u6f6e\u6e2f"
+}, {
+	"code": "1178247",
+	"name": "\u4e34\u5ddd",
+	"pinyin": "linchuan",
+	"cityCode": 1703,
+	"cityName": "\u4e34\u5ddd"
+}, {
+	"code": "1178248",
+	"name": "\u6f5e\u57ce",
+	"pinyin": "lucheng",
+	"cityCode": 2603,
+	"cityName": "\u6f5e\u57ce"
+}, {
+	"code": "1178249",
+	"name": "\u826f\u5404\u5e84",
+	"pinyin": "lianggezhuang",
+	"cityCode": 200,
+	"cityName": "\u826f\u5404\u5e84"
+}, {
+	"code": "1178250",
+	"name": "\u7eff\u5316",
+	"pinyin": "lvhua",
+	"cityCode": 516,
+	"cityName": "\u7eff\u5316"
+}, {
+	"code": "1178251",
+	"name": "\u4e34\u6c5f",
+	"pinyin": "linjiang",
+	"cityCode": 1804,
+	"cityName": "\u4e34\u6c5f"
+}, {
+	"code": "1178252",
+	"name": "\u65c5\u987a",
+	"pinyin": "lvshun",
+	"cityCode": 1906,
+	"cityName": "\u65c5\u987a"
+}, {
+	"code": "1178253",
+	"name": "\u83ab\u5c14\u9053\u560e",
+	"pinyin": "moerdaoga",
+	"cityCode": 2107,
+	"cityName": "\u83ab\u5c14\u9053\u560e"
+}, {
+	"code": "1178254",
+	"name": "\u6ee1\u5f52",
+	"pinyin": "mangui",
+	"cityCode": 2107,
+	"cityName": "\u6ee1\u5f52"
+}, {
+	"code": "1178255",
+	"name": "\u5858\u8c79",
+	"pinyin": "tangbao",
+	"cityCode": 1506,
+	"cityName": "\u5858\u8c79"
+}, {
+	"code": "1178256",
+	"name": "\u5854\u5c14\u6c14",
+	"pinyin": "taerqi",
+	"cityCode": 2107,
+	"cityName": "\u5854\u5c14\u6c14"
+}, {
+	"code": "1178257",
+	"name": "\u7530\u5e08\u5e9c",
+	"pinyin": "tianshifu",
+	"cityCode": 1904,
+	"cityName": "\u7530\u5e08\u5e9c"
+}, {
+	"code": "1178258",
+	"name": "\u5c0f\u5e02",
+	"pinyin": "xiaoshi",
+	"cityCode": 1904,
+	"cityName": "\u5c0f\u5e02"
+}, {
+	"code": "1178259",
+	"name": "\u5b9c\u6625\u897f",
+	"pinyin": "yichunxi",
+	"cityCode": 1713,
+	"cityName": "\u5b9c\u6625\u897f"
+}, {
+	"code": "1178260",
+	"name": "\u4f0a\u5c14\u65bd",
+	"pinyin": "yiershi",
+	"cityCode": 2112,
+	"cityName": "\u4f0a\u5c14\u65bd"
+}, {
+	"code": "1178261",
+	"name": "\u9633\u6cc9\u66f2",
+	"pinyin": "yangquanqu",
+	"cityCode": 2611,
+	"cityName": "\u9633\u6cc9\u66f2"
+}, {
+	"code": "1178263",
+	"name": "\u54f2\u91cc\u6728",
+	"pinyin": "zhelimu",
+	"cityCode": 2110,
+	"cityName": "\u54f2\u91cc\u6728"
+}, {
+	"code": "1178264",
+	"name": "\u5468\u6c34\u5b50",
+	"pinyin": "zhoushuizi",
+	"cityCode": 1906,
+	"cityName": "\u5468\u6c34\u5b50"
+}, {
+	"code": "1178265",
+	"name": "\u827e\u6cb3",
+	"pinyin": "aihe",
+	"cityCode": 1003,
+	"cityName": "\u827e\u6cb3"
+}, {
+	"code": "1178266",
+	"name": "\u963f\u9f99\u5c71",
+	"pinyin": "alongshan",
+	"cityCode": 2107,
+	"cityName": "\u963f\u9f99\u5c71"
+}, {
+	"code": "1178267",
+	"name": "\u5b89\u5858",
+	"pinyin": "antang",
+	"cityCode": 2610,
+	"cityName": "\u5b89\u5858"
+}, {
+	"code": "1178268",
+	"name": "\u767d\u58c1\u5173",
+	"pinyin": "baibiguan",
+	"cityCode": 2607,
+	"cityName": "\u767d\u58c1\u5173"
+}, {
+	"code": "1178269",
+	"name": "\u677f\u57ce",
+	"pinyin": "bancheng",
+	"cityCode": 1003,
+	"cityName": "\u677f\u57ce"
+}, {
+	"code": "1178270",
+	"name": "\u516b\u8fbe\u5cad",
+	"pinyin": "badaling",
+	"cityCode": 200,
+	"cityName": "\u516b\u8fbe\u5cad"
+}, {
+	"code": "1178271",
+	"name": "\u78a7\u9e21\u5173",
+	"pinyin": "bijiguan",
+	"cityCode": 3302,
+	"cityName": "\u78a7\u9e21\u5173"
+}, {
+	"code": "1178272",
+	"name": "\u767e\u6d6a",
+	"pinyin": "bailang",
+	"cityCode": 702,
+	"cityName": "\u767e\u6d6a"
+}, {
+	"code": "1178273",
+	"name": "\u767e\u91cc\u5ce1",
+	"pinyin": "bailixia",
+	"cityCode": 1003,
+	"cityName": "\u767e\u91cc\u5ce1"
+}, {
+	"code": "1178274",
+	"name": "\u5317\u5c6f",
+	"pinyin": "beitun",
+	"cityCode": 3104,
+	"cityName": "\u5317\u5c6f"
+}, {
+	"code": "1178275",
+	"name": "\u672c\u6eaa\u6e56",
+	"pinyin": "benxihu",
+	"cityCode": 1904,
+	"cityName": "\u672c\u6eaa\u6e56"
+}, {
+	"code": "1178276",
+	"name": "\u5317\u8425",
+	"pinyin": "beiying",
+	"cityCode": 2602,
+	"cityName": "\u5317\u8425"
+}, {
+	"code": "1178277",
+	"name": "\u957f\u57ce",
+	"pinyin": "changcheng",
+	"cityCode": 503,
+	"cityName": "\u957f\u57ce"
+}, {
+	"code": "1178278",
+	"name": "\u5d14\u9ec4\u53e3",
+	"pinyin": "cuihuangkou",
+	"cityCode": 3000,
+	"cityName": "\u5d14\u9ec4\u53e3"
+}, {
+	"code": "1178279",
+	"name": "\u957f\u5cad\u5b50",
+	"pinyin": "changlingzi",
+	"cityCode": 1906,
+	"cityName": "\u957f\u5cad\u5b50"
+}, {
+	"code": "1178280",
+	"name": "\u6625\u6e7e",
+	"pinyin": "chunwan",
+	"cityCode": 621,
+	"cityName": "\u6625\u6e7e"
+}, {
+	"code": "1178281",
+	"name": "\u78c1\u897f",
+	"pinyin": "cixi",
+	"cityCode": 1008,
+	"cityName": "\u78c1\u897f"
+}, {
+	"code": "1178282",
+	"name": "\u66f9\u5b50\u91cc",
+	"pinyin": "caozili",
+	"cityCode": 3000,
+	"cityName": "\u66f9\u5b50\u91cc"
+}, {
+	"code": "1178283",
+	"name": "\u5927\u5b89",
+	"pinyin": "daan",
+	"cityCode": 1803,
+	"cityName": "\u5927\u5b89"
+}, {
+	"code": "1178284",
+	"name": "\u5200\u5c14\u767b",
+	"pinyin": "daoerdeng",
+	"cityCode": 1905,
+	"cityName": "\u5200\u5c14\u767b"
+}, {
+	"code": "1178285",
+	"name": "\u5f97\u8033\u5e03\u5c14",
+	"pinyin": "deerbuer",
+	"cityCode": 2107,
+	"cityName": "\u5f97\u8033\u5e03\u5c14"
+}, {
+	"code": "1178286",
+	"name": "\u5927\u7070\u5382",
+	"pinyin": "dahuichang",
+	"cityCode": 200,
+	"cityName": "\u5927\u7070\u5382"
+}, {
+	"code": "1178287",
+	"name": "\u5927\u53e3\u5c6f",
+	"pinyin": "dakoutun",
+	"cityCode": 3000,
+	"cityName": "\u5927\u53e3\u5c6f"
+}, {
+	"code": "1178288",
+	"name": "\u5927\u62df",
+	"pinyin": "dani",
+	"cityCode": 702,
+	"cityName": "\u5927\u62df"
+}, {
+	"code": "1178289",
+	"name": "\u5927\u76d8\u77f3",
+	"pinyin": "dapanshi",
+	"cityCode": 1003,
+	"cityName": "\u5927\u76d8\u77f3"
+}, {
+	"code": "1178290",
+	"name": "\u767b\u6c99\u6cb3",
+	"pinyin": "dengshahe",
+	"cityCode": 1906,
+	"cityName": "\u767b\u6c99\u6cb3"
+}, {
+	"code": "1178291",
+	"name": "\u8bfb\u4e66\u94fa",
+	"pinyin": "dushupu",
+	"cityCode": 3302,
+	"cityName": "\u8bfb\u4e66\u94fa"
+}, {
+	"code": "1178292",
+	"name": "\u5927\u738b\u6ee9",
+	"pinyin": "dawangtan",
+	"cityCode": 702,
+	"cityName": "\u5927\u738b\u6ee9"
+}, {
+	"code": "1178293",
+	"name": "\u5b9a\u8944",
+	"pinyin": "dingxiang",
+	"cityCode": 2610,
+	"cityName": "\u5b9a\u8944"
+}, {
+	"code": "1178294",
+	"name": "\u5927\u5143",
+	"pinyin": "dayuan",
+	"cityCode": 702,
+	"cityName": "\u5927\u5143"
+}, {
+	"code": "1178295",
+	"name": "\u5927\u8425\u5b50",
+	"pinyin": "dayingzi",
+	"cityCode": 1905,
+	"cityName": "\u5927\u8425\u5b50"
+}, {
+	"code": "1178296",
+	"name": "\u5151\u9547",
+	"pinyin": "duizhen",
+	"cityCode": 2607,
+	"cityName": "\u5151\u9547"
+}, {
+	"code": "1178297",
+	"name": "\u8c46\u5e84",
+	"pinyin": "douzhuang",
+	"cityCode": 1003,
+	"cityName": "\u8c46\u5e84"
+}, {
+	"code": "1178298",
+	"name": "\u798f\u5c71\u53e3",
+	"pinyin": "fushankou",
+	"cityCode": 1003,
+	"cityName": "\u798f\u5c71\u53e3"
+}, {
+	"code": "1178299",
+	"name": "\u6d6e\u56fe\u5cea",
+	"pinyin": "futuyu",
+	"cityCode": 1003,
+	"cityName": "\u6d6e\u56fe\u5cea"
+}, {
+	"code": "1178300",
+	"name": "\u56fa\u5b89",
+	"pinyin": "guan",
+	"cityCode": 1010,
+	"cityName": "\u56fa\u5b89"
+}, {
+	"code": "1178301",
+	"name": "\u6839\u6cb3",
+	"pinyin": "genhe",
+	"cityCode": 2107,
+	"cityName": "\u6839\u6cb3"
+}, {
+	"code": "1178302",
+	"name": "\u9ad8\u697c\u623f",
+	"pinyin": "gaoloufang",
+	"cityCode": 3305,
+	"cityName": "\u9ad8\u697c\u623f"
+}, {
+	"code": "1178303",
+	"name": "\u90ed\u78ca\u5e84",
+	"pinyin": "guoleizhuang",
+	"cityCode": 1016,
+	"cityName": "\u90ed\u78ca\u5e84"
+}, {
+	"code": "1178304",
+	"name": "\u5e7f\u5b81\u5bfa",
+	"pinyin": "guangningsi",
+	"cityCode": 1906,
+	"cityName": "\u5e7f\u5b81\u5bfa"
+}, {
+	"code": "1178305",
+	"name": "\u7518\u6cc9",
+	"pinyin": "ganquan",
+	"cityCode": 2711,
+	"cityName": "\u7518\u6cc9"
+}, {
+	"code": "1178306",
+	"name": "\u9ad8\u6865\u9547",
+	"pinyin": "gaoqiaozhen",
+	"cityCode": 1910,
+	"cityName": "\u9ad8\u6865\u9547"
+}, {
+	"code": "1178307",
+	"name": "\u5b64\u5c71\u53e3",
+	"pinyin": "gushankou",
+	"cityCode": 200,
+	"cityName": "\u5b64\u5c71\u53e3"
+}, {
+	"code": "1178308",
+	"name": "\u679c\u677e",
+	"pinyin": "guosong",
+	"cityCode": 1811,
+	"cityName": "\u679c\u677e"
+}, {
+	"code": "1178309",
+	"name": "\u9769\u9547\u5821",
+	"pinyin": "gezhenpu",
+	"cityCode": 1906,
+	"cityName": "\u9769\u9547\u5821"
+}, {
+	"code": "1178310",
+	"name": "\u7ea2\u5b89",
+	"pinyin": "hongan",
+	"cityCode": 1405,
+	"cityName": "\u7ea2\u5b89"
+}, {
+	"code": "1178311",
+	"name": "\u9ec4\u67cf",
+	"pinyin": "huangbai",
+	"cityCode": 1811,
+	"cityName": "\u9ec4\u67cf"
+}, {
+	"code": "1178312",
+	"name": "\u6c49\u6cbd",
+	"pinyin": "hangu",
+	"cityCode": 3000,
+	"cityName": "\u6c49\u6cbd"
+}, {
+	"code": "1178313",
+	"name": "\u6d51\u6cb3",
+	"pinyin": "hunhe",
+	"cityCode": 1902,
+	"cityName": "\u6d51\u6cb3"
+}, {
+	"code": "1178314",
+	"name": "\u8d3a\u5bb6\u5e97",
+	"pinyin": "hejiadian",
+	"cityCode": 511,
+	"cityName": "\u8d3a\u5bb6\u5e97"
+}, {
+	"code": "1178315",
+	"name": "\u534e\u5bb6",
+	"pinyin": "huajia",
+	"cityCode": 1802,
+	"cityName": "\u534e\u5bb6"
+}, {
+	"code": "1178316",
+	"name": "\u6cb3\u95f4\u897f",
+	"pinyin": "hejianxi",
+	"cityCode": 1005,
+	"cityName": "\u6cb3\u95f4\u897f"
+}, {
+	"code": "1178317",
+	"name": "\u5bd2\u5cad",
+	"pinyin": "hanling",
+	"cityCode": 1912,
+	"cityName": "\u5bd2\u5cad"
+}, {
+	"code": "1178318",
+	"name": "\u706b\u8fde\u5be8",
+	"pinyin": "huolianzhai",
+	"cityCode": 1904,
+	"cityName": "\u706b\u8fde\u5be8"
+}, {
+	"code": "1178319",
+	"name": "\u6c49\u5bff",
+	"pinyin": "hanshou",
+	"cityCode": 1503,
+	"cityName": "\u6c49\u5bff"
+}, {
+	"code": "1178320",
+	"name": "\u864e\u4ec0\u54c8",
+	"pinyin": "hushiha",
+	"cityCode": 1006,
+	"cityName": "\u864e\u4ec0\u54c8"
+}, {
+	"code": "1178321",
+	"name": "\u864e\u77f3\u53f0",
+	"pinyin": "hushitai",
+	"cityCode": 1902,
+	"cityName": "\u864e\u77f3\u53f0"
+}, {
+	"code": "1178322",
+	"name": "\u7ea2\u7802\u5c98",
+	"pinyin": "hongshaxian",
+	"cityCode": 503,
+	"cityName": "\u7ea2\u7802\u5c98"
+}, {
+	"code": "1178323",
+	"name": "\u6853\u53f0",
+	"pinyin": "huantai",
+	"cityCode": 2421,
+	"cityName": "\u6853\u53f0"
+}, {
+	"code": "1178324",
+	"name": "\u6d77\u6e7e",
+	"pinyin": "haiwan",
+	"cityCode": 2500,
+	"cityName": "\u6d77\u6e7e"
+}, {
+	"code": "1178325",
+	"name": "\u7ea2\u5c98\u53f0",
+	"pinyin": "hongxiantai",
+	"cityCode": 503,
+	"cityName": "\u7ea2\u5c98\u53f0"
+}, {
+	"code": "1178326",
+	"name": "\u6e5f\u6e90",
+	"pinyin": "huangyuan",
+	"cityCode": 2302,
+	"cityName": "\u6e5f\u6e90"
+}, {
+	"code": "1178327",
+	"name": "\u5efa\u660c",
+	"pinyin": "jianchang",
+	"cityCode": 1910,
+	"cityName": "\u5efa\u660c"
+}, {
+	"code": "1178328",
+	"name": "\u91d1\u6cb3",
+	"pinyin": "jinhe",
+	"cityCode": 2107,
+	"cityName": "\u91d1\u6cb3"
+}, {
+	"code": "1178329",
+	"name": "\u5939\u5fc3\u5b50",
+	"pinyin": "jiaxinzi",
+	"cityCode": 1906,
+	"cityName": "\u5939\u5fc3\u5b50"
+}, {
+	"code": "1178330",
+	"name": "\u91d1\u6756\u5b50",
+	"pinyin": "jinzhangzi",
+	"cityCode": 1905,
+	"cityName": "\u91d1\u6756\u5b50"
+}, {
+	"code": "1178331",
+	"name": "\u5eb7\u7199\u5cad",
+	"pinyin": "kangxiling",
+	"cityCode": 710,
+	"cityName": "\u5eb7\u7199\u5cad"
+}, {
+	"code": "1178332",
+	"name": "\u9ece\u57ce",
+	"pinyin": "licheng",
+	"cityCode": 2603,
+	"cityName": "\u9ece\u57ce"
+}, {
+	"code": "1178333",
+	"name": "\u5170\u5c97",
+	"pinyin": "langang",
+	"cityCode": 1110,
+	"cityName": "\u5170\u5c97"
+}, {
+	"code": "1178334",
+	"name": "\u62c9\u53e4",
+	"pinyin": "lagu",
+	"cityCode": 1110,
+	"cityName": "\u62c9\u53e4"
+}, {
+	"code": "1178335",
+	"name": "\u516d\u5408",
+	"pinyin": "liuhe",
+	"cityCode": 1602,
+	"cityName": "\u516d\u5408"
+}, {
+	"code": "1178336",
+	"name": "\u4eae\u7532\u5e97",
+	"pinyin": "liangjiadian",
+	"cityCode": 1906,
+	"cityName": "\u4eae\u7532\u5e97"
+}, {
+	"code": "1178337",
+	"name": "\u4e34\u6fa7",
+	"pinyin": "linli",
+	"cityCode": 1503,
+	"cityName": "\u4e34\u6fa7"
+}, {
+	"code": "1178338",
+	"name": "\u6d1b\u95e8",
+	"pinyin": "luomen",
+	"cityCode": 511,
+	"cityName": "\u6d1b\u95e8"
+}, {
+	"code": "1178339",
+	"name": "\u67f3\u6811\u5c6f",
+	"pinyin": "liushutun",
+	"cityCode": 1910,
+	"cityName": "\u67f3\u6811\u5c6f"
+}, {
+	"code": "1178340",
+	"name": "\u8f6e\u53f0",
+	"pinyin": "luntai",
+	"cityCode": 3114,
+	"cityName": "\u8f6e\u53f0"
+}, {
+	"code": "1178341",
+	"name": "\u72fc\u5c3e\u5c71",
+	"pinyin": "langweishan",
+	"cityCode": 515,
+	"cityName": "\u72fc\u5c3e\u5c71"
+}, {
+	"code": "1178342",
+	"name": "\u83b1\u9633",
+	"pinyin": "laiyang",
+	"cityCode": 2419,
+	"cityName": "\u83b1\u9633"
+}, {
+	"code": "1178343",
+	"name": "\u9a6c\u7687",
+	"pinyin": "mahuang",
+	"cityCode": 710,
+	"cityName": "\u9a6c\u7687"
+}, {
+	"code": "1178344",
+	"name": "\u8305\u5cad",
+	"pinyin": "maoling",
+	"cityCode": 706,
+	"cityName": "\u8305\u5cad"
+}, {
+	"code": "1178345",
+	"name": "\u739b\u7eb3\u65af\u6e56",
+	"pinyin": "manasihu",
+	"cityCode": 3117,
+	"cityName": "\u739b\u7eb3\u65af\u6e56"
+}, {
+	"code": "1178346",
+	"name": "\u6f2b\u6c34\u6e7e",
+	"pinyin": "manshuiwan",
+	"cityCode": 2823,
+	"cityName": "\u6f2b\u6c34\u6e7e"
+}, {
+	"code": "1178347",
+	"name": "\u9ea6\u56ed",
+	"pinyin": "maiyuan",
+	"cityCode": 404,
+	"cityName": "\u9ea6\u56ed"
+}, {
+	"code": "1178348",
+	"name": "\u5357\u57ce\u53f8",
+	"pinyin": "nanchengsi",
+	"cityCode": 1003,
+	"cityName": "\u5357\u57ce\u53f8"
+}, {
+	"code": "1178349",
+	"name": "\u5b81\u6751",
+	"pinyin": "ningcun",
+	"cityCode": 702,
+	"cityName": "\u5b81\u6751"
+}, {
+	"code": "1178350",
+	"name": "\u5357\u89c2\u6751",
+	"pinyin": "nanguancun",
+	"cityCode": 200,
+	"cityName": "\u5357\u89c2\u6751"
+}, {
+	"code": "1178351",
+	"name": "\u5357\u5173\u5cad",
+	"pinyin": "nanguanling",
+	"cityCode": 1906,
+	"cityName": "\u5357\u5173\u5cad"
+}, {
+	"code": "1178352",
+	"name": "\u5357\u6cb3\u5ddd",
+	"pinyin": "nanhechuan",
+	"cityCode": 511,
+	"cityName": "\u5357\u6cb3\u5ddd"
+}, {
+	"code": "1178353",
+	"name": "\u90a3\u7f57",
+	"pinyin": "naluo",
+	"cityCode": 702,
+	"cityName": "\u90a3\u7f57"
+}, {
+	"code": "1178354",
+	"name": "\u90a3\u94fa",
+	"pinyin": "napu",
+	"cityCode": 702,
+	"cityName": "\u90a3\u94fa"
+}, {
+	"code": "1178355",
+	"name": "\u5357\u6865",
+	"pinyin": "nanqiao",
+	"cityCode": 1910,
+	"cityName": "\u5357\u6865"
+}, {
+	"code": "1178356",
+	"name": "\u5357\u53f0",
+	"pinyin": "nantai",
+	"cityCode": 1908,
+	"cityName": "\u5357\u53f0"
+}, {
+	"code": "1178357",
+	"name": "\u5b81\u4e61",
+	"pinyin": "ningxiang",
+	"cityCode": 1502,
+	"cityName": "\u5b81\u4e61"
+}, {
+	"code": "1178358",
+	"name": "\u725b\u5fc3\u53f0",
+	"pinyin": "niuxintai",
+	"cityCode": 1904,
+	"cityName": "\u725b\u5fc3\u53f0"
+}, {
+	"code": "1178359",
+	"name": "\u78d0\u5b89\u9547",
+	"pinyin": "pananzhen",
+	"cityCode": 511,
+	"cityName": "\u78d0\u5b89\u9547"
+}, {
+	"code": "1178360",
+	"name": "\u5e73\u5b89\u9547",
+	"pinyin": "pinganzhen",
+	"cityCode": 1803,
+	"cityName": "\u5e73\u5b89\u9547"
+}, {
+	"code": "1178361",
+	"name": "\u504f\u5e97",
+	"pinyin": "piandian",
+	"cityCode": 1008,
+	"cityName": "\u504f\u5e97"
+}, {
+	"code": "1178362",
+	"name": "\u5e73\u5c97",
+	"pinyin": "pinggang",
+	"cityCode": 1914,
+	"cityName": "\u5e73\u5c97"
+}, {
+	"code": "1178363",
+	"name": "\u5f98\u5f8a\u5317",
+	"pinyin": "paihuaibei",
+	"cityCode": 1008,
+	"cityName": "\u5f98\u5f8a\u5317"
+}, {
+	"code": "1178364",
+	"name": "\u6f58\u5bb6\u5e97",
+	"pinyin": "panjiadian",
+	"cityCode": 1006,
+	"cityName": "\u6f58\u5bb6\u5e97"
+}, {
+	"code": "1178365",
+	"name": "\u76ae\u53e3",
+	"pinyin": "pikou",
+	"cityCode": 1906,
+	"cityName": "\u76ae\u53e3"
+}, {
+	"code": "1178366",
+	"name": "\u504f\u5cad",
+	"pinyin": "pianling",
+	"cityCode": 1904,
+	"cityName": "\u504f\u5cad"
+}, {
+	"code": "1178367",
+	"name": "\u5e73\u6d0b",
+	"pinyin": "pingyang",
+	"cityCode": 1111,
+	"cityName": "\u5e73\u6d0b"
+}, {
+	"code": "1178368",
+	"name": "\u5e73\u5cea",
+	"pinyin": "pingyu",
+	"cityCode": 200,
+	"cityName": "\u5e73\u5cea"
+}, {
+	"code": "1178369",
+	"name": "\u5947\u5cf0\u5854",
+	"pinyin": "qifengta",
+	"cityCode": 1003,
+	"cityName": "\u5947\u5cf0\u5854"
+}, {
+	"code": "1178370",
+	"name": "\u79e6\u5bb6\u5e84",
+	"pinyin": "qinjiazhuang",
+	"cityCode": 2610,
+	"cityName": "\u79e6\u5bb6\u5e84"
+}, {
+	"code": "1178371",
+	"name": "\u524d\u536b",
+	"pinyin": "qianwei",
+	"cityCode": 1910,
+	"cityName": "\u524d\u536b"
+}, {
+	"code": "1178372",
+	"name": "\u6865\u897f",
+	"pinyin": "qiaoxi",
+	"cityCode": 516,
+	"cityName": "\u6865\u897f"
+}, {
+	"code": "1178373",
+	"name": "\u6c5d\u9633",
+	"pinyin": "ruyang",
+	"cityCode": 1210,
+	"cityName": "\u6c5d\u9633"
+}, {
+	"code": "1178374",
+	"name": "\u4e16\u535a\u56ed",
+	"pinyin": "shiboyuan",
+	"cityCode": 1902,
+	"cityName": "\u4e16\u535a\u56ed"
+}, {
+	"code": "1178375",
+	"name": "\u795e\u6c60",
+	"pinyin": "shenchi",
+	"cityCode": 2610,
+	"cityName": "\u795e\u6c60"
+}, {
+	"code": "1178376",
+	"name": "\u5341\u6e21",
+	"pinyin": "shidu",
+	"cityCode": 200,
+	"cityName": "\u5341\u6e21"
+}, {
+	"code": "1178377",
+	"name": "\u6c99\u6cb3\u53e3",
+	"pinyin": "shahekou",
+	"cityCode": 1906,
+	"cityName": "\u6c99\u6cb3\u53e3"
+}, {
+	"code": "1178378",
+	"name": "\u6c99\u540e\u6240",
+	"pinyin": "shahousuo",
+	"cityCode": 1910,
+	"cityName": "\u6c99\u540e\u6240"
+}, {
+	"code": "1178379",
+	"name": "\u4e09\u5408\u5e84",
+	"pinyin": "sanhezhuang",
+	"cityCode": 200,
+	"cityName": "\u4e09\u5408\u5e84"
+}, {
+	"code": "1178380",
+	"name": "\u77f3\u666f\u5c71\u5357",
+	"pinyin": "shijingshannan",
+	"cityCode": 200,
+	"cityName": "\u77f3\u666f\u5c71\u5357"
+}, {
+	"code": "1178381",
+	"name": "\u77f3\u9f99",
+	"pinyin": "shilong",
+	"cityCode": 606,
+	"cityName": "\u77f3\u9f99"
+}, {
+	"code": "1178382",
+	"name": "\u6c34\u6cc9",
+	"pinyin": "shuiquan",
+	"cityCode": 1905,
+	"cityName": "\u6c34\u6cc9"
+}, {
+	"code": "1178383",
+	"name": "\u77f3\u4eba",
+	"pinyin": "shiren",
+	"cityCode": 1804,
+	"cityName": "\u77f3\u4eba"
+}, {
+	"code": "1178384",
+	"name": "\u77f3\u5c71",
+	"pinyin": "shishan",
+	"cityCode": 1911,
+	"cityName": "\u77f3\u5c71"
+}, {
+	"code": "1178385",
+	"name": "\u9996\u5c71",
+	"pinyin": "shoushan",
+	"cityCode": 1912,
+	"cityName": "\u9996\u5c71"
+}, {
+	"code": "1178386",
+	"name": "\u77f3\u5934",
+	"pinyin": "shitou",
+	"cityCode": 1110,
+	"cityName": "\u77f3\u5934"
+}, {
+	"code": "1178387",
+	"name": "\u4e0a\u4e07",
+	"pinyin": "shangwan",
+	"cityCode": 200,
+	"cityName": "\u4e0a\u4e07"
+}, {
+	"code": "1178388",
+	"name": "\u77f3\u5c98",
+	"pinyin": "shixian",
+	"cityCode": 1812,
+	"cityName": "\u77f3\u5c98"
+}, {
+	"code": "1178389",
+	"name": "\u6c34\u6d0b",
+	"pinyin": "shuiyang",
+	"cityCode": 2603,
+	"cityName": "\u6c34\u6d0b"
+}, {
+	"code": "1178390",
+	"name": "\u4e09\u9633\u5ddd",
+	"pinyin": "sanyangchuan",
+	"cityCode": 511,
+	"cityName": "\u4e09\u9633\u5ddd"
+}, {
+	"code": "1178391",
+	"name": "\u6c64\u6c60",
+	"pinyin": "tangchi",
+	"cityCode": 1111,
+	"cityName": "\u6c64\u6c60"
+}, {
+	"code": "1178392",
+	"name": "\u94c1\u5382",
+	"pinyin": "tiechang",
+	"cityCode": 1811,
+	"cityName": "\u94c1\u5382"
+}, {
+	"code": "1178393",
+	"name": "\u68e0\u6d77",
+	"pinyin": "tanghai",
+	"cityCode": 3305,
+	"cityName": "\u68e0\u6d77"
+}, {
+	"code": "1178394",
+	"name": "\u5854\u77f3\u5634",
+	"pinyin": "tashizui",
+	"cityCode": 3305,
+	"cityName": "\u5854\u77f3\u5634"
+}, {
+	"code": "1178396",
+	"name": "\u5854\u5d16\u9a7f",
+	"pinyin": "tayayi",
+	"cityCode": 1003,
+	"cityName": "\u5854\u5d16\u9a7f"
+}, {
+	"code": "1178397",
+	"name": "\u6587\u5b89",
+	"pinyin": "wenan",
+	"cityCode": 627,
+	"cityName": "\u6587\u5b89"
+}, {
+	"code": "1178398",
+	"name": "\u738b\u5b89\u9547",
+	"pinyin": "wanganzhen",
+	"cityCode": 1003,
+	"cityName": "\u738b\u5b89\u9547"
+}, {
+	"code": "1178399",
+	"name": "\u6e29\u6625",
+	"pinyin": "wenchun",
+	"cityCode": 1110,
+	"cityName": "\u6e29\u6625"
+}, {
+	"code": "1178401",
+	"name": "\u671b\u90fd",
+	"pinyin": "wangdu",
+	"cityCode": 1003,
+	"cityName": "\u671b\u90fd"
+}, {
+	"code": "1178402",
+	"name": "\u738b\u5bb6\u6e7e",
+	"pinyin": "wangjiawan",
+	"cityCode": 1016,
+	"cityName": "\u738b\u5bb6\u6e7e"
+}, {
+	"code": "1178403",
+	"name": "\u6e2d\u5357\u9547",
+	"pinyin": "weinanzhen",
+	"cityCode": 511,
+	"cityName": "\u6e2d\u5357\u9547"
+}, {
+	"code": "1178404",
+	"name": "\u738b\u77b3",
+	"pinyin": "wangtong",
+	"cityCode": 1009,
+	"cityName": "\u738b\u77b3"
+}, {
+	"code": "1178405",
+	"name": "\u5434\u5729",
+	"pinyin": "wuxu",
+	"cityCode": 702,
+	"cityName": "\u5434\u5729"
+}, {
+	"code": "1178406",
+	"name": "\u4e94\u5be8",
+	"pinyin": "wuzhai",
+	"cityCode": 2610,
+	"cityName": "\u4e94\u5be8"
+}, {
+	"code": "1178407",
+	"name": "\u5fae\u5b50\u9547",
+	"pinyin": "weizizhen",
+	"cityCode": 2603,
+	"cityName": "\u5fae\u5b50\u9547"
+}, {
+	"code": "1178408",
+	"name": "\u9b4f\u6756\u5b50",
+	"pinyin": "weizhangzi",
+	"cityCode": 1905,
+	"cityName": "\u9b4f\u6756\u5b50"
+}, {
+	"code": "1178409",
+	"name": "\u65b0\u4fdd\u5b89",
+	"pinyin": "xinbaoan",
+	"cityCode": 1016,
+	"cityName": "\u65b0\u4fdd\u5b89"
+}, {
+	"code": "1178410",
+	"name": "\u897f\u516b\u91cc",
+	"pinyin": "xibali",
+	"cityCode": 1016,
+	"cityName": "\u897f\u516b\u91cc"
+}, {
+	"code": "1178411",
+	"name": "\u65b0\u7ef0\u6e90",
+	"pinyin": "xinchuoyuan",
+	"cityCode": 2107,
+	"cityName": "\u65b0\u7ef0\u6e90"
+}, {
+	"code": "1178412",
+	"name": "\u65b0\u57ce\u5b50",
+	"pinyin": "xinchengzi",
+	"cityCode": 1902,
+	"cityName": "\u65b0\u57ce\u5b50"
+}, {
+	"code": "1178413",
+	"name": "\u5c0f\u8463",
+	"pinyin": "xiaodong",
+	"cityCode": 710,
+	"cityName": "\u5c0f\u8463"
+}, {
+	"code": "1178414",
+	"name": "\u65b0\u4e50",
+	"pinyin": "xinle",
+	"cityCode": 1002,
+	"cityName": "\u65b0\u4e50"
+}, {
+	"code": "1178415",
+	"name": "\u5b5d\u5357",
+	"pinyin": "xiaonan",
+	"cityCode": 2607,
+	"cityName": "\u5b5d\u5357"
+}, {
+	"code": "1178416",
+	"name": "\u5174\u6cc9\u5821",
+	"pinyin": "xingquanbu",
+	"cityCode": 503,
+	"cityName": "\u5174\u6cc9\u5821"
+}, {
+	"code": "1178417",
+	"name": "\u5f90\u6c34",
+	"pinyin": "xushui",
+	"cityCode": 1003,
+	"cityName": "\u5f90\u6c34"
+}, {
+	"code": "1178418",
+	"name": "\u674f\u6811\u5c6f",
+	"pinyin": "xingshutun",
+	"cityCode": 1906,
+	"cityName": "\u674f\u6811\u5c6f"
+}, {
+	"code": "1178419",
+	"name": "\u5b5d\u897f",
+	"pinyin": "xiaoxi",
+	"cityCode": 2607,
+	"cityName": "\u5b5d\u897f"
+}, {
+	"code": "1178420",
+	"name": "\u5c0f\u897f\u5e84",
+	"pinyin": "xiaoxizhuang",
+	"cityCode": 1003,
+	"cityName": "\u5c0f\u897f\u5e84"
+}, {
+	"code": "1178421",
+	"name": "\u65b0\u9633\u9547",
+	"pinyin": "xinyangzhen",
+	"cityCode": 511,
+	"cityName": "\u65b0\u9633\u9547"
+}, {
+	"code": "1178422",
+	"name": "\u664f\u57ce",
+	"pinyin": "yancheng",
+	"cityCode": 2405,
+	"cityName": "\u664f\u57ce"
+}, {
+	"code": "1178423",
+	"name": "\u9633\u5c94",
+	"pinyin": "yangcha",
+	"cityCode": 1811,
+	"cityName": "\u9633\u5c94"
+}, {
+	"code": "1178424",
+	"name": "\u4e91\u5f69\u5cad",
+	"pinyin": "yuncailing",
+	"cityCode": 2604,
+	"cityName": "\u4e91\u5f69\u5cad"
+}, {
+	"code": "1178425",
+	"name": "\u8425\u57ce\u5b50",
+	"pinyin": "yingchengzi",
+	"cityCode": 1906,
+	"cityName": "\u8425\u57ce\u5b50"
+}, {
+	"code": "1178426",
+	"name": "\u4e91\u5c45\u5bfa",
+	"pinyin": "yunjusi",
+	"cityCode": 200,
+	"cityName": "\u4e91\u5c45\u5bfa"
+}, {
+	"code": "1178427",
+	"name": "\u8425\u76d8\u6c34",
+	"pinyin": "yingpanshui",
+	"cityCode": 2206,
+	"cityName": "\u8425\u76d8\u6c34"
+}, {
+	"code": "1178428",
+	"name": "\u91ce\u4e09\u5761",
+	"pinyin": "yesanpo",
+	"cityCode": 1003,
+	"cityName": "\u91ce\u4e09\u5761"
+}, {
+	"code": "1178429",
+	"name": "\u9e33\u9e2f\u9547",
+	"pinyin": "yuanyangzhen",
+	"cityCode": 511,
+	"cityName": "\u9e33\u9e2f\u9547"
+}, {
+	"code": "1178430",
+	"name": "\u4eea\u5f81",
+	"pinyin": "yizheng",
+	"cityCode": 1622,
+	"cityName": "\u4eea\u5f81"
+}, {
+	"code": "1178431",
+	"name": "\u6768\u6756\u5b50",
+	"pinyin": "yangzhangzi",
+	"cityCode": 1905,
+	"cityName": "\u6768\u6756\u5b50"
+}, {
+	"code": "1178432",
+	"name": "\u62db\u67cf",
+	"pinyin": "zhaobai",
+	"cityCode": 2604,
+	"cityName": "\u62db\u67cf"
+}, {
+	"code": "1178433",
+	"name": "\u7d2b\u8346\u5173",
+	"pinyin": "zijingguan",
+	"cityCode": 1003,
+	"cityName": "\u7d2b\u8346\u5173"
+}, {
+	"code": "1178434",
+	"name": "\u4e2d\u725f",
+	"pinyin": "zhongmu",
+	"cityCode": 1202,
+	"cityName": "\u4e2d\u725f"
+}, {
+	"code": "1178435",
+	"name": "\u6cfd\u6da6\u91cc",
+	"pinyin": "zerunli",
+	"cityCode": 3305,
+	"cityName": "\u6cfd\u6da6\u91cc"
+}, {
+	"code": "1178436",
+	"name": "\u949f\u5c71",
+	"pinyin": "zhongshan",
+	"cityCode": 708,
+	"cityName": "\u949f\u5c71"
+}, {
+	"code": "1178437",
+	"name": "\u68d5\u6eaa",
+	"pinyin": "zongxi",
+	"cityCode": 2703,
+	"cityName": "\u68d5\u6eaa"
+}, {
+	"code": "1178438",
+	"name": "\u9547\u897f",
+	"pinyin": "zhenxi",
+	"cityCode": 1803,
+	"cityName": "\u9547\u897f"
+}, {
+	"code": "1178439",
+	"name": "\u5bbe\u9633",
+	"pinyin": "binyang",
+	"cityCode": 702,
+	"cityName": "\u5bbe\u9633"
+}, {
+	"code": "1178440",
+	"name": "\u4ece\u6c5f",
+	"pinyin": "congjiang",
+	"cityCode": 806,
+	"cityName": "\u4ece\u6c5f"
+}, {
+	"code": "1178442",
+	"name": "\u957f\u6b66",
+	"pinyin": "changwu",
+	"cityCode": 2710,
+	"cityName": "\u957f\u6b66"
+}, {
+	"code": "1178443",
+	"name": "\u5927\u901a\u897f",
+	"pinyin": "datongxi",
+	"cityCode": 2302,
+	"cityName": "\u5927\u901a\u897f"
+}, {
+	"code": "1178444",
+	"name": "\u5927\u4f59",
+	"pinyin": "dayu",
+	"cityCode": 1704,
+	"cityName": "\u5927\u4f59"
+}, {
+	"code": "1178445",
+	"name": "\u606d\u57ce",
+	"pinyin": "gongcheng",
+	"cityCode": 705,
+	"cityName": "\u606d\u57ce"
+}, {
+	"code": "1178446",
+	"name": "\u5e7f\u5b81",
+	"pinyin": "guangning",
+	"cityCode": 626,
+	"cityName": "\u5e7f\u5b81"
+}, {
+	"code": "1178447",
+	"name": "\u60e0\u5b89",
+	"pinyin": "huian",
+	"cityCode": 408,
+	"cityName": "\u60e0\u5b89"
+}, {
+	"code": "1178448",
+	"name": "\u6000\u96c6",
+	"pinyin": "huaiji",
+	"cityCode": 626,
+	"cityName": "\u6000\u96c6"
+}, {
+	"code": "1178449",
+	"name": "\u8861\u5357",
+	"pinyin": "hengnan",
+	"cityCode": 1505,
+	"cityName": "\u8861\u5357"
+}, {
+	"code": "1178450",
+	"name": "\u548c\u7855",
+	"pinyin": "heshuo",
+	"cityCode": 3114,
+	"cityName": "\u548c\u7855"
+}, {
+	"code": "1178451",
+	"name": "\u6cfe\u5ddd",
+	"pinyin": "jingchuan",
+	"cityCode": 510,
+	"cityName": "\u6cfe\u5ddd"
+}, {
+	"code": "1178452",
+	"name": "\u5373\u58a8\u5317",
+	"pinyin": "jimobei",
+	"cityCode": 2413,
+	"cityName": "\u5373\u58a8\u5317"
+}, {
+	"code": "1178453",
+	"name": "\u5f00\u9633",
+	"pinyin": "kaiyang",
+	"cityCode": 802,
+	"cityName": "\u5f00\u9633"
+}, {
+	"code": "1178454",
+	"name": "\u7075\u74a7",
+	"pinyin": "lingbi",
+	"cityCode": 117,
+	"cityName": "\u7075\u74a7"
+}, {
+	"code": "1178455",
+	"name": "\u9f99\u91cc\u5317",
+	"pinyin": "longlibei",
+	"cityCode": 805,
+	"cityName": "\u9f99\u91cc\u5317"
+}, {
+	"code": "1178456",
+	"name": "\u793c\u6cc9",
+	"pinyin": "liquan",
+	"cityCode": 2710,
+	"cityName": "\u793c\u6cc9"
+}, {
+	"code": "1178457",
+	"name": "\u6c11\u548c\u5357",
+	"pinyin": "minhenan",
+	"cityCode": 2306,
+	"cityName": "\u6c11\u548c\u5357"
+}, {
+	"code": "1178458",
+	"name": "\u6c11\u4e50",
+	"pinyin": "minle",
+	"cityCode": 515,
+	"cityName": "\u6c11\u4e50"
+}, {
+	"code": "1178459",
+	"name": "\u95e8\u6e90",
+	"pinyin": "menyuan",
+	"cityCode": 2307,
+	"cityName": "\u95e8\u6e90"
+}, {
+	"code": "1178460",
+	"name": "\u5357\u6c5f",
+	"pinyin": "nanjiang",
+	"cityCode": 2803,
+	"cityName": "\u5357\u6c5f"
+}, {
+	"code": "1178461",
+	"name": "\u5357\u6c5f\u53e3",
+	"pinyin": "nanjiangkou",
+	"cityCode": 623,
+	"cityName": "\u5357\u6c5f\u53e3"
+}, {
+	"code": "1178463",
+	"name": "\u9752\u767d\u6c5f\u4e1c",
+	"pinyin": "qingbaijiangdong",
+	"cityCode": 2802,
+	"cityName": "\u9752\u767d\u6c5f\u4e1c"
+}, {
+	"code": "1178464",
+	"name": "\u9752\u795e",
+	"pinyin": "qingshen",
+	"cityCode": 2817,
+	"cityName": "\u9752\u795e"
+}, {
+	"code": "1178465",
+	"name": "\u8363\u6210",
+	"pinyin": "rongcheng",
+	"cityCode": 2418,
+	"cityName": "\u8363\u6210"
+}, {
+	"code": "1178466",
+	"name": "\u6995\u6c5f",
+	"pinyin": "rongjiang",
+	"cityCode": 806,
+	"cityName": "\u6995\u6c5f"
+}, {
+	"code": "1178467",
+	"name": "\u4e09\u90fd\u53bf",
+	"pinyin": "sanduxian",
+	"cityCode": 805,
+	"cityName": "\u4e09\u90fd\u53bf"
+}, {
+	"code": "1178468",
+	"name": "\u6cd7\u6d2a",
+	"pinyin": "sihong",
+	"cityCode": 1614,
+	"cityName": "\u6cd7\u6d2a"
+}, {
+	"code": "1178469",
+	"name": "\u4e09\u4e95\u5b50",
+	"pinyin": "sanjingzi",
+	"cityCode": 1810,
+	"cityName": "\u4e09\u4e95\u5b50"
+}, {
+	"code": "1178470",
+	"name": "\u53cc\u6d41\u673a\u573a",
+	"pinyin": "shuangliujichang",
+	"cityCode": 2802,
+	"cityName": "\u53cc\u6d41\u673a\u573a"
+}, {
+	"code": "1178471",
+	"name": "\u53cc\u6d41\u897f",
+	"pinyin": "shuangliuxi",
+	"cityCode": 2802,
+	"cityName": "\u53cc\u6d41\u897f"
+}, {
+	"code": "1178472",
+	"name": "\u65b0\u6d25",
+	"pinyin": "xinjin",
+	"cityCode": 2802,
+	"cityName": "\u65b0\u6d25"
+}, {
+	"code": "1178473",
+	"name": "\u65b0\u6d25\u5357",
+	"pinyin": "xinjinnan",
+	"cityCode": 2802,
+	"cityName": "\u65b0\u6d25\u5357"
+}, {
+	"code": "1178474",
+	"name": "\u4ed9\u6e38",
+	"pinyin": "xianyou",
+	"cityCode": 407,
+	"cityName": "\u4ed9\u6e38"
+}, {
+	"code": "1178475",
+	"name": "\u4e91\u6d6e\u4e1c",
+	"pinyin": "yunfudong",
+	"cityCode": 623,
+	"cityName": "\u4e91\u6d6e\u4e1c"
+}, {
+	"code": "1178476",
+	"name": "\u90c1\u5357",
+	"pinyin": "yunan",
+	"cityCode": 623,
+	"cityName": "\u90c1\u5357"
+}, {
+	"code": "1178477",
+	"name": "\u6c38\u5bff",
+	"pinyin": "yongshou",
+	"cityCode": 2710,
+	"cityName": "\u6c38\u5bff"
+}, {
+	"code": "1178478",
+	"name": "\u82b7\u6c5f",
+	"pinyin": "zhijiang",
+	"cityCode": 1506,
+	"cityName": "\u82b7\u6c5f"
+}, {
+	"code": "1178479",
+	"name": "\u949f\u5c71\u897f",
+	"pinyin": "zhongshanxi",
+	"cityCode": 708,
+	"cityName": "\u949f\u5c71\u897f"
+}, {
+	"code": "1178480",
+	"name": "\u5eb7\u57ce",
+	"pinyin": "kangcheng",
+	"cityCode": 1008,
+	"cityName": "\u5eb7\u57ce"
+}, {
+	"code": "1178481",
+	"name": "\u51cc\u6e90\u4e1c",
+	"pinyin": "lingyuandong",
+	"cityCode": 1905,
+	"cityName": "\u51cc\u6e90\u4e1c"
+}, {
+	"code": "1178482",
+	"name": "\u7941\u4e1c\u5317",
+	"pinyin": "qidongbei",
+	"cityCode": 1505,
+	"cityName": "\u7941\u4e1c\u5317"
+}, {
+	"code": "1178483",
+	"name": "\u7941\u9633\u5317",
+	"pinyin": "qiyangbei",
+	"cityCode": 1505,
+	"cityName": "\u7941\u9633\u5317"
+}, {
+	"code": "1178485",
+	"name": "\u90fd\u5300\u4e1c",
+	"pinyin": "duyundong",
+	"cityCode": 805,
+	"cityName": "\u90fd\u5300\u4e1c"
+}, {
+	"code": "1178486",
+	"name": "\u9ad8\u53f0\u5357",
+	"pinyin": "gaotainan",
+	"cityCode": 515,
+	"cityName": "\u9ad8\u53f0\u5357"
+}, {
+	"code": "1178487",
+	"name": "\u6d77\u4e1c\u897f",
+	"pinyin": "haidongxi",
+	"cityCode": 2306,
+	"cityName": "\u6d77\u4e1c\u897f"
+}, {
+	"code": "1178502",
+	"name": "\u9102\u5c14\u591a\u65af",
+	"pinyin": "eerduosi",
+	"cityCode": 2106,
+	"cityName": "\u9102\u5c14\u591a\u65af"
+}, {
+	"code": "1178503",
+	"name": "\u5f6c\u53bf",
+	"pinyin": "binxian",
+	"cityCode": 2710,
+	"cityName": "\u5f6c\u53bf"
+}, {
+	"code": "1178504",
+	"name": "\u5de2\u6e56\u4e1c",
+	"pinyin": "chaohudong",
+	"cityCode": 102,
+	"cityName": "\u5de2\u6e56\u4e1c"
+}, {
+	"code": "1178505",
+	"name": "\u957f\u4e34\u6cb3",
+	"pinyin": "changlinhe",
+	"cityCode": 102,
+	"cityName": "\u957f\u4e34\u6cb3"
+}, {
+	"code": "1178506",
+	"name": "\u957f\u5e86\u6865",
+	"pinyin": "changqingqiao",
+	"cityCode": 514,
+	"cityName": "\u957f\u5e86\u6865"
+}, {
+	"code": "1178507",
+	"name": "\u5fb7\u5174",
+	"pinyin": "dexing",
+	"cityCode": 1711,
+	"cityName": "\u5fb7\u5174"
+}, {
+	"code": "1178508",
+	"name": "\u5408\u80a5\u897f",
+	"pinyin": "hefeixi",
+	"cityCode": 102,
+	"cityName": "\u5408\u80a5\u897f"
+}, {
+	"code": "1178509",
+	"name": "\u5e7f\u5143\u5357",
+	"pinyin": "guangyuannan",
+	"cityCode": 2810,
+	"cityName": "\u5e7f\u5143\u5357"
+}, {
+	"code": "1178510",
+	"name": "\u676d\u9526\u540e\u65d7",
+	"pinyin": "hangjinhouqi",
+	"cityCode": 2109,
+	"cityName": "\u676d\u9526\u540e\u65d7"
+}, {
+	"code": "1178511",
+	"name": "\u8d35\u5b9a\u5317",
+	"pinyin": "guidingbei",
+	"cityCode": 805,
+	"cityName": "\u8d35\u5b9a\u5317"
+}, {
+	"code": "1178512",
+	"name": "\u53e4\u7530\u5317",
+	"pinyin": "gutianbei",
+	"cityCode": 406,
+	"cityName": "\u53e4\u7530\u5317"
+}, {
+	"code": "1178513",
+	"name": "\u9ec4\u6cb3\u666f\u533a",
+	"pinyin": "huanghejingqu",
+	"cityCode": 1202,
+	"cityName": "\u9ec4\u6cb3\u666f\u533a"
+}, {
+	"code": "1178514",
+	"name": "\u9ec4\u5c71\u5317",
+	"pinyin": "huangshanbei",
+	"cityCode": 113,
+	"cityName": "\u9ec4\u5c71\u5317"
+}, {
+	"code": "1178515",
+	"name": "\u6d77\u9633\u5317",
+	"pinyin": "haiyangbei",
+	"cityCode": 2419,
+	"cityName": "\u6d77\u9633\u5317"
+}, {
+	"code": "1178516",
+	"name": "\u65cc\u5fb7",
+	"pinyin": "jingde",
+	"cityCode": 121,
+	"cityName": "\u65cc\u5fb7"
+}, {
+	"code": "1178517",
+	"name": "\u5efa\u74ef\u897f",
+	"pinyin": "jianouxi",
+	"cityCode": 405,
+	"cityName": "\u5efa\u74ef\u897f"
+}, {
+	"code": "1178518",
+	"name": "\u7ee9\u6eaa\u5317",
+	"pinyin": "jixibei",
+	"cityCode": 121,
+	"cityName": "\u7ee9\u6eaa\u5317"
+}, {
+	"code": "1178519",
+	"name": "\u6cfe\u53bf",
+	"pinyin": "jingxian",
+	"cityCode": 121,
+	"cityName": "\u6cfe\u53bf"
+}, {
+	"code": "1178520",
+	"name": "\u51ef\u91cc\u5357",
+	"pinyin": "kailinan",
+	"cityCode": 806,
+	"cityName": "\u51ef\u91cc\u5357"
+}, {
+	"code": "1178521",
+	"name": "\u4e50\u90fd\u5357",
+	"pinyin": "ledunan",
+	"cityCode": 2306,
+	"cityName": "\u4e50\u90fd\u5357"
+}, {
+	"code": "1178522",
+	"name": "\u83b1\u897f\u5317",
+	"pinyin": "laixibei",
+	"cityCode": 2413,
+	"cityName": "\u83b1\u897f\u5317"
+}, {
+	"code": "1178523",
+	"name": "\u9e7f\u5be8\u5317",
+	"pinyin": "luzhaibei",
+	"cityCode": 709,
+	"cityName": "\u9e7f\u5be8\u5317"
+}, {
+	"code": "1178524",
+	"name": "\u4e34\u6cfd\u5357",
+	"pinyin": "linzenan",
+	"cityCode": 515,
+	"cityName": "\u4e34\u6cfd\u5357"
+}, {
+	"code": "1178525",
+	"name": "\u95fd\u6e05\u5317",
+	"pinyin": "minqingbei",
+	"cityCode": 402,
+	"cityName": "\u95fd\u6e05\u5317"
+}, {
+	"code": "1178526",
+	"name": "\u5357\u9675",
+	"pinyin": "nanling",
+	"cityCode": 120,
+	"cityName": "\u5357\u9675"
+}, {
+	"code": "1178527",
+	"name": "\u5357\u5e73\u5317",
+	"pinyin": "nanpingbei",
+	"cityCode": 405,
+	"cityName": "\u5357\u5e73\u5317"
+}, {
+	"code": "1178528",
+	"name": "\u5357\u9633\u5be8",
+	"pinyin": "nanyangzhai",
+	"cityCode": 1202,
+	"cityName": "\u5357\u9633\u5be8"
+}, {
+	"code": "1178529",
+	"name": "\u6c99\u53bf",
+	"pinyin": "shaxian",
+	"cityCode": 409,
+	"cityName": "\u6c99\u53bf"
+}, {
+	"code": "1178530",
+	"name": "\u5c4f\u8fb9",
+	"pinyin": "pingbian",
+	"cityCode": 3308,
+	"cityName": "\u5c4f\u8fb9"
+}, {
+	"code": "1178531",
+	"name": "\u5e73\u5ea6",
+	"pinyin": "pingdu",
+	"cityCode": 2413,
+	"cityName": "\u5e73\u5ea6"
+}, {
+	"code": "1178532",
+	"name": "\u5f6d\u5c71\u5317",
+	"pinyin": "pengshanbei",
+	"cityCode": 2817,
+	"cityName": "\u5f6d\u5c71\u5317"
+}, {
+	"code": "1178533",
+	"name": "\u6e05\u6c34\u5317",
+	"pinyin": "qingshuibei",
+	"cityCode": 508,
+	"cityName": "\u6e05\u6c34\u5317"
+}, {
+	"code": "1178534",
+	"name": "\u4e7e\u53bf",
+	"pinyin": "qianxian",
+	"cityCode": 2710,
+	"cityName": "\u4e7e\u53bf"
+}, {
+	"code": "1178535",
+	"name": "\u4e09\u6c5f\u5357",
+	"pinyin": "sanjiangnan",
+	"cityCode": 709,
+	"cityName": "\u4e09\u6c5f\u5357"
+}, {
+	"code": "1178536",
+	"name": "\u4e09\u6c34\u5357",
+	"pinyin": "sanshuinan",
+	"cityCode": 607,
+	"cityName": "\u4e09\u6c34\u5357"
+}, {
+	"code": "1178537",
+	"name": "\u97f6\u5c71\u5357",
+	"pinyin": "shaoshannan",
+	"cityCode": 1510,
+	"cityName": "\u97f6\u5c71\u5357"
+}, {
+	"code": "1178538",
+	"name": "\u4e09\u7a57",
+	"pinyin": "sansui",
+	"cityCode": 806,
+	"cityName": "\u4e09\u7a57"
+}, {
+	"code": "1178539",
+	"name": "\u6b59\u53bf\u5317",
+	"pinyin": "shexianbei",
+	"cityCode": 113,
+	"cityName": "\u6b59\u53bf\u5317"
+}, {
+	"code": "1178540",
+	"name": "\u6843\u6751\u5317",
+	"pinyin": "taocunbei",
+	"cityCode": 2419,
+	"cityName": "\u6843\u6751\u5317"
+}, {
+	"code": "1178541",
+	"name": "\u94dc\u9675\u5317",
+	"pinyin": "tonglingbei",
+	"cityCode": 118,
+	"cityName": "\u94dc\u9675\u5317"
+}, {
+	"code": "1178542",
+	"name": "\u94dc\u4ec1\u5357",
+	"pinyin": "tongrennan",
+	"cityCode": 808,
+	"cityName": "\u94dc\u4ec1\u5357"
+}, {
+	"code": "1178543",
+	"name": "\u6b63\u5b9a",
+	"pinyin": "zhengding",
+	"cityCode": 1002,
+	"cityName": "\u6b63\u5b9a"
+}, {
+	"code": "1178544",
+	"name": "\u4e94\u5e9c\u5c71",
+	"pinyin": "wufushan",
+	"cityCode": 1711,
+	"cityName": "\u4e94\u5e9c\u5c71"
+}, {
+	"code": "1178545",
+	"name": "\u65e0\u4e3a",
+	"pinyin": "wuwei",
+	"cityCode": 120,
+	"cityName": "\u65e0\u4e3a"
+}, {
+	"code": "1178546",
+	"name": "\u6b66\u5937\u5c71\u5317",
+	"pinyin": "wuyishanbei",
+	"cityCode": 405,
+	"cityName": "\u6b66\u5937\u5c71\u5317"
+}, {
+	"code": "1178548",
+	"name": "\u5a7a\u6e90",
+	"pinyin": "wuyuan",
+	"cityCode": 1711,
+	"cityName": "\u5a7a\u6e90"
+}, {
+	"code": "1178549",
+	"name": "\u6b66\u965f",
+	"pinyin": "wuzhi",
+	"cityCode": 1206,
+	"cityName": "\u6b66\u965f"
+}, {
+	"code": "1178550",
+	"name": "\u65b0\u5316\u5357",
+	"pinyin": "xinhuanan",
+	"cityCode": 1508,
+	"cityName": "\u65b0\u5316\u5357"
+}, {
+	"code": "1178551",
+	"name": "\u65b0\u6643\u897f",
+	"pinyin": "xinhuangxi",
+	"cityCode": 1506,
+	"cityName": "\u65b0\u6643\u897f"
+}, {
+	"code": "1178552",
+	"name": "\u6e86\u6d66\u5357",
+	"pinyin": "xupunan",
+	"cityCode": 1506,
+	"cityName": "\u6e86\u6d66\u5357"
+}, {
+	"code": "1178553",
+	"name": "\u4fee\u6b66\u897f",
+	"pinyin": "xiuwuxi",
+	"cityCode": 1206,
+	"cityName": "\u4fee\u6b66\u897f"
+}, {
+	"code": "1178554",
+	"name": "\u662d\u5316",
+	"pinyin": "zhaohua",
+	"cityCode": 2810,
+	"cityName": "\u662d\u5316"
+}, {
+	"code": "1745525",
+	"name": "\u9102\u5dde\u897f\u7ad9",
+	"pinyin": "e zhou xi zhan",
+	"cityCode": 1404,
+	"cityName": "\u9102\u5dde\u897f\u7ad9"
+}, {
+	"code": "1746445",
+	"name": "\u829c\u6e56\u4e1c\u7ad9",
+	"pinyin": "wu hu dong zhan",
+	"cityCode": 120,
+	"cityName": "\u829c\u6e56\u4e1c\u7ad9"
+}, {
+	"code": "1982160",
+	"name": "\u7ea2\u78e1",
+	"pinyin": "hong kan huo che zhan",
+	"cityCode": 1300,
+	"cityName": "\u7ea2\u78e1"
+}, {
+	"code": "1982204",
+	"name": "\u9ad8\u96c4",
+	"pinyin": "gao xiong huo che zhan",
+	"cityCode": -1,
+	"cityName": "\u9ad8\u96c4"
+}, {
+	"code": "1982238",
+	"name": "\u5609\u4e49\u9ad8\u94c1\u7ad9",
+	"pinyin": "jia yi gao tie zhan",
+	"cityCode": 2913,
+	"cityName": "\u5609\u4e49\u9ad8\u94c1\u7ad9"
+}, {
+	"code": "1982242",
+	"name": "\u65b0\u7af9",
+	"pinyin": "xin zhu huo che zhan",
+	"cityCode": 2910,
+	"cityName": "\u65b0\u7af9"
+}, {
+	"code": "1982253",
+	"name": "\u82b1\u83b2",
+	"pinyin": "hua lian huo che zhan",
+	"cityCode": 2914,
+	"cityName": "\u82b1\u83b2"
+}, {
+	"code": "1982255",
+	"name": "\u53f0\u4e1c",
+	"pinyin": "tai dong huo che zhan",
+	"cityCode": 2917,
+	"cityName": "\u53f0\u4e1c"
+}, {
+	"code": "1982256",
+	"name": "\u9ad8\u94c1\u53f0\u4e2d\u7ad9",
+	"pinyin": "gao tie tai zhong zhan",
+	"cityCode": 2905,
+	"cityName": "\u9ad8\u94c1\u53f0\u4e2d\u7ad9"
+}, {
+	"code": "1982326",
+	"name": "\u53f0\u5317\u9ad8\u94c1\u7ad9",
+	"pinyin": "tai bei gao tie zhan",
+	"cityCode": 2902,
+	"cityName": "\u53f0\u5317\u9ad8\u94c1\u7ad9"
+}, {
+	"code": "1982339",
+	"name": "\u53f0\u5317\u8f66\u7ad9",
+	"pinyin": "tai bei che zhan",
+	"cityCode": 2902,
+	"cityName": "\u53f0\u5317\u8f66\u7ad9"
+}, {
+	"code": "1982341",
+	"name": "\u6b66\u5937\u5c71\u4e1c",
+	"pinyin": "wuyishandong",
+	"cityCode": 405,
+	"cityName": "\u6b66\u5937\u5c71\u4e1c"
+}, {
+	"code": "1982345",
+	"name": "\u53f0\u5357\u9ad8\u94c1\u7ad9",
+	"pinyin": "tai nan gao tie zhan",
+	"cityCode": 2904,
+	"cityName": "\u53f0\u5357\u9ad8\u94c1\u7ad9"
+}, {
+	"code": "1982357",
+	"name": "\u9ec4\u5c71\u9ad8\u94c1",
+	"pinyin": "huang shan gao tie huo che zhan",
+	"cityCode": 113,
+	"cityName": "\u9ec4\u5c71\u9ad8\u94c1"
+}, {
+	"code": "1982377",
+	"name": "\u5de6\u8425\u9ad8\u94c1\u7ad9",
+	"pinyin": "zuo ying gao tie zhan",
+	"cityCode": 2906,
+	"cityName": "\u5de6\u8425\u9ad8\u94c1\u7ad9"
+}, {
+	"code": "1982378",
+	"name": "\u9ad8\u94c1\u6843\u56ed\u7ad9",
+	"pinyin": "gao tie tao yuan zhan",
+	"cityCode": 2915,
+	"cityName": "\u9ad8\u94c1\u6843\u56ed\u7ad9"
+}, {
+	"code": "2017124",
+	"name": "\u5c71\u6d77\u5173",
+	"pinyin": "shanhaiguan",
+	"cityCode": 1012,
+	"cityName": "\u5c71\u6d77\u5173"
+}, {
+	"code": "2017125",
+	"name": "\u5317\u6234\u6cb3",
+	"pinyin": "beidaihe",
+	"cityCode": 1012,
+	"cityName": "\u5317\u6234\u6cb3"
+}, {
+	"code": "2019286",
+	"name": "\u767d\u6c9f",
+	"pinyin": "baigou",
+	"cityCode": 1003,
+	"cityName": "\u767d\u6c9f"
+}, {
+	"code": "2019359",
+	"name": "\u6c38\u5eb7\u5357",
+	"pinyin": "yongkangnan",
+	"cityCode": 3411,
+	"cityName": "\u6c38\u5eb7\u5357"
+}, {
+	"code": "2019934",
+	"name": "\u4e1c\u6e2f\u5317",
+	"pinyin": "donggangbei",
+	"cityCode": 1907,
+	"cityName": "\u4e1c\u6e2f\u5317"
+}, {
+	"code": "2019952",
+	"name": "\u6fee\u9633",
+	"pinyin": "puyang",
+	"cityCode": 1213,
+	"cityName": "\u6fee\u9633"
+}, {
+	"code": "2020335",
+	"name": "\u72ee\u5c71",
+	"pinyin": "shishan",
+	"cityCode": 607,
+	"cityName": "\u72ee\u5c71"
+}, {
+	"code": "2020336",
+	"name": "\u72ee\u5c71\u5317",
+	"pinyin": "shishanbei",
+	"cityCode": 607,
+	"cityName": "\u72ee\u5c71\u5317"
+}, {
+	"code": "2020337",
+	"name": "\u4ef2\u607a",
+	"pinyin": "zhongkai",
+	"cityCode": 609,
+	"cityName": "\u4ef2\u607a"
+}, {
+	"code": "2020339",
+	"name": "\u4e91\u5c71",
+	"pinyin": "yunshan",
+	"cityCode": 609,
+	"cityName": "\u4e91\u5c71"
+}, {
+	"code": "2020340",
+	"name": "\u9f99\u4e30",
+	"pinyin": "longfeng",
+	"cityCode": 609,
+	"cityName": "\u9f99\u4e30"
+}, {
+	"code": "2020341",
+	"name": "\u5c0f\u91d1\u53e3",
+	"pinyin": "xiaojinkou",
+	"cityCode": 609,
+	"cityName": "\u5c0f\u91d1\u53e3"
+}, {
+	"code": "2020342",
+	"name": "\u60e0\u73af",
+	"pinyin": "huihuan",
+	"cityCode": 609,
+	"cityName": "\u60e0\u73af"
+}, {
+	"code": "2020343",
+	"name": "\u897f\u6e56\u4e1c",
+	"pinyin": "xihudong",
+	"cityCode": 609,
+	"cityName": "\u897f\u6e56\u4e1c"
+}, {
+	"code": "2020344",
+	"name": "\u6ca5\u6797\u5317",
+	"pinyin": "lilinbei",
+	"cityCode": 609,
+	"cityName": "\u6ca5\u6797\u5317"
+}, {
+	"code": "2020345",
+	"name": "\u94f6\u74f6",
+	"pinyin": "yinping",
+	"cityCode": 606,
+	"cityName": "\u94f6\u74f6"
+}, {
+	"code": "2020346",
+	"name": "\u5e38\u5e73\u4e1c",
+	"pinyin": "changpingdong",
+	"cityCode": 606,
+	"cityName": "\u5e38\u5e73\u4e1c"
+}, {
+	"code": "2020347",
+	"name": "\u6a1f\u6728\u5934\u4e1c",
+	"pinyin": "zhangmutoudong",
+	"cityCode": 606,
+	"cityName": "\u6a1f\u6728\u5934\u4e1c"
+}, {
+	"code": "2020348",
+	"name": "\u4e91\u4e1c\u6d77",
+	"pinyin": "yundonghai",
+	"cityCode": 607,
+	"cityName": "\u4e91\u4e1c\u6d77"
+}, {
+	"code": "2020349",
+	"name": "\u4e09\u6c34\u5317",
+	"pinyin": "sanshuibei",
+	"cityCode": 607,
+	"cityName": "\u4e09\u6c34\u5317"
+}, {
+	"code": "2020350",
+	"name": "\u5927\u65fa",
+	"pinyin": "dawang",
+	"cityCode": 626,
+	"cityName": "\u5927\u65fa"
+}, {
+	"code": "2020351",
+	"name": "\u56db\u4f1a",
+	"pinyin": "sihui",
+	"cityCode": 626,
+	"cityName": "\u56db\u4f1a"
+}, {
+	"code": "2020352",
+	"name": "\u9f0e\u6e56\u5c71",
+	"pinyin": "dinghushan",
+	"cityCode": 626,
+	"cityName": "\u9f0e\u6e56\u5c71"
+}, {
+	"code": "2020353",
+	"name": "\u9f0e\u6e56\u4e1c",
+	"pinyin": "dinghudong",
+	"cityCode": 626,
+	"cityName": "\u9f0e\u6e56\u4e1c"
+}, {
+	"code": "2020355",
+	"name": "\u7aef\u5dde",
+	"pinyin": "duanzhou",
+	"cityCode": 626,
+	"cityName": "\u7aef\u5dde"
+}, {
+	"code": "2022171",
+	"name": "\u8363\u660c\u5317",
+	"pinyin": "rongchangbei",
+	"cityCode": 300,
+	"cityName": "\u8363\u660c\u5317"
+}, {
+	"code": "2027610",
+	"name": "\u9a6c\u978d\u5c71\u4e1c",
+	"pinyin": "maanshandong",
+	"cityCode": 116,
+	"cityName": "\u9a6c\u978d\u5c71\u4e1c"
+}, {
+	"code": "2027611",
+	"name": "\u912f\u5584\u5317",
+	"pinyin": "shanshanbei",
+	"cityCode": 3118,
+	"cityName": "\u912f\u5584\u5317"
+}, {
+	"code": "2027612",
+	"name": "\u5410\u54c8",
+	"pinyin": "tuha",
+	"cityCode": 3118,
+	"cityName": "\u5410\u54c8"
+}, {
+	"code": "2027613",
+	"name": "\u7e41\u660c\u897f",
+	"pinyin": "fanchangxi",
+	"cityCode": 120,
+	"cityName": "\u7e41\u660c\u897f"
+}, {
+	"code": "2027614",
+	"name": "\u5f0b\u6c5f",
+	"pinyin": "yijiang",
+	"cityCode": 120,
+	"cityName": "\u5f0b\u6c5f"
+}, {
+	"code": "2027615",
+	"name": "\u53e4\u7530\u4f1a\u5740",
+	"pinyin": "gutianhuizhi",
+	"cityCode": 404,
+	"cityName": "\u53e4\u7530\u4f1a\u5740"
+}, {
+	"code": "2027616",
+	"name": "\u5b89\u56fe\u897f",
+	"pinyin": "antuxi",
+	"cityCode": 1812,
+	"cityName": "\u5b89\u56fe\u897f"
+}, {
+	"code": "2027617",
+	"name": "\u5927\u77f3\u5934\u5357",
+	"pinyin": "dashitounan",
+	"cityCode": 1812,
+	"cityName": "\u5927\u77f3\u5934\u5357"
+}, {
+	"code": "2027618",
+	"name": "\u957f\u6c40\u5357",
+	"pinyin": "changtingnan",
+	"cityCode": 404,
+	"cityName": "\u957f\u6c40\u5357"
+}, {
+	"code": "2027619",
+	"name": "\u9686\u5b89\u4e1c",
+	"pinyin": "longandong",
+	"cityCode": 702,
+	"cityName": "\u9686\u5b89\u4e1c"
+}, {
+	"code": "2027620",
+	"name": "\u7f19\u4e91\u897f",
+	"pinyin": "jinyunxi",
+	"cityCode": 3414,
+	"cityName": "\u7f19\u4e91\u897f"
+}, {
+	"code": "2027621",
+	"name": "\u67f3\u56ed\u5357",
+	"pinyin": "liuyuannan",
+	"cityCode": 508,
+	"cityName": "\u67f3\u56ed\u5357"
+}, {
+	"code": "2027622",
+	"name": "\u6b66\u4e49\u5317",
+	"pinyin": "wuyibei",
+	"cityCode": 3411,
+	"cityName": "\u6b66\u4e49\u5317"
+}, {
+	"code": "2027623",
+	"name": "\u74a7\u5c71",
+	"pinyin": "bishan",
+	"cityCode": 300,
+	"cityName": "\u74a7\u5c71"
+}, {
+	"code": "2027624",
+	"name": "\u6d1b\u6e7e\u4e09\u6c5f",
+	"pinyin": "luowansanjiang",
+	"cityCode": 300,
+	"cityName": "\u6d1b\u6e7e\u4e09\u6c5f"
+}, {
+	"code": "2027625",
+	"name": "\u5927\u8db3\u5357",
+	"pinyin": "dazunan",
+	"cityCode": 300,
+	"cityName": "\u5927\u8db3\u5357"
+}, {
+	"code": "2027626",
+	"name": "\u6c38\u5ddd\u4e1c",
+	"pinyin": "yongchuandong",
+	"cityCode": 300,
+	"cityName": "\u6c38\u5ddd\u4e1c"
+}, {
+	"code": "2027627",
+	"name": "\u5170\u5dde\u65b0\u533a",
+	"pinyin": "lanzhouxinqu",
+	"cityCode": 502,
+	"cityName": "\u5170\u5dde\u65b0\u533a"
+}, {
+	"code": "2027628",
+	"name": "\u5df4\u4e2d\u4e1c",
+	"pinyin": "bazhongdong",
+	"cityCode": 2803,
+	"cityName": "\u5df4\u4e2d\u4e1c"
+}, {
+	"code": "2027629",
+	"name": "\u4e2d\u5ddd\u673a\u573a",
+	"pinyin": "zhongchuanjichang",
+	"cityCode": 502,
+	"cityName": "\u4e2d\u5ddd\u673a\u573a"
+}, {
+	"code": "2027630",
+	"name": "\u82cd\u6eaa",
+	"pinyin": "cangxi",
+	"cityCode": 2810,
+	"cityName": "\u82cd\u6eaa"
+}, {
+	"code": "2027631",
+	"name": "\u798f\u5229\u533a",
+	"pinyin": "fuliqu",
+	"cityCode": 502,
+	"cityName": "\u798f\u5229\u533a"
+}, {
+	"code": "2027632",
+	"name": "\u897f\u56fa",
+	"pinyin": "xigu",
+	"cityCode": 502,
+	"cityName": "\u897f\u56fa"
+}, {
+	"code": "2027633",
+	"name": "\u6b66\u80dc",
+	"pinyin": "wusheng",
+	"cityCode": 2809,
+	"cityName": "\u6b66\u80dc"
+}, {
+	"code": "2027634",
+	"name": "\u7b80\u9633\u5357",
+	"pinyin": "jianyangnan",
+	"cityCode": 2827,
+	"cityName": "\u7b80\u9633\u5357"
+}, {
+	"code": "2027635",
+	"name": "\u9606\u4e2d",
+	"pinyin": "langzhong",
+	"cityCode": 2818,
+	"cityName": "\u9606\u4e2d"
+}, {
+	"code": "2027636",
+	"name": "\u9686\u660c\u5317",
+	"pinyin": "longchangbei",
+	"cityCode": 2819,
+	"cityName": "\u9686\u660c\u5317"
+}, {
+	"code": "2027637",
+	"name": "\u5357\u90e8",
+	"pinyin": "nanbu",
+	"cityCode": 2818,
+	"cityName": "\u5357\u90e8"
+}, {
+	"code": "2027638",
+	"name": "\u5357\u5145\u5317",
+	"pinyin": "nanchongbei",
+	"cityCode": 2818,
+	"cityName": "\u5357\u5145\u5317"
+}, {
+	"code": "2027639",
+	"name": "\u5185\u6c5f\u5317",
+	"pinyin": "neijiangbei",
+	"cityCode": 2819,
+	"cityName": "\u5185\u6c5f\u5317"
+}, {
+	"code": "2027640",
+	"name": "\u73f2\u6625",
+	"pinyin": "hunchun",
+	"cityCode": 1812,
+	"cityName": "\u73f2\u6625"
+}, {
+	"code": "2027641",
+	"name": "\u9756\u897f",
+	"pinyin": "jingxi",
+	"cityCode": 703,
+	"cityName": "\u9756\u897f"
+}, {
+	"code": "2027642",
+	"name": "\u5fb7\u4fdd",
+	"pinyin": "debao",
+	"cityCode": 703,
+	"cityName": "\u5fb7\u4fdd"
+}, {
+	"code": "2027643",
+	"name": "\u7530\u4e1c\u5317",
+	"pinyin": "tiandongbei",
+	"cityCode": 703,
+	"cityName": "\u7530\u4e1c\u5317"
+}, {
+	"code": "2027644",
+	"name": "\u5357\u5b81\u897f",
+	"pinyin": "nanningxi",
+	"cityCode": 702,
+	"cityName": "\u5357\u5b81\u897f"
+}, {
+	"code": "2027645",
+	"name": "\u54c8\u5c14\u6ee8\u5317",
+	"pinyin": "haerbinbei",
+	"cityCode": 1102,
+	"cityName": "\u54c8\u5c14\u6ee8\u5317"
+}, {
+	"code": "2027646",
+	"name": "\u68cb\u5b50\u6e7e",
+	"pinyin": "qiziwan",
+	"cityCode": 784372,
+	"cityName": "\u68cb\u5b50\u6e7e"
+}, {
+	"code": "2027647",
+	"name": "\u798f\u5c71\u9547",
+	"pinyin": "fushanzhen",
+	"cityCode": 913,
+	"cityName": "\u798f\u5c71\u9547"
+}, {
+	"code": "2027648",
+	"name": "\u8001\u57ce\u9547",
+	"pinyin": "laochengzhen",
+	"cityCode": 913,
+	"cityName": "\u8001\u57ce\u9547"
+}, {
+	"code": "2027649",
+	"name": "\u767d\u9a6c\u4e95",
+	"pinyin": "baimajing",
+	"cityCode": 903,
+	"cityName": "\u767d\u9a6c\u4e95"
+}, {
+	"code": "2027650",
+	"name": "\u94f6\u6ee9",
+	"pinyin": "yintan",
+	"cityCode": 903,
+	"cityName": "\u94f6\u6ee9"
+}, {
+	"code": "2027651",
+	"name": "\u9ec4\u6d41",
+	"pinyin": "huangliu",
+	"cityCode": 784376,
+	"cityName": "\u9ec4\u6d41"
+}, {
+	"code": "2027652",
+	"name": "\u4e50\u4e1c",
+	"pinyin": "ledong",
+	"cityCode": 784376,
+	"cityName": "\u4e50\u4e1c"
+}, {
+	"code": "2027653",
+	"name": "\u5c16\u5cf0",
+	"pinyin": "jianfeng",
+	"cityCode": 784376,
+	"cityName": "\u5c16\u5cf0"
+}, {
+	"code": "2027654",
+	"name": "\u4e34\u9ad8\u5357",
+	"pinyin": "lingaonan",
+	"cityCode": 912,
+	"cityName": "\u4e34\u9ad8\u5357"
+}, {
+	"code": "2027655",
+	"name": "\u51e4\u51f0\u673a\u573a",
+	"pinyin": "fenghuangjichang",
+	"cityCode": 906,
+	"cityName": "\u51e4\u51f0\u673a\u573a"
+}, {
+	"code": "2027656",
+	"name": "\u5d16\u5dde",
+	"pinyin": "yazhou",
+	"cityCode": 906,
+	"cityName": "\u5d16\u5dde"
+}, {
+	"code": "2027657",
+	"name": "\u6842\u6797\u897f",
+	"pinyin": "guilinxi",
+	"cityCode": 705,
+	"cityName": "\u6842\u6797\u897f"
+}, {
+	"code": "2027658",
+	"name": "\u9633\u6714",
+	"pinyin": "yangshuo",
+	"cityCode": 705,
+	"cityName": "\u9633\u6714"
+}, {
+	"code": "2027659",
+	"name": "\u8d44\u4e2d\u5317",
+	"pinyin": "zizhongbei",
+	"cityCode": 2819,
+	"cityName": "\u8d44\u4e2d\u5317"
+}, {
+	"code": "2027660",
+	"name": "\u5e73\u660c",
+	"pinyin": "pingchang",
+	"cityCode": 2803,
+	"cityName": "\u5e73\u660c"
+}, {
+	"code": "2027661",
+	"name": "\u5357\u82ac\u5317",
+	"pinyin": "nanfenbei",
+	"cityCode": 1904,
+	"cityName": "\u5357\u82ac\u5317"
+}, {
+	"code": "2027662",
+	"name": "\u767d\u6c34",
+	"pinyin": "baishui",
+	"cityCode": 2810,
+	"cityName": "\u767d\u6c34"
+}, {
+	"code": "2027663",
+	"name": "\u672c\u6eaa\u65b0\u57ce",
+	"pinyin": "benxixincheng",
+	"cityCode": 1904,
+	"cityName": "\u672c\u6eaa\u65b0\u57ce"
+}, {
+	"code": "2027664",
+	"name": "\u8d44\u9633\u5317",
+	"pinyin": "ziyangbei",
+	"cityCode": 2827,
+	"cityName": "\u8d44\u9633\u5317"
+}, {
+	"code": "2027665",
+	"name": "\u66fe\u53e3",
+	"pinyin": "zengkou",
+	"cityCode": 2803,
+	"cityName": "\u66fe\u53e3"
+}, {
+	"code": "2027666",
+	"name": "\u5e7f\u5b81\u5bfa\u5357",
+	"pinyin": "guangningsinan",
+	"cityCode": 1906,
+	"cityName": "\u5e7f\u5b81\u5bfa\u5357"
+}, {
+	"code": "2027667",
+	"name": "\u80dc\u82b3",
+	"pinyin": "shengfang",
+	"cityCode": 1010,
+	"cityName": "\u80dc\u82b3"
+}, {
+	"code": "2027668",
+	"name": "\u76ae\u53e3\u5357\t",
+	"pinyin": "pikounan",
+	"cityCode": 1906,
+	"cityName": "\u76ae\u53e3\u5357\t"
+}, {
+	"code": "2027669",
+	"name": "\u82b1\u56ed\u53e3\t",
+	"pinyin": "huayuankou",
+	"cityCode": 1906,
+	"cityName": "\u82b1\u56ed\u53e3\t"
+}, {
+	"code": "2027670",
+	"name": "\u7ec7\u91d1\u5317",
+	"pinyin": "zhijinbei",
+	"cityCode": 804,
+	"cityName": "\u7ec7\u91d1\u5317"
+}, {
+	"code": "2027671",
+	"name": "\u7eb3\u96cd",
+	"pinyin": "nayong",
+	"cityCode": 804,
+	"cityName": "\u7eb3\u96cd"
+}, {
+	"code": "2027672",
+	"name": "\u5927\u5b64\u5c71\t",
+	"pinyin": "dagushan",
+	"cityCode": 1907,
+	"cityName": "\u5927\u5b64\u5c71\t"
+}, {
+	"code": "2027673",
+	"name": "\u9f99\u6d1e\u5821",
+	"pinyin": "longdongbao",
+	"cityCode": 802,
+	"cityName": "\u9f99\u6d1e\u5821"
+}, {
+	"code": "2027674",
+	"name": "\u4e94\u9f99\u80cc\u4e1c\t",
+	"pinyin": "wulongbeidong",
+	"cityCode": 1907,
+	"cityName": "\u4e94\u9f99\u80cc\u4e1c\t"
+}, {
+	"code": "2027675",
+	"name": "\u767e\u5b9c",
+	"pinyin": "baiyi",
+	"cityCode": 802,
+	"cityName": "\u767e\u5b9c"
+}, {
+	"code": "2027676",
+	"name": "\u4e39\u4e1c\u897f\t",
+	"pinyin": "dandongxi",
+	"cityCode": 1907,
+	"cityName": "\u4e39\u4e1c\u897f\t"
+}, {
+	"code": "2027677",
+	"name": "\u77f3\u68af",
+	"pinyin": "shiti",
+	"cityCode": 2804,
+	"cityName": "\u77f3\u68af"
+}, {
+	"code": "2027678",
+	"name": "\u767d\u6d0b\u6dc0",
+	"pinyin": "baiyangdian",
+	"cityCode": 1003,
+	"cityName": "\u767d\u6d0b\u6dc0"
+}, {
+	"code": "2027679",
+	"name": "\u5317\u4e95\u5b50\t",
+	"pinyin": "beijingzi",
+	"cityCode": 1907,
+	"cityName": "\u5317\u4e95\u5b50\t"
+}, {
+	"code": "2027680",
+	"name": "\u77f3\u6865",
+	"pinyin": "shiqiao",
+	"cityCode": 2804,
+	"cityName": "\u77f3\u6865"
+}, {
+	"code": "2027681",
+	"name": "\u51e4\u57ce\u4e1c\t",
+	"pinyin": "fengchengdong",
+	"cityCode": 1907,
+	"cityName": "\u51e4\u57ce\u4e1c\t"
+}, {
+	"code": "2027682",
+	"name": "\u901a\u8fdc\u5821\u897f\t",
+	"pinyin": "tongyuanpuxi",
+	"cityCode": 1907,
+	"cityName": "\u901a\u8fdc\u5821\u897f\t"
+}, {
+	"code": "2027683",
+	"name": "\u5f53\u6d82\u4e1c",
+	"pinyin": "dangtudong",
+	"cityCode": 116,
+	"cityName": "\u5f53\u6d82\u4e1c"
+}, {
+	"code": "2027684",
+	"name": "\u5b5f\u5e84",
+	"pinyin": "mengzhuang",
+	"cityCode": 1003,
+	"cityName": "\u5b5f\u5e84"
+}, {
+	"code": "2027685",
+	"name": "\u5e84\u6cb3\u5317\t",
+	"pinyin": "zhuanghebei",
+	"cityCode": 1906,
+	"cityName": "\u5e84\u6cb3\u5317\t"
+}, {
+	"code": "2027686",
+	"name": "\u9738\u5dde\u897f",
+	"pinyin": "bazhouxi",
+	"cityCode": 1010,
+	"cityName": "\u9738\u5dde\u897f"
+}, {
+	"code": "2027687",
+	"name": "\u767d\u97f3\u534e\u5357\t",
+	"pinyin": "baiyinhuanan",
+	"cityCode": 2113,
+	"cityName": "\u767d\u97f3\u534e\u5357\t"
+}, {
+	"code": "2027688",
+	"name": "\u897f\u4e4c\u65d7\t",
+	"pinyin": "xiwuqi",
+	"cityCode": 2113,
+	"cityName": "\u897f\u4e4c\u65d7\t"
+}, {
+	"code": "2027689",
+	"name": "\u5357\u66f9",
+	"pinyin": "nancao",
+	"cityCode": 1202,
+	"cityName": "\u5357\u66f9"
+}, {
+	"code": "2027690",
+	"name": "\u6ee8\u5dde\t",
+	"pinyin": "binzhou",
+	"cityCode": 2403,
+	"cityName": "\u6ee8\u5dde\t"
+}, {
+	"code": "2027691",
+	"name": "\u9633\u4fe1\t",
+	"pinyin": "yangxin",
+	"cityCode": 2403,
+	"cityName": "\u9633\u4fe1\t"
+}, {
+	"code": "2027692",
+	"name": "\u90d1\u5dde\u897f",
+	"pinyin": "zhengzhouxi",
+	"cityCode": 1202,
+	"cityName": "\u90d1\u5dde\u897f"
+}, {
+	"code": "2027693",
+	"name": "\u4e34\u9091\t",
+	"pinyin": "linyi",
+	"cityCode": 2405,
+	"cityName": "\u4e34\u9091\t"
+}, {
+	"code": "2027694",
+	"name": "\u65b0\u90d1\u673a\u573a",
+	"pinyin": "xinzhengjichang",
+	"cityCode": 1202,
+	"cityName": "\u65b0\u90d1\u673a\u573a"
+}, {
+	"code": "2027695",
+	"name": "\u4e9a\u5e03\u529b\u5357",
+	"pinyin": "yabulinan",
+	"cityCode": 1102,
+	"cityName": "\u4e9a\u5e03\u529b\u5357"
+}, {
+	"code": "2027696",
+	"name": "\u9675\u57ce\t",
+	"pinyin": "lingcheng",
+	"cityCode": 2405,
+	"cityName": "\u9675\u57ce\t"
+}, {
+	"code": "2027697",
+	"name": "\u4e1c\u8425\u5357\t",
+	"pinyin": "dongyingnan",
+	"cityCode": 2406,
+	"cityName": "\u4e1c\u8425\u5357\t"
+}, {
+	"code": "2027698",
+	"name": "\u9f50\u9f50\u54c8\u5c14\u5357",
+	"pinyin": "qiqihaernan",
+	"cityCode": 1111,
+	"cityName": "\u9f50\u9f50\u54c8\u5c14\u5357"
+}, {
+	"code": "2027699",
+	"name": "\u5229\u6d25\u5357\t",
+	"pinyin": "lijinnan",
+	"cityCode": 2406,
+	"cityName": "\u5229\u6d25\u5357\t"
+}, {
+	"code": "2027700",
+	"name": "\u5546\u6cb3\t",
+	"pinyin": "shanghe",
+	"cityCode": 2402,
+	"cityName": "\u5546\u6cb3\t"
+}, {
+	"code": "2027701",
+	"name": "\u8521\u5c71",
+	"pinyin": "caishan",
+	"cityCode": 1405,
+	"cityName": "\u8521\u5c71"
+}, {
+	"code": "2027702",
+	"name": "\u53cc\u5cf0\u5317",
+	"pinyin": "shuangfengbei",
+	"cityCode": 1508,
+	"cityName": "\u53cc\u5cf0\u5317"
+}, {
+	"code": "2027703",
+	"name": "\u576a\u4e0a\t ",
+	"pinyin": "pingshang",
+	"cityCode": 2411,
+	"cityName": "\u576a\u4e0a\t "
+}, {
+	"code": "2027704",
+	"name": "\u6c7e\u6cb3\t",
+	"pinyin": "fenhe",
+	"cityCode": 2602,
+	"cityName": "\u6c7e\u6cb3\t"
+}, {
+	"code": "2027705",
+	"name": "\u5408\u9633\u5317\t",
+	"pinyin": "heyangbei",
+	"cityCode": 2706,
+	"cityName": "\u5408\u9633\u5317\t"
+}, {
+	"code": "2027706",
+	"name": "\u6f84\u57ce\t",
+	"pinyin": "chengcheng",
+	"cityCode": 2706,
+	"cityName": "\u6f84\u57ce\t"
+}, {
+	"code": "2027707",
+	"name": "\u629a\u677e",
+	"pinyin": "fusong",
+	"cityCode": 1804,
+	"cityName": "\u629a\u677e"
+}, {
+	"code": "2027708",
+	"name": "\u9ec4\u9675\u5357\t",
+	"pinyin": "huanglingnan",
+	"cityCode": 2711,
+	"cityName": "\u9ec4\u9675\u5357\t"
+}, {
+	"code": "2027709",
+	"name": "\u5927\u79be\u5858",
+	"pinyin": "shaodong",
+	"cityCode": 1509,
+	"cityName": "\u5927\u79be\u5858"
+}, {
+	"code": "2027710",
+	"name": "\u9756\u5b87",
+	"pinyin": "jingyu",
+	"cityCode": 1804,
+	"cityName": "\u9756\u5b87"
+}, {
+	"code": "2027711",
+	"name": "\u9752\u5806\t",
+	"pinyin": "qingdui",
+	"cityCode": 1906,
+	"cityName": "\u9752\u5806\t"
+}, {
+	"code": "2027712",
+	"name": "\u5a01\u864e\u5cad\u5317",
+	"pinyin": "weihulingbei",
+	"cityCode": 1812,
+	"cityName": "\u5a01\u864e\u5cad\u5317"
+}, {
+	"code": "2027713",
+	"name": "\u86df\u6cb3\u897f",
+	"pinyin": "jiaohexi",
+	"cityCode": 1808,
+	"cityName": "\u86df\u6cb3\u897f"
+}, {
+	"code": "2027714",
+	"name": "\u56fe\u4eec\u5317",
+	"pinyin": "tumenbei",
+	"cityCode": 1812,
+	"cityName": "\u56fe\u4eec\u5317"
+}, {
+	"code": "2027715",
+	"name": "\u5ef6\u5409\u897f",
+	"pinyin": "yanjixi",
+	"cityCode": 1812,
+	"cityName": "\u5ef6\u5409\u897f"
+}, {
+	"code": "2027721",
+	"name": "\u798f\u7530",
+	"pinyin": "futian",
+	"cityCode": 619,
+	"cityName": "\u798f\u7530"
+}, {
+	"code": "2027722",
+	"name": "\u4e8e\u5bb6\u5821",
+	"pinyin": "yujiapu",
+	"cityCode": 3000,
+	"cityName": "\u4e8e\u5bb6\u5821"
+}, {
+	"code": "2027723",
+	"name": "\u6c5f\u5b81\u897f",
+	"pinyin": "jiangningxi",
+	"cityCode": 1602,
+	"cityName": "\u6c5f\u5b81\u897f"
+}, {
+	"code": "2027724",
+	"name": "\u4e09\u9053\u6e56",
+	"pinyin": "sandaohu",
+	"cityCode": 1804,
+	"cityName": "\u4e09\u9053\u6e56"
+}, {
+	"code": "2032309",
+	"name": "\u5b81\u4e1c\u5357",
+	"pinyin": "ningdongnan",
+	"cityCode": 2202,
+	"cityName": "\u5b81\u4e1c\u5357"
+}, {
+	"code": "2032345",
+	"name": "\u5b81\u4e1c",
+	"pinyin": "ningdong",
+	"cityCode": 2202,
+	"cityName": "\u5b81\u4e1c"
+}, {
+	"code": "2032374",
+	"name": "\u535a\u767d",
+	"pinyin": "bobai",
+	"cityCode": 712,
+	"cityName": "\u535a\u767d"
+}, {
+	"code": "2032375",
+	"name": "\u8662\u9547",
+	"pinyin": "guozhen",
+	"cityCode": 2704,
+	"cityName": "\u8662\u9547"
+}, {
+	"code": "2032376",
+	"name": "\u4e09 \u4e9a",
+	"pinyin": "sanya",
+	"cityCode": 906,
+	"cityName": "\u4e09 \u4e9a"
+}, {
+	"code": "2032377",
+	"name": "\u6d77 \u53e3\u4e1c",
+	"pinyin": "haikoudong",
+	"cityCode": 902,
+	"cityName": "\u6d77 \u53e3\u4e1c"
+}, {
+	"code": "2039291",
+	"name": "\u5149\u5c71",
+	"pinyin": "guangshan",
+	"cityCode": 1217,
+	"cityName": "\u5149\u5c71"
+}, {
+	"code": "2040535",
+	"name": "\u767d\u6c34\u53bf",
+	"pinyin": "baishuixian",
+	"cityCode": 2706,
+	"cityName": "\u767d\u6c34\u53bf"
+}, {
+	"code": "2102750",
+	"name": "\u795d\u5c71",
+	"pinyin": "zhu shan huo che zhan",
+	"cityCode": 2913,
+	"cityName": "\u795d\u5c71"
+}, {
+	"code": "2102751",
+	"name": "\u963f\u91cc\u5c71\u594b\u8d77\u6e56",
+	"pinyin": "a li shan fen qi hu huo che zhan",
+	"cityCode": 2913,
+	"cityName": "\u963f\u91cc\u5c71\u594b\u8d77\u6e56"
+}, {
+	"code": "2102752",
+	"name": "\u5609\u4e49",
+	"pinyin": "jia yi huo che zhan",
+	"cityCode": 42697,
+	"cityName": "\u5609\u4e49"
+}, {
+	"code": "2103757",
+	"name": "\u5f00\u5c01\u5317",
+	"pinyin": "kaifengbei",
+	"cityCode": 1208,
+	"cityName": "\u5f00\u5c01\u5317"
+}, {
+	"code": "2103759",
+	"name": "\u5170\u8003\u5357",
+	"pinyin": "lankaonan",
+	"cityCode": 1208,
+	"cityName": "\u5170\u8003\u5357"
+}, {
+	"code": "2103761",
+	"name": "\u6c11\u6743\u5317",
+	"pinyin": "minquanbei",
+	"cityCode": 1215,
+	"cityName": "\u6c11\u6743\u5317"
+}, {
+	"code": "2103762",
+	"name": "\u7800\u5c71\u5357",
+	"pinyin": "tangshannan",
+	"cityCode": 117,
+	"cityName": "\u7800\u5c71\u5357"
+}, {
+	"code": "2103763",
+	"name": "\u6c38\u57ce\u5317",
+	"pinyin": "yongchengbei",
+	"cityCode": 1215,
+	"cityName": "\u6c38\u57ce\u5317"
+}, {
+	"code": "2103765",
+	"name": "\u8427\u53bf\u5317",
+	"pinyin": "xiaoxianbei ",
+	"cityCode": 117,
+	"cityName": "\u8427\u53bf\u5317"
+}, {
+	"code": "2103964",
+	"name": "\u53f0\u4e2d",
+	"pinyin": "tai zhong huo che zhan",
+	"cityCode": 2905,
+	"cityName": "\u53f0\u4e2d"
+}, {
+	"code": "2168736",
+	"name": "\u8302\u540d\u897f",
+	"pinyin": "maomingxi",
+	"cityCode": 613,
+	"cityName": "\u8302\u540d\u897f"
+}, {
+	"code": "2170852",
+	"name": "\u4e34\u57ce",
+	"pinyin": "lincheng",
+	"cityCode": 1015,
+	"cityName": "\u4e34\u57ce"
+}, {
+	"code": "3089684",
+	"name": "\u5170\u9675\u5317",
+	"pinyin": "lanlingbei",
+	"cityCode": 2411,
+	"cityName": "\u5170\u9675\u5317"
+}, {
+	"code": "3090069",
+	"name": "\u91d1\u6708\u6e7e",
+	"pinyin": "jinyuewan",
+	"cityCode": 911,
+	"cityName": "\u91d1\u6708\u6e7e"
+}, {
+	"code": "3090072",
+	"name": "\u4e07\u5dde\u5317",
+	"pinyin": "wanzhoubei",
+	"cityCode": 300,
+	"cityName": "\u4e07\u5dde\u5317"
+}, {
+	"code": "3090077",
+	"name": "\u5b89\u987a\u897f",
+	"pinyin": "anshunxi",
+	"cityCode": 803,
+	"cityName": "\u5b89\u987a\u897f"
+}, {
+	"code": "3090082",
+	"name": "\u957f\u5bff\u6e56",
+	"pinyin": "changshouhu",
+	"cityCode": 300,
+	"cityName": "\u957f\u5bff\u6e56"
+}, {
+	"code": "3090087",
+	"name": "\u57ab\u6c5f",
+	"pinyin": "dianjiang",
+	"cityCode": 300,
+	"cityName": "\u57ab\u6c5f"
+}, {
+	"code": "3090090",
+	"name": "\u8d35\u5b89",
+	"pinyin": "guian",
+	"cityCode": 802,
+	"cityName": "\u8d35\u5b89"
+}, {
+	"code": "3090092",
+	"name": "\u5173\u5cad",
+	"pinyin": "guanling",
+	"cityCode": 803,
+	"cityName": "\u5173\u5cad"
+}, {
+	"code": "3090095",
+	"name": "\u6881\u5e73\u5357",
+	"pinyin": "liangpingnan",
+	"cityCode": 300,
+	"cityName": "\u6881\u5e73\u5357"
+}, {
+	"code": "3090098",
+	"name": "\u5e73\u575d\u5357",
+	"pinyin": "pingbanan",
+	"cityCode": 803,
+	"cityName": "\u5e73\u575d\u5357"
+}, {
+	"code": "3090100",
+	"name": "\u666e\u5b89\u53bf",
+	"pinyin": "puanxian",
+	"cityCode": 809,
+	"cityName": "\u666e\u5b89\u53bf"
+}, {
+	"code": "3090101",
+	"name": "\u76d8\u5dde",
+	"pinyin": "panzou",
+	"cityCode": 807,
+	"cityName": "\u76d8\u5dde"
+}, {
+	"code": "3090103",
+	"name": "\u540c\u6c5f",
+	"pinyin": "tongjiang",
+	"cityCode": 1108,
+	"cityName": "\u540c\u6c5f"
+}, {
+	"code": "3090107",
+	"name": "\u963f\u5c14\u5c71\u5317",
+	"pinyin": "aershanbei",
+	"cityCode": 2112,
+	"cityName": "\u963f\u5c14\u5c71\u5317"
+}, {
+	"code": "3090112",
+	"name": "\u4f0a\u654f",
+	"pinyin": "yimin",
+	"cityCode": 2107,
+	"cityName": "\u4f0a\u654f"
+}, {
+	"code": "3090116",
+	"name": "\u8336\u5361",
+	"pinyin": "chaka",
+	"cityCode": 2303,
+	"cityName": "\u8336\u5361"
+}, {
+	"code": "3090121",
+	"name": "\u67a3\u5e84\u4e1c",
+	"pinyin": "zaozhuangdong",
+	"cityCode": 2420,
+	"cityName": "\u67a3\u5e84\u4e1c"
+}, {
+	"code": "3090124",
+	"name": "\u82cf\u5c3c\u7279\u5de6\u65d7",
+	"pinyin": "sunitezuoqi",
+	"cityCode": 2113,
+	"cityName": "\u82cf\u5c3c\u7279\u5de6\u65d7"
+}, {
+	"code": "3090128",
+	"name": "\u963f\u5df4\u560e\u65d7",
+	"pinyin": "abagaqi",
+	"cityCode": 2113,
+	"cityName": "\u963f\u5df4\u560e\u65d7"
+}, {
+	"code": "3090130",
+	"name": "\u53cc\u5409",
+	"pinyin": "shuangji",
+	"cityCode": 1808,
+	"cityName": "\u53cc\u5409"
+}, {
+	"code": "3090132",
+	"name": "\u516b\u6b65",
+	"pinyin": "babu",
+	"cityCode": 708,
+	"cityName": "\u516b\u6b65"
+}, {
+	"code": "3090146",
+	"name": "\u5927\u65b9\u5357",
+	"pinyin": "dafangnan",
+	"cityCode": 804,
+	"cityName": "\u5927\u65b9\u5357"
+}, {
+	"code": "3090265",
+	"name": "\u5b5d\u611f\u4e1c",
+	"pinyin": "xiaogandong",
+	"cityCode": 1417,
+	"cityName": "\u5b5d\u611f\u4e1c"
+}, {
+	"code": "3090270",
+	"name": "\u5929\u6cb3\u673a\u573a",
+	"pinyin": "tianhejichang",
+	"cityCode": 1402,
+	"cityName": "\u5929\u6cb3\u673a\u573a"
+}, {
+	"code": "3090274",
+	"name": "\u6bdb\u9648",
+	"pinyin": "maochen",
+	"cityCode": 1417,
+	"cityName": "\u6bdb\u9648"
+}, {
+	"code": "3090276",
+	"name": "\u95f5\u96c6",
+	"pinyin": "minji",
+	"cityCode": 1417,
+	"cityName": "\u95f5\u96c6"
+}, {
+	"code": "3090279",
+	"name": "\u69d0\u836b",
+	"pinyin": "huaiyin",
+	"cityCode": 1417,
+	"cityName": "\u69d0\u836b"
+}, {
+	"code": "3090284",
+	"name": "\u540e\u6e56",
+	"pinyin": "houhu",
+	"cityCode": 1402,
+	"cityName": "\u540e\u6e56"
+}, {
+	"code": "3090287",
+	"name": "\u91d1\u94f6\u6f6d",
+	"pinyin": "jinyintan",
+	"cityCode": 1402,
+	"cityName": "\u91d1\u94f6\u6f6d"
+}, {
+	"code": "3090300",
+	"name": "\u76d8\u9f99\u57ce",
+	"pinyin": "panlongcheng",
+	"cityCode": 1402,
+	"cityName": "\u76d8\u9f99\u57ce"
+}, {
+	"code": "3090303",
+	"name": "\u5929\u6cb3\u8857",
+	"pinyin": "tianhejie",
+	"cityCode": 1402,
+	"cityName": "\u5929\u6cb3\u8857"
+}, {
+	"code": "3219176",
+	"name": "\u666e\u8005\u9ed1",
+	"pinyin": "puzhehei",
+	"cityCode": 3317,
+	"cityName": "\u666e\u8005\u9ed1"
+}, {
+	"code": "3223503",
+	"name": "\u67f3\u6c5f",
+	"pinyin": "liujiang",
+	"cityCode": 709,
+	"cityName": "\u67f3\u6c5f"
+}, {
+	"code": "3227305",
+	"name": "\u5bcc\u6e90\u5317",
+	"pinyin": "fuyuanbei",
+	"cityCode": 3315,
+	"cityName": "\u5bcc\u6e90\u5317"
+}, {
+	"code": "3227306",
+	"name": "\u77f3\u6797\u897f",
+	"pinyin": "shilinxi",
+	"cityCode": 3302,
+	"cityName": "\u77f3\u6797\u897f"
+}, {
+	"code": "3227307",
+	"name": "\u66f2\u9756\u5317",
+	"pinyin": "qujingbei",
+	"cityCode": 3315,
+	"cityName": "\u66f2\u9756\u5317"
+}]
